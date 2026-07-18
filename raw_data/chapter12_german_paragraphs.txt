@@ -1,0 +1,132 @@
+[
+  {
+    "id": "ch12-p1",
+    "de": "Die Taufe. Der Begriff der Nachfolge, der bei den Synoptikern fast den gesamten Inhalt und Umfang der Beziehungen des Jüngers zu Jesus Christus auszudrücken vermochte, tritt bei Paulus stark in den Hintergrund. Paulus verkündigt uns nicht in erster Linie die Geschichte des Herrn in seinen Erdentagen, sondern die Gegenwart des Auferstandenen und Verklärten und sein Wir­ ken an uns. Dazu bedarf er einer neuen und eigenen Begrifflich­ keit. Sie entspringt aus dem Besonderen des Gegenstandes und zielt auf das Gemeinsame der Verkündigung des Einen Herrn, der lebte, starb und auferstand. Dem vollständigen Christus­ zeugnis entspricht eine mannigfache Begrifflichkeit.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p2",
+    "de": "So muß die Begrifflichkeit des Paulus die der Synoptiker bestätigen und umgekehrt, und keine hat vor der anderen an sich einen Vor­ zug; denn wir sind nicht \"paulisch oder apollisch oder kephisch oder christisch\" I, sondern der Einheit des Schriftzeugnisses von Christus schenken wir Glauben. Wir sprengen die Einheit der Schrift, wollten wir sagen, Paulus verkündige den Christus, der auch uns noch ebenso gegenwärtig sei, das Zeugnis aber der Synoptiker spreche von einer Gegenwart J esu Christi, die wir nicht mehr kennen.2 So zu reden gilt zwar weithin als reforma­ torisch-geschichtliches Denken3, ist aber in Wahrheit das Ge­ genteil davon, nämlich gefährlichste Schwärmerei.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p3",
+    "de": "Wer sagt uns, daß wir die Gegenwart Christi, wie ie Paulus verkündigt, noch heute haben? Wer anders sagt es uns, als die Schrift selbst? 1 I Kor 1,12. Kephas = Petrus. D 2 Die Trennung zwischen Paulus und den Synoptikern unter Berufung auf II Kor 5,16 (\"und ob wir auch Christum gekannt haben nach dem Fleisch, so kennen wir ihn doch jetzt nicht mehr\") hält Bonhoeffer also für irreführend. D 3 Rudolf Bultmann rechnete den \"irdi­ schen Jesus\" in seiner Verkündigung -als Erneuerer der großen alttestamentli­ chen Prophetie -zur Vor-Geschichte des christlichen Kerygmas und unter­ schied ihn vom \"kerygmatischen Christus\": Erst mit der Auferstehung in das Kerygma, d.h. in die nachösterliche Verkündigung hinein habe der uns ange­ hende christliche Glaube begonnen.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p4",
+    "de": "Vgl. R. Buhmann, Jesus, 26 (und 16 f). Ähnlich gehörte für Hege! die\" Erscheinung Gottes im Fleisch ... zur vergan­ genen Geschichte\" (Religionsphilosophie nach Lasson XIV, 168). 220 Teil 11. 200 Oder sollte eben hier von einer freien, nicht ans Wort gebunde­ nen Erfahrung der Christus gegenwart und -wirklichkeit gere­ det werden? Ist es aber allein die Schrift, die uns die Gegen wart Christi bezeugt, so tut ie es I eben als ganze, und also zugleich als solche, die uns die Gegenwart des synoptischen Jesus Chri­ stus bezeugt. Der synoptische Christus ist uns nicht ferner und nicht näher als der paulinische Christus.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p5",
+    "de": "Gegenwärtig ist uns der Christus, den uns die ganze Schrift bezeugt. Er ist der Menschgewordene, Gekreuzigte, Auferstandene und Verklärte, er begegnet uns in seinem Wort. Die verschiedene Begrifflich­ keit, in der die Synoptiker und Paulus dieses Zeugnis weiterge­ ben, tut der Einheit des Schriftzeugnisses keinen Abbruch1ol. I 10) Die Verwechslung von ontologischen Aussagen und verkündigendem Zeugnis ist das Wesen aller Schwarmgeisterei. 4 Der Satz: Christus ist auferstan­ den und gegenwärtig, ist ontologisch verstanden die Aufhebung der Einheit der Schrift. Denn er schlösse In sich eine Aussage über die Existenzweise J esu Christi, die z.B. von der des synoptischen Jesus unterschieden ist.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p6",
+    "de": "Daß Jesus Christus auferstanden und gegenwärtig ist, ist hier ein für sich bestehender Satz mit eigener ontologischer Bedeutung, der zugleich kritisch gegen andere onto­ logische Aussagen verwendet werden könnte. Er wird zum theologischen Prin­ zip. Analog ist z.B. jeder schwärmerische Perfektionismus auf einern solchen ontologischen Mißverständnis der Schriftaussagen über die Heiligung erwach­ sen. Hier wird z.B. die Aussage, daß, wer in Gott ist, nicht sündigt', zum ontologischen Ausgangspunkt des Denkens gemacht; die Aussage wird damit aus der Schrift selbst herausgelöst und zur eigenständigen, erfahrbaren Wahr­ heit erhoben.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p7",
+    "de": "Dem steht der Charakter des verkündigenden Zeugnisses absolut entgegen. Der Satz: Christus ist auferstanden und gegenwärtig, ist streng als Zeugnis der Schrift verstanden nur als Wort der Schrift wahr. Diesem Wort schenke ich Glauben. Es gibt für mich hier keinen denkbaren anderen Zugang zu dieser Wahrheit als durch dieses Wort. Mit diesem Wort aber ist mir in gleicher Weise die Gegenwart des paulinischen wie des synoptischen Christus bezeugt, so daß die Nähe zu dem einen oder anderen durch nichts bestimmt wird als durch das Wort, durch das Zeugnis der Schrift. Damit ist natürlich niemals bestritten, daß Paulus ein von den Synoptikern durch Gegenstand und Begrifflichkeit unterschiedenes Zeugnis hat, aber es sind beide streng im Zu­ sammenhang des Schriftganzen verstanden.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p8",
+    "de": "Dieses alles ist nicht nur eine apriorische Erkenntnis, die von einern strengen 4 Diese Anmerkung Bonhoeffers geht wohl zurück auf eine Diskussion über Kirche als der \"neue Mensch\", mitgeschrieben 1936/37 NL B 9,3 (2 f). D 5 I Joh 3,6 (unterstrichen in LB). 201 Die Taufe 221 Ruf und Eintritt in die Nachfolge haben bei Paulus ihre Ent­ sprechung in der Taufe. 7 Taufe ist nicht Angebot des Menschen8, sondern Angebot Jesu Christi. Sie ist allein begründet in dem gnädigen berufen­ den Willen Jesu Christi. Taufe heißt Getauftwerden, ie ist ein Erleiden des Rufes Christi.9 Der Mensch wird in ihr Eigentum Christi.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p9",
+    "de": "Der Name Jesu Christi wird über dem Täufling ge­ nannt, der Mensch wird damit dieses Namens teilhaftig, er wird \"in Jesum Christum\" hineingetauft (dS10 R. 6,3, Ga!. 3,27, Mt. 28,19). Nun gehört er zu Jesus Christus. Er ist der Herrschaft der Weh entrissen und ist Christi Eigentum geworden. So bedeutet die Taufe einen Bruch. Christus greift in den Machtbereich des Satans ein und legt seine Hand auf die Seinen, schafft sich seine Gemeinde. Vergangenes und Zukünftiges sind damit auseinandergerissen. Das Alte ist vergangen, es ist alles neu geworden. 11 Nicht geschieht der Bruch dadurch, daß ein Mensch seine Ketten zerreißt, weil er nach einer neuen, freien Ordnung seines Lebens und der Dinge ein unstillbares Verlan­ gen trägt.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p10",
+    "de": "Christus selbst hat längst zuvor den Bruch vollzogen. In der Taufe wird dieser Bruch nun auch an meinem Leben vollstreckt. Die Unmittelbarkeit zu den Gegebenheiten der Welt wird mir geraubt, weil Christus, der Mittler und Herr, dazwischengetreten ist. Wer getauft ist, gehört nicht mehr der Welt, dient ihr nicht mehr, ist ihr nicht mehr unterworfen. Er gehört Christus allein an und verhält sich zur Welt nur durch Christus. Kanonbegriff herkommt\", sondern jeder einzelne Fall muß wiederum die Rich­ tigkeit dieser Schriftauffassung bewähren. So wird im folgenden zu zeigen sein, wie der Begriff der Nachfolge im Zeugnis des Paulus in veränderter Begrifflich­ keit aufgenommen und weitergeführt ist. 6 Die Schriften, die uns im Neuen Testament überliefert sind (,Kanon'), müs­ sen nach Bonhoeffer nicht von vornherein (,apriorisch') in allen Teilen gleich bedeutsam sein. 07 Vgl. 1935 NL B 8 (3) zu Mk 7.,14: \"Levi [ist] durch die Berufung ,getaufter Jünger\"'. 08 Vgl. Lk 9,57. 09 1936 NL B 9,5 (6): \"Die Taufe ist passio, nicht actio.\" 1936/37 NL B 9,6 (6) (u. ö. in Mitschriften) : \"Wir sil1d n,ere passive.\" Siehe M.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p11",
+    "de": "Luther, Resolutionfs über [Luthers] Leipziger Disputationsthesen. 1519 (WA 2,421): \"Liberum arbiti'ium est mere passivum in omlli actu suo qui velle vocatur\" (\"der freie Wille ist rein passiv in jedem [seinem] Akt, der ,wollen' genannt wird\"). 0 10 Dt.: \"hinein in\". 011 II Kor 5,17. Der Bruch mit der Welt ist ein vollkommener. Er fordert I und bewirkt den Tod des Menschen!!). In der Taufe stirbt der Mensch mit seiner alten Welt. Auch dieser Tod ist im strengsten Sinn als leidentliches Geschehen aufzufassen. Nicht der Mensch soll den unmöglichen Versuch machen, sich diesen Tod zu ge­ ben durch allerlei Verzicht und Entsagung.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p12",
+    "de": "Ein solcher Tod wäre niemals der von Christus geforderte Tod des alten Men­ schen. Der alte Mensch kann sich nicht selbst töten. Er kann seinen Tod nicht wollen. Der Mensch stirbt allein an Christus, durch Christus, mit Christus. Christus ist sein Tod. Um der Gemeinschaft mit Christus willen und in ihr allein stirbt der Mensch. Mit der Christus gemeinschaft in der Taufgnade emp­ fängt er seinen Tod !2). Dieser Tod ist die Gnade, die der Mensch sich niemals selbst schaffen kann. Zwar ergeht in ihm das Gericht über den alten Menschen und seine Sünde, aber aus diesem Gericht heraus ersteht der neue Mensch, der der Welt und der Sünde abgestorben ist.!4 So ist dieser Tod nicht die letzte zornige Verwerfung des Geschöpfes durch den Schöpfer, sondern er ist gnädige Annahme des Geschöpfes durch den Schöpfer.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p13",
+    "de": "Dieser Tauf tod ist der durch Christi Tod uns erwor­ bene gnädige Tod. Es ist der Tod in der Kraft und Gemein­ schaft des Kreuzes Christi. Wer Christi Eigentum wird, muß unter sein Kreuz. Er muß mit ihm leiden und sterben. Wer die Gemeinschaft Jesu Christi empfängt, muß den gnadenvollen Tod der Taufe sterben. Das macht das Kreuz Christi, unter das Jesus seine Nachfolger stellt. Christi Kreuz und Tod war hart und schwer, das Joch unseres Kreuzes ist sanft und leicht durch die Gemeinschaft mit ihm. 15 Christi Kreuz ist unser einmaliger gnadenvoller Tod in der Taufe; unser Kreuz, zu dem wir I gerufen sind, ist das tägliche Sterben!6 in der Kraft des voll­ brachten Todes Christi.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p14",
+    "de": "So wird die Taufe zum Empfang der 11) Schon Jesus hat seinen Tod eine Taufe genannt und seinen Jüngern diese Taufe des Todes verheißen (Mk. 10,39; Lk. 12,50).\" 12) Schlatter bezieht auch 1. Kor. 15,29 auf die Taufe des Martyriums.13 12 Die synoptischen Stellen entsprechen Röm 6,3. 0 13 A. Schlatter, Die Theologie der Apostel, 518 Anm. 1. 0 14 Anklänge an Röm 5 und 6.015 Mt 11,30.016 I Kor 15,31; vgl. in Luthers Kleinem Katechismus (BSLK 516) zur Taufe: Sterben des alten Adam \"durch tägliche Reu und Buße\". 204 Die Taufe 223 Kreuzesgemeinschaft Jesu Christi (R. 6,3 ff., Kol. 2,12). Der Glaubende kommt unter Christi Kreuz.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p15",
+    "de": "Der Tod in der Taufe ist die Rechtfertigung von der Sünde. 17 Der Sünder muß sterben, um von seiner Sünde frei zu werden. Wer gestorben ist, der ist gerechrfertigt von der Sünde (R. 6,7, Kol. 2,20). An den Toten hat die Sünde kein Recht mehr, ihre Forderung ist mit dem Tode beglichen und erloschen. So ge­ schieht Rechtfertigung von (<'molS) der Sünde allein durch den Tod. Vergebung der Sünde heißt nicht Übersehen und Verges­ sen, sondern heißt wirkliche Tötung des Sünders und Trennung von (uno) der Sünde. Daß aber der Tod des Sünders Rechtferti­ gung und nicht Verdammnis wirkt, hat seinen einzigen Grund darin, daß dieser Tod in der Gemeinschaft des Todes Christi erlitten wird.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p16",
+    "de": "Die Taufe in den Tod Christi schafft Vergebung der Sünden und Rechtfertigung, ie schafft völlige Trennung von der Sünde. Die Gemeinschaft des Kreuzes, in die Jesus seine Jünger rief, ist die Gabe der Rechtfertigung an ie, des Todes und der Vergebung der Sünden. Der Jünger, der in der Gemeinschaft des Kreuzes Jesus nachfolgte, empfing keine an­ dere Gabe als der Gläubige, der nach der Lehre des Paulus die Taufe empfing. Daß die Taufe bei aller Passivität, in die ie den Menschen nötigt, doch niemals als mechanischer Vorgang verstanden wer­ den darf, macht die Verbindung von Taufe und Geist ganz deutlich (Mt. 3,11;Act. 10,47;Joh. 3,5; 1. Kor. 6,11; 12,13).",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p17",
+    "de": "Die Gabe der Taufe ist der Heilige Geist. Der Heilige Geist aber ist der in den Herzen der Gläubigen wohnende Christus selbst (2. Kor. 3,17; Röm. 8,9-11.14ff.; Eph. 3,16f.). Die Getauften sind das Haus, in dem der Heilige Geist Wohnung gemacht hat (otxEi19). Der Heilige Geist gewährt uns die bleibende Gegen­ wart Jesu Christi und seine Gemeinschaft. Er gibt uns I rechte Erkenntnis seines Wesens (1. Kor. 2,10) und seines Willens, er lehrt und erinnert uns an alles, was Christus uns gesagt hat Goh. 14,26), er leitet uns in alle Wahrheit Goh. 16,13), daß es uns an Erkenntnis Christi nicht mangelt, daß wir wissen können, was 17 Siehe 1936 DßW 14, 607: \" ... wirwerden gerechtfertigtdnQ Tfic; a�laQllac;­ von unserer Sünde weg, nicht EV lfi cqw(l1la [\"in der Sünde\").",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p18",
+    "de": "Wir sind der Sün­ de gestorben.\" 0 18 Dt.: \"weg von\". 0 19 Dt.: \"er wohnt\" (hat sein Haus). 224 Teil H. 205 uns von Gott gegeben ist (1. Kor. 2,12; Eph. 1,9). Nicht Unge­ wißheit, sondern Gewißheit und Klarheit schafft der Heilige Geist in uns. Darum können wir im Geist wandeln (Ga!. 5,16. 18.25; Röm. 8,1.4) und gewisse Tritte tun. Das Maß der Gewiß­ heit, das die Jünger Jesu in seiner irdischen Gemeinschaft hat­ ten, hat Jesus den Seinen nach seinem Hingang nicht genom-· men. Durch die Sendung des Heiligen Geistes in die Herzen der Getauften wird die Gewißheit der Erkenntnis Jesu nicht nur erhalten, sondern durch die Nähe der Gemeimchaft noch ge­ stärkt und gefestigt (R. 8,16; Joh. 16,12f.).",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p19",
+    "de": "Rief Jesus in die Nachfolge, so forderte er einen sichtbaren Gehorsamsakt. Jesus nachfolgen war eine öffentliche Sache. Ganz ebenso ist die Taufe ein öffentliches Geschehen; denn in ihr vollzieht sich die Eingliederung in die sichtbare Gemeinde Jesu Christi (Ga!. 3,27 f.; 1. Kor. 12,13). Der in Christus vollzo­ gene Bruch mit der Welt kann nicht mehr verborgen bleiben, er muß äußerlich in Erscheinung treten durch die Zugehörigkeit zum Gottesdienst20 und zum Leben der Gemeinde. Der Christ, der sich zur Gemeinde hält, tut einen Schritt aus der Welt, aus der Arbeit, aus der Familie hinaus, er steht sichtbar in der Ge­ meinschaft Jesu Christi.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p20",
+    "de": "Er tut diesen Schritt allein. Aber er findet wieder, was er verließ, Brüder, Schwestern, Häuser, Äk­ ker. 21 Der Getaufte lebt in der sichtbaren Gemeinde J esu Chri­ sti. Was das bedeutet und einschließt, muß in zwei weiteren Abschnitten über den ,Leib Christi' und über die ,sichtbare Gemeinde' gezeigt werden. Die Taufe und ihre Gabe ist etwas Einmaliges22• Mit der I Taufe Christi kann keiner zweimal getauft werden13). Die Un­ wiederholbarkeit und Einzigkeit dieser Gnadentat Gottes will der Hebräerbrief an jener dunklen Stelle verkündigen, in der er für Getaufte und Bekehrt� die Möglichkeit einer zweiten ßuße leugnet (Hebr. 6,4 ff.).",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p21",
+    "de": "Wer getauft ist, hat teilbekommen an 13) Die Johannestaufe allerdings muß durch die Christustauf� erneuert wer­ den (Act. 19,5). 20 Siche 5. 54. -Im Dritten Reich w�r der Kirchgang, da vom nationalsoziali­ stischen Regime unerwünscht, auch ein Politikum. 021 Mk 10,30. 022 Röm 6,10 (und Hebr 9,11 ff): EtjlCmaS (\"einmal\", \"ein für allemal\"). 206 Die Taufe 225 Christi Tod. Er hat durch diesen Tod sein Todesurteil empfan­ gen und ist gestorben. Wie Christus ein für allemal starb (R. 6,10) und wie es keine Wiederholung seine!; Opfers gibt, so erleidet der Getaufte mit Christus ein für allemal seinen Tod.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p22",
+    "de": "Nun ist er gestorben. Das tägliche Absterben des Christen23 ist nur noch die Folge des einen Tauf todes, wie der Baum abstirbt, dem die Wurzel abgeschnitten ist. Hinfürt gilt von den Getauf­ ten: \"Haltet euch dafür, daß ihr der Sünde gestorben seid\" (R. 6,11). Nur als Tote kennen sich die Getauften noch, als solche, an denen schon alles zum Heil vollbracht ist. Es ist die erin­ nernde Wiederholung des Glaubens an die vollbrachte Gna­ den tat des Todes Christi an uns, nicht aber die reale Wiederho­ lung der immer neu zu vollbringenden Gnadentat dieses Todes, aus der der Getaufte lebt. Er lebt aus dem Einmaligen des Todes Christi in seiner Taufe.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p23",
+    "de": "Von der strengen Einmaligkeit der Taufe her fällt ein bedeut­ sames Licht auf die Kindertaufe14). Nicht dies wird zweifelhaft, ob die Kindertaufe Taufe sei, aber gerade weil Kindertaufe Taufe, unwiederholbare, einmalige Taufe ist, darum muß nun ihr Gebrauch bestimmte Grenzen finden. Es I war zwar gewiß kein Zeichen eines gesunden Gemeindelebens, wenn sich gläu­ bige Christen im zweiten und dritten Jahrhundert oft erst im Alter oder auf dem Sterbebett taufen ließen25, aber es verrät doch zugleich eine Klarheit der Einsicht in die Art der Tauf­ gnade, die uns weithin verloren gegangen ist. Für die Kinder­ taufe heißt das, daß die Taufe nur dort erteilt werden kann, wo die erinnernde Wiederholung des Glaubens an die ein für alle14) Zu den bekannten Stellen, die die Kindertaufe schon dem neutestamem­ lichen Zeitalter zuschreiben wollen'., darf vielleicht 1. J oh. 2,12 H. hinzugefügt werden.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p24",
+    "de": "Die zweimalige Reihenfolge: Kinder, Väter, Jünglinge erlaubt die An­ nahme, daß TEXVLa v. 12 nicht allgemeine Bezeichnung für die Gemeinde ist, sondern daß darunter wirklich die Kinder zu verstehen sind. 23 Anklang an I Kor 15,31. 0 24 In einem Gutachten Zur Tauffrage 1942 DBW 16,565 führt Bonhoeffer Act 16,15.33 und 18,8 an. 1937 DBW 14, 834 läßt er offen, ob Kindertaufe \"im N. T. vorhanden oder nicht\". 0 25 Siehe A. Harnack, Mission (1924), 400 Anm. 1 C1902: 281f); Harnacks Buch beschränkt sich auf die ersten drei Jahrhunderte. Der Taufaufschub stellte auch noch im 4. und 5. Jahr­ hundert ein erhebliches Problem dar. 226 Teil 1I. 206 mal vollbrachte Heilstat gewährleistet werden kann, d.h. aber in einer lebendigen Gemeinde.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p25",
+    "de": "Kindertaufe ohne Gemeinde ist nicht nur Mißbrauch des Sakraments, sondern zugleich ver­ werflicher Leichtsinn im Umgang mit dem Seelenheil der Kin­ der; denn die Taufe bleibt unwiederholbar. Ebenso war der Ruf Jesu von einmaliger und unwiederholba­ rer Bedeutung für den Gerufenen. Wer ihm folgte, war seiner Vergangenheit abgestorben. Darum mußte Jesus von seinen Jüngern fordern, daß ie alles verließen, was ie hatten26. Die Unwiderruflichkeit der Entscheidung mußte deutlich werden, zugleich aber auch die Vollständigkeit der Gabe, die ie von ihrem Herrn empfingen. \"Wo aber das Salz dumm wird, womit soll man's salzen?\"27 Schärfer konnte die Einmaligkeit der Gabe Jesu nicht ausgedrückt sein.",
+    "zh": ""
+  },
+  {
+    "id": "ch12-p26",
+    "de": "Er nahm ihnen ihr Leben, aber nun wollte Er ihnen ein Leben bereiten, ein ganzes, volles Leben, und er schenkte ihnen sein Kreuz. Das war die Gabe der Taufe an die ersten Jünger. 26 Mk 10,28. 0 27 Mt 5,13.",
+    "zh": ""
+  }
+]

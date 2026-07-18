@@ -1,0 +1,292 @@
+[
+  {
+    "id": "ch10-p1",
+    "de": "Die Boten. Mt. 9,35-10,42.1 Die Ernte. \" Und Jesus ging umher in alle Städte und Märkte, lehrte in ihren Schulen und predigte das Evangelium von dem Reich und heilte allerlei Seuche und Krankheit. Und da er die Volks­ menge2 sah, jammerte ihn derselben; denn ie waren mißhan­ delt und darniederliegend3 wie die Schafe, die keinen Hirten haben. Da sprach er zu seinen Jüngern: Die Ernte ist grog; aber wenige sind der Arbeiter. Darum bittet den Herrn der Ernte, daß er Arbeiter in seine Ernte sende\" (9,35-38). Der Blick des Heilandes fällt erbarmend auf sein Volk, auf Gottes Volk. Es konnte ihm nicht genug sein, daß einige wenige seinen Ruf gehört hatten und ihm nachfolgten.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p2",
+    "de": "Er konnte nicht naran denken, sich mit seinen Jüngern aristokratisch abzuson­ dern und in der Weise großer Religionsstifter ihnen in der Ab­ geschiedenheit von der Menge des Volkes die Lehren höherer Erkenntnis und vollkommener Lebensführung zu übermitteln. Jesus war gekommen, er arbeitete und er litt um seines ganzen Volkes willen. Und die Jünger, die ihn allein für sich haben wollen, die ihm die Belästigung durch die Kinder, die man zu 1 Die Jüngeraussendungsrede ist im Matthäusevangelium (nach der Bergpre­ digt) die zweite Rede J esu. -Innerhalb der Bekennenden Kirche wurden Volks­ missionsfahrten durchgeführt; das Predigerseminar FinkenwalJe setzte sich da­ bei ein, vgl. 1936 DBW 14, 176. 0 2 In Bonhoeffers \"Nestle\" sind hier tou� ÖX\"ou� (\"die Mengen\") und Luthers Übersetzung \"das Volk\" unterstrichen; Bonhoeffer benutzt seine Übersetzung \"Volksmenge\" auch S. 99 (die Versan­ fänge von Mt 5,1 und Mt 9,36 sind gleich). -Im \"Nestle\" eine Reihe weiterer Markierungen bis zum End<: von Mt 10. 03 Luther übersetzt: \"verschmachtet und zerstreuet\".",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p3",
+    "de": "Bei dem ersten Wort weicht Bonhoeffer auch vom griechischen Text ab, dessen Bedeutung \"abgemattet\" ist; im lateinischen Text steht \"vexati\" (\"mißhandelt\" oder \"gequält\"). Zur Wortwahl \"mißhandelt\" vgl. DB 612: Im April 1936 \"wurde W. Süßbach, ein junger Pastor jüdischer Abstammung in der Provinz Brandenburg, von einer SA-Gruppe überfallen und übel zu­ sammengeschlagen\" (danach ins Finkenwalder Predigerseminar geholt). 194 Teil 1. 175 ihm bringt4, und durch manchen armen Bettler am Wegrand fernhalten wollen (Mk. 10,48), müssen erkennen, daß Jesus sich seinen Dienst durch ie nicht einschränken läßt.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p4",
+    "de": "Sein Evange­ lium vom Reiche Gottes und seine Heilandskraft gehörte den Armen und Kranken, wo er ie in seinem Volke fand. I Der Anblick der Volksmenge, der in seinen Jüngern viel­ leicht Widerwillen, Zorn oder Verachtung erregte, erfüllte J esu Herz mit tiefem Erbarmen und Jammer. Kein Vorwurf, keine Anklage! Gottes liebes Volk lag mißhandelt am Boden, und die Schuld daran traf die, die an ihm den Dienst Gottes versehen sollten. Nicht die Römer hatten das angerichtet, sondern der Mißbrauch des Wortes Gottes durch die berufenen Diener am Wort.s Es waren keine Hirten mehr da! Eine Herde, die nicht zum frischen Wasser geführt wird, deren Durst ungestillt bleibt6, Schafe, die kein Hirte vor dem Wolf mehr schütze, geschunden und verwundet, erschreckt und verängstigt unter dem harten Stab ihrer Hirten, am Boden liegend -so fand Jesus Gottes Volk vor.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p5",
+    "de": "Fragen, aber keine Antwort, Not, aber keine Hilfe, Gewissensangst, aber keine Befreiung, Tränen, aber kei­ nen Trost, Sünde, aber keine Vergebung! Wo war der gute Hirte, den dieses Volk brauchte? Was half es hier, daß da Schriftgelehrte waren, die das Volk mit hartem Zwang in die Schulen trieben, daß die Gesetzeseiferer die Sünder hart verur­ teilten ohne ihnen zu helfen, was halfen da selbst die rechtgläu­ bigsten Prediger und Ausleger des Wortes Gottes, wenn nicht das ganze Erbarmen und der ganze Jammer über das miß4 Mk 10,13 f. 0 5 Vgl. S. 140 f die beiden Feinde: der politische (\" Rom\") und die Vertreter der \"Volksfrömmigkeit\" .",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p6",
+    "de": "Volkstumsfrömmigkeit vertrat der Reichsbischof Ludwig Müller; er -einer der ,berufenen Diener am Wort' - veröffentlichte 1936 eine Bergpredigt-Übertragung mit dem Titel \"Deutsche Gottesworte\". Im Vorwort dazu heißt es: \"Für Euch, meine Volksgenossen im Dritten Reich [von Bonhoeffer unterstrichen, am Rand: \"nicht: Gemeinde?\"], habe ich die Bergpredigt ,verdeutscht', nicht ,übersetzt'\" (7; weitere Markie­ rungen in Bonhoeffers Exemplar auf den ersten Seiten). Schon 1929 schrieb der evangelisch-religiöse Schriftsteller (und Begründer der Begegnungsstätte Schloß Elmau) Johannes Müller (1864-1949) in seinem Buch \"Die Bergpredigt\": \"Wir müssen uns die Reden] esu verdeutschen, denn ie sind auf jüdischem Boden gewachsen und an Juden gerichtet\" (12).06 Vgl. Ps 23,2.07 Mt 7,15: im Schafskleid ist der Wolf in der Gemeinde. /76 Die Boten (Matthäus 10) 195 brauchte und mißhandelte Volk Gottes ie erfüllte?",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p7",
+    "de": "Was sind Schriftgelehrte, Gesetzesfromme, Prediger, wenn die Hirten der Gemeinde fehlen? Gute Hirten, ,Pastoren'8, braucht die Herde. ,Weide meine Lämmer!' ist der letzte Auftrag J esu an Petrus.9 Der gute Hirte10 kämpft für seine Herde gegen den Wolf, der gute Hirte flieht nicht, sondern gibt sein Leben für die Schafe. Er kennt alle seine Schafe bei Namen und liebt ie. Er weiß ihre Not, ihre Schwachheit. Er heilt, was verwundet ist, er tränkt, was durstig ist, er richtet auf, was fallen will. Er weidet ie mit Freundlichkeit und nicht mit Härte. Er leitet ie auf den rechten Weg. Er sucht das eine verlorne Schaf und bringt es zurück zur Herde. 11 Die bösen I Hirten aber herrschen mit Gewalt, ie vergessen ihre Herde und suchen die eigne Sache.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p8",
+    "de": "Gute Hirten sucht J eSllS, und iehe da, es sind keine zu finden. Das greift ihm ans Herz. Sein göttliches Erbarmen umfaßt diese verlassene Herde, die Menge des Volkes um ihn herum. Menschlich gesehen ist es ein hoffnungsloses Bild. Aber nicht so für Jesus. Er ieht hier, wo Gottes Volk mißhandelt, elend und armselig vor ihm steht, das reife Erntefeld Gottes. \"Die Ernte ist groß!\" Sie ist reif, daß ie eingebracht werde in die Scheunen. Die Stunde ist gekommen, daß diese Armen und Elenden heimgebracht werden ins Reich Gottes. Jesus ieht über den Massen des Volkes die Verheißung Gottes anbrechen. Die Schriftgelehrten und Gesetzeseiferer sahen hier nur ein zer­ tretenes, verbranntes, zerschlagenes Feld.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p9",
+    "de": "Jesus ieht das reife, wogende Ährenfeld für Gottes Reich. Die Ernte ist groß! Sein Erbarmen allein ieht das! Nun ist keine Zeit zu verlieren. Erntearbeit leidet keinen Verzug. ,Aber wenige sind der Arbeiter'. Ist das ein Wunder, da ja so wenigen dieser barmherzige Blick J esu geschenkt ist? Wer könnte auch in diese Arbeit eintreten als der, der am Herzen Jesu Anteil gewonnen hat, der durch ihn sehende Augen emp­ fangen hat? Jesus sucht Hilfe. Er kann das Werk nicht allein tun. Wer 8 Das in den norddeutschen Kirchen übliche Wort ,Pastor' (neben ,Pfarrer') bedeutet im Lateinischen: \"Hirte\". D 9 Joh 21,15.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p10",
+    "de": "D 10 SieheJoh 10 und Ez 34. D 11 Lk 15,4-6. sind die Mitarbeiter, die ihm helfen? Gott allein kennt ie und muß ie seinem Sohn geben. Wer dürfte sich auch von sich aus dazu anbieten, Jesu Helfer zu sein? Selbst die Jünger dürfen es nicht. Sie sollen den Herrn der Ernte bitten, Arbeiter zu senden zur rechten Stunde; denn es ist Zeit. Die Apostel. \"Und er rief seine zwölf Jünger zu sich und gab ihnen Macht über die unsauberen Geister, daß ie die austrieben und heilten allerlei Seuche und allerlei Krankheit.12 Die Namen aber I der zwölf Apostel sind diese: der erste Simon, genannt Petrus, und Andreas, sein Bruder; Jakobus, des Zebedäus Sohn, und J ohan­ nes, sein Bruder; Philippus und Bartholomäus; Thomas und Matthäus, der Zöllner; Jakobus, des Alphäus Sohn; Lebbäus, mit dem Zunamen Thaddäus; Simon von Kana und Judas Ischarioth, welcher ihn verriet\" (10,1-4).",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p11",
+    "de": "Das Gebet ist erhört. Der Vater hat dem Sohne seinen Willen offenbart. Jesus Christus ruft seine zwölf Jünger und sendet ie in die Ernte. Er macht ie zu \"Aposteln\"13, zu seinen Boten und Mitarbeitern. ,Und er gab ihnen Macht'. Um diese Macht geht es in der Tat. Nicht nur ein Wort, nicht nur eine Lehre, sondern wirksame Macht empfangen die Apostel. Wie sollen ie auch ihre Arbeit tun ohne diese Macht? Es muß eine Macht sein, die größer ist als die Macht dessen, der auf Erden herrscht, des Teufels. Daß der Teufel Macht hat, wissen die Jünger, obwohl es gerade die List des Teufels ist, seine Macht zu verleugnen, den Menschen vorzuspiegeln, er existiere gar nicht.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p12",
+    "de": "Gerade diese gefährlichste Ausübung seiner Macht muß getroffen wer­ den. Der Teufel muß ans Licht und muß beiegt werden durch die Christusmacht. Damit treten die Apostel neben Jesus Chri­ stus selbst. Sein Werk sollen ie ihm ja tun helfen. So versagt ihnen Jesus zu diesem Auftrag auch nicht die höchste Gabe, nämlich teilzuhaben an seiner Kraft über die unsauberen Gei­ ster, über den Teufel, der von der Menschheit Besitz ergriffen 12 Im \"Nestle\" Randnotiz neben Mt 10,1: \"wie Chr.\" (der Vers endet genau wie der von Jesus berichtende Vers Mt 9,35). D 13 Die Bedeutung des griechi­ schen Wortes ist: \"Abgesandter\". 178 Die Boten (Matthäus 10) 197 hat.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p13",
+    "de": "In diesem Auftrag sind die Apostel Christus gleich gewor­ den. Sie tun Christuswerke. Die Namen dieser ersten Boten werden der Welt aufbewahrt bis zum letzten Tag. Zwölf Stämme zählte das Volk Gottes. Zwölf Boten sind es, die das Werk Christi an ihm vollbringen sollen. Zwölf Throne werden im Reich Gottes für ie als Rich­ ter Israels bereitstehen (Mt. 19,28). Zwölf Tore wird das himm­ lische J erusalem haben, in die das heilige I Volk einziehen wird und auf denen die Namen der Stämme zu lesen sein werden. Zwölf Grundsteine hat die Mauer der Stadt und ie werden die Namen der Apostel tragen (Offbg. 21,12.14).",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p14",
+    "de": "Es ist allein der erwählende Ruf Jesu, der die Zwölf vereint: Simon, den Felsenmannl4, Matthäus, den Zöllner, Simon, den Zeloten, den Eiferer um Recht und Gesetz gegen heidnische Bedrückungl5, Johannes, den Jesus lieb hatte und der an Jesu Busen lag16, und die anderen, von denen uns nur der Name blieb, und schließlich Judas Ischarioth, der ihn verriet. Nichts auf der Welt hätte diese Männer zu demselben Werk zu verbin­ den vermocht als der Ruf Jesu. Hier war alle frühere Entzwei­ ung überwunden, und neue, feste Gemeinschaft war in Jesus begründet. Daß auch Judas ausging, um das Christuswerk zu tun, bleibt ein dunkles Rätsel und eine furchtbare Warnung.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p15",
+    "de": "Die Arbeit. \"Diese zwdf sandte Jesus, gebot ihnen und sprach: Gehet nicht auf der Heiden Straße und ziehet nicht in der Samariter Städte, sondern gehet hin zu den verlorenen Schafen aus dem Hause Israel\" (Mt. 10,5.6). Als Gehilfen Jesu stehen die Jünger in ihrer Wirksamkeit unter dem klaren Befehl ihres Herrn. Es ist ihnen nicht freige­ stellt, wie ie ihre Arbeit anfassen und auffassen wollen. Das 14 Verdeutschung von \"Petrus\"; vgl. Mt 16,18. 0 15 Vgl. mit der Erläuterung des Beinamens \"Zelotes\" (Lk 6,15), Gei der Bonhoetfer den Eifer um Recht und Gesetz ins Zentrum stellt, den Rechtskampf der Bekennenden Kirche iw Drit­ ten Reich: Gegenüber dem nationalsozialistischen Regime stritten Juristen wie z.B. Bonhoeffers Schwager Hans von Dohnanyi und der Justitiar der Beken­ nenden Kirche Friedrich Justus PereIs für Recht und Gesetz. 016 Joh 13,23; 21,20. 198 Teil 1. 179 Christuswerk, das ie treiben sollen, zwingt die Boten ganz in den Willen J esu hinein.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p16",
+    "de": "Wohl ihnen, die solchen Befehl für ihr Amt haben und befreit sind von eigenem Gutdünken und Be­ rechnen! Gleich das erste Wort legt den Boten eine Beschränkung ihrer Arbeit auf, die ihnen befremdlich und schwer gewesen I sein muß. Sie dürfen sich das Arbeitsfeld nicht selbst wählen. Nicht wohin es ie in ihrem Herzen drängt, sondern wohin ie gesandt werden, ist entscheidend. Damit wird es gam\" deutlich, daß ie nicht ein eigenes Werk, sondern Gottes Werk treiben sollen. Hätte es nicht nahe gelegen, gerade zu den Heiden und den Samaritern zu gehen, weil ie doch der frohen Botschaft besonders bedürftig waren?",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p17",
+    "de": "Mag es auch so sein, es ist doch kein Auftrag dazu gegeben. Gottes Werke aber können nicht ohne Auftrag getan werden; ie wären sonst ohne Verheißung getan. Gilt denn aber die Verheißung und der Auftrag zur Pre­ digt des Evangeliums nicht überall? Beides gilt allein dort, wo Gott den Auftrag dazu gegeben hat. Ist es aber nicht gerade die Liebe Christi, die uns dringt, unbegrenzt die Botschaft auszu­ richten? Die Liebe Christi unterscheidet sich von dem Über­ schwang und dem Eifer des eigenen Herzens dadurch, daß ie sich an den Auftrag hält. Nicht um unserer noch so großen Liebe zu unseren Brüdern im Volk!7 oder zu den Heiden in fremden Ländern willen bringen wir ihnen das Heil des Evan­ geliums, sondern um des Auftrags des Herrn willen, den er im MissionsbefehPs gegeben hat.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p18",
+    "de": "Allein der Auftrag zeigt uns den Ort, an dem die Verheißung liegt. Wenn Christus nicht wollte, daß ich hier oder dort das Evangelium predige, so sollte ich alles fahren lassen und an Christi Willen und Wort bleiben. So wer­ den die Apostel gebunden an das Wort, an den Auftrag. Wo das Wort Christi, wo der Auftrag ist, dort allein sollen die Apostel sich finden lassen. \"Gehet nicht auf der Heiden Straße und ziehet nicht in der Samariter Städte, sondern gehet zu den ver­ lorenen Schafen aus dem Hause Israel\". Opferung der \"tausend Juden-Christen\", \"die Millionen gottentfremdeter Volksgenossen\" zu gewinnen trachteten (Formulierung in Bonhoeffers Flugblatt 1933 DBW12,411.D18 Mt 28,18-20. 180 Die Boten (Matthäus 10) 199 Wir, die wir zu den Heiden gehörten, waren einstmals ausge­ schlossen von der Botschaft.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p19",
+    "de": "Erst mußte Israel die Christusbot­ schaft hören und verwerfen, damit ie zu den Heiden komme und eine Gemeinde der Heidenchristen geschaffen würde nach dem Auftrag Jesu Christi. Erst der Auferstan-I dene gibt den Missionsbefehl. So wurde die Beschränkung des Auftrages, die die Jünger wohl nicht begreifen konnten, gerade zur Gnade für die Heiden, die die Botschaft des Gekreuzigten und Auferstan­ denen empfingen. Das ist Gottes Weg und Weisheit. Uns bleibt nur der Auftrag. \"Geht aber und predigt und sprecht: Das Himmelreich ist nahe herbeigekommen. 19 Macht die Kranken gesund, reinigt die Aussätzigen, weckt die Toten auf, treibt die Teufel aus.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p20",
+    "de": "Umsonst habt ihrs empfangen, umsonst gebt es auch\" (Mt. 10,7.8). -Die Botschaft und die Wirksamkeit der Boten ist von der Jesu Chri­ sti selbst in nichts unterschieden. Sie haben teilbekommen an seiner Macht. Jesus befiehlt die Verkündigung des Anbruchs des Himmelreiches und er befiehlt die Zeichen, die diese Bot­ schaft bekräftigen. Jesus befiehlt Kranke zu heilen, Aussätzige zu reinigen, Tote aufzuerwecken, die Teufel auszutreiben! Ver­ kündigung wird zum Geschehnis, und das Geschehnis bezeugt die Verkündigung. Reich Gottes, Jesus Christus, Vergebung der Sünden, Rechtfertigung des Sünders aus Glauben, das alles ist nichts anderes als Vernichtung der Teufelsmacht, Heilung, Totenauferweckung.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p21",
+    "de": "Als das Wort des allmächtigen Gottes ist es Tat, Ereignis, Wunder. Der eine Jesus Christus geht in seinen zwölf Boten durch das Land und tut sein Werk. Die königli­ che2D Gnade, mit der die Jünger ausgestattet werden, ist das schöpferische und erlösende Wort Gottes. \"Ihr sollt nicht Gold noch Silber noch Erz in euren Gürteln haben, auch keine Tasche zur Weg-Fahrt, auch nicht zwei Röcke, keine Schuhe, auch keinen Stecken. Denn ein Arbeiter ist seiner Speise wert21\" (Mt. 10,9-10). -Weil der Auftrag und die Kraft der Boten allein im Worte J esu bestehen, darum soll 19 Randbemerkung Bonhoeffers im \"Nestle\": \"wie Christus\" (die Jünger sol­ len so predigen, wie Mt 4,17 von Jcsus berichtet). 020 Die wörtliche Überset­ zung von l3uOlAcLu ,eJ)V oUQUV(i)v in Vers 7 ist: \"Königreich der Himmel\". 0 21 Neben diesem Satz steht im \"Nestle\" am Rand: \"Die Arbeit\" -im Buch die Abschnittsüberschrift S. 197. 200 Teil 1. 181 an J esu Boten nichts gesehen werden, was diese königliche Sen­ dung undeutlich oder unglaubwürdig macht.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p22",
+    "de": "In königlicher Ar­ mut sollen die Boten Zeugnis ablegen von dem Reichtum ihres Herrn. Was ie von Jesus empfangen haben, I ist kein eigener Besitz, mit dem ie andere Güter einhandeln könnten. \"Um­ sonst habt ihr es empfangen\". Jesu Bote zu sein verleiht keiner­ lei persönliches Recht, keinen Anspruch auf Ehrung oder Macht. Auch wo aus dem freien Boten J esu der beamtete Pfar­ rer geworden ist, ist das nicht anders. Die Rechte des studierten Mannes, die gesellschaftlichen Ansprüche eines Standes haben für den, der J esu Bote geworden ist, keine Geltung mehr. \"Um­ sonst habt ihrs empfangen!\" Oder war es doch nicht allein J esu Ruf, der uns unverdient in seinen Dienst zog?",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p23",
+    "de": "\"Umsonst gebt es auch!\" Laßt es deutlich werden, daß ihr mit allem Reichtum, den ihr zu vergeben habt, nichts für euch begehrt, nicht Besitz, aber auch nicht Ansehen, Anerkennung, ja, auch nicht einmal Dankbarkeit! Woher hättet ihr auch einen Anspruch darauf? Alles, was an Ehrung auf uns fallen soll, rauben wir ja dem, dem es in Wahrheit gehört, dem Herrn, der uns gesandt hat. Die Freiheit der Boten J esu soll sich in ihrer Armut erweisen. Wenn sich Markus und Lukas in der Aufzählung dessen, was den Jüngern mitzunehmen verboten oder erlaubt ist, um einiges von Matthäus unterscheiden, so läßt das doch keine weiteren Schlüsse zu.22 Jesus befiehlt denen, die in der Vollmacht seines Wortes ausziehen, Armut.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p24",
+    "de": "Es ist wohl gut, nicht zu übersehen, daß es sich hier um ein Gebot J esu handelt. Ja, der Besitzstand der Jünger ist bis ins einzelne geregelt. Nicht als Bettler, nicht mit zerrissenen Kleidern sollen ie sich auffällig machen und den anderen als Parasiten zur Last fallen. Aber in dem Dienst­ kleid der Armut sollen ie einhergehen. Sie sollen so wenig bei sich haben wie der, der über Land geht und gewiß ist, daß er abends bei Freunden das Haus findet, das ihn beherbergt und ihn mit der nötigen Nahrung versorgt. Solches Vertrauen sollen 22 Mt 10,9 f vgl. Mk 6,8 f; Lk 9,3. Schlüsse zieht Tholuck 177' diese\" Variatio­ nen\", die \"dem Buchstaben nach das Gegentheil aussagen\", seien \"auch für den Ausleger der Bergpredigt lehrreich\", nämlich dahingehend, daß man, wie die hermeneutische Regel bei Tholuck 174 besagt, kein Recht habe, \"es mit dem Buchstaben so genau zu nehmen\". 182 Die Boten (Matthäus 10) 201 ie zwar nicht auf Menschen setzen, aber auf den, der ie ge­ sandt hat, und auf den himmlischen Vater, der für ie sorgen wird.23 Damit werden ie die Botschaft glaubwürdig machen. die ie I verkündigen, nämlich die anbrechende Herrschaft Got­ tes auf Erden.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p25",
+    "de": "In derselben Freiheit, in der ie ihren Dienst tun. sollen ie auch Herberge und Nahrung annehmen, nicht als Bettelbrot, sondern als die Speise, deren ein Arbeiter wen ist. ,Arbeiter' nennt Jesus seine Boten. Trägheit allerdings ist nicht der Speise wert. 24 Aber was ist Arbeit, wenn nicht dieser Kampf mit den Mächten des Satans, dieser Kampf um die Herzen der Menschen, dieser Verzicht auf eigenen Ruhm, auf dic Güter und Freuden der Welt, um des Dienstes an den Armen, Miß­ handelten, Elenden willen? Gott selbst hat Mühe und Arbeit gehabt mit den Menschen (Jes. 43,24), die Seele Jesu hat gear­ beitet bis zum Tode am Kreuz zu unserem Heil Ges. 53,11).",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p26",
+    "de": "An dieser Arbeit nehmen die Boten teil, in der Verkündigung, in der Überwindung des Satans und im fürbittenden Gebet. 25 Wer diese Arbeit nicht anerkennt, hat noch nichts begriffen vom Dienst des treuen Boten J esu. Ohne Beschämung dürfen ie den täglichcn Lohn ihrer Arbeit empfangen, ohne Beschämung aber sollen ie dabei arm bleiben um ihres Dienstes willen. \"Wo ihr aber in eine Stadt oder einen Markt geht, da erkun­ digt euch, ob jemand darin sei, der es wert ist; und bei demsel­ ben bleihet, bis ihr von dannen zieht. Wo ihr aber in ein Haus geht, so grüßet es; und so es das Haus wert ist, wird euer Friede auf ie kommen.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p27",
+    "de": "Ist es aber nicht wert, so wird sich euer Friede wieder zu euch wenden. Und wo euch jemand nicht annehmen wird noch eure Rede hören, so geht heraus von demselben Hause oder der Stadt und schüttelt den Staub von euren Füßen. Wahrlich, ich sage euch: Dem Lande der Sodomer und Gomor­ rer wird es erträglicher gehen am Jüngsten Gericht denn solcher Stadt\" (Mt. 10,11-15). -Die Arbeit in der Gemeinde wird ihren Ausgangspunkt nehmen von den Häusern, ,die es wert sind'26, Jesu Boten zu beherbergen. Gott hat noch überall eine betende 23 Wie Mt 6,26-32. D 24 Ir 111ess 3,10:\" ... so jemand nicht will arbeiten, der soll auch nicht essen.\" D 25 Vgl. Jes 53,12; in LB steht zu \" ... für die Übeltäter gebeten\" die Randnot:z: \"als M;ttler eingetreten\".",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p28",
+    "de": "D 26 An dieser Stelle (Mt 10,11) in LB Markierungen und ,,!\". 202 Teil 1. 183 und wartende Gemeinde. Hier werden die Jünger im Namen ihres Herrn I demütig und willig aufgenommen. Hier wird ihre Arbeit im Gebet mitgetragen werden, hier ist eine kleine Schar, die stellvertretend für die ganze Gemeinde dasteht. Um dem Unfrieden in der Gemeinde und falscher Begehrlichkeit oder Nachgiebigkeit der Jünger zu wehren, gebietet Jesus den Aposteln in demselben Hause zu bleiben, so lange ie am Orte sind. Unverzüglich kommen die Boten beim Betreten eines Hauses und einer Stadt zur Sache. Die Zeit ist kostbar und kurz.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p29",
+    "de": "Noch viele warten auf die Botschaft. Schon das erste Grußwort, mit dem ie wie ihr Herr ein Haus grüßen: \"Friede sei mit diesem Hause!\" (Lk. 10,5)27, ist keine leere Formel, sondern es bringt sogleich die Kraft des Gottesfriedens über die, ,die es wert sind'. Die Verkündigung der Boten ist kurz und klar. Sie melden den Anbruch des Gottesreiches, ie rufen zur Umkehr und zum Glauben. Sie kommen in der Vollmacht des Jesus von N azareth. Ein Befehl wird ausgerichtet, und ein Angebot wird gemacht in höchster Autoriierung28• Damit ist alles geschehen. Weil alles von größter Einfachheit und Klarheit ist und weil die Sache keinen Aufschub leidet, darum bedarf es keiner weiteren Vorbereitung, Diskussion, Werbung.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p30",
+    "de": "Ein Kö­ nig steht vor der Tür, jeden Augenblick kann er kommen: Wollt ihr euch unterwerfen und ihn demütig empfangen, oder wollt ihr, daß er euch in seinem Zorn vernichte und töte? Wer hören will, der hat hier alles gehört; der kann auch den Boten nicht aufhalten wollen, denn der muß weiter in die nächste Stadt. Wer aber nicht hören will, für den ist die Gnadenzeit vorüber, er hat sich selbst das Gericht gesprochen. \"Heute, so ihr seine Stimme höret, so verstocket eure Herzen nicht!\" (Hebr. 4,7).29 Das ist evangelische Predigt. Ist das unbarmher­ zige Hast? Nichts ist unbarmherziger als den Menschen vorzu­ spiegeln, daß ie noch Zeit hätten zur Umkehr.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p31",
+    "de": "Nichts ist barm­ herziger, nichts ist frohe re Botschaft als dies, daß die Sache eilt, daß das Reich sehr nahe ist. Der Bote kann nicht warten, bis es 27 Zu Mt 10,12 ist im \"Nestle\" auf Lk 10,5 f verwiesen; in Lk 10 nur in diesen Versen Unterstreichungen. D 28 Das Wort E�mJO(a in Mt 10,1 bedeutet: \"Macht\", \"Vollmacht\", \"Autorität\". D 29 Zitat von Ps 95,7 f (dort in LB angestrichen). Die BOlen (Matthäus 10) 203 jedem 1 immer wieder und jedem in seiner Sprache gesagt ist. Gottes Sprache ist klar genug. Der Bote verfügt auch nicht darüber, wer hören wird und wer nicht. Gott allein kennt die, ,die es wert sind'.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p32",
+    "de": "Diese aber werden das Wort hören, so wie es von den jüngern gesagt wird. Wehe aber der Stadt und dem Haus, da der Bote jesu nicht aufgenommen wird! Es wird ein furchtbar;;s Gericht ergehen. Sodom und Gomorrha, die Städte der Unzucht und der Verkommenheit30, werden ein gnädigeres Gericht zu erwarten haben als die Städte Israels, die das Wort J esu verwerfen. Laster und Sünde können vergeben werden durch das Wort jesu, wer aber das Heilswort selbst verwirft, der hat keine Rettung mehr. Es gibt keine schwerere Sünde als den Unglauben gegen das Evangelium. Hier bleibt den Boten nichts als diesen Ort zu räumen.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p33",
+    "de": "Sie gehen, weil das Wort hier nicht bleiben kann. Mit Furcht und Staunen müssen ie zu­ gleich die Kraft und die Schwachheit des göttlichen Wortes erkennen. Weil aber die Jünger nichts gegen das Wort und über das Wort hinaus erzwingen können noch sollen, weil es in ih­ rem Auftrag nicht um heroischen Kampf, nicht um fanatische Durchsetzung einer großen Idee, einer ,guten Sache' geht, darum bleiben ie nur dort, wo das Wort Gottes bleibt.31 Wird es verworfen, so lassen ie sich mit ihm yerwerfen. Den Staub aber schütteln ie von ihren Füßen zum Zeichen des Fluches, der diesen Ort treffen wird und an dem ie keinen Teil haben.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p34",
+    "de": "Der Friede aber, den ie diesem Orte brachten, wird auf ie zurückkehren. \"Das ist den Dienernder Kirche ein Trost, wel­ che meinen, ie bringen nichts zustande. Ihr dürft euch nicht kränken; was andere nicht wollen, das wird euch selbst zu ei­ nem desto größeren Segen. Diesen sagt es der Herr also: Jene haben es verschmäht, so behaltet ihr es für euch\" (Bengel).32 1 30 Gen 18,20; 19,4f.24f. D 31 Bonhoeffer riet 1936 DBW 14, 195 dem ehe­ maligen Finkenwalder Kandidaten Gerhard Vibrans und anderen Pfarrern in am Wort uninteresierten Gemeinden, im Sinne von Mt 10,13f an die ganze Gemeinde zu schreiben, \"daß dies möglicher Weise das letzte Angebot des Evan­ geliums an ie ist\".",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p35",
+    "de": "D 32 Zitiert ist, mit geringfügigen Abweichungen, der Kom­ mentar zu Mt 10,13 aus dem \"Gnomon\" (1,72) von Johann Albrecht Bengel (1687-1752): \"Das ist den Kirchendienern ein Trost ... \". 204 Teil 1. 186 Das Leiden der Boten. \"Siehe, ich sende euch wie Schafe mitten unter die Wölfe; darum seid klug wie die Schlangen und ohne Falsch wie die Tauben. Hütet euch aber vor den Menschen; denn ie werden euch überantworten vor ihre Rathäuser und werden euch gei­ ßeln in ihren Schulen. Und man wird euch vor Fürsten und Könige führen um meinetwillen, zum Zeugnis über ie und über die Heiden. Wenn ie euch nun überantworten werden, so sorget nicht, wie oder was ihr reden sollt; denn es soll euch zu der Stunde gegeben werden, was ihr reden sollt.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p36",
+    "de": "Denn ihr seid es nicht, die da reden, sondern eures Vaters Geist ist es, der durch euch redet. Es wird aber ein Bruder den anderen zum Tod überantworten und der Vater den Sohn, und die Kinder werden sich empören wider ihre Eltern und ihnen zum Tode helfen. Und ihr müßt gehaßt werden von jedermann um meines Namens willen. Wer aber bis an das Ende beharrt, der wird selig. Wenn ie euch aber in einer Stadt verfolgen, so flieht in eine andere. Wahrlich, ich sage euch: Ihr werdet mit den Städ­ ten Israels nicht zu Ende kommen, bis des Menschen Sohn kommt. Der Jünger ist nicht über seinen Meister noch der Knecht über den Herrn.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p37",
+    "de": "Es ist dem Jünger genug, daß er sei wie sein Meister und der Knecht wie sein Herr. Haben ie den Hausvater Beelzebub geheißen, wieviel mehr werden ie seine Hausgenossen also heißen!\" (Mt. 10,16-25). Erfolglosigkeit und Feindschaft können den Boten nicht daran irre werden lassen, daß er von Jesus gesandt ist. Als star­ ken Halt und Trost wiederholt esJesus: ,Siehe, ich sende euch!' Es ist ja kein eigner Weg und kein eignes Unternehmen; es ist Sendung. Damit verheißt der Herr, daß er bei seinen Boten bleiben wird, wenn ie wie Schafe unter den Wölfen sein wer­ den, wehrlos, ohn;nächtig, geängstigt und in I großer Gefahr.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p38",
+    "de": "Es wird ihnen nichts widerfahren, was Jesus nicht weiß. ,Darum seid klug wie die Schlangen und ohne Falsch wie die Tauben.' Wie oft haben Diener Jesu diesen Satz mißbraucht! Wie schwer ist es auch für den willigen Boten J esu, hier recht zu verstehen und im Gehorsam zu bleiben! Wer vermag denn geistliche Klugheit von weltlicher Schlauheit immer zu unterscheiden? Wie gern ist man daher bereit, lieber auf jede ,Klugheit' zu 187 Die Boten (Matthäus 10) 205 verzichten und nur der Einfalt der Tauben gleich zu sein, und ebendamit ungehorsam zu werden. Wer sagt uns, wo wir dem Leiden aus Furcht ausweichen und wo wir es aus Verwegenheit suchen?",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p39",
+    "de": "Wer zeigt uns die verborgenen Grenzen, die hier gezo­ gen sind? Es ist ja derselbe Ungehorsam, mit dem wir uns auf das Gebot der Klugheit gegen die Einfalt, wie umgekehrt auf die Einfalt gegen die Klugheit berufen. Weil hier keines Men­ schen Herz sich in sich selbst auskennt und weil Jesus seine Jünger niemals in die Ungewißheit, sondern immer in die höch­ ste Gewißheit rief, darum kann diese Mahnung Jesu den Jünger zu nichts anderem rufen als zum Bleiben am Wort. Wo das Wort ist, dort soll der Jünger auch sein, das ist seine rechte Klugheit und seine rechte Einfalt. Muß das Wort weichen, weil die Verwerfung offenbar geworden ist, so weiche der Jünger mit dem Wort; bleibt das Wort im offenen Kampf, so bleibe auch dei\" Jünger.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p40",
+    "de": "Er wird in beidem klug und einfältig zugleich handeln. Niemals aber gehe der Jünger aus ,Klugheit' einen Weg, der vor dem Wort Jesu nicht bestehen kann. Niemals rechtfertige er einen Weg, der dem Wort nicht entspricht, mit ,geistlicher Klugheit'. Allein die Wahrheit des Wortes wird ihn erkennen lehren, was klug ist. Niemals aber kann es ,klug' sein, der Wahrheit auch nur den geringsten Teil abzubrechen, um irgendeiner menschlichen Aussicht oder Hoffnung willen. Nicht unsere Beurteilung der Lage vermag uns zu zeigen, was klug ist, sondern allein die Wahrheit des Wortes Gottes. Klug kann I es immer nur sein, bei der Wahrheit Gottes zu bleiben.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p41",
+    "de": "Hier allein ist die Verheißung auf Gottes Treue und Hilfe. Es wird sich zu aller Zeit bewähren, daß es für den Jünger in dieser und in jener Zeit das ,Klügste' ist, einfältig allein bei dem Worte Gottes zu bleiben. Vom Worte her werden die Boten auch die rechte Kenntnis der Menschen gewinnen. ,Hütet euch vor den Menschen'. Nicht Furcht vor den Menschen, nicht böses Mißtrauen, vor allem nicht Menschenhaß, aber auch nicht leichtsinnige Ver­ trauensseligkeit, Glaube an das Gute in allen Menschen, son­ dern rechtes Wissen um das Verhältnis des Wortes zum Men­ schen und des Menschen zum Wort sollen die Jünger zeigen.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p42",
+    "de": "Sind ie hier nüchtern geworden, dann können ie es auch ertra­ gen, wenn Jesus ihnen vorhersagt, daß ihr Weg unter den Menschen ein Leidensweg sein wird. Aber eine wunderbare Kraft wohnt dem Leiden der Jünger inne. Während der Verbrecher in der Verborgenheit seine Strafe erleidet, so wird der Leidensweg die Jünger vor Fürsten und Könige führen, \"um meinetwillen, zum Zeugnis über ie und über die Heiden\". Durch Leiden wird die Botschaft voran getragen werden. Weil das Gottes Plan und J esu Willen ist, darum wird auch in der Stunde der Verant­ wortung vor Gerichten und Thronen den Jüngern die Kraft gegeben werden zu einem guten Bekenntnis, zu einem furchtlo­ sen Zeugnis.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p43",
+    "de": "Der heilige Geist selbst wird ihnen beistehen. Er wird ie unüberwindlich machen. Er wird ihnen eine \"Weisheit geben, welcher nicht sollen widersprechen können noch wider­ stehen alle eure Widersacher\" (Lk. 21,15). Weil die Jünger im Leiden am Worte bleiben, darum wird das Wort auch bei ihnen bleiben. Gesuchtes Martyrium hätte diese Verheißung nicht. Aber das Leiden mit dem Wort ist ihrer ganz gewiß. Der Haß gegen das Wort der Boten J esu wird bleiben bis ans Ende.33 Er wird die Jünger schuldig sprechen an aller Entzwei­ ung, die über Städte und Häuser kommen wird. Jesus I und seine Jünger werden als die Zerstörer der Familie, als die Ver­ führer des Volkes, als wahnsinnige Schwärmer und Aufrührer von allen verurteilt werden.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p44",
+    "de": "Jetzt ist die Versuchung zum Abfall nahe an den Jünger herangetreten. Aber nahe ist auch das Ende. Bis dahin noch gilt es treu zu bleiben, durchzuhalten, zu behar­ ren. Selig wird allein der sein, der bis zuletzt bei Jesus und seinem Worte bleibt. Wenn aber das Ende kommt, wenn die Feindschaft gegen Jesus und seine Jünger offenbar geworden ist in aller Welt, dann, freilich erst dann sollen die Boten fliehen von einer Stadt in die andere, um nur das Wort noch sagen zu können, wo es noch gehört wird. Sie trennen sich auch in dieser Flucht nicht vom Wort, sondern ie bleiben fest bei ihm. Die Verheißung Jesu von der nahen Wiederkunft34 ist uns von der Gemeinde aufbewahrt worden im Glauben daran, daß 33 In der Situation von 1936/37 beschrieben diese apokalyptischen Vorstellun­ gen aktuelles kirchliches Geschehen.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p45",
+    "de": "So kam z.B. 1936 Pastor J ohannes Pecina, der sich nicht aus Kirche und Pfarrhaus verdrängen ließ, ins Gefängnis, und der vom Bruderrat der Bekennenden Kirche an seine Stelle geschickte Vikar Willi Brandenburg wurde gleichfalls gefangengesetzt (DB 612). D 34 Mt 10,22 f. /89 Die Boten (Matthäus 10) 207 ie wahr sei. Ihre Erfüllung ist dunkel, und es ist nicht gut, hier menschliche Auswege zu suchen. Aber dies ist klar und für uns heute allein wichtig, daß Jesu Wiederkunft schnell kommen wird und daß ie gewisser ist als daß wir unsere Arbeit in sei­ nem Dienst noch vollenden können, daß ie gewisser ist als unser Tod.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p46",
+    "de": "In dem allen können J esu Boten aber keinen größe­ ren Trost empfangen als die Gewißheit, daß ie in ihren Leiden ihrem Herrn gleich sein werden. Wie der Meister, so der Jün­ ger; wie der Herr, so der Knecht. Wird Jesus Teufel genannt, wieviel mehr die Diener seines Hauses. So wird Jesus bei ihnen sein und ie werden in allem Christus gleich sein. Die Entscheidung. \"So fürchtet euch denn nicht vor ihnen. Es ist nichts verborgen, das nicht offenbar werde, und ist nichts heimlich, das man nicht wissen werde. Was ich euch sage in der Fin-I sternis, das redet im Licht; und was ihr hört in das Ohr, das predigt auf den Dächern.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p47",
+    "de": "Und fürchtet euch nicht vor denen, die den Leib töten und die Seele nicht töten können; fürchtet euch aber vielmehr vor dem, der Leib und Seele verderben kann in die Hölle. Kauft man nicht zwei Sperlinge um einen Pfennig? Dennoch fällt de­ ren keiner auf die Erde ohne euren Vater. Nun aber sind auch eure Haare auf dem Haupt alle gezählt. So fürchtet euch denn nicht; ihr seid besser als viele Sperlinge. Wer nun mich bekennt vor den Menschen, den will ich auch bekennen vor meinem himmlischen Vater. Wer mich aber verleugnet vor den Men­ schen, den will ich auch verleugnen vor meinem himmlischen Vater. 35 Ihr sollt nicht wähnen, daß ich gekommen sei, Frieden zu senden auf die Erde.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p48",
+    "de": "Ich bin nicht gekommen, Frieden zu senden, sondern das Schwert. Denn ich bin gekommen, den Menschen zu erregen wider seinen Vater und die Tochter wider ihre Mutter und die Schwiegertochter wider ihre Schwieger­ mutter. Und des Menschen Feinde werden seine eigenen Haus­ genossen sein. Wer Vater oder Mutter mehr liebt denn mich, der ist mein nicht wert; und wer Sohn oder Tochter mehr liebt 35 Neben diesem Satz im \"Nestle\" am Rand: \"Entscheidung\" -Bonhoeffers Abschnittsüberschrift. 208 Teil 1. 190 denn mich, der ist mein nicht wert. Und wer nicht sein Kreuz auf sich nimmt und folgt mir nach, der ist mein nicht wert.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p49",
+    "de": "Wer sein Leben findet, der wird's verlieren; und wer sein Leben verliert um meinetwillen, der wird's finden\" (Mt. 10,26-39). Der Bote bleibt beim Wort und das Wort bleibt beim Boten jetzt und in Ewigkeit. Dreimal stärkt Jesus seine Boten mit dem Ruf: ,fürchtet euch nicht!' Was ihnen jetzt im Verborgenen widerfährt, wird nicht verborgen bleiben, sondern offenbar werden vor Gott und den Menschen. Das heimlichste Leiden, das man ihnen zufügt, hat die Verheißung, einst an den Tag zu kommen, zum Gericht über die Verfolger, zur Verherrlichung der Boten. Aber auch das Zeugnis der Boten I soll nicht im Dunkeln bleiben, sondern ein öffentliches Zeugnis werden.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p50",
+    "de": "Nicht heimliche Sektiererei36, sondern öffentliche Predigt soll das Evangelium sein. Auch wenn es heute noch hier und da in Winkeln leben muß, in der letzten Zeit wird diese Predigt den ganzen Erdkreis erfüllen zum Heil und zur Verwerfung. Die Offenbarung des J ohannes aber weissagt: \"und ich sah einen Engel fliegen mitten durch den Himmel, der hatte ein ewiges Evangelium zu verkündigen denen, die auf Erden wohnen, und allen Heiden und Geschlechtern und Sprachen und Völkern\" (14,6). Darum \"fürchtet euch nicht!\" Nicht die Menschen sind zu fürchten. Sie vermögen den Jün­ gern J esu nicht viel anzuhaben.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p51",
+    "de": "Ihre Macht hört mit dem leibli­ chen Tode auf. Todesfurcht aber sollen die Jünger überwinden durch Gottesfurcht. Nicht das Gericht der Menschen, sondern Gottes Gericht, nicht das Verderben des Leibes, sondern das ewige Verderben des Leibes und der Seele bringt dem Jünger Gefahr. Wer die Menschen noch fürchtet, der fürchtet Gott nicht. Wer Gott fürchtet, der fürchtet die Menschen nicht mehr. Der täglichen Erinnerung ist dieser Satz für die Prediger des Evangeliums wert. Die Macht, die den Menschen für kurze Zeit auf dieser Erde gegeben ist, ist nicht ohne Gottes Wissen und Willen. Fallen wir in der Menschen Hände, trifft uns Leiden und Tod durch 36 V gl. 1935 DBW 14, 917 über Apk 14,6-13: \"Nein, wir wollen angesichts der furchtbaren Gerichte Gottes über die Welt in kein sektiererisches Triumphgeheul ausbrechen\" . 191/192 Die Boten (Matthäus 10) 209 menschliche Gewalt, so sind wir doch dessen gewiß, daß alles von Gott kommt.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p52",
+    "de": "Er, der keinen Sperling zu Boden fallen ieht ohne sein Wollen und Wissen, er läßt den Seinen nichts gesche­ hen, als was ihnen und der Sache, für die ie stehen, gut und nützlich ist. Wir sind in Gottes Händen. Darum \"fürchtet euch nicht!\". Die Zeit ist kurz. Die Ewigkeit ist lang. Es ist Entschei­ dungszeit. Wer hier am Wort und am Bekenntnis bleibt, bei dem wird in der Stunde des Gerichts Jesus Christus stehen. Er wird ihn kennen und sich zu ihm stellen, wenn der Verklä-I ger sein Recht fordern wird. Alle Welt wird Zeuge sein, wenn Jesus uns ern Namen nennen wird vor seinem himmlischen Vater. Wer sich im Leben zu Jesus gehalten hat, zu dem wird sich Jesus in der Ewigkeit halten.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p53",
+    "de": "Wer sich aber dieses Herrn und dieses Namens schämt, wer ihn verleugnet, dessen wird sich auch Jesus in der Ewigkeit schämen, den wird er verleugnen. Diese letzte Scheidung muß schon auf Erden anheben. Der Friede Jesu Christi ist das Kreuz. Das Kreuz aber ist Gottes Schwert auf dieser Erde. Es schafft Entzweiung. Der Sohn ge­ gen den Vater, die Tochter gegen die Mutter, die Hausgenossen gegen den Hausvater, und das alles um des Reiches Gottes und seines Friedens willen, das ist Christi Werk auf Erden! Ist es verwunderlich, daß die Welt ihn, der die Liebe Gottes den Menschen brachte, des Menschenhasses schuldig spricht?",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p54",
+    "de": "Wer darf denn über Vater-und Mutterliebe, über die Liebe zum Sohn und zur Tochter so sprechen, wenn nicht entweder der Zerstörer alles Lebens oder aber der Schöpfer eines neuen Le­ bens? Wer kann die Liebe und das Opfer der Menschen so für sich allein in Anspruch nehmen, als der Menschenfeind oder aber der Menschenheila�d? Wer wird das Schwert in die Häu­ ser tragen als der Teufel oder Christus, der Friedefürst? Gottes Liebe zum Menschen und der Menschen Liebe zu ihrem eige­ nen Geschlecht sind gar zu verschieden. Gottes Liebe zum Menschen heißt Kreuz und Nachfolge, aber eben darin Leben und Auferstehung.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p55",
+    "de": "\"Wer sein Leben verliert um meinetwillen, der wird's finden\". In dieser Zusage spricht der, der die Macht hat über den Tod, der Sohn Gottes, der zum Kreuz und zur Auferstehung geht und die Seinen mitnimmt. I 210 Teil 1. 193 Die Frucht. \"Wer euch aufnimmt, der nimmt mich auf; und wer mich auf­ nimmt, der nimmt den auf, der mich gesandt hat. Wer einen Propheten aufnimmt in eines Propheten Namen, der wird eines Propheten Lohn empfangen. Wer einen Gerechten aufnimmt in eines Gerechten Namen, der wird eines Gerechten Lohn emp­ fangen. Und wer dieser Geringsten einen nur mit einem Becher kalten Wassers tränkt in eines Jüngers Namen, wahrlich, ich sage euch, es wird ihm nicht unbelohnt bleiben\"37 (Mt. 10, 40-42).",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p56",
+    "de": "Die Träger des Wortes Jesu empfangen ein letztes verheißen­ des Wort für ihr Werk. Sie sind Christi Mitarbeiter und Gehil­ fen geworden, ie sollen Christus gleich sein in allen Stücken, so sollen ie auch für die Menschen, zu denen ie gehen, ,wie Christus' sein38. Mit ihnen betritt Jesus Christus selbst das Haus, das ie aufnimmt. Sie sind Träger seiner Gegenwart. Sie bringen den Menschen das kostbarste Geschenk, Jesus Chri­ stus, und mit ihm Gott, den Vater, und das heißt ja Vergebung, Heil, Leben, Seligkeit. Das ist der Lohn und die Frucht ihrer Arbeit und ihres Leidens. Jeder Dienst, den man ihnen tun wird, ist an Jesus Christus selbst getan.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p57",
+    "de": "Das ist in gleicher Weise Gnade für die Gemeinde und für die Boten. Die Gemeinde wird den Boten um so williger Gutes erweisen, ie ehren und ihnen dienen; denn mit ihnen ist ja der Herr selbst bei ihnen eingekehrt. Die Jünger aber dürfen wissen, daß ihr Eintritt in ein Haus nicht vergeblich und leer bleibt, sondern daß ie eine unvergleichliche Gabe bringen. Es ist ein Gesetz im Reiche Gottes, daß jeder der Gabe teilhaftig wird, die er willig als von Gott gekommen empfängt. Wer den Propheten aufnimmt im Wissen darum, was er tut, der wird seiner Sache, seiner Gabe und seines Lohnes teilhaftig. Wer einen Gerechten aufnimmt, der wird I den Lohn eines Gerechten empfangen, denn er hat an seiner Gerechtigkeit teilgenommen.",
+    "zh": ""
+  },
+  {
+    "id": "ch10-p58",
+    "de": "Wer aber einem dieser Ge­ ringsten, dieser Ärmsten, denen kein Ehrenname zukommt, 37 Neben dem Text im \"Nestle\" hat Bonhoeffer notiert: \"frucht\". 038 Vgl. DBW 1 (SC), 117: \" ... handeln wie Christus\", mit dem Hinweis auf Luthers \"herrliche und tiefe Gedanken zu der Frage\". 193 Die Boten (Matthäus 10) 211 dieser Boten Jesu Christi nur einen Becher Wasser reicht, der hat Jesus Christus selbst gedient, und der Lohn J esu Christi wird ihm zufallen. So wird der letzte Gedanke der Boten nicht auf den eigenen Weg, auf das eigene Leiden und auf den eigenen Lohn gerichtet, sondern auf das Ziel ihrer Arbeit, auf das Heil der Gemeinde.",
+    "zh": ""
+  }
+]

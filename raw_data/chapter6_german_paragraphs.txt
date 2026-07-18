@@ -1,0 +1,297 @@
+[
+  {
+    "id": "ch6-p1",
+    "de": "Die Bergpredigt. Matthäus 5: Vom \"Außerordentlichen\" des christlichen Lebens. Die Seligpreisungen. Jesus am Berghang, die Volksmenge, die Jünger. Das Volk ieht: Da ist Jesus mit seinen Jüngern, die zu ihm getreten sind. Die Jünger -ie gehörten ja selbst noch vor kurzem ganz und gar zur Menge des Volkes. Sie waren wie alle anderen auch. Dann kam der Ruf Jesu; da ließen ie alles zurück und folgten ihm nach. Seitdem gehören ie zu Jesus, ganz und gar. Nun gehen ie mit ihm, leben mit ihm, folgen ihm, wohin er ie auch führt. Es ist an ihnen etwas geschehen, was an den anderen nicht geschah. Das ist eine äußerst beunruhigende und anstö­ ßige Tatsache, die das Volk hier sichtbar vor Augen hat.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p2",
+    "de": "Die Jünger sehen: Da ist das Volk, aus dem ie kommen, die verlo­ renen Schafe vom Hause Israel. I Es ist die berufene Gemeinde Gottes. Es ist die Volkskirche. 2 Als ie aus diesem Volk erwählt wurden durch Jesu Ruf, da taten ie, was für die verlorenen Schafe des Hauses Israel das Selbstverständliche und Notwen­ dige ist, ie folgten der Stimme des guten Hirten, denn ie kann­ ten seine Stimme.3 Sie gehören also gerade mit ihrem Weg die­ sem Volk zu, ie werden in diesem Volk leben, in es hineinge­ hen und ihm den Ruf J esu und die Herrlichkeit der Nachfolge predigen. Aber was wird das Ende sein? Jesus ieht: da sind seine Jünger.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p3",
+    "de": "Sie sind aus dem Volk heraus sichtbar I zu ihm getreten. Jeden einzelnen hat er gerufen. Sie haben auf alles Verzicht getan auf seinen Ruf hin. Nun leben ie in Entbehrung und Mangel, ie sind die Ärmsten unter den Armen, die Ange­ fochtensten unter den Angefochtenen, die Hungrigsten unter den Hungrigen. Sie haben nur ihn. Ja, und mit ihm haben ie in 1 Mt 10,6 (iehe im Kapitel \"Die Boten\"). D 2 Für Israel gilt: \"Hier und hier allein Kirche und Volk eins\", 1935 NL B 8 (34) zu Mt 5,38. Hingegen in dem ,lutherischen' Milieu, in dem Bonhoeffer schreibt, ist nach seinem Urteil 1936 DBW 14,622 \"Volkskirche = falsches Gnadenverständnis\"; vgl.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p4",
+    "de": "S. 40. D 3 Joh 10,4.11. 100 Teil 1. 81 der Welt nichts, gar nichts, aber alles, alles bei Gott. Es ist eine kleine Gemeinde, die er gefunden hat, und es ist eine große Gemeinde, die er sucht, wenn er das Volk anieht. Jünger und Volk, ie gehören zusammen, die Jünger werden seine Boten sein, ie werden auch hier und dort Hörer und Gläubige finden. Und doch, es wird eine Feindschaft bis ans Ende4 zwischen ihnen sein. Aller Zorn gegen Gott und sein Wort wird auf seine Jünger fallen und ie werden mit ihm verstoßen sein. Das Kreuz kommt in Sicht. Christus, die Jünger, das Volk -das ist schon das ganze Bild der Leidensgeschichte ] esu und seiner Ge­ meinde!).",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p5",
+    "de": "Darum: selig! Jesus spricht zu den Jüngern. (Vgl. Lk. 6,20 H.) Er spricht zu denen, die schon unter der Gewalt seines Rufes stehen. Dieser Ruf hat ie arm, angefochten, hungrig gemacht. Er preist ie selig, nicht um ihres Mangels oder um ihres Ver­ zichtes willen. Weder Mangel noch Verzicht sind an sich in irgendeiner Weise Grund zur Seligpreisung. Allein der Ruf und die Verheißung, um derentwillen die Nachfolgenden in Mangel und Verzicht leben, ist Grund genug. Die Beobachtung, daß in einigen Seligpreisungen vom Mangel, in anderen vom bewußten Verzicht bzw. von besonderen Tugenden der Jünger gespro­ chen ist6, ist ohne Bedeutung.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p6",
+    "de": "Objektiver Mangel und persönli­ ches Verzichten haben ihren I gemeinsamen Grund in dem Ruf und der Verheißung Christi. Keines von beiden hat in sich Wert und Anspruch2). 1) Das exegetische Recht zu diesen Ausführungen liegt in dem avo(YELv TO OTOfW, was schon in der altkirchlichen Exegese stark beachtet wurde. Bevor Jesus spricht, liegen Augenblicke des Schweigens.5 2) Die Konstruktion eines Gegensatzes zwischen Mt. und Lk. hat keinen Grund in der Schrift. Weder handelt es sich bei Mt. l'm eine Spiritualiierung der ursprünglich lukanischen Seligpreisung, noch bei Lk. um eine Politiierung der ursprünglich nur die\" Gesinnung\" betreffenden Seligpreisungen. 7 Weder ist druck in Mt 5,2 hat Luther übersetzt mit: \"Und er tat seinen Mund auf\".",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p7",
+    "de": "Dazu Tholuck 59 unter Hinweis auf Chrysostomos (4. Jh.) und Euthymios (12. Jh.): \"In der Phrase ... ist von alten Zeiten her eine Emphasis gefunden worden.\" D 6 Tholuck 66 beobachtet in der Gliederung der Seligpreisungen \"eine ethische Stufenfolge; die ersten drei haben einen negativen Charakter, ... die folgenden drei ... geben an, welche Eigenschaften die Reichsgenossenschaft voraussetzt\". D 7 Bonhoeffer setzt sich in der ganzen Anmerkung mit Tholucks gelehrten 82 Die Bergpredig( (Matthäus 5) 101 Jesus preist seine Jünger selig. Das Volk hört es und ist ent­ setzt Zeuge dessen, was da geschieht.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p8",
+    "de": "Was nach Gottes Verhei­ ßung dem ganzen Volk Israel gehört, fällt hier der kleinen Ge­ meinde der von Jesus erwählten Jünger zu. \"Das Himmelreich ist ihr\". Aber die Jünger und das Volk sind ja darin eins, daß ie alle Gottes berufene Gemeinde sind. So soll die Seligpreisung Jesu allen zur Entscheidung und zum Heil werden. Alle sind gerufen zu sein, was ie in Wahrheit sind. Seliggepriesen wer­ den die Jünger um des Rufes Jesu willen, dem ie gefolgt sind. Seliggepriesen wird das ganze Volk Gottes um der Verheißung willen, die ihm gilt. Aber wird Gottes Volk die Verheißung nun auch im Glauben an Jesus Christus und sein Wort ergreifen oder wird es sich im Unglauben von Christus und seiner Ge­ meinde scheiden?",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p9",
+    "de": "Das bleibt die Frage. \"Selig sind, die da geistlich arm sind, denn das Himmelreich ist ihr\". Mangel haben die Jünger an allen Stücken. Sie sind schlechthin ,arm' (Lk. 6,20). Keine Sicherheit, kein I Besitz, den ie ihr eigen nennen könnten, kein Stück Erde, das ie ihre Heimat nennen dürften, keine irdische Gemeinschaft, der ie ganz gehören dürften. Aber auch keine eigene geistliche Kraft, Erfahrung, Erkenntnis, auf die ie sich berufen, deren ie sich getrösten könnten. Um seinetwillen haben ie das alles verlobei Lk. der Mangel Grund der Seligpreisung, noch bei Mt. der Verzicht. Viel­ mehr ist bei beiden Mangel oder Verzicht, Spirituelles oder Politisches allein gerechtfertigt durch Ruf und Verheißung J esu, der allein die Seliggepriesenen zu dem macht, was ie sind, und der allein Grund ihrer Seligsprechung ist.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p10",
+    "de": "Die katholische Exegese hat von den Clementinen' an die Tugend der Armut selig­ preisen lassen wollen, dabei einerseits an die paupertas voluntaria9 der Mönche, andernteils an jede freiwillige Armut um Christi willen gedacht. In beiden Fällen liegt die Fehlauslegung darin, daß nicht allein Ruf und Verheißung J esu, sondern irgendein menschliches Verhalten als Grund der Seligpreisung gesucht wird. Erwägungen auseinander, vgl. Tholuck 62-65 zu Spiritualiierung bzw. Politi­ ierung. Tholuck selbst argumentiert mit \"Gesinnung\", s. besonders 294 zu Mt 5,38. D 8 Bei Tholuck 61 erwähnte Schriften judenchristlicher Herkunft, die fälschlich dem angeblichen Apostelschüler und Bischof Clemens von Rom (1. Jh.) zugeschrieben worden sind (wohl im 3. Jh.), s.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p11",
+    "de": "E. Hennecke/W. Schnee­ melcher, Neutestamentliche Apokryphen Ir, 373-398. D 9 Dt.: \"freiwillige Armut\". Zu dem \" einerseits ... andernteils\" s. Tholuck 70 f. ren. Als ie ihm nachfolgten, da verloren ie ja. sich selbst und damit auch alles, was ie noch reich machen konnte. Nun sind ie arm, so unerfahren, so töricht, daß ie auf nichts mehr hof­ fen können als auf den, der ie gerufen hat. Jesus kennt ja auch jene anderen, die Vertreter und Prediger der Volksreligion, diese Mächtigen, Angesehenen, die fest gegründet auf der Erde stehen in Volkstum, Zeitgeist, Volksfrömmigkeit unlösbar ver­ wurzelt.IO Aber nicht zu ihnen, sondern allein zu seinen Jün­ gern sagt er: Selig, -denn das Himmelreich ist ihr. Über ihnen, die um Jesu willen schlechthin in Verzicht und Mangel leben, bricht das Himmelreich an.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p12",
+    "de": "Sie sind mitten in der Armut Erben des himmlischen Reiches. Sie haben ihren Schatz tief in der Verborgenheit, ie haben ihn am Kreuz. Das Himmelreich ist ihnen verheißen in sichtbarer Herrlichkeit, und es ist ihnen auch schon geschenkt in der vollkommenen Armut des Kreu­ zes. Hier unterscheidet sich Jesu Seligpreisung gänzlich von ihrer Karikatur in der Gestalt politisch-sozialer Programmatikll. Auch der Antichrist preist die Armen selig, aber er tut es nicht um des Kreuzes willen, in dem alle Armut beschlossen und selig ist, sondern gerade um der Abwehr des Kreuzes willen durch politisch-soziale Ideologie.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p13",
+    "de": "Er mag diese Ideologie christlich nennen und wird doch gerade darin zum Feind Christi. 12 \"Selig sind die Leidtragenden, denn ie sollen getröstet wer­ den.\" Mit jeder weiteren Seligpreisung vertieft sich die Klutt zwischen den Jüngern und dem Volk. Immer sichtbarer wird die Jüngerschaft herausgerufen. Die Leidtragenden sind ja I die, die im Verzicht auf das, was die Welt Glückl3 und Frieden nennt, zu leben bereit sind, die mit der Welt nicht auf einen Ton gestimmt werden können, die sich der Welt nicht gleichstellen können.14 Sie tragen Leid über die Welt, ihre Schuld, ihr 10 Die Stichworte in diesem Satz deuten auf den Nationalsozialismus, an den sich große Teile der Kirche anpaßten.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p14",
+    "de": "Auf dem Kalenderblatt Oktober 1936 (einlie­ gend in NL B 8, Bethges Notizen von einer Volks miss ions-Predigt Bonhoeffers November 1936) steht an dieser StelIe: \" ... Kirche der Kinder und alten Frauen: Spott.\" 0 11 Vgl. P. Althaus, Religiöser Sozialismus, z.B. 11 und 27. 0 12 Das Parteiprogramm der Nationalsozialisten proklamierte im Artikel 24: \"Die Par­ tei als solche vertritt den Standpunkt eines positiven Christentums.\" 0 13 V gl. \"Verzicht auf Glück\" in DBW 1 (SC), 122. 0 14 Vgl. Röm 12,2. Schicksal und ihr Glück. Die Welt feiert und ie stehen abseits; die Welt schreit: freut euch des Lebens15, und ie trauern.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p15",
+    "de": "Sie sehen, daß das Schiff, auf dem festlicher Jubel ist, schon leck ist. 16 Die Welt phantaiert von Fortschritt, Kraft, Zukunft, die Jünger wissen um das Ende, das Gericht und die Ankunft des Himmelreiches, für das die Welt so gar nicht geschickt ist. Darum sind die Jünger Fremdlinge in der Welt, lästige Gäste, Friedensstörer, die verworfen werden. Warum muß die Ge­ meinde Jesu bei so viel Festen des Volkes, in dem ie lebt, draußen stehen? üb ie ihre Mitmenschen nicht mehr versteht? üb ie dem Menschenhaß und der Menschenverachtung verfal­ len ist? Keiner versteht seine Mitmenschen besser als die Ge­ meinde Jesu.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p16",
+    "de": "Keiner liebt die Mitmenschen mehr als die Jünger J esu -eben darum stehen ie draußen, eben darum tragen ie Leid. Es ist bedeutungsvoll und schön, daß Luther das griechi­ sche Wort hier mit Leid-Tragen übersetzt. 17 Aufs Tragen näm­ lich kommt es an. Die Jüngergemeinde schüttelt das Leid nicht ab, als hätte ie nichts damit zu schaffen, sondern ie trägt es. Eben darin ist ihre Verbundenheit mit den Mitmenschen be­ kundet. Zugleich ist damit gesagt, dag ie das Leid nicht will­ kürlich sucht, daß ie nicht in eigenwilliger Weltverachtung sich entzieht, sondern trägt, was ihr auferlegt ist und was auf ie fällt um Jesu Christi willen in der Nachfolge. 18 Schließlich aber wer­ den die Jünger von dem Leid auch nicht mürbe gemacht, zerrie­ ben und bitter, so dag ie daran zerbrechen.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p17",
+    "de": "Sie tragen es viel­ mehr in der Kraft dessen, der ie trägt. Die Jünger tragen das ihnen auferlegte Leid allein in der Kraft dessen, der am Kreuz alles Leid trägt. Sie stehen als Leidtragende in der Gemeinschaft des Gekreuzigten. I Sie stehen als Fremdlinge in der Kraft des­ sen, der der Welt so fremd war, daß ie ihn kreuzigte. Dies ist 15 Beginn des Refrains eines (damals) populären Stimmungsliedes. D 16 An­ spielung auf den englischen Schnelldampfer \"Titanic\", der 1912 auf seiner er­ sten fahrt nach dem Zusammenstog mit einem Eisberg sank. Zugleich eine verdeckte Anspielung: festlicher Jubel wurde in Deutschland bei der Olym­ piade 1936 grog inszeniert.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p18",
+    "de": "Die nationalsozialistische freizeitorganisation \"Kraft durch freude\" veranstaltete auch Schiffsreisen. D 17 M. Luther, Das NeueTestament. 1522 (WA.DB 6, 26): \"die da Leid tragen\". D 18 1935 NL B 8 (19 f) : \"Christen sind die Trugenden Menschen I Nicht die Fragenden (J ohan­ nes Müller)\". ihr Trost, vielmehr dieser ist ihr Trost, ihr Tröster (v gl. Lk. 2,25).19 Die Fremdlingsgemeinde wird getröstet im Kreuz, ie wird getröstet darin, daß ie an den Ort gestoßen wird, an dem der Tröster Israels auf ie wartet. So findet ie ihre wahre Hei­ mat bei dem gekreuzigten Herrn, hier und in Ewigkeit. \"Selig sind die Sanftmütigen, denn ie werden das Erdreich besitzen.\" Kein eigenes Recht schützt diese Fremdlingsge­ meinde in der Welt.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p19",
+    "de": "Sie beanspruchen es auch nicht, denn das sind die Sanftmütigen, die in Verzicht auf jedes eigene Recht leben um J esu Christi willen. Schilt man ie, so sind ie still, tut man ihnen Gewalt, so dulden ie es, stößt man ie weg, so weichen ie.20 Sie prozesieren nicht um ihr Recht, ie machen kein Aufsehen, wenn ihnen Unrecht geschieht. Sie wollen kein eigenes Recht. Sie wollen alles Recht Gott allein lasseI!; non cupidi vindictae21, lautet die altkirchliche Auslegung. Was ih­ rem Herrn Recht ist, das soll ihnen auch Recht sein. Nur das. In jedem Wort, in jeder Gebärde wird es offenbar, daß ie nicht auf diese Erde gehören.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p20",
+    "de": "Laßt ihnen den Himmel, sagt die Welt mitleidig, da gehören ie hin3). Aber Jesus sagt: ie sollen das Erdreich besitzen. Diesen Rechtlosen und Ohnmächtigen ge­ hört die Erde. Die ie jetzt besitzen mit Gewalt und Unrecht, sollen ie verlieren, und die hier ganz auf ie Verzicht geleistet haben, die sanftmütig waren bis zum Kreuz, sollen die neue Erde beherrschen. Es wird hier nicht an innerweltliche Strafge­ rechtigkeit Gottes zu denken sein (Calvin23), sondern wenn das Himmelreich herabkommt24, dann wird die Gestalt der Erde erneuert werden, und es wird die Erde der Gemeinde J esu sein. Gott verläßt die Erde nicht.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p21",
+    "de": "Er hat ie erschaffen. Er hat seinen Sohn auf I die Erde gesandt. Er baute seine Gemeinde auf Er3) Der Kaiser Jvlian schrieb in seinem 43. Brief höhnisch, er konfisziere die Güter der Christen nur, damit ie arm ins Himmelreich eingehen könnten22 Gelassenen.\" 0 21 Dt.: \"nicht rachbegierig\"; den Ausdruck zitiert Tholuck 85. Vgl. Tertullian, De patientia, X, 6; Cypri:m, De bono patientiae, 21. [J 22 Diese Bemerkung macht Tholuck 70 zur Seligpreisung der Armen, Mt 5,3. Die Briefstelle beiJulian s. Hertlein I, 547. 023 Tholuck 89 (mit Seitenstrich): \"Auch CCllvin verweist auf die im ganzen Weltlauf sich offenbarende Strafge­ rechtigkeit, welcher der demüthige Christ seine Sache anheimstellen könne.\" 0 den.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p22",
+    "de": "So ist der Anfang schon in dieser Zeit gemacht. Ein Zei­ chen ist gegeben. Schon hier ist den Ohnmächtigen ein Stück Erde gegeben, die25 haben die Kirche, ihre Gemeinschaft, ihre Güter, Brüder und Schwestern -mitten unter Verfolgungen bis ans Kreuz. Aber auch Golgatha ist ein Stück Erde. Von Golga­ tha her, wo der Sanftmütigste starb, soll die Erde neu werden. Wenn das Reich Gottes kommt, dann werden die Sanftmütigen das Erdreich besitzen. \"Selig sind, die da hungert und dürstet nach der Gerechtig­ keit, denn ie sollen satt werden.\" Nicht nur im Verzicht auf das eigene Recht, sondern sogar im Verzicht auf die eigene Gerechtigkeit leben die Nachfolgenden.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p23",
+    "de": "Sie haben keinerlei ei­ genen Ruhm aus dem, was ie tun und opfern. Sie können Gerechtigkeit nicht anders haben als in Hunger und Durst nach ihr; weder eigene Gerechtigkeit, noch die Gerechtigkeit Gottes auf Erden; ie sehen allezeit auf die zukünftige Gerechtigk�it Gottes, aber ie können ie nicht selbst aufrichten. Die Jesus nachfolgen, werden hungrig und durstig auf dem Weg. Nach Vergebung aller Sünden und völliger Erneuerung tragen ie Verlangen, nach dem Neuwerden der Erde und vollkommener Gerechtigkeit Gottes. Noch deckt der Fluch der Welt diese zu, noch fällt die Sünde der Welt auf ie. Der, dem ie nachfolgen, muß als Verfluchter am Kreuz sterben.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p24",
+    "de": "Ein verzweifeltes Ver­ langen nach der Gerechtigkeit ist sein letzter Schrei: mein Gott, mein Gott, warum hast du mich verlassen?26 Der Jünger aber ist nicht über seinen Meister. 27 Ihm folgen ie nach. Selig sind ie darin, denn ihnen ist verheißen, daß ie satt werden sollen. Gerechtigkeit sollen ie empfangen, nicht nur durchs Ohr28, sondern leibliche Sättigung mit Gerechtigkeit soll ihnen wider­ fahren. Das Brot des wahrhaftigen Lebens sollen ie essen im zukünftigen Abendmahl mit ihrem Herrn.29 Um dieses zukünf­ tigen Brotes willen sind ie selig; denn ie haben dieses I Brot ja schon gegenwärtig. Der das Brot des Lebens ist, ist in all ihrem Hunger unter ihnen.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p25",
+    "de": "Das ist die Seligkeit der Sünder. \"Selig sind die Barmherzigen, denn ie werden Barmherzig25 Wohl irrtümlich statt: \"ie\". 0 26 Mt 27,46. 0 27 Mt 10,24. 028 Auf dem Kalcnderblatt 1936 in NL B 8 ist erläutert: Gerechtigkeit empfangen nicht nur durch das \"Wort der Vergebung\". 029 Joh 6,35 und Lk 14,15. 106 Teil 1. 87 keit erlangen.\" Diese Besitzlosen, diese Fremdlinge, diese Ohn­ mächtigen, diese Sünder, diese Nachfolger Jesu leben mit ihm nun auch im Verzicht auf die eigene Würde, denn ie sind barm­ herzig. Sie haben nicht genug an eigener Not, eigenem Mangel, sondern ie machen sich auch noch fremder Not, fremder Niedrigkeit, fremder Schuld teilhaftig.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p26",
+    "de": "Sie haben eine unwider­ stehliche Liebe zu den Geringen, Kranken, Elenden, zu den Erniedrigten und Vergewaltigten, zu den Unrechtleidenden und Ausgestoßenen, zu allem, was sich quält und sorgt; ie suchen die in Sünde und Schuld Geratenen. Keine Not ist zu tief, keine Sünde zu furchtbar, die Barmherzigkeit geht zu ihr ein. Die eigene Ehre schenkt der Barmherzige dem in Schande Geratenen und nimmt dessen Schande auf sich. Er läßt sich finden bei den Zöllnern und Sündern und trägt die Schmach ihrer Gemeinschaft willig .. '0 Das höchste Gut des Menschen, die eigene Würde und Ehre, geben ie hin und sind barmherzig.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p27",
+    "de": "Nur eine Würde und Ehre kennen ie: die Barmherzigkeit ihres Herrn, aus der allein ie leben. Er schämte sich nicht seiner Jünger3!, er wurde den Menschen ein Bruder, er trug ihre Schande bis zum Tod am Kreuz.32 Das ist die Barmherzigkeit J esu, aus der die an ihn Gebundenen allein leben wollen, die Barmherzigkeit des Gekreuzigten. Diese Barmherzigkeit läßt ie alle eigene Ehre und Würde vergessen und allein die Ge­ meinschaft der Sünder suchen. Fällt nun Schande auf ie, so sind ie doch selig. Denn ie sollen Barmherzigkeit erlangen. Gott wird sich einst tief zu ihaen herabbeugen und sich ihrer Sünde und Schande annehmen.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p28",
+    "de": "Gott wird seine Ehre ihnen geben und ihre Unehre selbst von ihnen nehmen. Es wird Got­ tes Ehre sein, die Schmach der Sünder zu tragen und I ie mit seiner Ehre zu kleiden. Selig sind die Barmherzigen, weil ie den Barmherzigen zum Herrn haben. \"Selig sind, die reines Herzens sind, denn ie sollen33 Gott schauen.\" Wer ist reines Herzens? Allein der, der sein Herz Jesus ganz hingegeben hat, daß er allein darin herrsche; der sein Herz nicht befleckt durch eigenes Böses, aber auch nicht durch eigenes Gutes. Das reine Herz ist das einfältige Herz des Kin30 Mt 9,9-13.031 Hebr 2,11; Vers 17 nennt dies \"barmherzig\". 032 Phi! 2,8. [133 Luther übersetzt: \"werden\". des, das nicht weiß um Gut und Böse, das Herz Adams vor dem Fall, das Herz, in dem nicht das Gewissen, sondern Jesu Wille herrscht.34 Wer im Verzicht steht auf das eigene Gute und Böse, auf das eigene Herz, wer so in der Buße steht3S, und allein an Jesus hängt, dessen Herz ist rein durch das Wort Jesu.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p29",
+    "de": "Reinheit des Herzens steht hier im Gegensatz zu aller äußerlichen Rein­ heit, zu der selbst die Reinheit der guten Gesinnung noch ge­ hört. Das reine Herz ist rein von Gut und Böse, es gehört ganz und ungeteilt Christus an, es ieht allein auf ihn, der voran­ geht.36 Gott schauen37 wird allein der, der in diesem Leben allein auf Jesus Christus gesehen hat, den Sohn Gottes. Sein Herz ist frei von befleckenden Bildern, nicht hin-und hergezo­ gen durch die Mannigfaltigkeit eigener Wünsche und Absich­ ten. Es ist ganz im Anschauen Gottes hingenommen. Gott schauen wird der, dessen Herz ein Spiegel des Bildes Jesu Chri­ stj38 geworden ist.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p30",
+    "de": "\"Selig sind die Friedfertigen, denn ie werden Gottes Kinder heißen.\" Jesu Nachfolger sind zum Frieden berufen. Als Jesus ie rief, fanden ie ihren Frieden. Jesus ist ihr Friede. Nun sollen ie den Frieden nicht nur haben, sondern auch schaffen4l. Damit 4) ELQYJV01WLOL'9 hat doppelten Sinn: Aueh ,friedfertig' ist nach Luthers eigener Auslegung\" nicht nur passivisch zu verstehen. Die englische Üherset­ zung ,peacemaker' ist einseitig und Anlaß zu mancherlei mißverstandenem christlichen Aktivismus geworden.'1 34 1936 NL B 9,5 (55) setzt gleich: \"Kind = Vater gehorchend\"; vgl. DBW 2 (AS), 157-161. Siche auch DBW 3 (SF), 82 und 120.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p31",
+    "de": "D 35 1936 NL B 9,5 (55) mit Hinweis auf Ps 51,12 (\"Schaffe in mir, Gott, ein reines Herz\"): \"Buße = Weg des Herzens, um jenseits von gut und böse zu stehen durch Empfang vom Evangelium.\" D 36 DBW 2 (AS), 141: \"Solange ich noch auf mich reflektiere, um Christus zu finden, ist er nicht da. Ist er wirklich da, so sehe ich nur noch ihn.\" D 37 Hierzu in 1935 NL B 8 (22) Hinweis auf ,,1. Korinther 13\" (Vers 12). D 38 II Kor 3,18 (bei Tholuck 101 erwähnt). D 39 Dt.: \"die Frieden Machen­ den\". Das griechische Wort ist im \"Nestle\" mit Rotstift stark markiert. 0 40 Tholuck 103 weist hin auf Luthers Erklärung \"in der Randglosse\".",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p32",
+    "de": "Vgl. WA.DB 6,26 Randglosse zu Mt 5,9: \"Die fridfertigen sind mehr denn fridsamen, nemlich, die den frid machen furdern und erhalten unter andern, wie Christus uns bey gott hatt frid gemacht.\" D 41 Bonhoeffer warnte in FamJ 1934 DBW 13, 297 und Anm. 14: \"Organisation verdeckt leicht die Schwere des Unheils und des Kamp­ fes (Nicht mit Fleisch und Blut -sondern mit Gewalten und Fürsten [Eph 6,12]).\" 108 Teil 1. 88/89 tun ie Verzicht auf Gewalt und Aufruhr. I In der Sache Christi ist damit niemals etwas geholfen. Das Reich Christi ist ein Reich des Friedens, und die Gemeinde Christi grüßt sich mit dem Friedensgruß.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p33",
+    "de": "Die Jünger Jesu halten Frieden, indem ie lieber selbst leiden, als daß ie einem Anderen Leid tun, ie bewahren Gemeinschaft, wo der Andere ie bricht, ie verzich­ ten auf Selbstbehauptung und halten dem Haß und Unrecht stille. So überwinden ie Böses mit Gutem.42 So sind ie Stifter göttlichen Friedens mitten in einer Welt des Hasses und Krie­ ges. Nirgends aber wird ihr Frieden größer sein als dort, wo ie den Bösen im Frieden begegnen und von ihnen zu leiden bereit sind. Die Friedfertigen werden mit ihrem Herrn das Kreuz tragen; denn am Kreuz wurde der Friede gemacht. 43 Weil ie so in das Friedenswerk Christi hereingezogen sind, berufen zum Werk des Sohnes Gottes, darum werden ie selbst Söhne Gottes genannt werden.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p34",
+    "de": "\"Selig sind, die um Gerechtigkeit willen verfolgt werden, denn das Himmelreich ist ihr.\" Es ist hier nicht die Rede von der Gerechtigkeit Gottes, sondern vom Leiden um einer ge­ rechten Sache5), um des gerechten Urteilens und Tuns der Jün­ ger Jesu willen. In Urteil und Tat werden sich die, die Jesus nachfolgen in Verzicht auf Besitz, auf Glück, auf Recht, auf Gerechtigkeit, auf Ehre, auf Gewalt44, unterscheiden von der Welt; ie werden der Welt anstößig sein. Darum werden die Jünger um Gerechtigkeit willen verfolgt werden. Nicht Aner­ kennung, sondern Verwerfung ist der Lohn ihres Wortes und Werkes durch die Welt.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p35",
+    "de": "Es ist wichtig, daß Jesus seine Jünger auch dort selig preist, wo ie nicht unmittelbar um des Bekennt­ nisses zu seinem Namen willen, sondern um einer gerechten Sache willen leiden.45 Es wird ihnen dieselbe Verheißung zuteil wie den Armen. Als die Verfolgten sind ie ja ihnen gleich. I Hier am Ende der Seligpreisungen entsteht die Frage, wel5) Beachte das Fehlen des Artikels! 42 Röm 12,21. 0 43 Eph 2,14-16.044 1935 NL B 8 (22): ,,(Alles Verzicht, in keinem Stück christliche Tugendlehre. Unterscheidung von ,Aktiv und passiv' (ethiierend) fällt weg dabei).\" Bonhoeffer ieht (wie 1935, 1935/36, 1936) die Seligpreisungen in Mt 5,10f zusammengefaßt. 0 45 Vgl. 1942 DBW 6 (E), 349. cher Ort dieser Welt einer solchen Gemeinde eigentlich noch bleibt.46 Es ist deutlich geworden, daß es für ie nur einen Ort gibt, nämlich den, an dem der Allerärmste, Allerangefochten­ ste, Allersanftmütigste zu finden ist, das Kreuz auf Golgatha.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p36",
+    "de": "Die Gemeinde der Seliggepriesenen ist die Gemeinde des Ge­ kreuzigten. Mit ihm verlor ie alles und mit ihm fand ie alles. Vom Kreuz her heißt es nun: selig, selig. Nun aber spricht Jesus ganz allein zu denen, die es begreifen können, zu den Jüngern, darum in direkter Anrede: \"Selig seid ihr, wenn euch die Men­ schen um meinetwillen schmähen und verfolgen und reden al­ lerlei Übles wider euch, so ie daran lügen. Seid fröhlich und getrost; es wird euch im Himmel wohl belohnt werden. Denn also haben ie verfolgt die Propheten, die vor euch gewesen sind.\" \"U m meinetwillen\" -die Jünger werden geschmäht, aber getroffen wird Jesus selbst.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p37",
+    "de": "Auf ihn fällt alles, denn um seinetwillen werden ie geschmäht. Er trägt die Schuld. Das Schmähwort, die tödliche Verfolgung und die üble Nachrede beiegeln die Seligkeit der Jünger in ihrer Gemeinschaft mit Jesus. Es kann ja nicht anders sein, als daß die Welt sich an den sanftmütigen Fremdlingen austobt mit Wort, Gewalt und Ver­ leumdung. Zu bedrohlich, zu laut ist die Stimme dieser Armen und Sanftmütigen, zu geduldig und still ihr Leiden; zu gewaltig zeugt diese Jüngerschar Jesu durch Armut und Leiden von dem Unrecht der Welt. Das ist tödlich. Während Jesus ruft: selig, selig, schreit die Welt: hinweg, hinweg!",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p38",
+    "de": "Ja, hinweg! Aber wo­ hin? Ins Himmelreich. Seid fröhlich und getrost, es wird euch im Himmel wohl belohnt werden. Da stehen die Armen im Freudensaal47• Gott selbst wischt den Weinenden die Tränen der Fremde48 ab, er speist die Hungrigen mit seinem Abend­ mahl49• Die verwundeten und gemarterten Leiber stehen ver­ klärt da, und statt der Kleider der Sünde und Buße tragen ie das weiße Kleid50 der ewigen Ge-I rechtigkeit. Aus dieser ewi46 Das Kalenderblatt 1936 in NL B 8 hat hier: \" ... diese entwurzelte Schar\"; ,wurzellos' bzw. ,vaterlandslos' war unter dem nationalsozialistischen Regime eine Schmähung.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p39",
+    "de": "D 47 Anklang an die letzte Strophe des Kirchenliedes ,,]erusalern, du hochgebaute Stadt ... \", EG.BP 317,7 (EG 150,7). D 48 In demselben Kirchenlied EG.BP 317,4: \" ... da ich noch war so ferne in meinem Tränenland.\" Vgl. Apk 7,17. D 49 Apk 7,16 und 3,20. D 50 Apk 7,13f. gen Freude dringt schon hier ein Ruf zu der Gemeinde der Nachfolgenden unter dem Kreuz, der Ruf J esu: selig, selig. Die sichtbare Gemeinde. \"Ihr seid das Salz der Erde. Wo nun das Salz dumm wird, womit soll man's salzen? Es ist hinfort zu nichts nütze, denn daß man es hinausschütte und lasse es die Leute zertreten. Ihr seid das Licht der Welt.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p40",
+    "de": "Es kann die Stadt, die auf einem Berge liegt, nicht verborgen sein. Man zündet auch nicht ein Licht an und setzt es unter einen Scheffel, sondern auf einen Leuchter: so leuchtet es denn allen, die im Hause sind. Also laßt euer Licht leuchten vor den Leuten, daß ie eure guten Werke sehen und euren Vater im Himmel preisen\" (Mt. 5,13-16). Die in den Seligpreisungen in die Gnade der Nachfolge des Gekreuzigten Gerufenen sind angeredet. 51 Während die Selig­ gepriesenen bisher wohl als des Himmelreiches würdig, aber doch offenbar zugleich als für diese Erde ganz und gar Lebens­ unwerte52, Überflüssige erscheinen mußten, werden ie jetzt mit dem Sinnbild des auf Erden unentbehrlichsten Gutes be­ zeichnet.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p41",
+    "de": "Sie sind das Salz der Erde. Sie sind das edelste Gut, der höchste Wert, den die Erde besitzt. Ohne ie kann die Erde nicht länger leben. Durch das Salz wird die Erde erhalten, um eben dieser Armen, Unedlen, Schwachen willen, die die Welt verwirft, lebt die Erde. Sie vernichtet ihr eigenes Leben, indem ie die Jünger ausstößt und -0 Wunder! -gerade um dieser Verstoßenen willen darf die Erde weiterleben. Dieses ,göttliche Salz' (Homer)53 bewährt sich in seiner Wirksamkeit. Es durch­ wirkt die ganze Erde. Es ist ihre Substanz. So sind die Jünger nicht nur aufs Himmelreich gerichtet, sondern an ihre Erden­ sendung erinnert.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p42",
+    "de": "Als I die an Jesus allein Gebundenen werden ie an die Erde gewiesen, deren Salz ie sind. Wenn Jesus nicht sich selbst, sondern seine Jünger das Salz nennt, so überträgt er ihnen die Wirksamkeit auf der Erde. Er zieht ie in seine Arbeit 51 1935 NL B 8 (23): \"Weil dieser Ruf da ist, darum Indikativ.\" 0 52 Die Beurteilung von Leben als ,lebensunwert' im Sinne des\" Gesetzes zur Verhü­ tung erbkranken Nachwuchses\" vom 15. Juni 1933 bemäntelte ab 1939 ,Eutha­ naie' -(Tötungs-)Aktionen im Dritten Reich. D 53 Hinweis auf Homer bei Tholuck 112, mit Anstreichung Bonhoeffers. Vgl. Ilias 9, 214. hinein. Er bleibt im Volke Israel, den Jüngern aber überträgt er die ganze Erde.54 Allein dadurch, daß das Salz Salz bleibt, die reinigende, würzende Kraft des Salzes bewahrt, wird die Erde durch das Salz erhalten werden können.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p43",
+    "de": "Um seiner selbst wie um der Erde willen muß Salz Salz bleiben, muß die Gemeinde der Jünger bleiben, was ie durch Christi Ruf ist. Darin wird ihre wahre Wirksamkeit auf Erden liegen und ihre erhaltende Kraft. Salz soll unverweslich sein und dadurch eine dauernde Kraft der Reinigung. Darum braucht das Alte Testament Salz zum Opfer, darum wird im katholischen Taufritus dem Kind Salz in den Mund gelegt (Ex. 30,35; Ezech. 16,4).55 In der Un­ verweslichkeit des Salzes liegt die Gewähr der Dauer der Ge­ meinde. \"Ihr seid das Salz\" -nicht, ihr sollt das Salz sein! Es ist den Jüngern nicht in ihren Willen gestellt, ob ie Salz sein wollen oder nicht.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p44",
+    "de": "Es wird auch nicht ein Appell an ie gerichtet, Salz der Erde zu werden. Sondern ie sind es, ob ie wollen oder nicht, in der Kraft des Rufes, der ie getroffen hat. Ihr seid das Salz -nicht: ihr habt das Salz. Es wäre eine Verkürzung, wollte man mit den Reformatoren die Botschaft der Jünger dem Salz gleichsetzen. 56 Ihre ganze Existenz, sofern ie durch den Ruf Christi in die Nachfolge neu begründet ist, diese Existenz, von der die Seligpreisungen redeten, ist gemeint. Wer vom Ruf Jesu getroffen in seiner Nachfolge steht, ist durch diesen Ruf in seiner ganzen Existenz Salz der Erde. Die andere Möglichkeit allerdings besteht darin, daß das Salz dumm wird, aufhört Salz zu sein.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p45",
+    "de": "Es hört auf zu wirken. Dann freilich ist es in der Tat zu nichts mehr gut, als daß es wegge­ worfen wird. Das ist die Auszeichnung des I Salzes. Es muß alles Ding gesalzen werden. Aber das Salz, das dumm wird, kann nie mehr gesalzen werden. Es kann alles, auch der ver54 Mt 15,24 und Missionsbefehl Mt 28,18-20. D 55 Beide Stellenangaben ste­ hen im Artikel aACl<; (\"Salz\") in Th WNT I, 229. Tholuck 114 erwähnt zu \"Ez. 16,4.\", daß \"beim Taufritus dem Kinde Salz ... in den Mund gelegt wurde\". Dieser Brauch (in der Römischen Liturgie inzwischen entfallen) war aus Kate­ chumenenriten in die Kindertaufe übergegangen.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p46",
+    "de": "Bonhoeffer hat 1935/36 DBW 14, 548 beim altkirchlichen Katechumenat die \"datio salis\" (\"Salzgabe';) ange­ führt. D 56 Tholuck 118 zitiert Luther (vgl. WA 32, 343): \"Mit dem Worte Salz zeigt er, was ihr [der Angeredeten 1 Amt seyn soll\" . 112 Teil 1. 93 derbteste Stoff durch Salz gerettet werden, nur das Salz, das dumm wurde, ist hoffnungslos verderbt. 57 Das ist die andere Seite. Das ist das drohende Gericht, das über der Jüngerge­ meinde steht. Die Erde soll durch die Gemeinde gerettet wer­ den, nur die Gemeinde selbst, die aufhört zu sein, was ie ist, ist rettungslos verloren. Der Ruf Jesu Christi heißt Salz der Erde sein oder vernichtet werden, nachfolgen oder -der Ruf selbst vernichtet den Gerufenen.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p47",
+    "de": "Eine nochmalige Möglichkeit der Rettung gibt es nicht. Es kann ie nicht geben. Nicht nur die unsichtbare Wirksamkeit des Salzes, sondern das sichtbare Leuchten des Lichtes ist der Jüngergemeinde mit dem Ruf Jesu zugesprochen. \"Ihr seid das Licht\" -wiederum nicht: ihr sollt es sein! Der Ruf selbst hat ie dazu gemacht. Es kann nun gar nicht anders sein, ie sind ein Licht, das gesehen wird; wäre es anders, dann wäre der Ruf offenbar nicht bei ihnen. Was für ein unmögliches, unsinniges Ziel wäre es für die Jünger Jesu, für diese Jünger, Licht der Welt werden zu wollen! Sie sind vielmehr schon dazu gemacht durch den Ruf, in der Nachfolge.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p48",
+    "de": "Wiederum nicht: ihr habt das Licht, sondern : ihr seid es! Nicht etwas euch Gegebenes, also etwa eure Predigt ist das Licht, sondern ihr selbst seid es. Derselbe, der von sich in eigentlicher Rede sagt: Ich bin das Licht58, sagt zu seinen Jün­ gern in eigentlicher Rede: Ihr seid das Licht in eurem ganzen Leben, sofern ihr am Ruf bleibt. Weil ihr es denn seid, darum könnt ihr nicht mehr verborgen bleiben, ob ihr es gleich woll­ tet. Licht scheint, und die Stadt auf dem Berge kann nicht ver­ borgen sein. 59 Sie kann es nicht. Sie ist weithin ins Land sicht­ bar, sei es nun als feste Stadt oder bewachte Burg, sei es als zerfallene Ruine60• Diese Stadt auf dem Berge -welcher Israelit dächte dabei nicht an Jerusalem, die hochgebaute I Stadt!61 -ist 346,3-5): Kein größerer \"verderb der Christenheit ist, denn wo das saltz, damit man alle ander ding würtzen und saltzen mus, thum wird\". 0 58 Job 8,12.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p49",
+    "de": "Zerfall der Kirche im nationalsozialistischen Deutschland war bedrängender ge­ worden. 0 61 EG.BP 317,1 (EG 150,1): \"Jerusalem, du hochgebaute Stadt ... \"; Lied zu Apk 21,1-3 von Johann Matthäus Meyfart (1590-1642). Die erste Stro­ phe war Teil des Predigerseminar-Gottesdienstes in Zingst am 2. Juni 1935 DBWI4,856. die Jüngergemeinde. Die Nachfolgenden sind mit all dem nicht mehr vor eine Entscheidung gestellt: die einzige Entscheidung, die es für ie gibt, ist schon gefallen. Nun müssen ie sein, was ie sind, oder ie sind nicht Nachfolger Jesu. Die Nachfolgen­ den sind die sichtbare Gemeinde, ihre Nachfolge ist ein sichtba­ res Tun, durch das ie sich aus der Welt herausheben -oder es ist eben nicht Nachfolge.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p50",
+    "de": "Und zwar ist die Nachfolge so sicht­ bar wie Licht in der Nacht, wie ein Berg in der Ebene. Flucht in die Unsichtbarkeit ist Verleugnung des Rufes. Ge­ meinde J esu, die unsichtbare Gemeinde sein will, ist keine nachfolgende Gemeinde mehr. \"Man zündet nicht ein Licht an und setzt es unter einen Scheffel, sondern auf einen Leuchter\" - das ist wiederum die andere Möglichkeit, daß das Licht willkür­ lich verdeckt wird, daß es unter dem Scheffel erlischt, daß der Ruf verleugnet wird. Der Scheffel, unter dem die sichtbare Ge­ meinde ihr Licht versteckt, kann ebensowohl die Menschen­ furcht sein wie eine bewußte Weltförmigkeit um irgendwelcher Zwecke willen -und seien ie missionarischer Art oder ent­ sprängen ie einer mißverstandenen Liebe zu den Menschen!",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p51",
+    "de": "Es mag aber auch -und das ist noch gefährlicher -eine sogenannte reformatorische Theologie sein, die sich sogar theologia crucis62 zu nennen wagt und die ihr Signum darin hat, daß ie der ,pharisäischen' Sichtbarkeit eine ,demütige' Unsichtbarkeit in Gestalt von totalem Aufgehen in Weltförmigkeit vorzieht. 63 Nicht außerordentliche Sichtbarkeit, sondern Bewährung in der justitia civilis64 wird hier zum Kennzeichen der Gemeinde. Daß das Licht gerade nicht leuchte, ist hier das Kriterium der Christlichkeit. Jesus aber sagt: lasset euer Licht leuchten vor den Heiden. Es ist ja in jedem Fall das Licht des Rufes J esu, das da leuchtet.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p52",
+    "de": "Aber was für ein Licht ist das nun, in dem diese 62 Dt.: \"Kreuzestheologie.\" Der lateinische Ausdruck war durch Walther von Loewenichs Buch \"Luthers Theologia crucis\" Allgemeingut geworden. D 63 Bonhoeffer setzt sich auseinander mit Auffassungen wie bei E. Brunner, Das Gebot, 43: \"Der schlimmste Feind wahrer Gemeinschaft, der Pharisäismus des Besserseinwollens, ist dort [am Kreuz] allein ausgerottet.\" D 64 Dt.: \"bür­ gerliche Gerechtigkeit\". E. Brunner, a. a. 0., 162 (Anstreichung in Bonhoeffers Exemplar), würdigt die iustitia civilis unter der Überschrift \"Die bessere Ge­ rechtigkeit\". Vgl. Bonhoeffer dazu 1932/33 DBW 12, 175. 114 Teil 1. 94 Nachfolger J esu, diese Jünger der Seligpreisungen leuchten sol­ len?",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p53",
+    "de": "Was für ein Licht soll von jenem Ort kom-I men, an dem die Jünger allein ein Anrecht haben? Was hat die Unsichtbar­ keit und Verborgenheit des Kreuzes Jesu, unter dem die Jünger stehen, mit dem Licht gemein, das leuchten soll? Sollte nicht aus jener Verborgenheit gerade folgen, daß auch die Jünger in der Verborgenheit und gerade nicht im Licht stehen sollen? Es ist ein böser Sophismus, der aus dem Kreuz J esu die Weltför­ migkeit der Kirche herleitet. Erkennt nicht der einfältige Hörer ganz deutlich, daß eben gerade dort am Kreuz etwas Außeror­ dentliches sichtbar geworden ist? Oder ist das etwa alles justitia civilis, ist das Kreuz Weltförmigkeit?",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p54",
+    "de": "Ist nicht das Kreuz etwas, was zum Erschrecken der Anderen gerade in aller Dunkelheit unerhört sichtbar wurde? Ist es nicht sichtbar genug, daß Chri­ stus verworfen ist und leiden muß, daß sein Leben vor den Toren der Stadt auf dem Schandhügel endet?65 Ist das Unsicht­ barkeit? In diesem Licht sollen die guten Werke der Jünger gesehen werden. Nicht euch, sondern eure guten Werke sollen ie se­ hen, sagt Jesus. Was sind diese guten Werke, die in diesem Licht gesehen werden können? Es können ja keine anderen Werke sein als die, die Jesus selbst in ihnen schuf, als er ie rief, als er ie zum Licht der Welt machte unter seinem Kreuz -Armut, Fremdlingschaft, Sanftmut, Friedfertigkeit und zuletzt Ver­ folgt-und Verworfenwerden und in dem allen eines: das Kreuz Jesu Christi tragen.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p55",
+    "de": "Das Kreuz ist das seltsame Licht, das da leuchtet, in dem alle diese guten Werke der Jünger allein gese­ hen werden können. Es ist ja in alldem nicht davon geredet, daß Gott sichtbar wird, sondern daß die ,guten Werke' gesehen werden und daß die Leute über diesen Werken Gott preisen. Sichtbar wird das Kreuz und sichtbar werden die Werke des Kreuzes, sichtbar wird der Mangel und Verzicht der Seligge­ priesenen. Über dem Kreuz und solcher Gemeinde aber kann nicht mehr der Mensch gepriesen werden, sondern allein Gott. 65 Hebr 13,12 f. Zu dieser Stelle schrieb Willi Brandenburg aus dem Gefängnis (Finkenwalder Rundbrief-Beilage Juli 1936 DBW 14, 202): \"Was darf uns noch davon abhalten -gerade in dieser Zeit -, zu Ihm hinauszutreten aus dem Lager ... ausgestoßen zu werden aus der staatlichen oder volklichen Gemeinschaft\". 95/96 Die Bergpredigt (Matthäus 5) 115 Wären die I guten Werke allerlei Tugenden von Menschen, so würde über ihnen nicht der Vater, sondern der Jünger geprie­ sen.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p56",
+    "de": "So aber bleibt nichts zu preisen am Jünger, der das Kreuz trägt, an der Gemeinde, deren Licht so leuchtet, die sichtbar auf dem Berge liegt, -über ihren ,guten Werken' kann allein der Vater im Himmel gepriesen werden. So sehen ie das Kreuz und die Kreuzesgemeinde und glauben Gott. Das aber ist das Licht der Auferstehung. Christi Gerechtigkeit. \"Ihr sollt nicht wähnen, daß ich gekommen bin, das Gesetz oder die Propheten aufzulösen; ich bin nicht gekommen aufzu­ lösen, sondern zu erfüllen. Denn ich sage euch wahrlich: Bis daß Himmel und Erde zergehe, wird nicht zergehen der klein­ ste Buchstabe noch ein J ota66 vom Gesetz, bis daß es alles ge­ schehe.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p57",
+    "de": "Wer nun eines von diesen kleinsten Geboten auflöst und lehrt die Leute also, der wird der Kleinste heißen im Him­ melreich; wer es aber tut und lehrt, der wird groß heißen im Himmelreich. Denn ich sage euch: Es sei denn eure Gerechtig­ keit besser denn der Schriftgelehrten und Pharisäer, so werdet ihr nicht in das Himmelreich kommen\" (Mt. 5,17-20). Es ist ja nicht verwunderlich, wenn die Jünger mit solchen Verheißungen, die ie von ihrem Herrn empfingen, in denen alles entwertet wurde, was in den Augen des Volkes galt, und alles seliggepriesen wurde, was unwert war, das Ende des Ge­ setzes67 gekommen wähnten.",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p58",
+    "de": "Sie waren ja angesprochen und ausgezeichnet als die, denen schlechthin alles zugefallen war, aus Gottes freier Gnade, als die, die nun alles besaßen, als die gewissen Erben des Himmelreichs68. Sie hatten die volle und persönliche Gemeinschaft mit Christus, I der alles neu machte. Sie waren das Salz, das Licht, die Stadt auf dem Berge. So war ja alles Alte vergangen, abgelöst.69 Es lag doch nur allzunahe, daß 66 Griechischer Buchstabe als Bezeichnung für etwels ganz Geringfügiges. Das von Luther mit \"Tüttel\" übersetzte xqmLn (\"Hörnchen\", \"Häkchen\" an ei­ nem Buchstaben) fällt bei Bonhoeffer weg. D 67 Bonhoeffer erinnert hier an Luthers Übersetzung von TEAO� in Röm 10,4 mit\" Ende\".",
+    "zh": ""
+  },
+  {
+    "id": "ch6-p59",
+    "de": "D 68 Verheißung in der ersten und achten Seligpreisung, Mt 5,3.10. D 69 II Kor 5,17 (und Hebr H,13).",
+    "zh": ""
+  }
+]

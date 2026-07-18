@@ -1,0 +1,412 @@
+[
+  {
+    "id": "ch8-p1",
+    "de": "Matthäus 6: Von der Verborgenheit des christlichen Lebens. Die verborgene Gerechtigkeit. \"Habt acht auf eure Gerechtigkeit, daß ihr ie nicht tut! vor den Leuten, daß ihr von ihnen gesehen werdet; ihr habt anders keinen Lohn bei eurem Vater im Himmel. Wenn du nun Almo­ sen gibst, sollst du nicht lassen vor dir posaunen, wie die Heuchler tun in den Schulen und auf den Gassen, auf daß ie von den Leuten gepriesen werden. Wahrlich, ich sage euch: Sie haben ihren Lohn dahin. Wenn du aber Almosen gibst, so laß deine linke Hand nicht wissen, was die rechte tut, auf daß dein Almosen verborgen sei; und dein Vater, der in das Verborgene ieht, wird dir's vergelten öffentlich2« (Mt. 6,1-4).",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p2",
+    "de": "Nachdem das 5. Kapitel von der Sichtbarkeit der Gemeinde der Nachfolgenden gesprochen hat und in dem m:QLOo6v gip­ felt, nachdem also das Christliche als das aus der Welt Hinaus­ tretende, die Welt Überragende, Außerordentliche verstanden werden muß, knüpft das nächste Kapitel unmittelbar an dieses 1tEQLO06v an und enthüllt es in seiner Zweideutigkeit. Zu groß ist ja die Gefahr eines völligen Mißverständnisses durch die Jünger, als sollten ie nun doch ans Werk gehen, unter Verach­ tung und Zerstörung der Ordnung der Welt ein himmlisches Reich auf Erden aufzurichten, in schwärmerischer3 Gleichgül­ tigkeit gegen diesen Äon das Außerordentliche der neuen Welt nunmehr zu vollbringen, sichtbar zu machen, sich mit allem Radikalismus und aller Kompromißlosigkeit von der Welt zu trennen, um das Christ-lliche, das der Nachfolge Gemäße, das 1 Abweichung von Luthers Übersetzung (\"Habt acht auf eure Almosen, daß ihr die nicht gebet. ..",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p3",
+    "de": "\") gemäß den griechischen Begriffen ölxmoouvl'j (\" Ge­ rechtigkeit\") und JtOLElV (\"tun\") im Haupttext des \"Nestle\". Das von Luther mit \"Almosen\" übersetzte Wort steht als Lesart im Apparat. A. Schlatter, Mat­ thäus, erklärt zur Stelle: \"Die Formel ,Gerechtigkeit' wurde bei den Palästinen­ sern zum Namen der Wohltätigkeit.\" 0 2 Hier -und in V. 6 und 18 -folgt Bonhoeffer Luther und nicht dem Haupttext im \"Nestle\", in den die Lesart EV TW <PUVEQW (\"öffentlich\") nicht aufgenommen ist. 0 3 Mit der Warnung vor menschlich eigenwilligem \"chiliastisch-revolutionären\" Schwärmertum (P. Alt­ haus, Der Geist der lutherischen Ethik, 43) stimmt Bonhoeffer überein.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p4",
+    "de": "Vgl. aber den folgenden Absatz. Außerordentliche zu erzwingen. Allzu nahe lag die Verwechs­ lung, es werde ihnen hier doch wieder eine -allerdings freie, neue, begeisternde -fromme Lebensform und Lebensgestal­ tung gepredigt.4 Und wie gern wäre das fromme Fleisch bereit, dieses Außerordentliche, Armut, Wahrhaftigkeit, Leiden auf sich zu nehmen, ja zu suchen, wenn nur damit endlich der Begierde des Herzens genug getan würde, etwas zu sehen mit eigenen Augen5 und nicht nur zu glauben. Die Bereitschaft, hier eine kleine Verschiebung der Grenze vorzunehmen, indem fromme Lebensform und Gehorsam gegen das Wort einander allzu nahe rückten und schließlich gar nicht mehr auseinander zu halten wären, wäre gewiß dagewesen.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p5",
+    "de": "Es geschah ja um des einen Zieles willen, daß das Außerordentliche endlich verwirk­ licht werde. Umgekehrt mußten ja diejenigen sogleich auf dem Plan sein, die auf das Wort J esu von dem Außerordentlichen nur gewartet hatten, um ihn nun um so wütender anzugreifen. Hier war ja der Schwärmer6, der revolutionäre Enthusiast endlich entlarvt, der die Welt aus den Angeln heben will, der seine Jünger die Welt verlassen und eine neue Welt aufbauen heißt. Ist das noch Gehorsam gegen das Wort des Alten Testaments? Ist das nicht die vollendete selbstgewählte, eigene Gerechtigkeit, die hier aufgerichtet wird?7 Weiß Jesus nichts von der Sünde der Welt, an der alles, was er gebietet, scheitern muß?",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p6",
+    "de": "Weiß er nichts von den offenbaren Geboten Gottes, die die Sünde zu bannen gege­ ben wurden? Ist dieses Außerordentliche, das da gefordert ist, nicht der Erweis des geistlichen Hochmuts, der der Anfang aller Schwärmerei gewesen ist?8 Nein, gerade nicht das Außer­ ordentliche, sondern das ganz Alltägliche, das Reguläre, das eigene Freude an eigener Gestalt\" -davor warnt Bonhoeffer (im Einklang mit Barths Vorbehalten gegen \"Verwirklichungen in einem dem Menschen eigenen Raum\", die Barth dann im Brief vom 14. 10. 1936 DBW 14, 251 äußerte). 05 V gl. 8. 10. 1931 GS I 61: \"Die Unsichtbarkeit macht uns kaputt.\" 0 6 Bon­ hoeffer lehnt hier wie z.B. S. 69 ab, daß Nachfolge-Gehorsam zu ,Schwärmerei' erklärt wird. 0 7 Vgl. \"nicht in selbstgewählten Werken\" bei F.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p7",
+    "de": "Gogarten, Poli­ tische Ethik, 166 (mit Hinweis auf Luther), von Bonhoeffer besprochen 1932/33 DBW 12,162.08 Vgl. E. Brunner, Das Gebot, 466: \"christliche Schwärmerei\" ist gefährlich durch ihre pharisäische \"hochmütige Selbstüberhebung\" (s. auch S.113). Verborgene ist das Zeichen echten Gehorsams und echter De­ mut. Wiese Jesus seine Jünger hinein in ihr Volk, in ihren Beruf, ihre Verantwortung, in den Gehorsam gegen das Gesetz, wie es die I Schriftgelehrten dem Volk auslegten, dann hätte er sich als ein Frommer, ein wahrhaftiger Demütiger, ein Gehorsamer ge­ zeigt. Er hätte einen kräftigen Antrieb zu ernsterer Frömmig­ keit, strengerem Gehorsam gegeben.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p8",
+    "de": "Er hätte gelehrt, was die Schriftgelehrten auch wußten, aber gewiß gern mit Nachdruck gepredigt hörten, daß wahre Frömmigkeit und Gerechtigkeit nicht nur in der äußeren Tat, sondern auch in der Gesinnung des Herzens, aber auch nicht nur in der Gesinnung des Her­ zens, sondern eben auch in der Tat bestehe. Das wäre wirklich \"bessere Gerechtigkeit\" gewesen, wie ie das Volk brauchte, wie sich ihr keiner hätte entziehen können. Aber nun war das alles zerbrochen. Statt des demütigen Lehrers des Gesetzes er­ kannte man den hochmütigen Schwärmer. Gewiß hatte zu allen Zeiten die Predigt der Schwärmer das menschliche Herz zu begeistern verstanden, ja gerade das edle menschliche Herz.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p9",
+    "de": "Aber wußten die Lehrer des Gesetzes nicht, daß aus diesem Herzen in allem Guten und Edlen eben doch die Stimme des Fleisches sprach, kannten ie nicht selbst diese Gewalt des frommen Fleisches über den Menschen? Jesus opferte die be­ sten Söhne des Landes, die aufrichtig Frommen nutzlos in ei­ nem Kampf um eine Chimäre. Das Außerordentliche -das war ja das schlechthin freiwillige, dem eignen Herzen entsprungene Werk des frommen Menschen. Es war das Auftrumpfen der menschlichen Freiheit gegen den schlichten Gehorsam gegen das Gebot Gottes. Es war die unerlaubte Selbstrechtfertigung des Menschen, die das Gesetz niemals zuläßt.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p10",
+    "de": "Es war die gesetz­ lose Selbstheiligung, die vom Gesetz verworfen werden mußte. Es war das freie Werk, das sich dem unfreien Gehorsam entge­ genstellte.9 Es war die Zerstörung der Gemeinde Gottes, die Verleugnung des Glaubens, es war Lästerung des Gesetzes, Gotteslästerung. Das Außerordentliche, das Jesus lehrte, war vor dem Gesetz der Todesstrafe würdig. 9 Bonhoeffer wendet sich gegen den Mißbrauch der theologischen Erkenntnis Luthers vom unfreien Willen (11,1. Luther, De servo arbitrio. 1525); vgl. S.76. 1J3/134 Die Bergpredigt (Matthäus 6) 153 Was sagt Jesus zu dem allen? Er sagt: \"Habt acht auf eure I Gerechtigkeit, daß ihr ie nicht tut vor den Menschen, um von ihnen gesehen zu werden.\" Der Ruf zum Außerordentlichen ist die große, unvermeidliche Gefahr der Nachfolge.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p11",
+    "de": "Darum: habt acht auf dieses Außerordentliche, auf dieses Sichtbarwerden der Nachfolge. Jesus setzt der unbedachten, ungebrochenen, gerad­ linigen Freude an diesem Sichtbaren ein Halt! entgegen. Er gibt dem Außerordentlichen einen Stachel. Jesus ruft zur Reflexion. Die Jünger sollen dieses Außerordentliche nur in der Refle­ xion haben. Sie sollen darauf achthaben Das Außerordentliche soll nämlich nicht geschehen, damit es gesehen werde, also das Außerordentliche soll nicht um des Außerordentlichen willen getan werden, das Sichtbarwerden soll nicht um des Sichtbar­ werdens willen geschehen. Diese bessere Gerechtigkeit der Jün­ ger soll nicht Selbstzweck sein.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p12",
+    "de": "Zwar muß es sichtbar werden, muß das Außerordentliche geschehen, aber -habt acht, daß es nicht geschieht, damit es sichtbar werde. Zwar hat die Sichtbar­ keit der Nachfolge einen notwendigen Grund, nämlich den Ruf J esu Christi, aber ie ist niemals selbst ein Ziel; denn dann wäre ja die Nachfolge selbst wieder aus dem Auge verloren, dann wäre da ein Augenblick Ruhe eingetreten, die Nachfolge wäre unterbrochen, und ie wäre jedenfalls nicht mehr an der Stelle, an der wir ausruhen wollten, fortzusetzen, sondern im selben Augenblick wären wir zurückversetzt an den ersten Anfang. Wir müßten merken, daß wir gar nicht mehr Nachfolgende sind.lo Also, es muß etwas sichtbar werden, aber -paradox: Habt acht, daß es nicht geschehe, damit es die Leute sehen.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p13",
+    "de": "\"Laßt euer Licht leuchten vor den Leuten ... \" (5,16), aber: Habt acht auf die Verborgenheit! Kapitel 5 und 6 prallen hart aufeinander. Das Sichtbare soll zugleich das Verborgene sein; das Sichtbare soll zugleich nicht gesehen werden können. Die Reflexion, von der gesprochen wurde, ist also gerade darauf zu richten, daß wir nicht in die Reflexion über unser Außer-I ordentliches geraten. Das Achthaben auf unsere Gerechtigkeit soll gerade dem dienen, daß wir nicht auf ie achthaben. Sonst geschieht. Darum jeder Schritt zugleich neues Eintreten in die Nachfolge.\" 154 Teil 1. 135 ist das Außerordentliche nicht mehr das Außerordentliche der Nachfolge, sondern das Außerordentliche eines eigenen Wol­ lens und Gelüstens.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p14",
+    "de": "Wie ist dieser Widerspruch zu verstehen? Wir fragen er­ stens 11: Wem soll das Sichtbare der Nachfolge verborgen sein? nicht den anderen Menschen, ie sollen vielmehr das Licht des Jüngers Jesu leuchten sehen, wohl aber dem, der das Sichtbare tut, soll es verborgen sein. Er soll in der Nachfolge bleiben und auf den sehen, der ihm vorangeht, nicht aber auf sich selbst und das was er tut. Der Nachfolgende ist sich selbst verborgen in seiner Gerechtigkeit. Natürlich ieht er das Außerordentliche auch, aber er bleibt sich selbst darin verborgen; er ieht es nur, indem er auf Jesus ieht, und hier eben ieht er es nicht mehr als das Außerordentliche, sondern als das Selbstverständliche, Re­ guläre.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p15",
+    "de": "So ist ihm das Sichtbare in der Tat verborgen, nämlich im Gehorsam gegen das Wort J esu. Wäre ihm das Außerordent­ liche als Außerordentliches wichtig, so handelte er schwärme­ risch aus eigner Gewalt, aus dem Fleisch heraus. Weil aber der Jünger Jesu im schlichten Gehorsam gegen seinen Herrn han­ delt, darum kann er das Außerordentliche nur als die selbstver­ ständliche Tat des Gehorsams sehen. Es kann ja nach dem Wort Jesu nicht anders sein, als daß der Nachfolgende das Licht ist, das leuchtet, er tut gar nichts dazu, er ist es eben in der Nach­ folge, die nur auf den Herrn ieht. Also gerade weil das Christ­ liche notwendig, d.h. indikativischl2, das Außerordentliche ist, darum ist es zugleich das Reguläre, Verborgene.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p16",
+    "de": "Es ist eben sonst nicht das Christliche, der Gehorsam gegen den Willen J esu Christi. Wir fragen zweitens: Worin besteht denn nun im Inhalt des Handelns in der Nachfolge die Einheit von Sichtbarem und Verborgenem? Wie kann denn dasselbe Ding zugleich sicht-I bar und verborgen sein? Wir brauchen bei der Antwort nur auf das zurückgreifen, was sich im 5. Kapitel ergab. Das Außeror­ dentliche, das Sichtbare ist das Kreuz Christi, unter dem die 11 Hier und in den folgenden beiden Absätzen ist die Gliederung in Unter­ punkte, so wie die Hörer 1935 und 1936 ie notierten, beibehalten; seit \"Schöp­ fung und Fall\" ließ Bonhoeffcr in Manuskripten für den Druck gewöhnlich die Untergliederungs-Ziffern weg.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p17",
+    "de": "D 12 Vgl. Mt 5,13.14: \"Ihr seid ... \" (nicht: \"ihr sollt sein\"). /35 Die Bergpredigt (Matthäus 6) 155 Jünger stehen. Das Kreuz ist zugleich das Notwendige, Verbor­ gene und das Sichtbare, Außerordentliche. Wir fragen drittens: Wie löst sich also die Paradoxie zwi­ schen dem 5. und dem 6. Kapitel? Der Begriff der Nachfolge selbst löst ie. Sie ist die alleinige Bindung an Jesus Christus. So ieht der Nachfolgende immer nur seinen Herrn und folgt ihm. Sähe er das Außerordentliche selbst, so stünde er schon nicht mehr in der Nachfolge. Der Nachfolgende tut im schlichten Gehorsam den Willen des Herrn als das Außerordentliche und weiß in allem nur darum, daß er nicht anders kann, daß er also das schlechthin Selbstverständliche tut.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p18",
+    "de": "Die einzige und gebotene Reflexion des Nachfolgenden geht darauf, ganz unwissend, ganz unreflektiert zu sein im Gehor­ sam, in der Nachfolge, in der Liebe.13 Tust du Gutes, so laß deine linke Hand nicht wissen, was die rechte tut. Du sollst dein eigenes Gutes nicht wissen.l+ Sonst ist es wirklich dein Gutes, aber nicht das Gute Christi. Das Gute Christi, das Gute in der Nachfolge geschieht ohne Wissen. Das echte Werk der Liebe ist immer das mir verborgene Werk. 15 Habt acht darauf, daß ihr es nicht wißt! Nur so ist es das Gute Gottes. Will ich mein Gutes, meine Liebe kennen, so ist es schon nicht mehr Liebe.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p19",
+    "de": "Auch die außerordentliche Liebe zum Feind bleibt dem Nachfolgenden verborgen. Er ieht den Feind ja nicht mehr als Feind, wenn er liebt. Diese Blindheit oder vielmehr dieser durch Christus erleuchtete Blick des Nachfolgenden ist seine Gewißheit. Die Verborgenheit seines Lebens vor sich selbst ist seine Verheißung. Der Verborgenheit entspricht die Öffentlichkeit. Es ist nichts verborgen, das nicht offenbar werde. 16 Das ist von Gott 13 V gl. Bonhoeffers Unterscheidung von actus reflexus und actus directus in der Habilitationsschrift. Das ,direkte Agieren' beschreibt er, mit Ausdrücken Luthers, DBW 2 (AS), 118: \" ... auch das agere ist hier [in der Gemeinde] pati\"­ dasselbe Ineinander von ,Tun' und ,Erleiden' wie S. 148 f.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p20",
+    "de": "Zu actus reflexus s. z.B. DBW 2 (AS), 126: \" ... Reflexion muß zum Hinweis darauf werden, daß der unmittelbare Aktbezug unterbrochen ist.\" D 14 1935 NL B 8 (43): \"Wißt nicht um euer Gute[s]!! Nur so bleibts das Gute Gottes.\" D 15 Vgl. Predigt über I Kor 13,8-12, bes. 1934 DBW 13, 394: Die Liebe, in der \"Gott selbst durch uns handelt\", geht ihren Weg \"mit schlafwandlerischer Sicherheit\". D 16 Mt 10,26. 156 Teil 1. 136/137 her so, vor dem alles Verborgene schon offenbar ist. Gott will uns das Verborgene zeigen, sichtbar machen. Die Öffentlich­ keit I ist der von Gott geordnete Lohn der Verborgenheit.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p21",
+    "de": "Die Frage ist nur, wo und von wem der Mensch diesen Lohn der Öffentlichkeit empfängt. Begehrt er diese Öffentlichkeit vor Menschen, so hat er mit ihr seinen Lohn dahin. Es ist dabei kein Unterschied, ob er ie in der groben Form der Öffentlichkeit vor anderen Menschen oder in der feineren Form der Öffent­ lichkeit vor sich selbst sucht. Wo die linke Hand weiß, was die rechte tut, wo ich mein verborgenes Gutes vor mir selbst ans Licht bringe, wo ich um mein eigenes Gutes wissen will, dort bereite ich mir selbst schon den öffentlichen Lohn, den Gott mir vorbehalten wollte. Ich bin es, der sich das eigene Verbor­ gene zeigt.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p22",
+    "de": "Ich warte nicht, bis es Gott selbst mir zeigt. So habe ich meinen Lohn dahin. Wer aber in der Verborgenheit vor sich selbst beharrt bis ans Ende17, der wird den Lohn des Offenbar­ werdens von Gott empfangen. Wer aber kann so leben, daß er das Außerordentliche in der Verborgenheit tut? daß die linke Hand nicht weiß, was die rechte tut? Was für eine Liebe ist das, die nicht um sich selbst weiß, sondern verborgen bleiben kann vor sich selbst bis zum jüngsten Tag? Es ist deutlich: Weil ie verborgene Liebe ist, kann ie nicht eine sichtbare Tugend, ein Habitus des Menschen sein. Habt acht -heißt es -, daß ihr die wahre Liebe nicht verwechselt mit einer liebenswürdigen Tu­ gend, mit einer menschlichen, Qualität<18!",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p23",
+    "de": "Sie ist ja die selbst­ vergessene Liebe im echten Sinne des Wortes. In dieser selbst­ vergessenen Liebe aber muß der alte Mensch mit allen seinen Tugenden und Qualitäten sterben. In der selbstvergessenen, an Christus allein gebundenen Liebe des Jüngers stirbt der alte Adam. In dem Satz: laß deine linke Hand nicht wissen, was die rechte tut, ist der Tod des alten Menschen verkündigt. Also noch einmal: Wer kann so leben, daß er KapitelS und 6 vereint? Keiner als der, der nach seinem alten Menschen gestorben ist durch Christus und in seiner Gemeinschaft der Nachfolge ein neu es Leben gefunden hat.19 Liebe als Tat des I schlichten Ge17 Mt 24,13.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p24",
+    "de": "D 18 1935 NL B 8 (44): \"Diese sich nicht selbst kennende [Liebe] ist keine ,eingeklebte Qualität' (Luther gegen die gratia infusa [\"eingegossene Gnade\"]), überhaupt keine qualitas des Menschen.\" D 19 Anklänge an Röm 6,6 und 6,4: Taufe. horsams ist das Sterben am alten Menschen, der sich wiederge­ funden hat in der Gerechtigkeit Christi und im Bruder. Nun lebt nicht mehr er, sondern Christus lebt in ihm.20 Die Liebe Christi des Gekreuzigten, der den alten Menschen in den Tod gibt, ist es, die in dem Nachfolgenden lebt. Nun findet er sich nur noch in Christus und im Bruder. Die Verborgenheit des Gebets.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p25",
+    "de": "\"Und wenn du betest, sollst du nicht sein wie die Heuchler, die da gerne stehen und beten in den Schulen und an den Ecken auf den Gassen, 2.uf daß ie von den Leuten gesehen werden. Wahr­ lich, ich sage euch: Sie haben ihren Lohn dahin. Wenn du aber betest, so gehe in dein Kämmerlein und schließ die Tür zu und bete zu deinem Vater im Verborgenen; und dein Vater, der in das Verborgene ieht, wird dir's vergelten öffentlich. Und wenn ihr betet, sollt ihr nicht viel plappern wie die Heiden; denn ie meinen, ie werden erhört, wenn ie viel Worte machen. Darum sollt ihr euch ihnen nicht gleichstellen. Euer Vater weiß, was ihr bedürfet, ehe denn ihr ihn bittet\" (Mt. 6,5-8).",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p26",
+    "de": "Jesus lehrt seine Jünger beten. Was bedeutet das? Daß wir beten dürfen, ist keine Selbstverständlichkeit. Zwar ist das Ge­ bet ein natürliches Bedürfnis des menschlichen Herzens, aber darin hat es noch kein Recht vor Gott. Selbst dort, wo es in fester Zucht und Übung gehalten wird, kann es fruchtlos und ohne Verheißung sein. Die Jünger dürfen beten, weil Jesus es ihnen sagt, der den Vater kennt. Er verheißt ihnen, daß Gott ie erhören wird. So beten die Jünger allein, weil ie in der Ge­ meinschaft Jesu stehen, in seiner Nachfolge. Wer an Jesus ge­ bunden ist in der Nachfolge, der hat durch ihn I den Zugang zum Vater.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p27",
+    "de": "Damit ist jedes rechte Gebet vermitteltes Gebet. Es gibt kein unvermitteltes Beten. Es gibt auch im Gebet keinen unmittelbaren Zugang zum Vater. Nur durch Jesus Christus können wir im Gebet den Vater finden. Die Voraussetzung des Gebetes ist der Glaube, die Bindung an Christus. Er ist der alleinige Mittler unseres Gebetes. Auf sein Wort hin beten wir. So ist unser Gebet immer an sein Wort gebundenes Gebet. 20 Ga12,20. 158 Teil r. 139 Wir beten zu Gott, an den wir durch Christus glauben. Da­ her kann unser Gebet niemals eine Beschwörung Gottes sein, wir brauchen uns vor ihm nicht mehr darzustellen. Wir dürfen wissen, daß er weiß, was wir bedürfen, ehe wir darum bitten.21 Das gibt unserem Gebet größte Zuversicht und fröhliche Ge­ wißheit.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p28",
+    "de": "Nicht die Formel, nicht die Zahl der Worte, sondern der Glaube faßt Gott bei seinem väterlichen Herzen, das uns längst kennt. Das rechte Gebet ist nicht ein Werk, eine Übung, eine fromme Haltung, sondern es ist die Bitte des Kindes zum Herzen des Vaters. Darum ist das Gebet niemals demonstrativ, weder vor Gott, noch vor uns selbst, noch vor anderen. Wüßte Gott nicht, was ich bedarf, dann müßte ich darüber reflektie­ ren, wie ich es Gott sage, was ich ihm sage, ob ich es ihm sage. So schließt der Glaube, aus dem ich bete, jede Reflexion, jede Demonstration aus. Das Gebet ist das schlechthin Verborgene.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p29",
+    "de": "Es ist der Öffent­ lichkeit in jeder Weise entgegengesetzt. Wer betet, kennt sich selbst nicht mehr, sondern nur noch Gott, den er anruft. Weil das Gebet nicht in die Welt hinein wirkt, sondern allein auf Gott gerichtet ist, ist es das undemonstrativste Handeln schlechthin. Freilich gibt es auch hier die Verkehrung des Gebetes in die Demonstration, in der das Verborgene ans Licht gebracht wird. Das geschieht nicht nur durch das öffentliche Gebet, das zum Geplapper wird. Es wird heute sehr selten so geschehen.22 I Es ist aber kein Unterschied, ja viel verderblicher, wenn ich mich selbst zum Zuschauer meines Gebetes mache, wenn ich vor mir selbst bete, sei es nun, daß ich als befriedigter Zuschauer diesen Zustand genieße, sei es, daß ich befremdet oder beschämt mich in diesem Zustand ertappe.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p30",
+    "de": "Die Öffentlichkeit der Straße ist nur eine naivere Form der Öffentlichkeit, die ich mir selbst bereite. Ich kann mir auch in meinem Kämmerlein eine ansehnliche Demonstration veranstalten. Bis dorthin können wir J esu Wort 21 1935 NL B 8 (46): \"Dieser Satz [euer Vater weiß] hebt nicht nur nicht das Gebet auf, nein nur auf Grund dieses Satzes gibt es christliches Gebet.\" 0 221m nationalsozialistischen Deutschland mußte man damit rechnen, daß ein Gebet in der Öffentlichkeit -auch schon ein Tischgebet in einer Gaststätte - unliebsam auffallen würde. verzerren. Die Öffentlichkeit, die ich mir suche, besteht dann darin, daß ich zugleich der bin, der betet, wie auch der, der hört.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p31",
+    "de": "Ich höre mich selbst an, ich erhöre mich selbst. Weil ich auf die Erhörung Gottes nicht warten will, weil ich mir nicht dermaleinst die Erhörung meines Gebets von Gott zeigen las­ sen will, schaffe ich mir selbst meine Erhörung. Ich stelle fest, daß ich fromm gebetet habe, und in dieser Feststellung liegt die Befriedigung der Erhörung. Mein Gebet ist erhört. Ich habe meinen Lohn dahin. Weil ich mich selbst erhört habe, wird mich Gott nicht erhören, weil ich mir selbst den Lohn der Öffentlichkeit bereitet habe, wird Gott mir keinen Lohn mehr bereiten. Was ist das Kämmerlein, von dem Jesus redet, wenn ich vor mir selbst nicht sicher bin?",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p32",
+    "de": "Wie soll ich es so fest zuschließen, daß kein Zuhörer die Verborgenheit des Gebetes zerstört und mir den Lohn des verborgenen Gebetes raubt? Wie soll ich mich vor mir selbst schützen? vor meiner Reflexion? Wie töte ich mit meiner Reflexion die Reflexion? Das Wort ist gefallen: mein eigner Wille, mit meinem Gebet irgend wie mich selbst durchzusetzen, muß sterben, getötet werden. Wo Jesu Wille allein in mir herrscht und all mein eigner Wille in seinen hinge­ geben ist, in der Gemeinschaft J esu, in der Nachfolge, stirbt mein Wille. Dann kann ich beten, daß der Wille dessen ge­ schehe, der weiß, was ich bedarf, ehe ich bitte.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p33",
+    "de": "Dann allein ist mein Gebet gewiß, stark und rein, wenn es aus dem Willen J esu kommt. Dann ist Beten auch wirklich I Bitten. Das Kind bittet den Vater, den es kennt. Nicht die allgemeine Anbetung23, son­ dern das Bitten ist das Wesen des christlichen Gebets. Das ent­ spricht der Haltung des Menschen vor Gott, daß er mit ausge­ streckter Hand den bittet, von dem er weiß, daß er ein väterli­ ches Herz hat. Wenn auch das rechte Gebet eine verborgene Sache ist, so ist damit gewiß die Gebetsgemeinschaft nicht ausgeschlossen, so deutlich auch ihre Gefahren nun geworden sein mögen. Es kommt zuletzt weder auf die Straße oder auf das Kämmerlein, noch auf kurze oder auf lange Gebete, sei es in der Litanei des 23 1935 NL B 8 (47): \"Anbeten ist schon große titanenhafte Möglichkeit des Menschen.\" Kirchengebets, sei es in dem Seufzen dessen, der nicht weiß, was er beten solF\\ noch auf den Einzelnen oder auf die Ge­ meinschaft an, sondern auf die eine Erkenntnis: euer Vater weiß, was ihr bedürfet.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p34",
+    "de": "Das richtet das Gebet allein auf Gott aus. Das befreit den Jünger von falscher Werkerei. 25 \"Darum sollt ihr also beten: Unser Vater in dem Himmel! Dein Name werde geheiligt. Dein Reich komme. Dein Wille geschehe auf Erden wie im Himmel. Unser täglich Brot gib uns heute. Und vergib uns unsere Schulden, wie wir unsern Schul­ digem vergeben. Und führe uns nicht in Versuchung, sondern erlöse uns von dem Übel. Denn dein ist das Reich und die Kraft und die Herrlichkeit in Ewigkeit. Amen. Denn so ihr den Men­ schen ihre Fehler vergebet, so wird euch euer himmlischer Va­ ter auch vergeben. Wo ihr aber den Menschen ihre Fehler nicht vergebet, so wird euch euer Vater eure Fehler auch nicht verge­ ben\" (Mt. 6,9-15).",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p35",
+    "de": "Jesus hat seinen Jüngern nicht nur gesagt, wie ie beten sol­ len, sondern auch was ie beten sollen. Das Vaterunser ist nicht ein Beispiel für das Gebet der Jünger, sondern so soll gebetet werden, wie es Jesus ie gelehrt hat. Mit diesem Gebet werden ie von Gott erhört werden, das ist gewiß. Das Vaterunser ist das Gebet schlechthin. Alles Beten der Jünger hat in ihm sein Wesen und seine Grenze. Jesus läßt seine I Jünger auch hier nicht im Ungewissen, er führt ie mit dem Vaterunser in die vollkommene Klarheit des Gebetes. \"Vater unser26, der du bist im Himmel\" -gemeinsam rufen die Nachfolgenden ihren himmlischen Vater an, der schon alles weiß, was seine lieben Kinder bedürfen.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p36",
+    "de": "Zu Brüdern sind ie gemacht durch den Ruf Jesu, der ie verbindet. In Jesus haben ie die Freundlichkeit des Vaters erkannt. Im Namen des Soh­ nes Gottes dürfen ie Gott ihren Vater nennen. Sie sind auf Erden und ihr Vater ist im Himmel. 27 Er ieht herab auf ie, ie heben ihre Augen auf zu ihm. hoeffer über das Vaterunser Mt 6,9-13. Vgl. 1936/37 NI. B 9,3 (22): \"Warnung vor Vaterunscrp,\"edigten. Nicht zuviel auslegen (auch nicht im Unterricht!).\" D 26 Die Wortfolge \"Vater unser\" (wie 1m Griechischen) hat Luther in den Katechismen benutzt, nicht aber in der Übersetzung von Mt 6,9. Reformierte Tradition: \"Unser Vater.\" D 27 Aus Koh 5,1 zitiert K.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p37",
+    "de": "Barth, Römerbrief, \"Geheiligt werde dein Name.\" -Gottes väterlicher Name, wie er den Nachfolgenden in Jesus Christus offenbart ist, soll heilig gehalten sein unter den Jüngern; denn in diesem Namen ist das ganze Evangelium beschlossen. Gott wolle es nicht zu­ lassen, daß sein heiliges Evangelium verdunkelt und verdorben wird durch falsche Lehre und unheiliges Leben. Gott wolle den Jüngern fort und fort seinen heiligen Namen in Jesus Christus offenbar werden lassen. Er leite alle Prediger zur lauteren Ver­ kündigung des seligmachenden Evangeliums. Er wehre den Verführern und bekehre die Feinde seines Namens.28 \"Dein Reich komme.\" - In Jesus Christus haben die Nach­ folgenden den Anbruch des Reiches Gottes auf Erden erfahren.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p38",
+    "de": "Hier ist der Satan überwunden, die Macht der Welt, der Sünde und des Todes gebrochen. Noch steht Gottes Reich im Leiden und im Kampf. Die kleine Gemeinde der Herausgerufenen hat daran teilbekommen. Sie stehen unter der Königsherrschaft Gottes in neuer Gerechtigkeit, aber mitten unter Verfolgung29• Gott wolle das Reich Jesu Christi auf Erden in seiner Gemeinde wachsen lassen, er wolle den Reichen dieser Welt bald ein Ende bereiten und sein Reich mit Macht und Herrlichkeit herbeiführen. \"Dein Wille geschehe auf Erden wie im Himmel.\" -In der Gemeinschaft Jesu Christi haben die Nachfolgenden ihren I Willen ganz an Gottes Willen hingegeben.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p39",
+    "de": "Sie beten darum, daß Gottes Wille auf der ganzen Erde geschehen möge. Kein Ge­ schöpf soll ihm widerstreben. Weil aber auch in den Nachfol­ genden noch der böse Wille lebt, der ie aus der Gemeinschaft J esu herausreißen will, darum beten ie auch, daß Gottes Wille in ihnen täglich mehr zur Herrschaft komme und allen Trotz breche. Zuletzt aber soll alle Welt sich dem Willen Gottes beu­ gen, ihn dankbar anbeten in Not und in Freude. Himmel und Erde sollen Gott unterworfen sein. Um Gottes Namen, um Gottes Reich, um Gottes Willen sollen die Jünger Jesu vor allem beten. Zwar bedarf Gott dieses Gebetes nicht, aber durch dieses Gebet sollen die Jünger selbst XIV: \"Gott ist im Himmel und du auf Erden.\" D 28 Bonhoeffer legt diese Bitte -wie auch die zweite und die fünfte -in Gebetsform aus.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p40",
+    "de": "D 29 Mk 10,30. 162 Teil 1. 143 teil bekommen an den himmlischen Gütern, um die ie bitten. Auch dürfen ie durch solches Gebet das Ende schneller herbei­ führen helfen. 30 \"U nser täglich Brot gib uns heute.\" Solange die Jünger auf Erden sind, sollen ie sich nicht schämen, von ihrem himmli­ schen Vater die Güter des leiblichen Lebens zu erbitten. Der die Menschen auf Erden erschaffen hat, will ihren Leib erhalten und behüten. Er will nicht, daß seine Schöpfung verächtlich gemacht werde. Es ist ein gemeinsames Brot, um das die Jünger bitten. Keiner soll es für sich allein haben. Sie bitten auch, daß Gott allen seinen Kindern auf der ganzen Erde das tägliche Brot gebe; denn ie sind ihre Brüder nach dem Leib.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p41",
+    "de": "Die Jünger wissen, daß das Brot, das aus der Erde wächst, von oben herab­ kommt3! und Gottes Gabe allein ist. Darum nehmen ie sich nicht das Brot, sondern ie erbitten es. Weil es Brot von Gott ist, darum kommt es täglich neu. Nicht um Vorrat bitten die Nachfolgenden, sondern um die tägliche Gabe Gottes heute, durch die ie ihr Leben in der Gemeinschaft Jesu fristen kön­ nen, und über dem ie Gottes milde Güte preisen. In dieser Bitte erprobt sich der Glaube der Jünger an das lebendige Wir­ ken Gottes auf Erden zu ihrem Besten. I \"Vergib uns unsere Schuld, wie wir unseren Schuldigem ver­ geben.\" Die Erkenntnis ihrer Schuld ist die tägliche Klage der Nachfolgenden.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p42",
+    "de": "Die in der Gemeinschaft Jesu ohne Sünde le­ ben dürften, sündigen täglich durch allerlei Unglauben, Träg­ heit zum Gebet, Zuchtlosigkeit des Leibes, durch allerlei Selbstgefälligkeit, Neid, Haß und Ehrgeiz. Darum sollen ie täglich um Gottes Vergebung bitten. Gott aber will ihre Bitte nur erhören, wenn ie auch einander brüderlich und willig ihre Schuld vergeben. So tragen ie gemeinsam ihre Schuld vor Gott und bitten gemeinsam um Gnade. Gott wolle nicht nur mir meine Schuld, sondern uns unsere Schuld vergeben. \"Führe uns nicht in Versuchung.\" Vielfältig sind die Versu­ chungen der Nachfolgenden. Von allen Seiten greift ie der Satan an und will ie zu Fall bringen.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p43",
+    "de": "Falsche Sicherheit und gottloser Zweifel ficht ie hart an. Die Jünger, die um ihre gen' (2. Petr. 3,12)\". 0 31 Vgl.Jak 1,17. Schwachheit wissen, fordern die Versuchungen nicht heraus, um an ihnen die Kraft ihres Glaubens zu erweisen. Sie bitten Gott, ihren schwachen Glauben nicht zu versuchen und ie in der Stunde der Anfechtung zu bewahren. \"Sondern erlöse uns von dem Übel.\" Als letztes sollen die Jünger bitten, von dieser argen Welt einmal erlöst zu werden32 und das himmlische Reich zu ererben. Es ist die Bitte um ein seliges Ende33 und um die Rettung der Gemeinde in den letzten Zeiten dieser Welt.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p44",
+    "de": "\"Denn dein ist das Reich ... \" Diese Gewißheit empfangen die Jünger täglich neu aus der Gemeinschaft mitJesus Christus, in dem die Erfüllung aller ihrer Bitten liegt. In ihm wird Gottes Name geheiligt, in ihm kommt Gottes Reich, in ihm geschieht Gottes Wille. Um seinetwillen wird das leibliche Leben der Jünger erhalten, um seinetwillen empfangen ie Vergebung ih­ rer Schuld, in seiner Kraft werden ie bewahrt in der Anfech­ tung, in seiner Kraft werden ie errettet zu ewigem Leben. Sein ist das Reich und die Kraft und die I Herrlichkeit in Ewigkeit in der Gemeinschaft des Vaters. Des sind die Jünger gewiß.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p45",
+    "de": "Wie zur Zusammenfassung des Gebetes sagt Jesus noch ein­ mal, daß alles daran hängt, daß ie Vergebung empfangen, und daß diese Vergebung ihnen nur zuteil wird als der Bruderschaft der Sünder. Die Verborgenheit der frommen Übung. \"So oft ihr fastet, sollt ihr nicht sauer sehen wie die Heuchler; denn ie verstellen ihr Angesicht, auf daß ie vor den Leuten scheinen mit ihrem Fasten. Wahrlich, ich sage euch: Sie haben ihren Lohn dahin. Wenn du aber fastest, so salbe dein Haupt, und wasche dein Angesicht, auf daß du nicht scheinest vor den Leuten mit deinem Fasten, sondern vor deinem Vater, welcher verborgen ist; und dein Vater, der in das Verborgene34 ieht, wird dir' s vergelten öffentlich\" (Mt. 6,16-18). 32 Im Grollen Katechismus erklärt Luther den griechischen Wortsinn: \"Erlöse oder behüte uns von dem Argen oder Boshaftigen\" (BSLK 689).033 Anklang z.B. an Luthers Kleinen Katechismus (BSLK 515).034 1935 NL B 8 (47): \"exegetische Schwierigkeit Vers 18 [EV '[� xQu<jlaLepl kann von Verborgenheit Gottes und unserer gesagt werden.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p46",
+    "de": "Zweideutig.\" 164 Teil 1. 145 Jesus setzt als selbstverständlich voraus, daß die N achfolgen­ den die fromme Übung des Fastens halten. Zum Leben der Nachfolgenden gehört die strenge Übung in der Enthaltsam­ keit. Solche Übungen haben den einzigen Zweck, den Nachfol­ genden für den ihm befohlenen Weg und für das ihm befohlene Werk bereiter und freudiger zu machen. Der selbstische und träge Wille, der sich nicht zum Dienst treiben läßt, wird ge­ züchtigt, das Fleisch wird gedemütigt und gestraft. In der Übung d�r Enthaltsamkeit wird die Entfremdung meines christlichen Lebens von der Welt deutlich spürbar.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p47",
+    "de": "Ein Leben, das ganz ohne asketische Übung bleibt, das sich alle Wünsche des Fleisches gönnt, so lange ie nach der justitia civilis \"er­ laubt\" sind, wird sich für den Dienst I Christi schwer bereiten. Das satte Fleisch betet nicht gern und schickt sich nicht zum entsagungsvollen Dienst. So bedarf das Leben des Jüngers der strengen äußeren Zucht. Nicht als könnte hierdurch der Wille des Fleisches erst gebro­ chen werden, als geschehe das tägliche Sterben35 des alten Men­ schen durch etwas anderes als durch den Glauben an Jesus. Aber eben der Glaubende, der Nachfolgende, dessen Wille ge­ brochen ist, der an Jesus Christus gestorben ist nach seinem alten Menschen, kennt die Rebellion und den täglichen Stolz seines Fleisches.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p48",
+    "de": "Er kennt seine Trägheit und Zügellosigkeit und weiß, daß ie die Quelle des Hochmuts ist, der geschlagen werden muß. Das geschieht durch tägliche und außerordentli­ che Übung der Zucht. Es gilt vom Jünger, daß der Geist willig, aber das Fleisch schwach ist. Darum \"wachet und betet\". 36 Der Geist erkennt den Weg der Nachfolge und ist bereit, ihn zu gehen, aber das Fleisch ist zu furchtsam, der Weg ist ihm zu beschwerlich, zu unsicher, zu mühsam. So muß der Geist ver­ stummen. Der Geist bejaht das Gebot J esu zur unbedingten Feindesliebe, aber Fleisch und Blut sind zu stark, so daß es nicht zur Tat wird.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p49",
+    "de": "So muß das Fleisch in täglicher und außer­ ordentlicher Übung und Zucht erfahren, daß es kein eignes Recht hat. Hierzu hilft die tägliche, geordnete Übung des Ge35 I Kor 15,31. 036 Mt 26,41. bets, wie auch die tägliche Betrachtung des Wortes Gottes37, hierzu hilft allerlei Übung leiblicher Zucht und Enthaltsamkeit. Der Widerstand des Fleisches gegen diese tägliche Demüti­ gung kommt anfangs frontal, später versteckt hinter den Wor­ ten des Geistes, d.h. im Namen der evangelischen Freiheit. Wo die evangelische Freiheit vom gesetzlichen Zwang, von Selbst­ zermarterung und Kasteiung grundsätzlich gegen den rechten evangelischen Gebrauch von Zucht, Übung und Askese ausge­ spielt wird, wo Zuchtlosigkeit und Unordnung im Gebet, im Umgang mit dem Wort, im leiblichen Leben gerechtfertigt wer­ den im Namen christlicher Freiheit, dort ist I der Widerspruch gegen das Wort Jesu offenbar.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p50",
+    "de": "Dort weiß man nichts mehr von der Weltfremdheit des täglichen Lebens in der Nachfolge, ebensowenig aber von der Freude und nun gerade auch von der wahren Freiheit, die die rechte Übung dem Leben des Jüngers verleiht. Wo immer der Christ erkennt, daß er in seinem Dienst versagt, daß seine Bereitschaft erlahmt, daß er schuldig gewor­ den ist an fremdem Leben, an fremder Schuld, daß seine Freude an Gott ihm ermattet, daß die Kraft zum Gebet nicht mehr da ist, dort wird er den Angriff auf sein Fleisch unternehmen, um sich durch Übung, durch Fasten und Beten (Lk. 2,37; 4,2; Mk. 9,29; 1. Kor. 7,538), zu besserem Dienst zu bereiten.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p51",
+    "de": "Der Ein­ wand, der Christ müsse statt zur Askese seine Zuflucht zum Glauben, zum Wort nehmen, bleibt völlig leer. Er ist unbarm­ herzig und ohne helfende Kraft. Was ist denn ein Leben im Glauben, wenn nicht der unendliche maanigfache Kampf des Geistes gegen das Fleisch?39 Wie will einer im Glauben leben, den das Gebet träge macht, dem das Schriftwort verleidet ist, dem Schlafen, Essen und Geschlechtslust40 immer wieder die Freude an Gott rauben? Askese ist selbstgewähltes Leiden, es ist passio activa, nicht DBW 14, 945-950. D 38 In letzteren Vers hat Bonhoeffer aus dem \"Nestle\"­ Apparat Y1']OtELa (\"Fasten\") eingefügt (Markierungen in Bonhoeffers Exemplar).",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p52",
+    "de": "D 39 Siehe z.B. Ga15,17 (Markienlllgen Bonhoeffers im \"Nestle\"). -Vgl. Auf­ ruf an die Pfarramts brüder in der Bekennenden Kirche 1936 DBW 14, 170 f: \" ... ,Im Geiste habt ihr angefangen, wollt ihr's denn nun im Fleische vollenden?' (Ga1.3,3).\" D 40 Vgl. 1936 DBW 14, 211-213. 166 Teil 1. 147 passio passiva, und ebendarin aufs höchste gefährdet. 41 Askese ist dauernd belauert von dem gottlosen frommen Wunsch, sich selbst Jesus Christus durch Leiden gleich zu machen. Es schlummert in ihr auch immer schon der Anspruch, an die Stelle des Leidens Christi zu treten, das Werk des Leidens Chri­ sti selbst zu vollbringen, nämlich den alten Menschen zu töten.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p53",
+    "de": "Hier maßt sich die Askese den bitteren und letzten Ernst des Erlösungswerkes Christi an. Hier stellt ie sich mit furchtbarer Härte sichtbar zur Schau. Das freiwillige Leiden, das nur auf Grund des Leidens Christi zu besserem Dienst, zu tieferer De­ mütigung dienen sollte, wird hier zur grauenvollen Verzerrung des Leidens des Herrn selbst. Nun will es gesehen werden, nun ist es der unbarmherzige lebendige Vor-I wurf für die Mitmen­ schen; denn es ist Heilsweg geworden. In solcher \"Öffentlich­ keit\" ist der Lohn wahrhaftig dahin, indem er von Menschen gesucht wird. \"Salbe dein Haupt und wasche dein Angesicht\"42, könnte ja abermals eine Gelegenheit zu noch verfeinertem Genuß oder Selbstruhm sein.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p54",
+    "de": "Es wäre dann als Verstellung mißdeutet. Jesus aber sagt seinen Jüngern, daß ie in den freiwilligen Übungen der Demut ganz demütig bleiben, daß ie ie niemand als Vor­ wurf oder als Gesetz aufbürden, vielmehr daß ie dafür dankbar und fröhlich werden sollen, im Dienst ihres Herrn bleiben zu dürfen. Nicht das fröhliche Gesicht des Jüngers als ein christli­ cher Typ ist hier gemeint, sondern die rechte Verborgenheit des christlichen Tuns, die Demut, die um sich selbst nicht weiß, wie das Auge sich nicht selbst ieht, sondern nur den Anderen. Solche Verborgenheit wird einstmals offenbar werden, aber al­ lein durch Gott, niemals durch sich selbst. 41 1935 NLB 8 (48): \" ... passioactiva ist Leid, das ich mir selber zufüge: darin die ungeheure Gefahr: Selbstwahl des Kreuzes!\" Anklang an Formulierungen Luthers, z.B. in den von Paul Drews hg.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p55",
+    "de": "Disputationes 1535-1545, die Bon­ hoeHer 1926 DBW 9, 355-410 verwendete, s. besonders 367. Vgl. S. 82. 0 42 Randbemerkung 1935 NL B 8 (49): \"Salben und waschen ist das ganz alltägliche, nicht besonders'\" Die Einfalt des sorglosen Lebens. \"Ihr sollt euch nicht Schätze sammeln auf Erden, da ie die Motten und der Rost fressen und da die Diebe nachgraben und stehlen. Sammelt euch aber Schätze im Himmel, da ie weder Motten noch Rost fressen und da die Diebe nicht nachgraben und stehlen. Denn wo euer Schatz ist, da ist auch euer Herz. Das Auge ist des Leibes Licht. Wenn dein Auge einfältig ist, so wird dein ganzer Leib licht sein; ist aber dein Auge ein Schalk, so wird dein ganzer Leib finster sein.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p56",
+    "de": "Wenn nun das Licht, das in dir ist, Finsternis ist, wie groß wird dann die Finsternis sein! Niemand kann zwei Herren dienen; entweder er wird den ei­ nen hassen und den anderen lieben, oder er wird dem einen anhangen und den anderen verachten. Ihr könnt nicht Gott dienen und dem Mammon\" (Mt. 6,19-24). I Das Leben des Nachfolgenden bewährt sich darin, daß nichts zwischen Christus und ihn tritt, nicht das Gesetz, nicht die eigene Frömmigkeit, aber auch nicht die Welt. Der Nachfol­ gende ieht immer nur Christus. Er ieht nicht Christus und das Gesetz, Christus und die Frömmigkeit, Christus und die Welt.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p57",
+    "de": "Er tritt in diese Reflexion gar nicht ein, sondern er folgt in allem allein Christus. So ist sein Auge einfältig. Es ruht ganz und gar auf dem Licht, das ihm von Christus kommt und hat keine Finsternis, keine Zweideutigkeit in sich. Wie das Auge einfältig, klar, rein sein muß, damit der Leib im Lichte bleibe, wie Fuß und Hand von nirgends andersher Licht empfangen als vom Auge, wie der Fuß strauchelt und die Hand sich verfehlt, wenn das Auge trübe ist, wie der ganze Leib im Finstern ist, wenn das Auge erlischt, so ist der Nachfolger nur solange im Licht, als er einfältig auf Christus ieht und nicht noch auf dieses oder jenes; so muß das Herz des Jüngers allein auf Christus gerichtet sein.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p58",
+    "de": "Sieht das Auge etwas anderes als das Wirkliche, so ist der ganze Leib betrogen. Hängt sich das Herz an den Schein der Welt, an die Kreatur statt an den Schöpfer, so ist der Jünger verloren. Es sind die Güter der Welt, die das Herz des Jüngers Jesu abwenden wollen. Wohin steht das Herz des Jüngers ? das ist die Frage. Steht es zu den Gütern der Welt, steht es auch nur zu Christus und den Gütern? oder steht es zu Christus ganz allein? Das Licht des Leibes ist das Auge, das Licht des Nachfolgenden 168 Teil!. 149//50 ist das Herz. Ist das Auge finster, wie finster muß der Leib sein. Ist das Herz finster, wie finster muß es in dem Jünger sein.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p59",
+    "de": "Das Herz aber wird finster, wenn es sich an die Güter der \\Velt hängt. Nun mag der Ruf Jesu noch so eindringlich sein, er prallt ab, er findet keinen Eingang in den Menschen, denn das Herz ist verschlossen, es gehört einem Anderen. Wie kein Licht in den Leib dringt, wenn das Auge böse ist, so dringt das Wort Jcsu nicht mehr zu dem Jünger, wenn sein Herz sich ver­ schließt. Das Wort ist erstickt, wie I das Samenkorn unter den Dornen, \"unter Sorgen, Reichtum und Wollust dieses Lebens\" (Lk. 8,14). Die Einfalt des Auges und des Ht:rzens entspricht jener Ver­ borgenheit, die von nichts weiß als von Christi Wort und Ruf, die in der völligen Gemeinschaft mit Christus besteht.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p60",
+    "de": "Wie geht der Nachfolgende einfältig mit den Gütern der Erde um? Nicht den Gebrauch der Güter versagt ihnen Jesus. Jesus war Mensch, aß und trank wie seine Jünger. Er hlt dadurch den Gebrauch der Güter der Erde gereinigt. Die Güter, die sich unter der Hand verzehren, die zur täglichen Notdurft und Nahrung des leiblichen Lebens dienen43, soll der Nachfolgende dankbar gebrauchen. \"Man muß wie Pilger wandeln, / frei, bloß und wahrlich leer; / viel sammeln, halten, handeln / macht unsern Gang nur schwer. / Wer will, der trag sich tot; / wir reisen abgeschieden, / mit wenigem zufrieden; / wir brauchen's nur zur Not\" (Tersteegen).44 Dazu sind die Güter gegeben, daß ie gebraucht werden; aber nicht dazu, daß ie gesammelt wer­ den.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p61",
+    "de": "Wie Israel in der Wüste das Manna täglich von Gott emp­ fing und nicht zu sorgen hatte um Essen und Trinken, und wie das Manna, das von einem Tag für den anderen aufbewahrt wurde, alsbald faulig wurded5, so soll der Jünger J esu täglich das Seine von Gott empfangen; aber indem er es anhäuft zu blei­ bendem Besitz, verdirbt er die Gabe und sich selbst. Am ange­ sammelten Schatz hängt das Herz. Das angestaute Gut tritt zwischen mich und Gott. Wo mein Schatz ist, da ist mein I 43 Siehe Luthers Erklärung zum 1. Artikel im Kleinen Katechismus (BSLK 510f). D 44 Strophe des Kirchenliedes \"Kommt, Kinder, laßt uns gehen ...",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p62",
+    "de": "\": EG.BP 189,4 (EG 393,4), Lied zu Mt 7,13.14 von Gerhard Tersteegen (1697-1769). Zu diesem Lied vgl. DB 612. D 45 Vgl. Ex 16. Vertrauen, meine Sicherheit, mein Trost, mem Gott. Der Schatz ist Abgötterei8). Wo aber verläuft die Grenze zwischen den Gütern, die ich gebrauchen soll, und dem Schatz, den ich nicht haben soll? Kehren wir den Satz um und sagen: woran dein Herz hängt, das ist dein Schatz, dann ist die Antwort schon gegeben. Es kann ein sehr unscheinbarer Schatz sein, auf die Größe kommt es nicht an, auf das Herz allein kommt es an, auf dich. Frage ich aber weiter, wie ich erkenne, woran mein Herz hängt, so ist auch hier die Antwort einfach und klar: alles, was dich hindert, Gott über alle Dinge zu lieben47, was zwischen dich und deinen Gehorsam gegen Jesus tritt, ist der Schatz, an dem dein Herz hängt.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p63",
+    "de": "Weil aber des Menschen Herz am Schatz hängt, darum soll der Mensch auch nach Jesu Willen einen Schatz haben9), aber nicht auf Erden, wo er in sich zerfällt, sondern im Himmel, wo er bleibt. Die ,Schätze' im Himmel, von denen Jesus redet, sind offenbar nicht der Eine Schatz, Jesus selbst, sondern wirklich von den Nachfolgenden gesammelte Schätze. Es ist darin eine große Verheißung ausgesprochen, daß in der Nachfolge Jesu der Jünger himmlische Schätze erwirbt, die nicht vergehen, die auf ihn warten, mit denen er vereinigt werden soll. 48 Was für Schätze können das stin als jenes Außerordentliche, als jenes Verborgene des Jüngerlebens, was für Schätze können es sein, als die Früchte des Leidens Christi, die das Leben der Nachfol­ genden trägt?",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p64",
+    "de": "I Hat der Jünger sein Herz ganz bei Gott, dann ist es für ihn klar, daß er nicht zwei Herren dienen kann. Er kann es nicht. 8) Es ist kein Zufall, daß in d�n paulinischen Lasterkatalogen Hurerei und Habgier immer wieder nebeneinanderstehen und beide als Abgötterei bezeich­ net werden. 46 9) Es soll wohl be8.chtet werden, daß Jesus dem menschlichen Herzen nicht raubt, was es bedarf, den Schatz, die Ehre, den Ruhm. Aber er gibt ihm einen anderen Gegenstand, die Ehre von Gott Uoh. 5,44), den Rnhm des Kreuzes (Gal. 6,14), den Schatz im Himmel. 46 Siehe S. 280. D 47 Vgl. Luthers Erklärung zum ersten Gebot im Kleinen Katechismus (BSLK 507).",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p65",
+    "de": "D 48 Hierzu Stellenangaben 1935 NL B 8 (50): \"Eph 2 [Vers 10]2. Timotheus 1,12!!\" Es ist unmöglich in der Nachfolge. Es läge ja nahe, seine christ­ liche Klugheit und Erfahrung gerade darin zu erweisen, daß er es eben doch verstehe, beiden Herren zu dienen, dem Mammon und Gott, daß er jedem sein begrenztes Recht gebe. Warum sollen wir nicht auch gerade als Kinder Gottes fröhliche Kinder dieser Welt sein, die sich an seinen guten Gaben freuen und die ihre Schätze als Segen Gottes empfangen? Gott und Welt, Gott und die Güter sind widereinander, weil Welt und Güter nach unserem Herzen greifen und erst, indem ie das Herz gewon­ nen haben, sind, was ie sind.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p66",
+    "de": "Ohne unser Herz sind Güter und Welt nichts. Sie leben von unserem Herzen. So sind ie wider Gott. Wir können unser Herz nur einem in voller Liebe geben, wir können nur einem Herrn ganz anhangen. Was dieser Liebe entgegensteht, verfällt dem Haß. Es gibt nach Jesu Wort Gott gegenüber nur Liebe oder Haß. Lieben wir Gott nicht, dann hassen wir ihn. Es gibt kein Mittleres. Gott ist so und darin Gott, daß er nur geliebt oder gehaßt werden kann. Es gibt hier nur das Entweder-Oder: entweder du liebst Gott oder du liebst die Güter der Welt. Liebst du die Welt, so haßt du Gott, liebst du Gott, so haßt du die Welt. +9 Ob du das willst, ob du es wissentlich tust, daran liegt gar nichts.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p67",
+    "de": "Ganz gewiß, du wirst es nicht wollen, du wirst es wohl auch nicht wissen, was du tust; vielmehr willst du das eben nicht, sondern du willst ja gerade beiden Herren dienen. Du willst Gott lieben und die Güter, also du wirst es immer für eine Unwahrheit halten, daß du Gott haßt. Du liebst ihn ja, wie du meinst. Aber eben indem wir Gott lieben und die Güter der Welt auch, ist diese Liebe zu Gott Haß, ist das Auge nicht mehr einfältig, ist das Herz nicht mehr in der Gemeinschaft J esu. Ob wir das wollen oder nicht, es kann I eben nicht anders sein. Ihr könnt nicht zwei Herren dienen, ihr, die ihr in der Nachfolge Jesu steht.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p68",
+    "de": "\"Darum sage ich euch: Sorget nicht für euer Leben, was ihr essen und trinken werdet, auch nicht für euren Leib, was ihr anziehen werdet. Ist nicht das Leben mehr denn die Speise? und der Leib mehr denn die Kleidung? Sehet die Vögel unter dem 49 1936 NL B 9,5 (73) unter Hinweis auf IJoh 2,15 und Joh 3,16: \"Unsere Liebe zur Welt geht über Liebe Gottes zur Welt in Jesus Christus. -Nicht Weltflucht, sondern habt Gott lieb.\" /53 Die Bergpredigt (Matthäus 6) 171 Himmel an: ie säen nicht, ie ernten nicht, ie sammeln nicht in die Scheunen; und euer himmlischer Vater nährt ie doch. Seid ihr denn nicht viel mehr denn ie?",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p69",
+    "de": "Wer ist aber unter euch, der seiner Länge eine Elle zusetzen möge, ob er gleich darum sor­ get? Und warum sorget ihr für die Kleidung? Schauet die Lilien auf dem Felde, wie ie wachsen: ie arbeiten nicht, auch spinnen ie nicht. Ich sage euch, daß auch Salomo in aller seiner Herr­ lichkeit nicht bekleidet gewesen ist wie derselben eins. So denn Gott das Gras auf dem Felde also kleidet, das doch heute steht und morgen in den Ofen geworfen wird: sollte er das nicht viel mehr euch tun, 0 ihr Kleingläubigen? Darum sollt ihr nicht sorgen und sagen: Was werden wir essen, was werden wir trin­ ken, womit werden wir uns kleiden?",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p70",
+    "de": "Nach solchem allen trach­ ten die Heiden. Denn euer himmlischer V8.ter weiß, daß ihr des alles bedürfet. Trachtet am ersten nach dem Reich Gottes und nach seiner Gerechtigkeit, so wird euch solches alles zufallen. Darum sorget nicht für den anderen Morgen; denn der mor­ gende Tag wird für das Seine sorgen. Es ist genug, daß ein jeglicher Tag seine eigene Plage habe\" (Mt. 6,25-34). Sorget nicht! Die Güter spiegeln dem menschlichen Herzen vor, ihm Sicherheit und Sorglosigkeit zu geben; aber in Wahr­ heit verursachen ie gerade erst die Sorge. Das Herz, das sich an die Güter hängt, empfängt mit ihnen die erstickende Last der Sorge.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p71",
+    "de": "Die Sorge schafft sich Schätze, und die Schätze schaffen wieder die Sorge. Wir wollen unser Leben durch die Güter sichern, wir wollen durch Sorge sorglos werden; aber in Wahr­ heit erweist sich das Gegenteil. Die I Fesseln, die uns an die Güter binden, die die Güter festhalten, sind selbst -Sorgen. Der Mißbrauch der Güter besteht darin, daß wir ie zur Sicherung für den nächsten Tag gebrauchen. Sorge ist immer auf das Morgen gerichtet. Die Güter aber sind in strengstem Sinn allein für das Heute bestimmt. Gerade die Sicherung für den morgigen Tag macht mich heute so unsicher. Es ist genug, daß jeder Tag seine eigene Plage habe.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p72",
+    "de": "Wer das Morgen ganz in die Hand Gottes legt und heute ganz empfängt, was er zum Leben braucht, der allein ist wahrhaft gesichert. Das tägliche Empfangen macht mich frei vom Morgen. Der Gedanke an das Morgen liefert mich der unendlichen Sorge aus. \"Sorget nicht für den anderen Morgen\" -das ist entweder ein furchtbarer 172 Teil L 154 Hohn auf die Armen und Elenden, zu denen Jesus gerade spricht, auf alle die, die -menschlich geredet -morgen verhun­ gern, wenn ie heute nicht sorgen. Es ist entweder ein unerträg­ liches Gesetz, das der Mensch mit Widerwillen von sich stößt oder aber -es ist die einzigartige Verkündigung des Evange­ liums selbst von der Freiheit der Kinder Gottes, die einen Vater im Himmel haben, der ihnen seinen lieben Sohn geschenkt hat.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p73",
+    "de": "Wie sollte er uns mit ihm nicht alles schenken?50 \"Sorget nicht für den anderen Morgen\" - das ist nicht zu begreifen als Lebensweisheit, als Gesetz. Es ist allein zu begrei­ fen als das Evangelium von Jesus Christus. Nur der Nachfol­ gende, der Jesus erkannt hat, empfängt aus diesem Wort die Zusage der Liebe des Vaters Jesu Christi und die Freiheit von allen Dingen. Nicht die Sorge macht den Jünger sorglos, son­ dern der Glaube an Jesus Christus. Nun weiß er: Wir können gar nicht sorgen (v. 27). Der nächste Tag, die nächste Stunde ist uns gänzlich entnommen. Es ist sinnlos, so zu tun, als könnten wir überhaupt sorgen.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p74",
+    "de": "Wir können ja an den Zuständen der Welt nichts ändern. Gott allein kann sorgen, weil er die Welt regiert. Weil wir nicht I sorgen können, weil wir so völlig ohn­ mächtig sind, darum sollen wir auch nicht sorgen. Wir maßen uns damit das Regiment Gottes an. Der Nachfolgende aber weiß auch, daß er nicht nur nicht sorgen kann und darf, sondern daß er auch nicht zu sorgen braucht. Nicht die Sorge, aber auch nicht die Arbeit schafft das tägliche Brot, sondern Gott der Vater. Die Vögel und die Lilien arbeiten und spinnen nicht, und doch werden ie ernährt und gekleidet, ie empfangen täglich das Ihre ohne Sorge.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p75",
+    "de": "Sie brau­ chen die Güter der Welt nur zum täglichen Leben, ie sammeln ie nicht, und gerade so preisen ie den Schöpfer, nicht durch ihren Fleiß, ihre Arbeit, ihre Sorge, sondern durch das tägliche, einfältige Empfangen der Gabe, die Gott gibt. So werden Vögel und Lilien zu Exempeln für die Nachfolgenden. Jesus löst den ohne Gott gedachten notwendigen Zusammenhang von Arbeit und Nahrung auf. Er preist das tägliche Brot nicht als den Lohn 50 Röm 8,32. der Arbeit, sondern er spricht von der sorglosen Einfalt dessen, der in Jesu Wegen geht und aUes von Gott empfängt.51 \"Nun arbeitet kein Tier um seine Nahrung, sondern ein jeg­ liches hat sein Werk, darnach sucht's und findet seine Speise.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p76",
+    "de": "Das Vöglein fliegt und singet, machet Nester und zeuget Junge; das ist seine Arbeit, aber davon nähret s!ch's nicht. Ochsen pflügen, Pferde tragen und streiten, Schafe geben Wolle, Milch, Käse, das ist ihre Arbeit; aber davon nähren ie sich nicht; sondern die Erde trägt Gras und nährt ie durch Gottes Segen. Also soll und muß der Mensch auch arbeiten und etwas tun, aber doch daneben wissen, daß ein Anderer sei, der ihn ernähre, denn seine Arbeit, nämlich Gottes reicher Segen; wiewohl es scheinet, als nähre ihn seine Arbeit, weil Gott ohne seine Arbeit ihm nichts gibt. Wiewohl das Vöglein nicht säet noch erntet, aber doch müßte Hungers sterben, wo es nicht nach der Speise flöge urid suchte.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p77",
+    "de": "Daß es aber Speise findet, ist nicht seine Ar­ beit, son-I dern Gottes Güte. Denn wer hat Speise dahingelegt, daß es ie findet? Denn wo Gott nicht hinlegt, d:l findet nie­ mand nichts, und sollt sich alle Welt zu Tod arbeiten und su-­ ehen\" (Luther).52 Wenn aber Vögel und Lilien vom Schöpfer erhalten werden, sollte der Vater nicht vielmehr seine Kinder ernähren, die ihn täglich darum bitten, sollte er ihnen nicht geben können, was ie zur Notdurft ihres Lebens täglich brau­ chen, er, dem alle Güter der Erde gehören und der ie verteilen kann nach seinem Wohlgefallen? \"Gott gebe mir nun jeden Tag, soviel ich darf zum Leben, er gibt's den Vögeln auf dem Dach, wie sollt er's mir nicht geben?\" (Claudius)Y 51 1936 NL 9,5 (74): \"Ruf Gottes ist unterschieden von Sorgen und Ethos der Arbeit.\" Anders Tholuck 423: In Mt 6,26.27 stehe \"der genau gefaßte Gedanke, daß selbst ohne das menschliche Arbeiten Gott Leib und Leben erhalten könne, womit also die Arbeit als das für den Menschen geordnete Mittel vorausgesetzt ist.\" 425: \"Diese Thiere sind unvermögend durch Arbeit SIch ihre Speise zu verschaffen, wie der Mensch dies kann\". 0 52 Das Zitat ist übernommen aus K.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p78",
+    "de": "Witte, Luther-Andachten, 24lf (mit geringfügigen Abweichungen). Witte hat aus dem Text WA 15, 367, 24-368, 20 zwei Stellen ausgelassen (368,5-8 und 16-18). Bei Witte ist gesperrt \" ... Arbeit, aber davon nähret sichs nicht.\" 0 53 Letzte Strophe des Gedichts \"Täglich zu singen\" von Matthias Claudius (1740-1815) aus dem Dritten Teil (von 1777) des Wandsbecker Boten, mit kleinen Abweichungen zitiert; vgl. in der Pantheon-Ausgabe 1941 1,282 [Neu­ druck: 150]. Sie ist korrekt zitiert am 4.12.1935 DBW 14, 104 im Dankbrief für Sorge ist Sache der Heiden, die nicht glauben, die sich auf ihre Kraft und Arbeit verlassen, aber nicht auf Gott.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p79",
+    "de": "Heiden sind die Sorgenden darum, weil ie nicht wissen, daß der Vater weiß, daß wir des alles bedürfen. 54 Darum wollen ie selbst tun, was ie von Gott nicht erwarten. Für den Nachfolgenden aber gilt: \"Trachtet zuerst nach dem Reich Gottes und nach seiner Gerechtigkeit, so wird euch solches alles zufallen.\" Damit ist deutlich gemacht, daß Sorge für Essen und Kleidung noch nicht Sorge für das Reich Gottes ist, wie wir es gern verstehen möch­ ten, als sei Erfüllung unserer Arbeit für unsere Familie und uns, als sei unsere Sorge um Brot und Wohnung schon das Trachten nach dem Reich Gottes, als vollzöge dieses sich nur innerhalb jener Sorgen.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p80",
+    "de": "Das Reich Gottes und seine Gerechtigkeit ist hier etwas von dem, was uns an Gaben der Welt zufallen soll, ganz und gar Unterschiedenes. Es ist nichts anderes als die Gerech­ tigkeit, von der Mt. 5 und 6 gesprochen wurde, die Gerechtig­ keit des Kreuzes Christi und der Nachfolge unter dem Kreuz. Die Gemeinschaft J esu und der Gehorsam gegen sein Gebot kommt zuerst, alles andere folgt nach. Es ist kein Ineinander, sondern ein Nacheinander. Vor den Sorgen um unser Leben, um Essen und Kleidung, um Beruf und Familie steht I das Trachten nach der Gerechtigkeit Christi. Es ist hier nur die äußerste Zusammenfassung dessen gegeben, was schon gesagt war.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p81",
+    "de": "Auch dieses Wort J esu ist entweder eine unerträgliche Last, eine unmögliche Vernichtung der menschlichen Existenz der Armen und Elenden -oder aber es ist das Evangelium selbst, das ganz froh und ganz frei macht. Nicht von dem, was der Mensch soll und nicht kann, spricht Jesus, sondern von dem, was Gott uns geschenkt hat und noch verheißt. Ist Chri­ stus uns geschenkt, sind wir in seine Nachfolge berufen, so ist uns mit ihm alles, wirklich alles geschenkt. 55 Es wird uns alles andere zufallen. Wer in der Nachfolge J esu allein auf Seine eine Gabe aus Martin Niemöllers Gemeinde; am 2. Dezember hatte der natio­ nalsozialistische Staat Aktivitäten und Strukturen der Bekennenden Kirche für illegal erklärt, womit z.B. die Finanzlage auch im Finkenwalder Predigersemi­ nar sehr unsicher wurde (vgl.",
+    "zh": ""
+  },
+  {
+    "id": "ch8-p82",
+    "de": "DB 565). Bonhoeffer hatte das \"Claudius'sche Lied\" durch Gerhard Vibrans kennengelernt, s. 4. 3.1942 DBW 16, 244 im Brief nach Gerhards Tod an den Vater Vibrans. D 54 Mt 6,8. D 55 Vgl. Röm 8,32.",
+    "zh": ""
+  }
+]

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="zh-TW" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EchoSpeak - 智慧文字轉語音系統</title>
+  <meta name="description" content="EchoSpeak 是一款基於 Web Speech API 的智慧文字轉語音 (TTS) 工具，提供流暢的即時語音轉換、多國語音選擇、動態波形模擬與歷史記錄功能。">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-logo">
+        <div class="logo-icon-wrapper">
+          <i data-lucide="waves" class="logo-icon"></i>
+        </div>
+        <div class="logo-text">
+          <h1>EchoSpeak</h1>
+          <span class="logo-badge">PRO v1.0</span>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="api-status">
+          <span class="status-dot online"></span>
+          <span class="status-text">Web Speech Ready</span>
+        </div>
+        <button id="btn-guide-modal" class="btn-secondary btn-sm" style="height: 40px; border-radius: 20px; padding: 0 16px;" title="免費高品質語音指南">
+          <i data-lucide="help-circle" class="btn-icon-sm"></i> 免費語音指南
+        </button>
+        <button id="theme-toggle" class="btn-icon" aria-label="切換深淺模式" title="切換深淺模式">
+          <i data-lucide="sun" class="icon-sun"></i>
+          <i data-lucide="moon" class="icon-moon"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="app-main">
+      <div class="grid-container">
+        
+        <!-- Left Column: Input and Waveform -->
+        <section class="panel-left">
+          <div class="card glass-card input-card">
+            <div class="card-header">
+              <div class="card-title-group">
+                <i data-lucide="text-quote" class="card-header-icon"></i>
+                <h2>輸入文字</h2>
+              </div>
+              <div class="input-actions">
+                <button id="btn-sample" class="btn-secondary btn-sm" title="載入範例文字">
+                  <i data-lucide="magic-wand" class="btn-icon-sm"></i> 載入範例
+                </button>
+                <button id="btn-paste" class="btn-secondary btn-sm" title="貼上剪貼簿文字">
+                  <i data-lucide="clipboard" class="btn-icon-sm"></i> 貼上
+                </button>
+                <button id="btn-clear" class="btn-secondary btn-sm btn-danger-hover" title="清除所有文字">
+                  <i data-lucide="trash-2" class="btn-icon-sm"></i> 清除
+                </button>
+              </div>
+            </div>
+            
+            <div class="textarea-wrapper">
+              <textarea id="text-input" placeholder="請輸入或貼上您想轉換為語音的文字。啟用「即時朗讀」後，在您輸入完畢時會自動發音..." spellcheck="false" autocomplete="off"></textarea>
+              <div class="textarea-footer">
+                <div class="speech-indicator" id="speech-indicator">
+                  <span class="indicator-active-text" id="indicator-text">準備就緒</span>
+                </div>
+                <div class="char-count"><span id="current-char-count">0</span> / 50000</div>
+              </div>
+            </div>
+
+            <!-- Visualization / Audio Control Panel -->
+            <div class="playback-controls-section">
+              <div class="waveform-container">
+                <canvas id="waveform-canvas"></canvas>
+                <div class="waveform-overlay" id="waveform-overlay">
+                  <span>點擊下方播放開始合成語音</span>
+                </div>
+              </div>
+
+              <!-- Action buttons -->
+              <div class="control-actions">
+                <button id="btn-stop" class="btn-action btn-danger" disabled title="停止播放">
+                  <i data-lucide="square"></i> 停止
+                </button>
+
+                <button id="btn-prev" class="btn-action btn-secondary" disabled title="上一句">
+                  <i data-lucide="skip-back"></i>
+                </button>
+                
+                <button id="btn-play-pause" class="btn-action btn-primary" title="播放語音">
+                  <i data-lucide="play" id="play-icon"></i>
+                  <span id="play-btn-text">播放語音</span>
+                </button>
+
+                <button id="btn-next" class="btn-action btn-secondary" disabled title="下一句">
+                  <i data-lucide="skip-forward"></i>
+                </button>
+
+                <button id="btn-download" class="btn-action btn-secondary" disabled title="下載 MP3 檔案 (僅支援 API 語音引擎)" style="max-width: 140px;">
+                  <i data-lucide="download"></i> 下載 MP3
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Highlight / Live Subtitle Display -->
+          <div class="card glass-card subtitle-card" id="subtitle-card">
+            <div class="subtitle-header">
+              <i data-lucide="languages" class="subtitle-icon"></i>
+              <h3>朗讀進度與句子追蹤</h3>
+            </div>
+            <div class="subtitle-content" id="subtitle-display">
+              <span class="subtitle-placeholder">播放語音時，這裡會以醒目方式即時顯示目前朗讀的句子。</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Right Column: Settings and History -->
+        <aside class="panel-right">
+          <!-- Voice Settings -->
+          <div class="card glass-card settings-card">
+            <div class="card-header">
+              <div class="card-title-group">
+                <i data-lucide="sliders" class="card-header-icon"></i>
+                <h2>語音與音效設定</h2>
+              </div>
+            </div>
+            <div class="card-body">
+              <!-- Engine select -->
+              <div class="form-group">
+                <label for="engine-select">語音合成引擎</label>
+                <div class="select-wrapper">
+                  <select id="engine-select">
+                    <option value="local" selected>瀏覽器內建 (Web Speech API)</option>
+                    <option value="openai">OpenAI Neural API (付費超自然)</option>
+                    <option value="elevenlabs">ElevenLabs API (付費極擬真)</option>
+                  </select>
+                  <i data-lucide="chevron-down" class="select-arrow"></i>
+                </div>
+              </div>
+
+              <!-- Voice select -->
+              <div class="form-group">
+                <label for="voice-select">選擇語音角色</label>
+                <div class="select-wrapper">
+                  <select id="voice-select">
+                    <option value="" disabled selected>正在載入語音清單...</option>
+                  </select>
+                  <i data-lucide="chevron-down" class="select-arrow"></i>
+                </div>
+              </div>
+
+              <!-- Filter Languages -->
+              <div class="form-group">
+                <label>語言篩選</label>
+                <div class="lang-chips" id="lang-chips">
+                  <button class="chip active" data-lang="all">全部</button>
+                  <button class="chip" data-lang="zh">中文</button>
+                  <button class="chip" data-lang="en">英文</button>
+                  <button class="chip" data-lang="ja">日文</button>
+                </div>
+              </div>
+
+              <!-- Rate / Speed -->
+              <div class="form-group">
+                <div class="slider-label-group">
+                  <label for="slider-rate">朗讀速度 (Speed)</label>
+                  <span class="slider-value" id="val-rate">1.0x</span>
+                </div>
+                <div class="slider-container">
+                  <i data-lucide="gauge" class="slider-icon"></i>
+                  <input type="range" id="slider-rate" min="0.5" max="2.0" step="0.1" value="1.0" class="custom-slider">
+                </div>
+              </div>
+
+              <!-- Pitch -->
+              <div class="form-group">
+                <div class="slider-label-group">
+                  <label for="slider-pitch">音調高低 (Pitch)</label>
+                  <span class="slider-value" id="val-pitch">1.0</span>
+                </div>
+                <div class="slider-container">
+                  <i data-lucide="music-4" class="slider-icon"></i>
+                  <input type="range" id="slider-pitch" min="0.5" max="2.0" step="0.1" value="1.0" class="custom-slider">
+                </div>
+              </div>
+
+              <!-- Volume -->
+              <div class="form-group">
+                <div class="slider-label-group">
+                  <label for="slider-volume">音量大小 (Volume)</label>
+                  <span class="slider-value" id="val-volume">100%</span>
+                </div>
+                <div class="slider-container">
+                  <i data-lucide="volume-2" class="slider-icon" id="volume-icon"></i>
+                  <input type="range" id="slider-volume" min="0" max="1" step="0.05" value="1.0" class="custom-slider">
+                </div>
+              </div>
+
+              <!-- Instant Reading Toggle -->
+              <div class="toggle-group">
+                <div class="toggle-info">
+                  <span class="toggle-title">即時朗讀 (Auto-Read)</span>
+                  <span class="toggle-desc">停止輸入 1 秒後自動播放語音</span>
+                </div>
+                <label class="switch" for="toggle-autoread">
+                  <input type="checkbox" id="toggle-autoread">
+                  <span class="switch-slider"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- API Keys Card (collapsible / conditionally shown) -->
+          <div class="card glass-card settings-card" id="api-card" style="display: none; margin-top: 20px;">
+            <div class="card-header">
+              <div class="card-title-group">
+                <i data-lucide="key" class="card-header-icon"></i>
+                <h2>API 金鑰與進階設定</h2>
+              </div>
+            </div>
+            <div class="card-body" style="gap: 16px;">
+              <!-- OpenAI Key -->
+              <div class="form-group" id="group-openai-key">
+                <div class="slider-label-group">
+                  <label for="openai-key">OpenAI API 金鑰</label>
+                  <a href="https://platform.openai.com/api-keys" target="_blank" class="btn-link font-primary" style="font-size:0.75rem;">取得金鑰</a>
+                </div>
+                <div class="input-password-wrapper" style="position:relative; display:flex; align-items:center;">
+                  <input type="password" id="openai-key" placeholder="sk-proj-..." class="custom-input" style="width:100%; padding:12px 16px; padding-right:40px; background:var(--btn-secondary-bg); border:1px solid var(--border-glass); border-radius:10px; color:var(--text-primary);">
+                  <button type="button" class="btn-toggle-pwd" data-target="openai-key" style="position:absolute; right:12px; background:transparent; cursor:pointer; color:var(--text-secondary); border:none; outline:none;">
+                    <i data-lucide="eye" style="width:16px; height:16px;"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- ElevenLabs Key -->
+              <div class="form-group" id="group-elevenlabs-key" style="display: none;">
+                <div class="slider-label-group">
+                  <label for="elevenlabs-key">ElevenLabs API 金鑰</label>
+                  <a href="https://elevenlabs.io/app/settings/api-keys" target="_blank" class="btn-link font-primary" style="font-size:0.75rem;">取得金鑰</a>
+                </div>
+                <div class="input-password-wrapper" style="position:relative; display:flex; align-items:center;">
+                  <input type="password" id="elevenlabs-key" placeholder="輸入 ElevenLabs API Key..." class="custom-input" style="width:100%; padding:12px 16px; padding-right:40px; background:var(--btn-secondary-bg); border:1px solid var(--border-glass); border-radius:10px; color:var(--text-primary);">
+                  <button type="button" class="btn-toggle-pwd" data-target="elevenlabs-key" style="position:absolute; right:12px; background:transparent; cursor:pointer; color:var(--text-secondary); border:none; outline:none;">
+                    <i data-lucide="eye" style="width:16px; height:16px;"></i>
+                  </button>
+                </div>
+              </div>
+              <p class="api-note" style="font-size:0.75rem; color:var(--text-muted); line-height:1.4; margin-top:4px;">
+                💡 提醒：您的 API 金鑰僅儲存於此瀏覽器的本地快取 (localStorage) 中，會直接向官方 API 端點發送請求，絕不會經過任何第三方伺服器，安全無虞。
+              </p>
+            </div>
+          </div>
+
+          <!-- History / Saved Snippets Tabs -->
+          <div class="card glass-card sidebar-tabs-card">
+            <div class="tabs-header">
+              <button class="tab-btn active" id="tab-history" data-tab="tab-content-history">
+                <i data-lucide="history" class="tab-icon"></i> 歷史紀錄
+              </button>
+              <button class="tab-btn" id="tab-saved" data-tab="tab-content-saved">
+                <i data-lucide="star" class="tab-icon"></i> 我的收藏
+              </button>
+            </div>
+            
+            <div class="tabs-body">
+              <!-- History Tab -->
+              <div class="tab-pane active" id="tab-content-history">
+                <div class="tab-pane-header">
+                  <span class="pane-title">最近轉換過的文字</span>
+                  <button id="btn-clear-history" class="btn-link" title="清除所有歷史">清除全部</button>
+                </div>
+                <div class="list-container" id="history-list">
+                  <div class="empty-state">
+                    <i data-lucide="clock" class="empty-icon"></i>
+                    <p>尚無歷史紀錄，快來試試文字轉語音吧！</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Saved Tab -->
+              <div class="tab-pane" id="tab-content-saved">
+                <div class="tab-pane-header">
+                  <span class="pane-title">已收藏的文字片段</span>
+                  <button id="btn-save-current" class="btn-link font-primary" title="收藏目前輸入框中的文字">
+                    <i data-lucide="plus-circle" class="btn-icon-xs"></i> 收藏目前文字
+                  </button>
+                </div>
+                <div class="list-container" id="saved-list">
+                  <div class="empty-state">
+                    <i data-lucide="folder-heart" class="empty-icon"></i>
+                    <p>尚無收藏片段，可點擊上方按鈕收藏當前文字。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>© 2026 EchoSpeak TTS. Powered by Web Speech API. Designed with premium aesthetics.</p>
+    </footer>
+  </div>
+
+  <!-- Dialog / Modal for sample texts selection -->
+  <dialog id="sample-dialog" class="glass-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3><i data-lucide="sparkles" class="modal-icon"></i> 選擇範例文字</h3>
+        <button id="btn-close-modal" class="btn-icon-sm" aria-label="關閉對話框">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="sample-grid">
+          <div class="sample-item" data-text="歡迎使用 EchoSpeak 智慧文字轉語音系統。這是一套完全在您的瀏覽器端運作的即時語音合成工具。在這裡，您可以自由調整聲音速度、音高和音量，並支援多種語言的語音角色。快來體驗看看吧！">
+            <h4>系統歡迎詞 (繁中)</h4>
+            <p>歡迎使用 EchoSpeak 智慧文字轉語音系統...</p>
+          </div>
+          <div class="sample-item" data-text="Welcome to EchoSpeak, a premium web-based text-to-speech platform. Feel free to enter any text here, adjust the playback rate, pitch, and choose from various high-quality voices available on your system. Have a great experience!">
+            <h4>English Intro (英文)</h4>
+            <p>Welcome to EchoSpeak, a premium web-based text-to-speech platform...</p>
+          </div>
+          <div class="sample-item" data-text="EchoSpeakへようこそ。このプログラムはブラウザ上で動作するリアルタイム音声合成ツールです。お好みの速度や音高を設定し、様々な言語の音声を楽しんでください。">
+            <h4>日本語の紹介 (日文)</h4>
+            <p>EchoSpeakへようこそ。このプログラムはブラウザ上で動作する...</p>
+          </div>
+          <div class="sample-item" data-text="各位旅客請注意，由台北開往高雄的普悠瑪自強號列車即將進站。為了您的安全，請勿超越黃色警戒線，並在車門打開後依序上車。謝謝您的配合。">
+            <h4>廣播公告 (繁中)</h4>
+            <p>各位旅客請注意，由台北開往高雄的普悠瑪自強號...</p>
+          </div>
+          <div class="sample-item" data-text="親愛的客戶您好，感謝您致電本公司客服中心。為了提供您更優質的服務，我們的語音選單已做更新。國語服務請按一，台語服務請按二，English service please press three, 專人服務請按九。">
+            <h4>客服電話語音 (混合語)</h4>
+            <p>親愛的客戶您好，感謝您致電本公司客服中心...</p>
+          </div>
+          <div class="sample-item" data-text="在星光燦爛的夜空下，微風徐徐吹過，樹葉沙沙作響。這是一個寧靜而美麗的夜晚，適合靜下心來，閱讀一本好書，或是聆聽一段溫柔的旋律，讓心靈得到片刻的沉澱。">
+            <h4>抒情散文朗讀 (繁中)</h4>
+            <p>在星光燦爛的夜空下，微風徐徐吹過，樹葉沙沙作響...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Dialog / Modal for system high quality voice guide -->
+  <dialog id="guide-dialog" class="glass-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3><i data-lucide="help-circle" class="modal-icon"></i> 免費取得高品質自然語音指南</h3>
+        <button id="btn-close-guide" class="btn-icon-sm" aria-label="關閉對話框" style="background:transparent; cursor:pointer;">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+      <div class="modal-body" style="line-height:1.6; font-size:0.95rem; display:flex; flex-direction:column; gap:16px;">
+        <div style="background:var(--btn-secondary-bg); padding:16px; border-radius:12px; border:1px solid var(--border-glass);">
+          <h4 style="color:var(--accent-primary); font-weight:600; margin-bottom:8px; display:flex; align-items:center; gap:8px;">
+            <i data-lucide="monitor" style="width:18px; height:18px;"></i> 推薦方案 A：使用 Microsoft Edge 瀏覽器
+          </h4>
+          <p style="margin-bottom:6px;">Microsoft Edge 內建微軟著名的 Azure Neural 雲端語音。在 Edge 瀏覽器中開啟本網頁，可以直接在<b>選擇語音角色</b>清單中選取帶有「<b>Online</b>」的語音：</p>
+          <ul style="padding-left:20px; color:var(--text-secondary); font-size:0.85rem;">
+            <li><b>Microsoft Xiaoxiao Online</b> (極自然的國語女聲)</li>
+            <li><b>Microsoft Yunxi Online</b> (極自然的國語男聲)</li>
+            <li>這些語音<b>完全免費</b>且無需任何 API 設定！</li>
+          </ul>
+        </div>
+
+        <div style="background:var(--btn-secondary-bg); padding:16px; border-radius:12px; border:1px solid var(--border-glass);">
+          <h4 style="color:var(--accent-secondary); font-weight:600; margin-bottom:8px; display:flex; align-items:center; gap:8px;">
+            <i data-lucide="apple" style="width:18px; height:18px;"></i> 推薦方案 B：下載 macOS / iOS 的 Siri 高品質語音
+          </h4>
+          <p style="margin-bottom:6px;">Apple 提供極為自然流暢的 Siri 及提升型語音，可在系統中免費下載並授權給瀏覽器使用：</p>
+          <ol style="padding-left:20px; color:var(--text-secondary); font-size:0.85rem; display:flex; flex-direction:column; gap:4px;">
+            <li>開啟 Mac 的 <b>「系統設定」</b>。</li>
+            <li>點選左側 <b>「輔助使用」</b> ➔ 選擇 <b>「語音內容」</b>。</li>
+            <li>在「系統語音」下拉選單中選擇 <b>「管理語音...」</b>。</li>
+            <li>找到 <b>「中文」</b> 或 <b>「英文」</b>，下載帶有 <b>「Siri」</b> 或 <b>「提升品質 (Premium)」</b> 的語音（例如：美佳-提升品質）。</li>
+            <li>下載完成後，重新整理此網頁，即可在語音角色選單中看到並使用！</li>
+          </ol>
+        </div>
+
+        <div style="background:var(--btn-secondary-bg); padding:16px; border-radius:12px; border:1px solid var(--border-glass);">
+          <h4 style="color:var(--text-primary); font-weight:600; margin-bottom:8px; display:flex; align-items:center; gap:8px;">
+            <i data-lucide="chrome" style="width:18px; height:18px;"></i> 推薦方案 C：Chrome 瀏覽器線上語音
+          </h4>
+          <p style="margin-bottom:6px; color:var(--text-secondary); font-size:0.85rem;">當 Chrome 保持網際網路連線時，會自動載入帶有 <b>Google</b> 標籤的線上語音角色。這些語音同樣比離線系統語音自然許多，可以直接在選單中選用。</p>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Script File -->
+  <script src="app.js"></script>
+</body>
+</html>

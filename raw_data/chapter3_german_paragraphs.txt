@@ -1,0 +1,132 @@
+[
+  {
+    "id": "ch3-p1",
+    "de": "Der einfältige Gehorsam. Als Jesus vom reichen Jüngling freiwillige Armut forderte, da wußte dieser, daß es hier nur Gehorsam oder Ungehorsam gab. Als Levi vom Zoll, Petrus von den Netzen gerufen wurde, da war es nicht zweifelhaft, daß es Jesus mit diesem Ruf ernst war. Sie sollten alles verlassen und nachfolgen. Als Petrus auf das schwankende Meer gerufen wird, da muß er aufstehen und den Schritt wagen. 1 Es war in all dem nur eines gefordert, sich auf das Wort J esu Christi zu verlassen, dieses Wort für einen trag­ fähigeren Boden zu halten als alle Sicherheiten der Welt. Die Mächte, die sich zwischen das Wort J esu und den Gehorsam stellen wollten, waren damals ebenso groß wie heute.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p2",
+    "de": "Die Ver­ nunft widersprach, das Gewissen, die Verantwortung, die Pie­ tät, ja selbst das Gesetz und das Schriftprinzip traten ins Mittel, um dieses Äußerste, diese gesetzlose \"Schwärmerei\" zu verhü­ ten.2 Aber der Ruf J esu durchbrach dieses alles und schuf sich Gehorsam. Es war Gottes eigenes Wort. Einfältiger Gehorsam war gefordert. 3 Würde Jesus Christus durch die heilige Schrift heute zu ei­ nem von uns so sprechen, so würden wir wohl folgendermaßen argumentieren: Jesus befiehlt etwas ganz Bestimmtes, das ist wahr. Wenn aber Jesus befiehlt, dann soll ich wissen, daß er niemals gesetzlichen Gehorsam fordert, sondern daß er nur ei­ nes von mir will, nämlich daß ich glaube.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p3",
+    "de": "Mein Glaube aber ist nicht gebunden an Armut oder Reichtum oder ähnliches, viel­ mehr kann ich im Glauben beides, arm und reich sein. Nicht 1 Mt 19,21; Mk 2,14; 1,1M; Mt 14,29.02 Hier wie S. 30 wendet Bonhoeffer sich gegen die Brandmarkung des schlichten Gehorsams als unreformatorische ,Ketzerei', einen Vorwurf, der von Lutheranern gern erhoben wurde, z.B. durch P. Althaus, Der Geist der lutherischen Ethik, 45: \"Auch unter uns ist das, was die Reformatoren das Schwärmertum nannten, eine Macht\" in Gestalt \"christlich-pazifistischer u. a. Kurzschlüsse\". 0 3 Die Formulierung \"einfälti­ ger Gehorsam\" erscheint (zusammen mit \"Christliche Kriegsverweigerung\") in der Finkenwalder Mitschrift 1936 DBW 14, 621 f.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p4",
+    "de": "Vgl. Kierkegaard 183: \"Wenn das Evangelium fordert dieser Welt zu entsagen ... , dann ist es das Einfältige: es zu tun.\" Siehe auch S. 167f. 70 Teil 1. 54 darauf kommt es an, daß ich keine Güter habe, sondern daß ich die Güter so habe, als hätte ich ie nicht, und daß ich innerlich von ihnen frei bin, daß I ich mein Herz nicht an meinen Reich­ tum hänge.4 Also, jesus sagt etwa: Verkaufe deine Güter! jesus meint aber: Nicht darauf kommt es in Wahrheit an, daß du das nun auch äußerlich vollziehst, vielmehr sollst du die Güter ru­ hig behalten, aber du sollst ie haben, als hättest du ie nicht. Hänge dein Herz nicht an die Güter.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p5",
+    "de": "Unser Gehorsam gegen das Wort jesu würde also darin bestehen, daß wir den einfälti­ gen Gehorsam als gesetzlich gerade verweigern, um dann \"im Glauben\" gehorsam zu sein.5 Damit unterscheiden wir uns vom reichen jüngling. Er vermag sich in seiner Traurigkeit nicht damit zu beruhigen, daß er zu sich sagte: ich will nun zwar trotz des Wortes j esu reich bleiben, aber ich will innerlich von meinem Reichtum frei werden und mich in aller meiner Unzu­ länglichkeit der Vergebung der Sünde trösten und im Glauben mit jesus Gemeinschaft haben; sondern er ging traurig davon6 und war mit dem Gehorsam um den Glauben gekommen.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p6",
+    "de": "Darin war der jüngling ganz aufrichtig. Er trennte sich von jesus, und gewiß hat diese Aufrichtigkeit größere Verheißung als eine Schein gemeinschaft mit jesus, die auf dem Ungehorsam beruht. Offenbar stand es nach der Meinung jesu mit dem jüngling so, daß dieser sich eben nicht innerlich von seinem Reichtum freimachen konnte. Vermutlich hatte der jüngling als ernster und strebender Mensch das tausendmal selbst versucht. Daß es mißlang, zeigt die Tatsache, daß er im entscheidenden Augenblick dem Wort j esu nicht zu gehorchen vermochte. Darin war also der jüngling aufrichtig. Wir unterscheiden uns aber mit unserer Argumentation vom biblischen Hörer des Wortes jesu überhaupt.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p7",
+    "de": "Sagt jesus zu diesem: Laß alles andere zurück und folge mir nach, geh aus deinem Beruf, aus deiner Familie, aus deinem Volk und Vaterhaus!7, so hatte dieser ge4 Bonhoeffer lehnt eine Auffassung wie die Tholucks ab, der zu Mt 6,19 \"Ihr sollt euch nicht Schätze sammeln\" versichert: \"Daß das Wort in keinem ande­ ren Sinne gemeint ist als 1 Kor. 7,30.31.: ,die da haben als hätten ie nicht''', zeige Mt 6,21: \"das Herz nicht im Schatz haben ist es, was der Herr dort verwehrt\" (Tholuck 410).05 Vgl. z.B. E. Brunner, Das Gebot, 134: \" ... das ethische Pathos liegt ja im Glauben\". 0 6 Mt 19,22. 0 7 1935 NL B 8 (2) Stellenangabe: Mt 4,18-22.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p8",
+    "de": "In Bonhoeffers \"Nestle\" ist in Vers 22 unters tri55 Der einfältige Gehorsam 71 wußt: Auf diesen Ruf gibt es nur die Antwort des einfältigen Gehorsams und dies darum, weil eben diesem Gehorsam die Verheißung der Gemeinschaft mit Jesus gegeben I ist. Wir aber würden sagen: Der Ruf Jesu ist zwar \"unbedingt ernstzuneh­ men\", aber der wahre Gehorsam gegen ihn besteht darin, daß ich nun gerade in meinem Beruf, in meiner Familie bleibe und ihm dort diene, und zwar in wahrer innerer Freiheit. Jesus würde also rufen: Heraus! - Wir verstehen ihn aber, wie er es eigentlich meint: Bleib drinnen!, freilich als einer, der innerlich herausgetreten ist.8 Oder Jesus würde sagen: Sorget nicht9; wir aber würden verstehen: Natürlich müssen wir sorgen und ar­ beiten für die Unsern und für uns.!O Alles andere wäre ja unver­ antwortlich.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p9",
+    "de": "Aber innerlich sollen wir freilich von solcher Sorge frei sein. Jesus würde sagen: So dir jemand einen Streich gibt auf die rechte Backe, so biete ihm auch die andere dar!!; wir würden verstehen: Gerade im Kampf, gerade im Widerschlagen soll erst die wahre Liebe zum Bruder ganz groß werden. Jesus würde sagen: Trachtet zuerst nach dem Reich Gottes!2; wir würden verstehen: Natürlich hätten wir zuerst nach allerlei an­ deren Dingen zu trachten. Wie sollten wir sonst existieren? Gemeint sei eben die letzte innere Bereitschaft, für das Reich Gottes alles einzusetzen. Es ist überall dasselbe, nämlich die bewußte Aufhebung des einfältigen, wörtlichen Gehorsams.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p10",
+    "de": "Wie ist solche Verkehrung möglich? Was ist geschehen, daß das Wort J esu sich dieses Spiel gefallen lassen muß? daß es so dem Spott der Welt ausgeliefert wird?13 Wo immer sonst in der Welt Befehle ausgegeben werden, sind die Verhältnisse klar. Ein Vater sagt zu seinem Kind: Geh ins Bett!, so weiß das Kind wohl, woran es ist. Ein pseudotheologisch dresiertes Kind aber chen: xaL tOV rratEQa (die von Jesus Gerufenen verließen das Schiff \"und den Va­ ter\"). D 8 Bonhoeffer referierte Brunners \"Das Gebot und die Ordnungen\" 1932/33 DBW 12, 175: ,,[Wenn also gefragt wird:] was soll ich tun? [lautet die Antwort:] bleibe in deinem Beruf! ...",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p11",
+    "de": "Im Beruf darfst du das gute Gewissen haben\". Vgl. auch E. Brunner, Der Mittler, 377: \"Die Ethik des Evangeliums ist darum unmöglich, weil ie ernst ist.\" D 9 Mt 6,25. D 10 Das von Bonhoeffer abge­ wehrte Verständnis findet sich z.B. in Hegels Religionsphilosophie nach Lasson XlV, 151: \"Christus sagt: ,Sorget nicht für den andern Tag; jeder Tag hat seine eigene Sorge.' Solche Sorge ziemt aber dem Menschen.\" D 11 Mt 5,39. D 12 Mt 6,33. D 13 Vgl. Mk 15,20; die Verspottung gehört zur Kreuzigung Jesu. 72 Teil 1. 56 müßte nun folgendermaßen argumentieren: Der Vater sagt: Geh ins Bett. Er meint, du bist müde; er will nicht, daß ich müde bin.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p12",
+    "de": "Ich kann über meine Müdigkeit auch hinwegkom­ men, indem ich spielen gehe. Also, der Vater sagt zwar: Geh ins Bett!, er meint aber eigentlich: Geh spielen. Mit einer solchen Argumentation würde I das Kind beim Vater, würde der Bürger bei der Obrigkeit auf eine sehr unmißverständliche Sprache sto­ ßen, nämlich auf Strafe. Nur dem Befehl Jesu gegenüber soll das anders sein. Hier soll einfältiges Gehorchen verkehrt, ja Unge­ horsam sein.14 Wie ist das möglich? Es ist dadurch möglich, daß dieser verkehrten Argumenta­ tion tatsächlich etwas ganz richtiges zugrunde liegt. Der Befehl Jesu an den reichen Jüngling bzw. der Ruf in die Situation, in der geglaubt werden kann, hat tatsächlich nur das eine Ziel, den Menschen zum Glauben an ihn, d.h. in seine Gemeinschaft zu rufen.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p13",
+    "de": "Es hängt letzten Endes gar nichts an dieser oder jener Tat des Menschen, sondern es hängt alles an dem Glauben an Jesus als den Sohn Gottes und Mittler. Es hängt letzten Endes aller­ dings nichts an Armut oder Reichtum, Ehe oder Ehelosigkeit, Beruf oder Nicht-Beruf, sondern es hängt alles am Glauben. Soweit haben wir also ganz recht, es ist möglich, in Reichtum und Besitz der Güter der Welt an Christus zu glauben, so daß man diese Güter hat, als hätte man ie nicht15• Aber diese Mög­ lichkeit ist eine letzte Möglichkeit christlicher Existenz über­ haupt, eine Möglichkeit angesichts der ernsten Erwartung der unmittelbar bevorstehenden Wiederkunft Christi, und gerade 14 Anstiftung zum Ungehorsam durch pseudotheologische Dressur befürch­ tete Bonhoeffer bei Argumentationen wie denen von Tholuck, s.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p14",
+    "de": "Bonhoeffers Anmerkung 7) auf S. 139. Besonders in der Kriegsfrage hatten Theologen sich um Umdeutungen bemüht, z.B. W. Herrmann, Die sittlichen Weisungen Jesu, 65: Haben wir nur die \"Gesinnung verstanden, für die Jesus uns gewinnen will\", dann befürworten wir als Christen etwas, was (zur Bergpredigt) \"in so grel­ lem Widerspruch steht, wie die Waffenrüstung und ihr mutiger Gebrauch\". Da­ gegen Bonhoeffer in Fan0 1934 DBW 13, 302-304: \"Zum Gebot gibt es ein dop­ peltes Verhalten: den unbedingten, blinden Gehorsam der Tat oder die schein­ heilige Frage der Schlange: ,sollte Gott gesagt haben?' ... Sollte Gott gesagt ha­ ben, du sollst dein Volk nicht schützen? ..",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p15",
+    "de": "Wer von uns darf denn sagen, daß er wüßte, was es für die Welt bedeuten könnte, wenn ein Volk -statt mit der Waffe in der Hand -betend und wehrlos ... den Angreifer empfinge?\" D 15 I Kor 7,29 f. 57 Der einfältige Gehorsam 73 nicht die erste und einfältigste Möglichkeit. Das paradoxel6 Verständnis der Gebote hat sein christliches Recht, aber es darf niemals dazu führen, daß es das einfältige Verständnis der Ge­ bote aufhebt. Es hat vielmehr sein Recht und seine Möglichkeit nur für den, der an irgend einem Punkt seines Lebens mit dem einfältigen Verständnis schon ernstgemacht hat, der so in der Gemeinschaft Jesu, in der Nachfolge, in der Erwartung des Endes steht.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p16",
+    "de": "Es ist die unendlich viel schwerere, ja die mensch­ lich gesprochen unmögliche Möglichkeit, Jesus Ruf paradox zu verstehen, und ie ist gerade als solche dauernd in der äußersten Gefahr, in ihr Gegenteil umzuschlagen und zum bequemen Ausweg, zur I Flucht vor dem konkreten Gehorsam zu werden. Wer nicht weiß, daß es ihm unendlich viel leichter wäre, das Gebot J esu einfältig zu verstehen und wörtlich zu gehorchen, also etwa die Güter auf einen Befehl J esu tatsächlich hinzuge­ ben, statt ie zu behalten, der hat kein Recht zu dem paradoxen Verständnis des Wortes J esu. Es ist also notwendig in dem paradoxen Verständnis des Gebotes J esu das wörtliche immer mit eingeschlossen.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p17",
+    "de": "Der konkrete Ruf Jesu und der einfältige Gehorsam hat sei­ nen unwiderruflichen Sinn. Jesus ruft damit in die konkrete Situation, in der ihm geglaubt werden kann; darum ruft er so konkret und will eben so verstanden sein, weil er weiß, daß nur im konkreten Gehorsam der Mensch frei wird zum Glauben.17 Wo der einfältige Gehorsam grundsätzlich eliminiert wird, dort ist abermal� aus der teuren Gnade des Rufes Jesu die billige Gnade der Selbstrechtfertigung geworden. Dort ist aber damit auch ein falsches Gesetz aufgerichtet, das das Ohr gegen den konkreten Ruf Christi verstockt. Dieses falsche Gesetz ist das Gesetz der Welt, dem das Gesetz der Gnade gegenübertritt und entspricht.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p18",
+    "de": "Die Welt ist hier nicht die in Christus überwundene 16 Häufiger Ausdruck, oft mit dem Hinweis auf Kierkegaard verbunden, bei K. Barth, Römerbrief, z.B. 98: \"gegen den Schein (para-dox)\". Vgl. P. Althaus, Religiöser Sozialismus, 27 und 84, und 1928 DBW 10, 344 \"Paradoxie\".D 17 Vgl. 1936 DBW 14, 620: Mit der Inhaltlosigkeit des Rufs in die Nachfolge (s. S. 46 zu Mk 2,14) darf man die \"Bergpredigt nicht relativieren ... Es gibt konkrete christliche Ethik. Es geht im NT um Werk, Tun, Erfüllung der Gebote. - Gebote nicht Symbole und Sündenspiegel. Reicher Jüngling erhält Gebot, um es zu tun (verkaufe!)\". 74 Teil 1. 58 und in seiner Gemeinschaft täglich neu zu überwindende, son­ dern ie ist zum starren, undurchbrechbaren prinzipiellen Ge­ setz geworden.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p19",
+    "de": "Gnade aber ist dann auch nicht mehr das Ge­ schenk des lebendigen Gottes, in dem wir der Welt entrissen und in den Gehorsam Christi gestellt werden, sondern ie ist ein allgemeines göttliches Gesetz, ein göttliches Prinzip, um dessen Anwendung auf den Spezialfall es allein noch geht. Der prinzipielle Kampf gegen \"die Gesetzlichkeit\" des einfältigen Gehorsams18 richtet selbst das allergefährlichste Gesetz auf, das Gesetz der Welt und das Gesetz der Gnade. Der prinzipielle Kampf gegen die Gesetzlichkeit ist selbst am allergesetzlich­ steno Gesetzlichkeit wird allein überwunden durch den wirk-I lichen Gehorsam gegen den gnädigen Ruf Jesu in seine Nach­ folge, in der das Gesetz durch Jesus selbst erfüllt und aufgeho­ ben ist.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p20",
+    "de": "Wo der einfältige Gehorsam grundsätzlich eliminiert wird, dort wird ein unevangelisches Schriftprinzip eingeführt. 19 Vor­ aussetzung für das Schriftverständnis ist dann die Verfügung über einen Schlüssel zum Schriftverständnis. Dieser Schlüssel ist aber hier nicht der lebendige Christus selbst in Gericht und Gnade, und die Handhabung dieses Schlüssels liegt nicht mehr allein im Willen des lebendigen heiligen Geistes, sondern der Schlüssel der Schrift ist eine allgemeine Gnadenlehre, und wir selbst verfügen über seine Handhabung. Das Problem der Nachfolge erweist sich hier auch als ein hermeneutisches Pro­ blem.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p21",
+    "de": "Es muß einer evangelischen Hermeneutik klar sein, daß es zwar nicht ohne weiteres angeht, uns mit den von Jesus Gerufenen unmittelbar zu identifizieren; vielmehr gehören ja die Gerufenen der Schrift selbst mit zum Worte Gottes und damit zur Verkündigung. Wir hören in der Predigt nicht nur 18 Nach E. Brunner, Das Gehot, 58, liegt der \"Hauptakzent der biblischen Ethik ... auf dem Kampf gegen die Gesetzlichkeit\" (in Bonhoeffers Exemplar angestrichen). Vgl. dagegen 1935 NL B 8 (4): \"Bindung an Jesus und Bleiben in der realen iustitia civilis geht nicht. Dann Gesetzlichkeit noch besser. In Ge­ setzlichkeit laß ich wenigstens die Person Jesu unangetastet.\" 0 19 Siehe in Bonhoeffers Sachregister für den Druck 1937 das Stichwort \"Schriftprinzip und Nachfolge\". -Vgl. auch Bonhoeffers Seminararbeit: \"Läßt sich eine historische und pneumatische Auslegung der Schrift unterscheiden, und wie stellt sich die Dogmatik hierzu?\" (1925 DBW 9,305-323). 59 Der einfältige Gehorsam 75 die Antwort Jesu auf die Frage eines Jüngers, die auch unsere Frage wäre, sondern Frage und Antwort zusammen sind als Wort der Schrift Gegenstand der Verkündigung.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p22",
+    "de": "Einfältiger Gehorsam wäre also hermeneutisch mißverstanden, wenn wir in direkter Gleichzeitigkeit mit dem Gerufenen handeln und nachfolgen wollten. Aber der Christus, der uns in der Schrift verkündigt wird, ist durch sein ganzes Wort hindurch ein sol­ cher, der den Glauben nur dem Gehorsamen und nur dem Gehorsamen den Glauben schenkt. Nicht zurück hinter das Wort der Schrift zu den realen Vorgängen können und dürfen wir gehen, sondern unter dem ganzen Worte der Schrift werden wir in die Nachfolge gerufen, eben weil wir der Schrift nicht durch das Prinzip, und sei es eine Gnadenlehre, gesetzlich Ge­ walt antun wollen.20 Es bleibt also dabei, daß das paradoxe Verständnis des Ge-I botes J esu das einfältige Verständnis einschließt, gerade weil wir nicht ein Gesetz aufrichten, sondern Christus verkündigen wollen.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p23",
+    "de": "Damit erübrigt sich nun fast ein Wort gegen den Ver­ dacht, es könne mit diesem einfältigen Gehorsam von irgendei­ ner Verdienstlichkeit des Menschen, von einem facere quod in se est21, von einer zu erfüllenden Vorbedingung des Glaubens geredet werden. Gehorsam gegen den Ruf J esu ist niemals die eigenmächtige Tat des Menschen. Es ist also auch keineswegs etwa die Weggabe der Güter an sich schon geforderter Gehor­ sam; es könnte durchaus sein, daß mit solchem Schritt gerade nicht Gehorsam gegen Jesus geschieht, sondern freie Setzung eines eigenen Lebensstils, eines christlichen Ideals, eines fran20 Tholuck 174 schickte seiner Auslegung der sogenannten Antithesen Mt 5,21-48 \"zwei hermeneutische canones\" (d.h. Auslegungs-Richtlinien) voran, \"durch deren Vernachlässigung tiefgreifende praktische Mißverständnisse ver­ anlaßt worden sind. 1) Wie überall so ist auch bei diesem Abschnitt nicht die buchstäbliche sondern die geistige Interpretation die richtige\"; 176: ,,2) Die Ausdrucksweise Christi ist die des Volksredners ... daher [besteht] nun auch kein Recht, es mit dem Buchstaben so genau zu nehmen und ihn zu drücken.\" Beide Stellen sind von Bonhoeffer angestrichen.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p24",
+    "de": "Solche Regeln zum ,Hantieren' mit der Bergpredigt (s. unten zu S. 191) hatte Bonhoeffer vor Augen, als er am 24.10.1936 DBW 14, 257 schrieb: \"Ich hoffe nun ... mein Buch [Nachfolge] fer­ tig zu bringen, und hätte dann schon wieder größte Lust, an eine Hermeneutik zu gehen. Hier scheint mir eine ganz große Lücke zu liegen.\" 0 21 Dt.: \"das Seine tun\" (s. oben S. 55). ziskanischen Armutsideals22• Es könnte also gerade in der Weg­ gabe der Güter der Mensch sich selbst und ein Ideal bejahen und nicht das Gebot J esu, nicht frei von sich, sondern noch mehr in sich gefangen werden. Der Schritt in die Situation ist eben kein Angebot des Menschen an Jesus, sondern immer das gnädige Angebot Jesu an den Menschen.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p25",
+    "de": "Nur wo er so getan wird, ist er legitim, aber dort ist er allerdings keine freie Mög­ lichkeit des Menschen mehr. 23 \"Jesus aber sprach zu seinen Jüngern: Wahrlich, ich sage euch: Ein Reicher wird schwer ins Himmelreich kommen. Und weiter sage ich euch: Es ist leichter, daß ein Kamel durch ein Nadelöhr gehe, denn daß ein Reicher ins Reich Gottes komme. Da das seine Jünger hörten, entsetzten ie sich sehr und spra­ chen: Ja, wer kann denn selig werden? Jesus aber sah ie an und sprach zu ihnen: Bei den Menschen ist's unmöglich; aber bei Gott sind alle Dinge möglich\" (Mt. 19,23-26).24 Aus dem Entsetzen der Jünger über das Wort Jesu und aus ihrer Frage, wer denn selig werden könne, geht hervor, daß ie den Fall des reichen Jünglings nicht für einen Einzelfall halten, sondern für den allgemeinsten Fall schlechthin.",
+    "zh": ""
+  },
+  {
+    "id": "ch3-p26",
+    "de": "I Sie fragen ja nicht: Welcher Reiche?, sondern ganz allgemein: \"Wer\" kann denn selig werden?, eben weil ja alle, weil die Jünger selbst zu diesen Reichen gehören, für die es so schwer ist, in das Him­ melreich zu kommen. Die Antwort Jesu bestätigt diese Ausle­ gung seiner Worte durch die Jünger. Selig werden in der Nach­ folge ist keine Möglichkeit bei den Menschen, aber bei Gott sind alle Dinge möglich. thasar, Die großen Ordensregeln, 263-321. 0 23 Vgl. das theologische Ver­ ständnis vom unfreien Willen bei M. Luther, De servo arbitrio. 1525 (WA 18, 600-7R7). 0 24 Diese Verse schließen unmittelbar an die S. 59 f zitierte Ge­ schichte vom \"reichen Jüngling\" an.",
+    "zh": ""
+  }
+]

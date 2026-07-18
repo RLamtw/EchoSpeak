@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ch11-p1",
+    "de": "Vorfragen. Jesus war seinen ersten Jüngern leiblich mit seinem Wort ge­ genwärtig. Dieser Jesus aber ist gestorben und auferstanden. Wie erreicht uns heute sein Ruf in die Nachfolge? Jesus geht nicht mehr leiblich an mir vorüber, wie am Zöllner Levi, um mir zuzurufen: folge mir nach!! Selbst wenn ich von Herzen willig wäre, zu hören, alles zu verlassen und zu folgen, was gibt mir das Recht dazu? Was für jene so unzweideutig war, ist für mich eine höchst fragwürdige, unkontrollierbare Entscheidung. Wie käme ich dazu, etwa den Ruf J esu an den Zöllner mir gelten zu lassen? Hat nicht Jesus zu Anderen und zu anderer Gelegenheit auch ganz anders gesprochen?",
+    "zh": ""
+  },
+  {
+    "id": "ch11-p2",
+    "de": "Hat er denn den Gichtbrüchigen, dem er seine Sünde vergab und den er heilte2, hat er den Lazarus, den er vom Tode erweckte3, weniger geliebt als seine Jünger, und dennoch rief er ie nicht aus ihrem Beruf in seine Nachfolge, sondern ließ ie in Haus, Familie und Be­ ruf? Wer bin ich, daß ich mich selbst anbieten wollte, hier etwas Ungewöhnliches, Außerordentliches zu vollbringen? Wer sagt mir und wer sagt den Anderen, daß ich nicht aus eigner Macht und Schwärmerei handle? Das aber wäre gerade nicht Nach­ folge! All diese Fragen sind unechte Fragen, immer wieder stellen wir uns mit ihnen außerhalb der lebendigen Gegenwart des I Christus.",
+    "zh": ""
+  },
+  {
+    "id": "ch11-p3",
+    "de": "All diese Fragen wollen nicht mit der Tatsache rech­ nen, daß Jesus Christus nicht tot, sondern heute lebendig ist und durch das Zeugnis der Schrift noch zu uns spricht. Er ist uns heute gegenwärtig, leiblich und mit seinem Wort. Wollen wir seinen Ruf in die Nachfolge hören, so müssen wir ihn dort hören, wo er selbst ist. Der Ruf J esu Christi ergeht in der Kirche durch sein Wort und Sakrament.4 Predigt und Sakra­ ment der Kirche ist der Ort der Gegenwart Jesu Christi. Willst 1 Mk 2,14. 02 Mk 2,5.11f. 0 3 Joh 11. 0 4 Für CA VII und bei Calvin (Institutio IV, 1,9) sind das rechte Verkündigen und Hören des Wortes und das rechte Austeilen und Empfangen der Sakramente notae ecclesiae: Zeichen, an denen man erkennt, wo Kirche ist. -Zur Bedeutung des Sakraments in Bon­ hoeffers Denken vgl. 1932 DBW 11, 310 und 334. du den Ruf Jesu in die Nachfolge hören, so brauchst du dazu keine persönliche Offenbarung.",
+    "zh": ""
+  },
+  {
+    "id": "ch11-p4",
+    "de": "Höre die Predigt und emp­ fange das Sakrament! Höre das Evangelium des gekreuzigten und auferstandenen Herrn! Hier ist Er ganz, derselbe, der den Jüngern begegnete. Ja, hier ist er schon als der Verklärte, der Sieger, der Lebendige. Kein anderer als Er selbst kann in die Nachfolge rufen. Weil es aber in der Nachfolge niemals wesent­ lich um die Entscheidung für dieses oder jenes Tun, sondern immer um die Entscheidung für oder gegen Jesus Christus geht, darum eben ist die Situation für den Jünger oder Zöllner, der von ihm gerufen wurde, um nichts eindeutiger als für uns Heu­ tige. Nachfolge war ja auch der Gehorsam jener ersten Gerufe­ Den allein dadurch, daß Christus im Rufenden erkannt wurde.",
+    "zh": ""
+  },
+  {
+    "id": "ch11-p5",
+    "de": "Es ist aber dort wie hier der verborgene Christus, der ruft. Der Ruf an sich ist vieldeutig. Auf den Rufer kommt es allein an. Christus aber wird allein im Glauben erkannt. Das gilt für jene nicht anders als es für uns gilt. Jene sahen den Rabbi und Wun­ dertäter und glaubten Christus. Wir hören das Wort und glau­ ben Christus. Aber sollte nicht dies der Vorzug jener ersten Jünger gewe­ sen sein, daß ie dort, wo ie Christus erkannt hatten, sein eindeutiges Gebot empfingen, daß ie es aus seinem Munde erfuhren, was zu tun war, und sind wir nicht gerade in diesem entscheidenden Punkte des christlichen Gehorsams allein gelas­ sen?",
+    "zh": ""
+  },
+  {
+    "id": "ch11-p6",
+    "de": "Redet derselbe Christus nicht zu uns anders als zu ! jenen? Wäre das wahr, dann wären wir allerdings in hoffnungsloser Lage. Aber es ist keineswegs wahr. Christus spricht zu uns nicht anders, als er damals sprach. Es verhält sich ja auch bei den ersten Jüngern Jesu nicht so, daß ie in ihm erst den Chri­ stus erkannt hätten und dann sein Gebot empfingen. Vielmehr erkannten ie ihn nicht anders als durch sein Wort und Gebot. Sie glaubten seinem Wort und Gebot und erkannten in ihm den Christus. Es gab für die Jünger keine Erkenntnis Christi außer durch sein klares Wort. Es mußte darum auch umgekehrt dabei bleiben, daß die rechte Erkenntnis J esu als des Christus zu­ gleich die Erkenntnis seines Willens einschloß.",
+    "zh": ""
+  },
+  {
+    "id": "ch11-p7",
+    "de": "Die Erkenntnis der Person Jesu Christi entzog dem Jünger nicht die Gewißheit seines Tuns, sondern schuf ie ihm. Eine andere Erkenntnis Christi gibt es aber überhaupt nicht. Ist Christus der lebendige 198 Vorfragen 217 Herr über mein Leben, so erfahre ich in der Begegnung mit ihm sein Wort an mich, so gewiß ich ihn gar nicht wirklich erkenne, es sei denn durch sein klares Wort und Gebot. Die Einrede, das eben sei unsere Not, daß wir wohl Christus erkennen und glau­ ben wollten, aber doch seinen Willen nicht erkennen könnten, spricht von einer nebelhaften, unechten Christuserkenntnis. Christus erkennen heißt ihn in seinem Wort 3.ls Herrn und Heiland meines Lebens erkennen.",
+    "zh": ""
+  },
+  {
+    "id": "ch11-p8",
+    "de": "Das aber schließt die Er­ kenntnis seines klaren Wortes an mich ein. Sagen wir schließlich, das Gebot an die Jünger sei eindeutig gewesen, wir aber hätten selbst zu entscheiden, welches seiner Worte uns gelte, so mißverstehen wir abermals nicht nur die Lage der Jünger, sondern auch die unsrige. Das Gebot J esu hat 5ein Ziel immer darin, daß es Glauben fordert aus ungeteiltem Herzen, daß es Gottes-und Nächstenliebe fordert aus ganzem Herzen und aus ganzem Gemüts. Eindeutig war das Gebot allein hierin. Jeder Versuch, J esu Gebot zu tun, ohne es so zu verstehen, wäre abermals Mißdeutung und Ungehorsam gegen J esu Wort.",
+    "zh": ""
+  },
+  {
+    "id": "ch11-p9",
+    "de": "Andererseits aber ist auch uns I nicht die Erkenntnis des konkreten Gebots entzogen.6 Es ist uns vielmehr in jedem verkündigten Wort, in dem wir Christus hören, klar gesagt, allerdings so, daß wir wissen, daß seine Erfüllung allein im Glauben an Jesus Christus geschieht. So ist die Gabe Jesu an seine Jünger uns in allen Stücken erhalten, ja ie ist uns sogar näher gekommen durch den Hingang J esu, durch unser Wissen von seiner Verklärung und durch die Sendung des heiligen Gei­ stes. Damit muß deutlich geworden sein, daß wir nicht mehr die Berufungsgeschichte der Jünger gegen andere Berichte ausspie­ len können.",
+    "zh": ""
+  },
+  {
+    "id": "ch11-p10",
+    "de": "Es geht ja niemals darum, daß wir den Jüngern oder anderen Personen des Neuen Testaments gleich wären und würden, sondern allein um die Gleichheit Jesu Christi und sei­ nes Rufes damals und heute. Sein Wort aber ist ein und das­ selbe, ob es in seinem irdischen Leben oder ob es heute, ob es an die Jünger oder an den Gichtbrüchigen7 erging. Es ist hier wie dort der gnädige Ruf in sein Reich und seine Herrschaft. blem vgl. z.B. 1932 DBW 11, 333 f. D 7 Mk 2,5. Die Frage, ob ich mich dem Jünger oder dem Gichtbrüchigen vergleichen solle, ist in gefährlicher Weise falsch gestellt. Ich habe mich gar keinem der beiden zu vergleichen.",
+    "zh": ""
+  },
+  {
+    "id": "ch11-p11",
+    "de": "Vielmehr habe ich allein Christi Wort und Willen, wie ich ihn in diesem und in jenem Zeugnis empfange, zu hören und zu vollbringen. Die Schrift stellt uns nicht eine Reihe christlicher Typen vor8, denen wir uns nach unserer Wahl anzugleichen hätten, sondern ie predigt uns an jeder Stelle den Einen Jesus Christus. Ihn allein soll ich hören.9 Er ist überall derselbe und Eine. So bleibt auf die Frage, wo wir Heutigen den Ruf J esu in die Nachfolge hören, keine andere Antwort als: Höre die Predigt, empfange sein Sakrament, höre darin ihn selbst, und du hörst seinen Ruf! schafft nicht Typen\". 0 9 Vgl. Mt 17,5 in der Verklärungsgeschichte: \" ... den sollt ihr hören!\"",
+    "zh": ""
+  }
+]

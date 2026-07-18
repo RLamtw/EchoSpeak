@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-TW" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>跟隨基督雙語朗讀閱讀器 - EchoSpeak</title>
+  <meta name="description" content="潘霍華《跟隨基督》德中雙語對照電子閱讀器，支援按段朗讀、語速調整與閱讀進度紀錄。">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="reader.css">
+</head>
+<body class="view-mode-bilingual">
+  <div class="reader-layout">
+    
+    <!-- Top Header -->
+    <header class="reader-header">
+      <div class="header-logo">
+        <div class="logo-icon-wrapper">
+          <i data-lucide="book-open" class="logo-icon"></i>
+        </div>
+        <div class="logo-text">
+          <h1>EchoReader</h1>
+          <span>Bilingual Study Panel</span>
+        </div>
+      </div>
+      
+      <div class="header-controls">
+        <!-- Chinese Voice Selection -->
+        <div class="slider-group" style="margin-right: 12px;">
+          <label for="voice-select-zh" style="font-size: 11px; font-weight: 600; color: var(--text-secondary); text-transform: uppercase;">國語朗讀</label>
+          <div class="select-wrapper">
+            <select id="voice-select-zh" title="選擇中文朗讀聲音"></select>
+          </div>
+        </div>
+        
+        <!-- German Voice Selection -->
+        <div class="slider-group" style="margin-right: 12px;">
+          <label for="voice-select-de" style="font-size: 11px; font-weight: 600; color: var(--text-secondary); text-transform: uppercase;">德文原創</label>
+          <div class="select-wrapper">
+            <select id="voice-select-de" title="選擇德文朗讀聲音"></select>
+          </div>
+        </div>
+        
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="btn-icon" aria-label="切換深淺模式" title="切換深淺模式">
+          <i data-lucide="sun"></i>
+        </button>
+      </div>
+    </header>
+    
+    <!-- Left Navigation Sidebar -->
+    <aside class="reader-sidebar">
+      <!-- Back Link -->
+      <a href="index.html" class="back-to-home">
+        <i data-lucide="arrow-left" style="width: 16px; height: 16px;"></i> 返回主控制台
+      </a>
+      
+      <!-- Book Info -->
+      <div class="sidebar-section">
+        <h3 id="book-title" style="font-size: 15px; font-weight: 700; color: var(--text-primary); text-transform: none; letter-spacing: normal; margin-bottom: 4px;"></h3>
+        <p id="book-author" style="font-size: 12px; color: var(--text-secondary);"></p>
+      </div>
+      
+      <!-- Chapters list -->
+      <div class="sidebar-section">
+        <h3>本書章節</h3>
+        <div class="chapter-list" id="chapter-list">
+          <!-- Populated by reader.js -->
+        </div>
+      </div>
+      
+      <!-- Reading Settings card -->
+      <div class="sidebar-section" style="margin-top: auto;">
+        <h3>朗讀設置</h3>
+        <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 16px; border-radius: 12px; display: flex; flex-direction: column; gap: 16px;">
+          <!-- Autoplay Switch -->
+          <div style="display: flex; align-items: center; justify-content: space-between;">
+            <span style="font-size: 13px; font-weight: 500; color: var(--text-secondary);">自動連續朗讀</span>
+            <input type="checkbox" id="toggle-autoplay" checked style="width: 36px; height: 18px; accent-color: var(--accent-color); cursor: pointer;" title="開啟自動連續朗讀">
+          </div>
+          <!-- Speed control -->
+          <div style="display: flex; flex-direction: column; gap: 6px;">
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+              <span style="font-size: 13px; font-weight: 500; color: var(--text-secondary);">播放語速</span>
+              <span id="val-rate" style="font-size: 12px; font-weight: 600; color: var(--accent-color);">1.0x</span>
+            </div>
+            <input type="range" id="slider-rate" min="0.5" max="2.0" step="0.1" value="1.0" style="width: 100%; accent-color: var(--accent-color); cursor: pointer;" title="調整播放速度">
+          </div>
+        </div>
+      </div>
+    </aside>
+    
+    <!-- Center Main Reading Panel -->
+    <main class="reader-main">
+      <div class="reading-container">
+        
+        <!-- View Mode selectors -->
+        <div class="view-mode-toggle" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 20px;">
+          <div style="display: flex; gap: 4px;">
+            <button class="view-btn active" data-mode="bilingual">雙語對照</button>
+            <button class="view-btn" data-mode="zh">中文翻譯</button>
+            <button class="view-btn" data-mode="de">德文原文</button>
+          </div>
+          <div id="version-toggle-container" style="display: none; align-items: center; gap: 4px; background: var(--bg-card); padding: 4px; border-radius: 8px; border: 1px solid var(--border-color);">
+            <button class="view-btn active" id="btn-ver-essential" style="font-size: 12px; padding: 4px 10px; border-radius: 6px;">精華版</button>
+            <button class="view-btn" id="btn-ver-complete" style="font-size: 12px; padding: 4px 10px; border-radius: 6px;">完整版</button>
+          </div>
+        </div>
+        
+        <!-- Main texts container -->
+        <div id="reading-container">
+          <!-- Populated dynamically by reader.js from book_data.js -->
+        </div>
+        
+      </div>
+    </main>
+    
+    <!-- Bottom Floating Player Panel -->
+    <footer class="reader-footer">
+      <!-- Now Playing text -->
+      <div class="footer-now-playing">
+        <div class="playing-icon-box">
+          <i data-lucide="music" style="width: 18px; height: 18px;"></i>
+        </div>
+        <div class="playing-info">
+          <span class="playing-title" id="footer-title">未在播放</span>
+          <span class="playing-chapter" id="footer-chapter">請選擇段落開始閱讀</span>
+        </div>
+      </div>
+      
+      <!-- Player buttons and progress -->
+      <div class="footer-player-controls">
+        <div class="player-buttons">
+          <button id="btn-prev" class="btn-player" title="上一段"><i data-lucide="skip-back"></i></button>
+          <button id="btn-play-pause" class="btn-player-main" title="播放/暫停"><i data-lucide="play" id="play-icon"></i></button>
+          <button id="btn-stop" class="btn-player" title="停止"><i data-lucide="square"></i></button>
+          <button id="btn-next" class="btn-player" title="下一段"><i data-lucide="skip-forward"></i></button>
+        </div>
+        
+        <div class="player-progress-bar-wrapper">
+          <span class="progress-time" id="progress-time-current">0</span>
+          <div class="player-progress-track">
+            <div class="player-progress-fill" id="progress-fill"></div>
+          </div>
+          <span class="progress-time progress-time-end" id="progress-time-total">0</span>
+        </div>
+      </div>
+      
+      <!-- Empty placeholder column to balance grid spacing -->
+      <div class="footer-audio-settings">
+        <!-- Volume / Speed settings display -->
+        <span style="font-size: 12px; color: var(--text-muted);">雙語按段播放系統 Ready</span>
+      </div>
+    </footer>
+    
+  </div>
+
+  <!-- Load script files -->
+  <script src="book_data_v3.js"></script>
+  <script src="book_data_complete.js"></script>
+  <script src="reader_v3.js"></script>
+</body>
+</html>

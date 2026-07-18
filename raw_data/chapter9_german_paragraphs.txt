@@ -1,0 +1,267 @@
+[
+  {
+    "id": "ch9-p1",
+    "de": "Matthäus 7: Die Aussonderung der Jüngergemeinde. Der Jünger und die Ungläubigen.! \"Richtet nicht, auf daß ihr nicht gerichtet werdet. Denn mit welcherlei Gericht ihr richtet, werdet ihr gerichtet werden; und mit welcherlei Maß ihr messet, wird euch gemessen werden. Was iehest du aber den Splitter in deines Bruders Auge, und wirst nicht gewahr des Balkens in deinem Auge? Oder wie darfst du sagen zu deinem Bruder: Halt, ich will dir den Splitter aus deinem Auge ziehen, -und iehe, ein Balken ist in deinem Auge? Du Heuchler, zieh am ersten den Balken aus deinem Auge; darnach iehe zu, wie du den Splitter aus deines Bruders Auge ziehest!",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p2",
+    "de": "Ihr sollt das Heiligtum nicht den Hunden geben, und eure Perlen sollt ihr nicht vor die Säue werfen, auf daß ie dieselben nicht zertreten mit ihren Füßen und sich wenden und euch zerreißen. Bittet, so wird euch gegeben; suchet, so werdet ihr finden; klopfet an, so wird euch aufgetan. Denn wer da bittet, der empfängt; und wer da sucht, der findet; und wer da anklopft, dem wird aufgetan. Welcher ist unter euch Menschen, so ihn sein Sohn bittet ums Brot, der ihm einen Stein biete? Oder so er ihn bittet um einen Fisch, der ihm eine Schlange biete? So denn ihr, die ihr doch arg seid, könnt dennoch euren Kindern gute Gaben geben, wie viel mehr wird euer Vater im Himmel Gutes geben denen, die ihn bitten!",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p3",
+    "de": "Alles nun, was ihr wollt, daß euch die Leute tun sollen, das tut ihr ihnen auch. Das ist das Gesetz und die Propheten\" (Mt. 7,1-12). Ein notwendiger Zusammenhang führt vom 5. und 6. Kapitel zu diesen Versen und dann zum großen Abschluß der I Bergpre­ digt. Vom Außerordentlichen der Nachfolge war im 5. Kapitel die Rede (nq;HoooV), von der verborgenen, einfältigen Gerech­ tigkeit der Jünger im 6. Kapitel (anAoii�). Durch beides waren die Nachfolgenden aus der Gemeinschaft, der ie bisher ange­ hörten, herausgenommen und allein mit Jesus verbunden wor­ den. Die Grenze wurde deutlich sichtbar. Das bringt die Frage nach dem Verhältnis der Nachfolgenden zu den Menschen um 1 Bis zum Herbst 1936 hieß die Überschrift: \"Der rechte Weg zum Nächsten.\" ie herum mit sich.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p4",
+    "de": "Ist ihnen durch die Aussonderung, die ihnen zuteil wurde, ein besonderes, eigenes Recht mitgeteilt worden, sind ie in den Besitz von Kräften, Maßstäben, Begabungen gelangt, die es ihnen ermöglichten, diesen anderen gegenüber eine besondere Autorität für sich in Anspruch zu nehmen? Es hätte ja vor allem nahegelegen, wenn die Nachfolger Jesu sich nun durch ein scharfes, trennendes Urteil von ihrer Umgebung selbst gelöst hätten. Ja, es hätte geradezu die Meinung entstehen können, als sei es der Wille J esu, daß solches trennende und richtende Urteil von den Jüngern nun auch in ihrem täglichen Umgang mit den Anderen vollzogen würde.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p5",
+    "de": "Darum muß es Jesus deutlich machen, daß durch solche Mißverständnisse die Nachfolge ernstlich gefährdet würde. Die Jünger sollen nicht richten. Tun ie es, so verfallen ie selbst dem Gericht Gottes. Das Schwert, mit dem ie den Bruder richten, fällt auf ie selbst herab.2 Der Schnitt, mit dem ie sich vom Anderen absondern als die Gerechten von den Ungerechten, trennt ie selbst von Jesus. Warum ist das so? Der Nachfolgende lebt ganz und gar aus der Verbundenheit mit Jesus Christus. Er hat seine Gerechtig­ keit nur in dieser Verbundenheit und niemals außerhalb dersel­ ben. Sie kann ihm also niemals zum Maßstab werden, den er in Besitz hätte zu beliebiger Verfügung.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p6",
+    "de": "Was ihn zum Jünger macht, ist nicht ein neuer Maßstab seines Lebens, sondern ist ganz allein Jesus Christus, der Mittler und Sohn Gottes selbst. Seine eigene Gerechtigkeit ist ihm I daher verborgen in der Ge­ meinschaft mit Jesus. Er kann sich selbst nicht mehr sehen, beobachten, beurteilen, er ieht allein Jesus, er ist allein von Jesus gesehen, beurteilt und begnadigt. So steht auch zwischen dem Jünger und den Anderen nicht ein Maßstab gerechten Le­ bens, sondern abermals3 allein Jesus Christus selbst; der Jünger ieht den anderen Menschen immer nur als einen, zu dem Jesus kommt. Er begegnet ja dem Anderen nur, weil er mit Jesus zum Anderen geht.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p7",
+    "de": "Jesus geht ihm voran zum Anderen, und er folgt ihm. So ist die Begegnung des Jüngers mit dem Anderen nie­ mals die freie Begegnung zweier Menschen, die in der Unmit­ telbarkeit ihre Ansichten, Maßstäbe, Urteile gegeneinander 2 Mt 26,52. D 3 Vgl. S.91. 178 Teil 1. 160 führen. Vielmehr kann der Jünger dem Anderen nur als dem begegnen, zu dem Jesus selbst kommt. Der Kampf um den Anderen, sein Ruf, seine Liebe, seine Gnade, sein Gericht kommt hier allein zur Geltung. Der Jünger hat also nicht eine Position bezogen, von der aus der Andere angegriffen wird, sondern er tritt in der Wahrhaftigkeit der Liebe Jesu zu dem Anderen mit dem bedingungslosen Angebot der Gemeinschaft.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p8",
+    "de": "Im Richten treten wir dem Anderen gegenüber in dem Ab­ stand der Beobachtung, der Reflexion. Die Liebe aber läßt dazu keinen Raum und keine Zeit. Der Andere kann dem Liebenden niemals Gegenstand zuschauerischer Betrachtung sein, sondern er ist jederzeit der lebendige Anspruch auf meine Liebe und meinen Dienst. Aber zwingt mich nicht das Böse des Anderen notwendig zur Verurteilung, gerade um des Anderen, um der Liebe zu ihm willen? Wir erkennen, wie scharf hier die Grenze gezogen ist. Eine mißverstandene Liebe zum Sünder ist der Liebe zur Sünde unheimlich nahe. Aber die Liebe Christi zum Sünder ist ja selbst die Verurteilung der Sünde, ie ist der schärfste Ausdruck des Hasses gegen die Sünde.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p9",
+    "de": "Gerade die bedingungslose Liebe, in der J esu Jünger leben sollen in seiner Nachfolge, bewirkt das, I was ie mit geteilter und nach eigenem Ermessen und eigenen Bedingungen geschenkter Liebe niemals bewirken könnten, nämlich die radikale Verurteilung des Bö­ sen.4 Richten die Jünger, so richten ie Maßstäbe auf über Gut und Böse. Jesus Christus aber ist kein Maßstab, den ich auf andere anwenden könnte. Er ist es, der mich selbst richtet und mir mein Gutes als ganz und gar Böses enthüllt. Damit aber ist mir verboten, auf den Anderen anzuwenden, was mir nicht gilt. Ja, mit dem Richten nach Gut und Böse bestätige ich den Anderen gerade in seinem Bösen; denn auch er richtet nach Gut und Böse.5 Aber er weiß nicht um die Bosheit seines Guten, sondern rechtfertigt sich darin.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p10",
+    "de": "Wird er von mir in seinem Bösen gerich­ tet, so wird er in seinem Guten bestätigt, das doch niemals das 4 1935 NI. B 8 (58f): \"Indem ich nicht richte, sondern liebe ... überwinde ich sein [ des anderen] Verständnis von Gut und Böse ... Dieser Liebe kann er sich nicht erwehren.\" 0 5 1935 NI. B 8 (57) : \"Das Richten ist die gottlose Situation vor Gott. Da will er sein sicut deus sein [\"Sein wie Gott\"] exerzieren.\" Vgl. Gen 3,5. Gute J esu Christi ist, und so gerade wird er dem Gericht Chri­ sti entzogen und einem menschlichen Gericht unterstellt. Ich selbst aber ziehe das Gericht Gottes über mich herbei, denn ich lebe nun nicht mehr aus Gnade Jesu Christi, sondern aus der Erkenntnis des Guten und Bösen und verfalle dem Urteil, an das ich mich halte.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p11",
+    "de": "Gott ist einem jeglichen der Gott, als den er ihn glaubt.6 Richten ist die unerlaubte Reflexion auf den Anderen. Es zersetzt die einfältige Liebe. Diese verbietet mir zwar nicht meine Gedanken über den Anderen, meine Wahrnehmung sei­ ner Sünde, aber bei des wird dadurch aus der Reflexion befreit, daß es mir allein Anlaß zur Vergebung und zur bedingungslo­ sen Liebe wird, die Jesus mir beweist. Durch die Zurückhaltung meines Urteils über den Anderen wird nicht das tout com­ prendre c'est tout pardonner in Kraft gesetze, wird nicht dem Anderen doch wieder irgendwie rechtgegeben. Weder ich be­ komme hier Recht noch der Andere, sondern Gott allein wird Recht gegeben, seine Gnade und sein Gericht werden verkün­ digt.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p12",
+    "de": "Richten macht blind, aber die Liebe macht sehend. 8 Im Rich-I ten bin ich blind gegen mein eignes Böses und gegen die Gnade, die dem Anderen gilt. In der Liebe Christi aber weiß der Jünger um alle denkbare Schuld und Sünde, denn er weiß um das Leiden Jesu Christi, zugleich aber erkennt die Liebe den Ande­ ren als den, dem unter dem Kreuz vergeben ist. Die Liebe ieht den Anderen unter dem Kreuz, und eben darin ist ie in Wahr­ heit sehend. Ginge es mir beim Richten wirklich um die Ver­ nichtung des Bösen, so würde ich das Böse dort suchen, wo es mich eigentlich bedroht, nämlich bei mir selbst. Suche ich aber das Böse beim Andern, so wird gerade darin offenbar, daß ich auch in solchem Richten mein eigenes Recht suche, daß ich in 6 Anklang an den Anfang von Luthers Auslegung des ersten Gebots im Großen Katechismus (BSLK 560). 0 7 Zitat in deutscher Übersetzung 1936 NL B 9,5 (76): ,,,Alles verstehen heifh alles verzeihen' (Voltaire) Nicht so gemeint (= entschuldigend und erklärend .. .)\". -Büchmann 212 nennt als Quelle Madame de Stad, die in ihrem Buch \"Corinne\" (1807) formuliert: \"comprendre c'est pardonner\". 0 8 Vgl. 1934 DBW 13, 392 (zu I Kor 13,7): \" ... mit sehenden Augen glaubt ie [die Liebe] alles, oder mit blinden Augen ieht ie die wahre Zukunft.\" 180 Teil 1. 162 meinem Bösen ungestraft bleiben will, indem ich den Anderen richte.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p13",
+    "de": "So ist die Voraussetzung alles Richtens der gefährlichste Selbstbetrug, daß nämlich mir das Wort Gottes anders gelte als meinem Nächsten. Ich mache ein Sonderrecht geltend, indem ich sage: mir gelte die Vergebung, dem Anderen aber das rich­ tende Urteil. Weil aber die Jünger von Jesus kein eigenes Recht bekommen, das ie einem Anderen gegenüber geltend zu ma­ chen hätten, weil ie nichts empfangen als seine Gemeinschaft, darum ist das Richten als die Anmaßung eines falschen Rechtes über den Nächsten dem Jünger ganz und gar verwehrt. Aber nicht nur das richtende Wort ist dem Jünger verboten, sondern auch das verkündigende Heilswort der Vergebung an den Anderen hat seine Grenze.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p14",
+    "de": "Der Jünger Jesu hat nicht Macht und Recht, dieses jedem zu jeder Zeit aufzunötigen. Alles Drängen, Nachlaufen, Proselytenmachen, jeder Versuch, mit eigner Macht etwas am Anderen auszurichten, ist vergeblich und gefährlich. Vergeblich -denn die Säue erkennen die Perlen nicht, die man vor ie hinwirft; gefährlich -denn nicht nur wird so das Wort der Vergebung entheiligt, nicht nur wird hier der Andere, dem ich dienen will, zum Sünder am Heiligtum ge­ macht, sondern auch die pre-I digenden Jünger kommen in Gefahr, von der blinden Wut der Verstockten und Verfinster­ ten ohne Not und ohne Nutzen Schaden zu leiden.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p15",
+    "de": "Die Ver­ schleuderung der billigen Gnade wird der Welt zum Über­ druß.9 So wendet ie sich schließlich gewaltsam gegen die, die ihr aufdrängen wollen, was ie nicht begehrt. Das bedeutet für die Jünger eine ernste Beschränkung ihres Wirkens, die der Weisung von Mt. 10 entspricht, den Staub von den Füßen zu schütteln, wo das Wort des Friedens nicht gehört wird.10 Die treibende Unruhe der Jüngerschar, die keine Grenzen ihrer Wirksamkeit kennen will, der Eifer, der den Widerstand nicht achtet, verwechselt das Wort des Evangeliums mit einer iegrei­ chen Idee. Die Idee fordert Fanatiker, die keinen Widerstand kennen und achten.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p16",
+    "de": "Die Idee ist stark. Das Wort Gottes aber ist so schwach, daß es sich von Menschen verachten und verwerfen läßt. Es gibt für das Wort verstockte Herzen und verschlossene 9 So auch 1937 DBW 14, 832. 0 10 Mt 10,13 f. Auf \"Matth. 10,12-14\" weist Tholuck 448 zu Mt 7,6 hin. Türen, und das Wort anerkennt den Widerstand, auf den es stößt, und erleidet ihn. Es ist eine harte Erkenntnis: für die Idee gibt es nichts Unmögliches, für das Evangelium aber gibt es Unmöglichkeiten. Das Wort ist schwächer als die Idee. So sind auch die Zeugen des Wortes mit diesem Wort schwächer als die Propagandisten einer Idee.11 Aber in dieser Schwäche sind ie frei von der kranken Unruhe der Fanatiker, ie leiden ja mit dem Wort.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p17",
+    "de": "Die Jünger können auch weichen, können auch fliehen, wenn ie nur mit dem Wort weichen und fliehen 12, wenn nur ihre Schwäche die Schwäche des Wortes selbst ist, wenn ie nur das Wort nicht im Stiche lassen auf ihrer Flucht. Sie sind ja nichts als Diener und Werkzeuge des Wortes und wollen nicht stark sein, wo das Wort schwach sein will. Wollten ie das Wort unter allen Umständen, mit allen Mitteln der Welt aufzwingen, so machten ie aus dem lebendigen Wort Gottes eine Idee, und die Welt wird sich mit Recht gegen eine Idee zur Wehr setzen, die ihr nichts helfen kann. Gerade als die I schwa­ chen Zeugen aber sind ie von denen, die nicht weichen, son­ dern die bleiben -freilich allein dort, wo das Wort ist.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p18",
+    "de": "Die Jünger, die von dieser Schwäche des Wortes nichts wissen, hät­ ten das Geheimnis der Niedrigkeit Gottes nicht erkannt. Dieses schwache Wort, das den Widerspruch der Sünder erleidet, ist ja allein das starke, barmherzige Wort, das Sünder bekehrt von Grund ihres Herzens. Seine Kraft ist verhüllt in der Schwach­ heit; käme das Wort in unverhüllter Kraft, so wäre der Ge­ richtstag daY Es ist eine große Aufgabe, die den Jüngern ge­ stellt ist, die Grenzen ihres Auftrages zu erkennen. Das miß­ brauchte Wort aber wird sich gegen ie kehren. Was sollen die Jünger tun angesichts der verschlossenen Herzen?",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p19",
+    "de": "Dort wo der Zugang zum Anderen nicht gelingt? Sie sollen anerkennen, daß ie in keiner Weise Recht oder Macht über die Anderen besitzen, daß ie auch keinerlei unmittelbaren Zugang zu ihnen haben, so daß ihnen allein der Weg zu dem bleibt, in dessen Hand ie selbst stehen wie auch jene Anderen. gime. Joseph Goebbels war \"Reichsminister für Volksaufklärung und Propa­ ganda\". 0 12 Mt 10,23. 0 13 Mt 10,14f. 182 Teil 1. 164 Hiervon redet das folgende. Die Jünger werden ins Gebet ge­ führt. Es wird ihnen gesagt, daß kein anderer Weg zum Näch­ sten führt als das Gebet zu Gott. Gericht und Vergebung blei­ ben in Gottes Hand.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p20",
+    "de": "Er schließt zu und er schließt auf. Die Jünger aber sollen bitten, suchen, anklopfen, so wird er ie erhören. Das sollen die Jünger wissen, daß ihre Sorge und Un­ ruhe um die Anderen ie ins Gebet führen muß. Die Verhei­ ßung, die ihrem Gebet gegeben ist, ist die größte Macht, die ie haben. Das unterscheidet das Suchen der Jünger von dem Gottsu­ chen der Heiden, daß jene wissen, was ie suchen. Gott suchen kann nur, wer ihn schon kennt. Wie könnte er suchen, was er nicht kennt? Wie sollte er finden, wenn er nicht weiß, was er sucht? So suchen die Jünger Gott, den ie gefunden haben14 in der Verheißung, die Jesus Christus ihnen gab.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p21",
+    "de": "Zusammenfassend ist hier deutlich geworden, daß dem Jün-I ger im Verkehr mit dem Anderen kein eigenes Recht, keine eigene Macht gehört. Er lebt ganz und gar von der Kraft der Gemeinschaft J esu Christi. Eine einfache Regel gibt Jesus dem Jünger, an der selbst der Einfältigste prüfen kann, ob sein Um­ gang mit dem Anderen recht ist oder unrecht; er braucht nur das Verhältnis von Ich und Du umzukehren, er braucht sich nur an die Stelle des Anderen und diesen an seine Stelle zu setzen.15 \"Was ihr wollt, daß euch die Leute tun, das tut ihr ihnen auch.\" Im selben Augenblick verliert der Jünger jegliches Sonderrecht vor dem Anderen, er kann nicht bei sich entschul­ digen, was er beim Anderen anklagt.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p22",
+    "de": "Er ist nun gegen das Böse in sich so hart, wie er gegen das Böse des Anderen zu sein pflegte, und gegen das Böse des Anderen so nachsichtig, wie er gegen sich selbst ist. Denn unser Böses ist nichts anderes als das 14 1935 NL B 8/18 (61) steht hierzu der Name Augustin. In der Christologie­ Vorlesung 1933 DBW 12, 284 gab Bonhoeffer \"Pascal\" als Autor an (v gl. 1925 DBW 9, 314 Anm. 57: Pascal, Pensees sur la religion, Fragment 736) sowie: \"Dieser Gedanke findet sich auch bei Augustin.\" K. Barth, Das Wort Gottes, 34, sprach vom \"Mut jenes augustinischen Wortes: Du würdest mich nicht suchen, wenn du mich nicht schon gefunden hättest\".",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p23",
+    "de": "D 15 1935 NL B 8/18 (62) Beispiel: \"Wir ertragens daß wir über den anderen reden. Unerträglich wenn andere über uns.\" Vgl. DB 491. /65 Die Bergpredigt (Matthäus 7) 183 Böse des Anderen. Es ist ein Gericht, ein Gesetz, eine Gnade. 16 So wird der Jünger dem Anderen immer nur begegnen als der, dem seine Sünden vergeben sind und der von nun an allein von der Liebe Gottes lebt. \"Das ist das Gesetz und die Propheten\" -denn es ist nichts anderes als das höchste Gebot selbst: Gott lieben über alle Dinge und deinen Nächsten als dich selbst. 17 Die große Scheidung. \"Gehet ein durch die enge Pforte. Denn die Pforte ist weit und der Weg ist breit, der zur Verdammnis abführt; und ihrer sind viele, die darauf wandeln.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p24",
+    "de": "Und die Pforte ist eng und der Weg ist schmal, der zum Leben führt; und wenige sind ihrer, die ihn finden. Sehet euch vor vor den falschen Propheten, die in Schafskleidern zu euch kommen, inwendig aber sind ie rei­ ßende Wölfe. An ihren Früchten sollt ihr ie erkennen. Kann man auch Trauben lesen von den Dornen oder Feigen von den Disteln? Also ein jeglicher guter Baum I bringt gute Früchte; aber ein fauler Baum bringt arge Früchte. Ein guter Baum kann nicht arge Früchte bringen, und ein fauler Baum kann nicht gute Früchte bringen. Ein jeglicher Baum, der nicht gute Früchte bringt, wird abgehauen und ins Feuer geworfen.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p25",
+    "de": "Darum an ihren Früchten sollt ihr ie erkennen. Es werden nicht alle, die zu mir sagen: Herr, Herr! in das Himmelreich kommen, sondern die den Willen tun meines Vaters im Him­ mel. Es werden viele zu mir sagen an jenem Tage: Herr, Herr! haben wir nicht in deinem Namen geweissagt, haben wir nicht in deinem Namen Teufel ausgetrieben, haben wir nicht in dei­ nem Namen viele Taten getan? Dann werde ich ihnen beken­ nen: Ich habe euch noch nie erkannt; weichet alle von mir, ihr Übeltäter!\" (Mt. 7,13-23). Die Gemeinde J esu kann sich nicht willkürlich von der Ge­ meinschaft derer trennen, die Jesu Ruf nicht hören.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p26",
+    "de": "Sie ist von 16 Anklang an die Betonungen in Eph 4,4-6 -möglicherweise im Kontrast zu der nationalsozialistischen Parole \"Ein Volk, ein Reich, ein Führer\". D 17 Mt 22,36--40; Vers 40: \"In diesen zwei Geboten hanget das ganze Gesetz und die Propheten\", ähnlich Mt 7,12. 184 Teil 1. 166 ihrem Herrn gerufen zur Nachfolge durch Verheißung und Ge­ bot. Das muß ihr genügen. Alles Gericht und alle Scheidung stellt ie dem anheim, der ie erwählt hat nach seinem Vorsatz, nicht aus Verdienst der Werke, sondern aus seiner Gnade. Nicht die Gemeinde vollzieht die Scheidung, aber im berufen­ den Wort muß ie geschehen.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p27",
+    "de": "Eine kleine Schar, die Nachfolgenden, wird so getrennt von der großen Zahl der Menschen. Die Jünger sind wenige und werden immer wenige sein.18 Dies Wort Jesu schneidet ihnen jede falsche Hoffnung auf ihre Wirksamkeit ab. Niemals setze ein Nachfolger J esu sein Vertrauen auf die Zahl. \"Wenige sind ihrer ... \", der Anderen aber sind viel und werden immer viel sein. Sie aber gehen in ihr Verderben. Was kann der Trost der Jünger in solcher Erfahrung sein, wenn nicht allein dies, daß ihnen das Leben verheißen ist, die ewige Gemeinschaft J esu? Der Weg der Nachfolgenden ist schmal. Leicht geht man an ihm vorüber, leicht verfehlt man ihn, leicht verliert man ihn, I selbst wenn man ihn schon beschritten hat.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p28",
+    "de": "Er ist schwer zu finden. Der Weg ist wahrhaftig schmal, der Absturz nach bei­ den Seiten bedrohlich: Zum Außerordentlichen gerufen sein, es tun, und doch nicht sehen und nicht wissen, daß man es tut, - das ist ein schmaler Weg. Die Wahrheit J esu bezeugen und bekennen und doch den Feind dieser Wahrheit, seinen und unseren Feind, lieben mit der bedingungslosen Liebe J esu Chri­ sti -das ist ein schmaler Weg. Der Verheißung Jesu glauben, daß die Nachfolgenden das Erdreich besitzen werden und doch dem Feind wehrlos begegnen, lieber Unrecht leiden als Unrecht tun -das ist ein schmaler Weg. Den anderen Menschen sehen und erkennen in seiner Schwäche, in seinem Unrecht, und ihn niemals richten, ihm die Botschaft ausrichten müssen und doch die Perlen niemals vor die Säue werfen -das ist ein schmaler Weg.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p29",
+    "de": "Es ist ein unerträglicher Weg. Jeden Augenblick droht der Abfall. Solange ich diesen Weg als den mir zum Gehen befohle­ nen erkenne und ihn in der Furcht vor mir selbst gehe, ist er in 18 1935 NL B 8/1 S (64 f): \"Habt Mut zur Minderheit, Mut zum Ganz-Allein­ sein .... Wer den Mut zur Einsamkeit nicht hat, hat Jesus nicht verstanden .... Lukas 12 [Vers 32]. Nicht die möglichst breite Basis der Kirche ist zu suchen, sondern die einzige Basis ist der schmale Weg des Gebots J esu. \" der Tat unmöglich. Sehe ich aber Jesus Christus vorangehen, Schritt für Schritt, sehe ich allein auf ihn und folge ihm, Schritt für Schritt, so werde ich auf diesem Wege bewahrt.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p30",
+    "de": "Blicke ich auf die Gefährlichkeit meines Tuns, blicke ich auf den Weg anstatt auf den, der ihn mir selbst vorangeht, so ist mein Fuß schon im Gleiten. Er selbst ist ja der Weg. 19 Er ist der schm\"Je Weg und das enge Tor. Ihn allein gilt es zu finden. Wissen wir das, dann gehen wir auf dem schmalen Weg durch die enge Pforte des Kreuzes Jesu Christi zum Leben, dann wird uns gerade die Enge des Weges zur Gewißheit. Wie sollte der Weg des Sohnes Gottes auf Erden, den wir als Bürger zweier Wel­ ten20 am Rande zwischen welt und Himmelreich zu gehn ha­ ben, auch ein breiter Weg sein? Der schmale Weg muß der rechte Weg sein.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p31",
+    "de": "Verse 15-20. Die Scheidung zwischen Gemeinde und Welt ist vollzogen. Aber das Wort J esu dringt jetzt richtend und I scheidend in die Gemeinde selbst vor. Mitten unter den Jüngern Jesu muß sich die Scheidung immer wieder vollziehen. Die Jün­ ger sollen nicht meinen, ie könnten einfach der Welt entfliehen und nun ohne Gefahr in der kleinen Schar auf dem engen Wege bleiben. Es werden falsche Propheten unter ie kommen, und mit der Verwirrung wird auch die Vereinsamung größer. Da steht einer neben mir, äußerlich ein Glied der Gemeinde, es steht ein Prophet, ein Prediger da, dem Schein, dem Wort und Werk nach ein Christ, aber innerlich treiben finstere Gründe ihn zu uns, innerlich ist er ein reißender Wolf, ist sein Wort Lüge und sein Werk Trug.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p32",
+    "de": "Er weiß sein Geheimnis wohl zu bewahren, aber im Verborgenen treibt er sein dunkles Werk. Er ist unter uns, nicht weil der Glaube an Jesus Christus ihn zu uns getrieben hätte, sondern weil der Teufel ihn in die Gemeinde treibt. Er sucht vielleicht die Macht und den Einfluß, das Geld, den Ruhm aus eigenen Gedanken und Prophezeiungen. Er sucht die Welt, aber nicht den Herrn Christus. Er verbirgt sein dunkles Vorhaben im Gewande der Christlichkeit und weiß, 19 J oh 14,6. D 20 Anklang an das verbreitete Buch\" Wanderer zwischen bei­ den Welten\" (1916) von Walter flex, der den Ersten Weltkrieg im Geist der Wandervogelbewegung erlebte; er fiel 1917. daß die Christen ein leichtgläubiges Volk sind.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p33",
+    "de": "Er rechnet dar­ auf, daß er in seinem unschuldigen Kleid nicht entlarvt wird. Er weiß ja auch, daß es den Christen verboten ist zu richten und wird ie zu rechter Zeit daran erinnern! Kein Mensch ieht ja dem anderen ins Herz. So verführt er viele vom rechten Weg. Vielleicht weiß er dies alles selbst nicht, vielleicht verschleiert der Teufel, der ihn treibt, ihm die Klarheit über sich selbst.21 Nun könnte solche Ankündigung Jesu die Seinen in große Angst treiben. Wer kennt den anderen? Wer weiß, ob hinter dem christlichen Schein nicht die Lüge steckt und die Verfüh­ rung lauert. Es könnte ein tiefes Mißtrauen, ein argwöhnisches Beobachten und ein ängstlicher Richtgeist in die Gemeinde ein­ ziehen.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p34",
+    "de": "Es könnte ein liebloses Verurteilen jedes Bruders, der in Sünde fällt, auf dieses Wort J esu hin eintreten. Aber Jesus be­ freit die Seinen von diesem Mißtrauen, I das die Gemeinde zer­ reißen müßte. Er sagt: der faule Baum bringt arge Früchte. Er muß sich von selbst zu erkennen geben zu seiner Zeit. Wir brauchen keinem ins Herz zu sehen. Warten sollen wir, bis der Baum seine Frucht bringt. An der Frucht unterscheidet ihr zu seiner Zeit die Bäume. Die Frucht aber kann nicht lange aus­ bleiben. Es ist hier wohl nicht der Unterschied zwischen Wort und Werk der falschen Propheten gemeint, sondern der Unter­ schied zwischen Schein und Wirklichkeit.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p35",
+    "de": "Jesus sagt uns, daß ein Mensch nicht lange im Schein leben kann. Es kommt die Zeit des Fruchttragens, es kommt die Zeit der Unterscheidung. Es wird früher oder später offenbar, wie es um ihn steht. Es hilft dem Baum nichts, ob er nicht Frucht tragen will. Die Frucht kommt von selbst. So wird der Augenblick, in dem es darauf ankommt, einen Baum vom anderen zu unterscheiden, die Fruchtzeit, alles offenbaren. Wo die Entscheidungszeit kommt zwischen Welt und Gemeinde, und ie kann jeden Tag kommen, nicht nur in großen, sondern auch in ganz geringen, alltäglichen Entscheidungen, da wird offenbar werden, was faul ist und was gut ist.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p36",
+    "de": "Hier besteht nur die Wirklichkeit, nicht aber der Schein. führt.\" Im Kirchenkampf hatte Bonhoeffer betrübliche Beispiele solcher theo­ logischer Lehrer vor Augen. /69 Die Bergpredigt (Matthäus 7) 187 Jesus mutet es seinen Jüngern zu, in solchen Augenblicken Schein und Wirklichkeit klar zu unterscheiden, und zu scheiden zwischen sich und den Scheinchristen. Das überhebt ie aller neugierigen Erforschung des Anderen, aber es fordert Wahr­ haftigkeit und Entschlossenheit, die fallende Entscheidung Gottes anzuerkennen. Es kann jeden Augenblick soweit sein, daß mitten unter uns die Scheinchristen von uns gerissen wer­ den, daß wir als die Scheinchristen entlarvt dastehen.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p37",
+    "de": "Damit sind die Jünger aufgerufen zu festerer Gemeinschaft mit Jesus, zu treuerer Nachfolge. Der faule Baum wird abgehauen und ins Feuer geworfen. Ihm hilft alle Pracht nichts. Vers 21. Die Scheidung durch J esu Ruf in die Nachfolge geht I aber noch tiefer. Nach der Scheidung zwischen Welt und Ge­ meinde, zwischen Scheinchristen und wahren Christen greift nun die Scheidung in die bekennende Jüngerschar hinein. Pau­ lus sagt: Niemand kann J es um einen Herrn nennen, es sei denn durch den heiligen Geist (1. Kor. 12,3). Niemand kann aus eig­ ner Vernunft, Kraft und Entscheidung sein Leben Jesus auslie­ fern, ihn seinen Herrn nennen.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p38",
+    "de": "Hier aber ist diese Möglichkeit selbst ins Auge gefaßt, daß einer Jesus seinen Herrn nennt ohne den heiligen Geist, d.h. ohne den Ruf Jesu vernommen zu haben. Das ist um so unbegreiflicher, als es seinerzeit keinerlei irdischen Gewinn brachte, Jesus seinen Herrn zu nennen, viel­ mehr ein Bekenntnis war, das in höchste Gefahr führte. \"Es werden nicht alle, die zu mir sagen: Herr, Herr! in das Him­ melreich kommen ... \" Das Herr-Herr-Sagen ist das Bekennt­ nis der Gemeinde. Es wird nicht jeder, der dieses Bekenntnis spricht, ins Himmelreich kommen. Mitten durch die beken­ nende Gemeinde hindurch wird die Scheidung gehen.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p39",
+    "de": "Das Be­ kenntnis verleiht keinerlei Anrecht auf Jesus. Niemand kann sich einmal auf sein Bekenntnis berufen. Daß wir Glieder der Kirche des rechten Bekenntnisses sind22, ist kein Anspruch vor Gott. Wir werden nicht auf Grund dieses Bekenntnisses selig werden. Denken wir dies, so tun wir Israels Sünde, das aus der 22 Der Vorwurf an die Deutsche Evangelische Kirche als Reichskirche, nicht Kirche des rechten Bekenntnisses zu sein, erhoben von den bekennenden Ge­ meinden, war 1934 Ausgangspunkt des Aufbaus der Bekennenden Kirche. 188 Teil 1. 170 Gnade der Berufung ein Recht vor Gott machte. Wir sündigen so gegen die Gnade des Berufers.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p40",
+    "de": "Gott wird uns einmal nicht fragen, ob wir evangelisch gewesen sind23, sondern ob wir sei­ nen Willen getan haben. Alle wird er danach fragen und uns ebenso. Die Grenzen der Kirche sind nicht die Grenzen eines Privilegs, sondern die der gnädigen Wahl und Berufung Gottes. Jtur:; 6 AEYOlV und aAA' 6 JtOlWV24 -,sagen' und ,tun' -das ist hier nicht ohne weiteres als das Verhältnis von Wort und Tat gemeint. Vielmehr ist hier von zweierlei verschiedenen Verhal­ ten des Menschen vor Gott gesprochen. 6 AEYWV XUQLE -der \"Herr-Herr-Sager\" -das ist hier der Mensch, I der auf Grund seines Jasagens einen Anspruch erhebt, 6 JtOLWV -\"der Täter\" - das ist hier der im gehorsamen Tun Demütige.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p41",
+    "de": "Jener ist der sich selbst durch sein Bekenntnis rechtfertigende, dieser, der Täter, der auf Gottes Gnade bauende, gehorsame Mensch. Hier wird also gerade das Reden des Menschen zum Korrelat seiner Selbstgerechtigkeit, das Tun aber zum Korrelat der Gnade, der gegenüber eben der Mensch nichts mehr anderes vermag als demütig zu gehorchen und zu dienen. Jener Herr-Herr-Sager hat sich selbst zu Jesus gerufen ohne den heiligen Geist, oder er hat doch aus dem Ruf J esu ein eigenes Recht gemacht. Dieser Täter des Willens Gottes ist gerufen, begnadigt, er gehorcht und folgt. Er versteht seinen Ruf nicht als Recht, sondern als Gericht und Begnadigung, als den Willen Gottes, dem allein er gehorchen will.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p42",
+    "de": "Die Gnade Jesu fordert den Täter, das Tun wird so die rechte Demut, der rechte Glaube, das rechte Be­ kenntnis zur Gnade des Berufers. Vers 22. Bekenner und Täter sind voneinander geschieden. Nun wird die Scheidung noch bis ins letzte hinein vorgetrieben. Hier zuletzt sprechen nun solche, die bis hierher bestanden haben. Sie gehören zu den Tätern, aber nun berufen ie sich anstatt auf ihr Bekenntnis eben auf dieses ihr Tun. Sie haben Taten getan in Jesu Namen. Sie wissen, daß das Bekenntnis wird uns im Gericht nur nach seinem ewigen Evangelium fragen: Habt ihr dem Evangelium geglaubt und gehorcht? Er wird nicht fragen, ob wir Deutsche waren oder Juden, ob wir Nationalsozialisten waren oder nicht, auch nicht ob wir zur Bekennenden Kirche gehört haben oder nicht\". 0 24 Dt.: \"jeder der sagt ... sondern der tut\". nicht rechtfertigt, darum sind ie hingegangen und haben durch Taten den Namen Jesu unter den Leuten groß gemacht.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p43",
+    "de": "Nun treten ie vor Jesus hin und weisen auf dieses Tun. Jesus offenbart seinen Jüngern hier die Möglichkeit eines dä­ monischen Glaubens, der sich auf ihn beruft, der wunderbare Taten, bis zur Unkenntlichkeit den Werken der wahren Jünger Jesu ähnlich, vollbringt, Werke der Liebe, Wunder, vielleicht gar Selbstheiligung, und der doch Jesus und seine Nachfolge verleugnet. Es ist nichts anderes, was Paulus im 13. Kapitel des 1. Korintherbriefes sagt, von jener I Möglichkeit zu predigen, zu weissagen, alle Erkenntnisse zu haben, ja allen Glauben, also daß er Berge verse�zt, -doch ohne Liebe, d.h. ohne Christus, ohne den heiligen Geist.25 Ja, mehr als dies: Paulus muß sogar die Möglichkeit ins Auge fassen, daß die Werke der christlichen Liebe selbst, die Hingabe der Güter, bis zum Martyrium, getan werden können -ohne Liebe, ohne Christus, ohne den heiligen Geist.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p44",
+    "de": "Ohne Liebe -d.h. eben, daß in all diesem Tun doch das Tun der Nachfolge nicht geschieht, dieses Tun, dessen Täter eben zuletzt kein anderer ist als der Berufer, Jesus Christus selbst. Das ist die tiefste, unbegreiflichste Möglichkeit des Sata­ nischen in der Gemeinde, die letzte Scheidung, die freilich erst geschieht am jüngsten Tag. Aber ie wird eine endgültige sein. Die Nachfolgenden aber müssen fragen, wo denn nun der letzte Maßstab dafür sei, wer von Jesus angenommen werde und wer nicht. Wer bleibt denn, und wer bleibt nicht? Die Antwort J esu zu den letzten Verworfenen sagt alles: \"ich habe euch noch nie erkannt\".",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p45",
+    "de": "Das also ist es, das ist das Geheimnis, das vom An­ fang der Bergpredigt an bis zu diesem Ende aufbewahrt wird. Das allein ist die Frage, ob wir von Jesus erkannt sind oder nicht.26 Woran sollen wir uns halten, wenn wir hören, wie J esu 25 1935 NL B 8/18 (70) Hinweise auf I Kor 13,2f und ,,1. Korinther 13,4ff. Diese Liebe ist Gott selbst, Christus\". D 26 Die Betonung des ,erkannt', die von Mt 7,23 her nicht naheliegt, verbindet Bonhoeffers Bergpredigtauslegung mit der Predigt über I Kor 13,8-12 in London 1934 DBW 13, 398: \"Das ist die Lösung, ,gleich wie ich erkannt bin' ... Ich könnte Ihn nicht erkennen, wenn Er mich nicht erkannt hätte.\" 1936 NL B 9,5 (85 f): \"üb wir von Jesus erkannt sind (Prädestination), daran scheidet sichs.\" Im Register des Buches \"Nach­ folge\" 1937 steht zu S. 189f das Stichwort \"Prädestination\".",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p46",
+    "de": "Vgl. K. Barth, 190 Teil 1. 172 Wort die Scheidung vollzieht zwischen Gemeinde und Welt und dann in der Gemeinde bis zum jüngsten Tag, wenn uns nichts mehr bleibt, nicht unser Bekenntnis, nicht unser Gehor­ sam? Dann bleibt nur noch sein Wort: ich habe dich erkannt. Dies ist sein ewiges Wort, sein ewiger Ruf. Hier schließt sich das Ende der Bergpredigt mit ihrem ersten Wort zusammen. Sein Wort am jüngsten Gericht - es ergeht an uns in seinem Ruf in die Nachfolge. Aber es bleibt vom Anfang bis zum Ende allein sein Wort, sein Ruf. Wer sich in der Nachfolge an nichts hält und klammert als an dieses Wort, wer alles andere fahren läßt, den wird dieses Wort durchs letzte Gericht tragen.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p47",
+    "de": "Sein Wort ist seine Gnade. I Der Schluß. \"Darum, wer diese meine Rede hört und tut ie, den vergleiche ich einem klugen Mann, der sein Haus auf einen Felsen baute. Da nun ein Platzregen fiel und ein Gewässer kam und wehten die Winde und stießen an das Haus, fiel es doch nicht; denn es war auf einen Felsen gegründet. Und wer diese meine Rede hört und tut ie nicht, der ist einem törichten Manne gleich, der sein Haus auf den Sand baute. Da nun ein Platzregen fiel und kam ein Gewässer und wehten die Winde und stießen an das Haus, da fiel es und tat einen großen Fall. Und es begab sich, da Jesus diese Rede vollendet hatte, entsetzte sich das Volk über seine Lehre; denn er predigte gewaltig und nicht wie die Schriftge­ lehrten\" (Mt. 7,24-29).",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p48",
+    "de": "Wir haben die Bergpredigt gehört, wir haben ie vielleicht verstanden. Aber wer hat ie recht gehört? Auf diese Frage antwortet Jesus zuletzt. Jesus läßt seine Zuhörer nicht einfach weggehen, damit ie nun aus seiner Rede machen, was ihnen gefällt, damit ie heraussuchen, was ihnen für ihr Leben wert­ voll erscheint, damit ie prüfen, wie sich diese Lehre zu der \"Wirklichkeit\" verhalteY Jesus gibt sein Wort seinen Zuhörern Römerbrief, 401: \" ... daß der als Mensch Gott Erwählende weichen muß dem von Gott erwählten Menschen ... das eben ist der Sinn der doppelten Prädesti­ nation, die Eröffnung des, Geheimnisses' Gottes\". 0 27 Bonhoeffer wendet sich gegen ein Reden von, Wirklichkeit' wie in Hegels Religionsphilosophie /73 Die Bergpredigt (Matthäus 7) 191 nicht frei, daß es unter ihren krämerischen Händen mißbraucht wird, sondern er gibt es ihnen so, daß es allein Macht über ie behalten muß.28 Menschlich gesehen gibt es unzählige Möglich­ keiten, die Bergpredigt zu verstehen und zu deuten.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p49",
+    "de": "Jesus kennt nur eine einzige Möglichkeit: einfach hingehen und gehorchen. Nicht deuten, anwenden, sondern tun, gehorchen. So allein ist Jesu Wort gehört. Aber auch wieder nicht vom Tun als von einer idealen Möglichkeit reden, sondern wirklich mit dem Tun anfangen.29 Dieses Wort, dem ich über mich rechtgebe, dieses Wort, das aus dem \"ich habe dich erkannt\" herkommt, das mich sofort ins Tun, ins Gehorchen stellt, ist der Fels, auf dem ich ein I Haus bauen kann. Diesem Wort Jesu aus der Ewigkeit her entspricht nur noch das schlichte Tun. Jesus hat geredet, sein ist das Wort, unser ist der Gehorsam. Allein im Tun behält das Wort Jesu unter uns seine Ehre, seine Kraft und Macht.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p50",
+    "de": "Jetzt kann der Sturm über das Haus fahren, die Einheit mit Jesus, die durch sein Wort geschaffen ist, kann er nicht mehr zerreißen. Neben dem Tun gibt es nur noch das Nichttun. Es gibt aber kein Tunwollen und doch nicht tun. Wer mit J esu Wort irgend­ anders umgeht als durchs Tun, gibt Jesus unrecht, sagt Nein zur Bergpredigt, tut sein Wort nicht. Alles Fragen, Problematiie­ ren und Deuten ist Nichttun. Der reiche Jüngling, der Schrift­ gelehrte aus Lk. 10 kommen in Sicht.30 Und wenn ich meinen Glauben, meine grundsätzliche Anerkennung diesem Wort ge­ genüber noch so sehr beteuerte, Jesus nennt das Nichttun.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p51",
+    "de": "Das Wort aber, das ich nicht tun will, ist mir kein Fels, auf den ich ein Haus bauen kann. Hier ist keine Einheit mit Jesus. Er hat mich noch nie erkannt. Darum, wenn der Sturm jetzt kommt, nach Lasson XIV, 155: \"Wenn die Gemeinde erst etabliert ist, wenn das Reich Gottes sein Dasein, seine Wirklichkeit erlangt hat, so haben diese Lehren [Chri­ sti] mehr andere Bestimmungen, oder man läßt ie auf der Seite liegen.\" 0 \"Also Bergpredigt kein Wort, mit dem man hantieren könnte: hier gehts nicht, da gehts nicht, da gibts Konflikte. Sondern tragfähig nur, wo gehorcht. Kein freies Wort zur Verwertung, nicht zum Mitnehmen und Bedenken, sondern entscheidendes Wort, zwingendes.\" 029 Vgl. I Joh 3,18, in LB mit Markie­ rungen und der Randnotiz Bonhoeffers: ,,!",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p52",
+    "de": "Selig ... \" (5. Jak 1,25: Wer ein Täter ist, \"derselbige wird selig sein in seiner Tat\"). 030 Mt 19,16-22 und Lk 10,25. 192 Teil 1. 173 dann geht mir das Wort schnell verloren, dann erfahre ich, daß ich in Wahrheit nie geglaubt habe. Ich hatte nicht Christi Wort, sondern ein Wort, das ich ihm entwunden und zu meinem eigenen gemacht hatte, indem ich darüber nachdachte, es aber nicht tat. Nun tut mein Haus einen großen Fall, weil es nicht auf Christi Wort ruht. \"Und das Volk entsetzte sich ... «31 Was war geschehen? Der Sohn Gottes hatte geredet. Er hatte das Weltgericht in seine Hand genommen. Und seine Jünger standen an seiner Seite. 31 1935 NL B 8/18 (73): \"Hier ihm [dem Volk] ja gesagt: es hängt alles an dieser Kraft\". 1936 NL B 9,5 (88): .,Er Uesus] ruft und verurteilt.",
+    "zh": ""
+  },
+  {
+    "id": "ch9-p53",
+    "de": "Er Herr über Himmel und Hölle.\" Hiermit endete 1935 -am 14. 10. -und auch 1936 die neutestamentliche Vorlesung. Am 10. 8. 1936 DBW 14, 221 schrieb Bonhoeffer an Bethge: Die letzten Vorlesungen \"machen auf die Brüder einen eigentümlich starken Eindruck\".",
+    "zh": ""
+  }
+]
