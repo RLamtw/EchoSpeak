@@ -594,6 +594,7 @@ select:hover {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  /* Layout Adjustments */
   .reader-layout {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
@@ -604,21 +605,27 @@ select:hover {
   }
   
   .reader-sidebar {
-    display: none; /* Hide sidebar on mobile */
+    display: none !important; /* Hide sidebar on mobile */
   }
 
+  /* Redesigned Native Header for Mobile */
   .reader-header {
-    padding: 10px 16px;
-    height: auto;
-    min-height: 60px;
+    display: grid !important;
+    grid-template-columns: 1fr auto !important;
+    grid-template-rows: auto auto !important;
+    grid-template-areas:
+      "logo theme"
+      "controls controls" !important;
+    padding: 14px 16px !important;
+    gap: 12px !important;
+    height: auto !important;
+    background: var(--bg-panel-solid);
+    border-bottom: 1px solid var(--border-color);
   }
 
-  .header-logo .logo-text span {
-    display: none; /* Hide subtitle */
-  }
-
-  .header-logo h1 {
-    font-size: 18px;
+  .header-logo {
+    grid-area: logo;
+    gap: 10px;
   }
 
   .logo-icon-wrapper {
@@ -628,85 +635,251 @@ select:hover {
   }
 
   .logo-icon-wrapper i {
-    width: 18px;
-    height: 18px;
-  }
-
-  .reader-footer {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
-    gap: 12px;
-    height: auto;
-  }
-
-  .footer-now-playing, .footer-audio-settings {
-    display: none; /* Hide side controls on very narrow screens */
-  }
-
-  .reader-main {
-    padding: 16px 20px;
-    overflow-y: auto;
-  }
-  
-  .view-mode-toggle {
-    margin-bottom: 12px;
-  }
-}
-
-@media (max-width: 520px) {
-  .header-controls {
-    gap: 8px;
-  }
-
-  .slider-group {
-    margin-right: 4px !important;
-    gap: 4px;
-  }
-
-  /* Prevent labels from wrapping into vertical lines */
-  .slider-group label {
-    font-size: 10px !important;
-    white-space: nowrap;
-  }
-
-  select {
-    min-width: 110px;
-    max-width: 135px;
-    padding: 6px 24px 6px 10px;
-    font-size: 12px;
-    border-radius: 15px;
-  }
-
-  .select-wrapper::after {
-    right: 8px;
-    font-size: 7px;
-  }
-
-  .btn-icon {
-    width: 32px;
-    height: 32px;
-  }
-  
-  .btn-icon i {
     width: 16px;
     height: 16px;
   }
-}
 
-@media (max-width: 420px) {
-  /* On very small screens, hide text labels to make dropdowns fit in one line */
-  .slider-group label {
+  .header-logo .logo-text h1 {
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  .header-logo .logo-text span {
+    display: none !important; /* Hide small subtitle */
+  }
+
+  #theme-toggle {
+    grid-area: theme;
+    width: 34px;
+    height: 34px;
+    justify-self: end;
+    align-self: center;
+    border-radius: 10px;
+  }
+
+  .header-controls {
+    grid-area: controls;
+    display: flex !important;
+    width: 100% !important;
+    gap: 8px !important;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-controls .slider-group {
+    flex: 1;
+    margin: 0 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  /* Hide labels on mobile to make room for full-width dropdowns */
+  .header-controls .slider-group label {
     display: none !important;
   }
 
-  .header-logo .logo-text h1 {
-    font-size: 16px;
+  .header-controls .select-wrapper {
+    width: 100%;
   }
-  
-  select {
-    min-width: 100px;
-    max-width: 125px;
+
+  .header-controls select {
+    width: 100%;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    height: 38px;
+    padding: 0 24px 0 12px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+  }
+
+  .header-controls .select-wrapper::after {
+    right: 10px;
+    font-size: 7px;
+  }
+
+  /* Main Reader Container */
+  .reader-main {
+    padding: 12px 14px 24px !important;
+    overflow-y: auto;
+  }
+
+  .reading-container {
+    gap: 12px !important;
+  }
+
+  /* Segmented Controls for Mode / Version Switchers */
+  .view-mode-toggle {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 8px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .view-mode-toggle > div {
+    display: flex !important;
+    width: 100% !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    padding: 3px !important;
+    border-radius: 12px !important;
+    border: 1px solid var(--border-color) !important;
+    gap: 0 !important; /* Continuous segmented control look */
+  }
+
+  [data-theme="light"] .view-mode-toggle > div {
+    background: rgba(0, 0, 0, 0.03) !important;
+  }
+
+  .view-btn {
+    flex: 1 !important;
+    text-align: center !important;
+    padding: 8px 0 !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    border-radius: 9px !important;
+    margin: 0 !important;
+    border: none !important;
+    background: transparent !important;
+    color: var(--text-secondary) !important;
+    box-shadow: none !important;
+    transition: all 0.2s ease !important;
+  }
+
+  .view-btn.active {
+    background: var(--accent-color) !important;
+    color: white !important;
+    box-shadow: var(--shadow-sm) !important;
+  }
+
+  /* Book Metadata Header inside Main Reading Area */
+  .reading-container h1, 
+  .reading-container h2 {
+    font-size: 20px !important;
+    text-align: center;
+    line-height: 1.35;
+    margin-bottom: 4px !important;
+  }
+
+  .reading-container p[style*="font-size: 12px"] {
+    font-size: 13px !important;
+    text-align: center;
+    color: var(--text-muted) !important;
+    margin-bottom: 16px !important;
+  }
+
+  /* Paragraph Cards Mobile Optimizations */
+  .paragraph-card {
+    padding: 14px 16px !important;
+    border-radius: 12px !important;
+    gap: 10px !important;
+    border: 1px solid var(--border-color) !important;
+    transform: none !important; /* Disable hover jumps on mobile */
+    box-shadow: none !important;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+  }
+
+  .paragraph-card:hover {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
+  .paragraph-card.active {
+    border-left: 4px solid var(--accent-color) !important;
+    background: var(--bg-card-active) !important;
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+  }
+
+  .paragraph-card.last-read::before {
+    top: -9px;
+    right: 12px;
+    font-size: 9px;
+    padding: 1px 8px;
+    border-radius: 8px;
+  }
+
+  .text-de {
+    font-size: 15px !important;
+    line-height: 1.55 !important;
+    margin-bottom: 4px;
+  }
+
+  .text-zh {
+    font-size: 16px !important;
+    line-height: 1.65 !important;
+  }
+
+  /* Redesigned Native Player Footer for Mobile */
+  .reader-footer {
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 14px 20px calc(14px + env(safe-area-inset-bottom)) !important;
+    gap: 12px !important;
+    background: var(--bg-panel-solid);
+    border-top: 1px solid var(--border-color);
+  }
+
+  .footer-now-playing, 
+  .footer-audio-settings {
+    display: none !important; /* Hide left & right meta info to save space */
+  }
+
+  .footer-player-controls {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 12px !important;
+  }
+
+  .player-buttons {
+    width: 100% !important;
+    justify-content: center !important;
+    gap: 28px !important;
+  }
+
+  .btn-player {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-player i {
+    width: 22px;
+    height: 22px;
+  }
+
+  .btn-player-main {
+    width: 54px !important;
+    height: 54px !important;
+    border-radius: 50% !important;
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3) !important;
+  }
+
+  .btn-player-main i {
+    width: 24px;
+    height: 24px;
+  }
+
+  .player-progress-bar-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 8px;
+    gap: 10px !important;
+  }
+
+  .progress-time {
+    font-size: 10px;
+    width: 30px;
   }
 }
+
 
