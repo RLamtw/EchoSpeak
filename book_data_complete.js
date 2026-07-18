@@ -2888,24 +2888,1194 @@ window.bookDataComplete = {
       id: "ch12",
       title: "第十二章：洗禮 (Die Taufe)",
       paragraphs: [
+        {
+          id: "ch12-p1",
+          de: "Die Taufe. Der Begriff der Nachfolge, der bei den Synoptikern fast den gesamten Inhalt und Umfang der Beziehungen des Jüngers zu Jesus Christus auszudrücken vermochte, tritt bei Paulus stark in den Hintergrund. Paulus verkündigt uns nicht in erster Linie die Geschichte des Herrn in seinen Erdentagen, sondern die Gegenwart des Auferstandenen und Verklärten und sein Wir­ ken an uns. Dazu bedarf er einer neuen und eigenen Begrifflich­ keit. Sie entspringt aus dem Besonderen des Gegenstandes und zielt auf das Gemeinsame der Verkündigung des Einen Herrn, der lebte, starb und auferstand. Dem vollständigen Christus­ zeugnis entspricht eine mannigfache Begrifflichkeit.",
+          zh: "第十二章：洗禮。洗禮。「跟隨」這一概念在對觀福音書中幾乎能表達門徒與耶穌基督關係的全部內容與範疇，然而在保羅書信中它卻退居幕後。保羅向我們宣告的，首要並非主在世時的生平事蹟，而是那復活並得榮耀之主的「如今臨在」、以及祂在我們身上的作工。為此，保羅需要一套嶄新且獨特的術語。這套術語源自其宣告對象的特殊性，旨在與宣告那活過、受死且復活的「唯一的主」的共同見證相咬合。對基督的完整見證，對應著多樣化的神學術語。"
+        },
+        {
+          id: "ch12-p2",
+          de: "So muß die Begrifflichkeit des Paulus die der Synoptiker bestätigen und umgekehrt, und keine hat vor der anderen an sich einen Vor­ zug; denn wir sind nicht \"paulisch oder apollisch oder kephisch oder christisch\" I, sondern der Einheit des Schriftzeugnisses von Christus schenken wir Glauben. Wir sprengen die Einheit der Schrift, wollten wir sagen, Paulus verkündige den Christus, der auch uns noch ebenso gegenwärtig sei, das Zeugnis aber der Synoptiker spreche von einer Gegenwart J esu Christi, die wir nicht mehr kennen.2 So zu reden gilt zwar weithin als reforma­ torisch-geschichtliches Denken3, ist aber in Wahrheit das Ge­ genteil davon, nämlich gefährlichste Schwärmerei.",
+          zh: "因此，保羅的術語必須證實對觀福音書的術語，反之亦然，兩者在本身上並無優劣之分；因為我們並非「屬保羅的、屬亞波羅的、屬磯法的，或屬基督的」（哥林多前書一章12節），而是信靠聖經對基督見證的整體性。若我們宣稱保羅所宣告的基督對今天的我們依然臨在，而對觀福音書所見證的耶穌基督的臨在卻是我們無法再經歷的，那我們就是在撕裂聖經的合一。這種論調雖常被標榜為「改革宗歷史性思考」，但實質上情況恰恰相反，乃是最危險的狂熱盲動。"
+        },
+        {
+          id: "ch12-p3",
+          de: "Wer sagt uns, daß wir die Gegenwart Christi, wie ie Paulus verkündigt, noch heute haben? Wer anders sagt es uns, als die Schrift selbst? 1 I Kor 1,12. Kephas = Petrus. D 2 Die Trennung zwischen Paulus und den Synoptikern unter Berufung auf II Kor 5,16 (\"und ob wir auch Christum gekannt haben nach dem Fleisch, so kennen wir ihn doch jetzt nicht mehr\") hält Bonhoeffer also für irreführend. D 3 Rudolf Bultmann rechnete den \"irdi­ schen Jesus\" in seiner Verkündigung -als Erneuerer der großen alttestamentli­ chen Prophetie -zur Vor-Geschichte des christlichen Kerygmas und unter­ schied ihn vom \"kerygmatischen Christus\": Erst mit der Auferstehung in das Kerygma, d.h. in die nachösterliche Verkündigung hinein habe der uns ange­ hende christliche Glaube begonnen.",
+          zh: "是誰告訴我們，我們今天依然擁有保羅所宣告的基督的臨在？除了聖經自己之外，還能有誰？抑或在此處，竟然要談論一種「自由的」、不與話語相約束的對基督臨在與現實的體驗？如果唯獨是聖經向我們見證了基督的臨在，那麼它就是作為一個整體來見證的，因之同時也是見證了對觀福音書中耶穌基督的臨在。對觀福音書中的基督，與保羅書信中的基督，對我們而言並無遠近之分。"
+        },
+        {
+          id: "ch12-p4",
+          de: "Vgl. R. Buhmann, Jesus, 26 (und 16 f). Ähnlich gehörte für Hege! die\" Erscheinung Gottes im Fleisch ... zur vergan­ genen Geschichte\" (Religionsphilosophie nach Lasson XIV, 168). 220 Teil 11. 200 Oder sollte eben hier von einer freien, nicht ans Wort gebunde­ nen Erfahrung der Christus gegenwart und -wirklichkeit gere­ det werden? Ist es aber allein die Schrift, die uns die Gegen wart Christi bezeugt, so tut ie es I eben als ganze, und also zugleich als solche, die uns die Gegenwart des synoptischen Jesus Chri­ stus bezeugt. Der synoptische Christus ist uns nicht ferner und nicht näher als der paulinische Christus.",
+          zh: "向我們顯明臨在的，是整本聖經向我們見證的基督。祂是道成肉身者、被釘十字架者、復活者與得榮耀者，祂在祂的話語中與我們相遇。對觀福音書與保羅在傳達這一見證時所採用的不同術語，絕不損害聖經見證的整體合一性。"
+        },
+        {
+          id: "ch12-p5",
+          de: "Gegenwärtig ist uns der Christus, den uns die ganze Schrift bezeugt. Er ist der Menschgewordene, Gekreuzigte, Auferstandene und Verklärte, er begegnet uns in seinem Wort. Die verschiedene Begrifflich­ keit, in der die Synoptiker und Paulus dieses Zeugnis weiterge­ ben, tut der Einheit des Schriftzeugnisses keinen Abbruch1ol. I 10) Die Verwechslung von ontologischen Aussagen und verkündigendem Zeugnis ist das Wesen aller Schwarmgeisterei. 4 Der Satz: Christus ist auferstan­ den und gegenwärtig, ist ontologisch verstanden die Aufhebung der Einheit der Schrift. Denn er schlösse In sich eine Aussage über die Existenzweise J esu Christi, die z.B. von der des synoptischen Jesus unterschieden ist.",
+          zh: "（接上文，註：此處包含字詞注釋，指出若將「基督已復活並臨在」作孤立的本體論理解，會使其變成一個神學教條原則，從而破壞聖經的合一。這正如狂熱的「完全主義/成聖派」因本體論式的誤解，將約翰一書三章6節「凡住在祂裡面的就不犯罪」孤立出來，當作可以直接體驗的本體論起點，脫離了聖言的約束。）"
+        },
+        {
+          id: "ch12-p6",
+          de: "Daß Jesus Christus auferstanden und gegenwärtig ist, ist hier ein für sich bestehender Satz mit eigener ontologischer Bedeutung, der zugleich kritisch gegen andere onto­ logische Aussagen verwendet werden könnte. Er wird zum theologischen Prin­ zip. Analog ist z.B. jeder schwärmerische Perfektionismus auf einern solchen ontologischen Mißverständnis der Schriftaussagen über die Heiligung erwach­ sen. Hier wird z.B. die Aussage, daß, wer in Gott ist, nicht sündigt', zum ontologischen Ausgangspunkt des Denkens gemacht; die Aussage wird damit aus der Schrift selbst herausgelöst und zur eigenständigen, erfahrbaren Wahr­ heit erhoben.",
+          zh: "這與宣告性見證的特徵是完全對立的。「基督已復活並臨在」這句話，在嚴格理解為聖經的見證時，唯有作為聖經的話語才是真實的。我對這話語獻上信心。對我而言，除了藉由這話語之外，對這一真理別無任何可以想見的通道。然而，藉著這話語，保羅的基督與對觀福音書的基督之臨在，以同等的方式向我見證出來，以致我們與其中哪一位的親近，唯獨取決於這話語、取決於聖經的見證。這當然絕非否認保羅在宣教對象與術語上擁有與對觀福音書不同的獨特見證，但兩者都必須在聖經整體的脈絡中被嚴格地理解。"
+        },
+        {
+          id: "ch12-p7",
+          de: "Dem steht der Charakter des verkündigenden Zeugnisses absolut entgegen. Der Satz: Christus ist auferstanden und gegenwärtig, ist streng als Zeugnis der Schrift verstanden nur als Wort der Schrift wahr. Diesem Wort schenke ich Glauben. Es gibt für mich hier keinen denkbaren anderen Zugang zu dieser Wahrheit als durch dieses Wort. Mit diesem Wort aber ist mir in gleicher Weise die Gegenwart des paulinischen wie des synoptischen Christus bezeugt, so daß die Nähe zu dem einen oder anderen durch nichts bestimmt wird als durch das Wort, durch das Zeugnis der Schrift. Damit ist natürlich niemals bestritten, daß Paulus ein von den Synoptikern durch Gegenstand und Begrifflichkeit unterschiedenes Zeugnis hat, aber es sind beide streng im Zu­ sammenhang des Schriftganzen verstanden.",
+          zh: "（接上文，註：此處包含注釋，指出新約各卷的權威性並非先驗死板確定的，而是必須在每一個具體見證中，去證實其對基督見證的正確性。因此在下文中，將會展現「跟隨」這一概念如何在保羅書信的見證中，以被改變的術語被接納並深化。）"
+        },
+        {
+          id: "ch12-p8",
+          de: "Dieses alles ist nicht nur eine apriorische Erkenntnis, die von einern strengen 4 Diese Anmerkung Bonhoeffers geht wohl zurück auf eine Diskussion über Kirche als der \"neue Mensch\", mitgeschrieben 1936/37 NL B 9,3 (2 f). D 5 I Joh 3,6 (unterstrichen in LB). 201 Die Taufe 221 Ruf und Eintritt in die Nachfolge haben bei Paulus ihre Ent­ sprechung in der Taufe. 7 Taufe ist nicht Angebot des Menschen8, sondern Angebot Jesu Christi. Sie ist allein begründet in dem gnädigen berufen­ den Willen Jesu Christi. Taufe heißt Getauftwerden, ie ist ein Erleiden des Rufes Christi.9 Der Mensch wird in ihr Eigentum Christi.",
+          zh: "在保羅的書信中，對觀福音書中那對「跟隨」的呼召與跨出，其相應物正是「洗禮」。洗禮絕非人向上帝的自薦，而是耶穌基督向人的施予。它唯獨奠基於耶穌基督那施恩呼召的旨意中。洗禮本意是「被施洗」，它是對基督呼召的被動承受。在洗禮中，人變成了基督的財產。"
+        },
+        {
+          id: "ch12-p9",
+          de: "Der Name Jesu Christi wird über dem Täufling ge­ nannt, der Mensch wird damit dieses Namens teilhaftig, er wird \"in Jesum Christum\" hineingetauft (dS10 R. 6,3, Ga!. 3,27, Mt. 28,19). Nun gehört er zu Jesus Christus. Er ist der Herrschaft der Weh entrissen und ist Christi Eigentum geworden. So bedeutet die Taufe einen Bruch. Christus greift in den Machtbereich des Satans ein und legt seine Hand auf die Seinen, schafft sich seine Gemeinde. Vergangenes und Zukünftiges sind damit auseinandergerissen. Das Alte ist vergangen, es ist alles neu geworden. 11 Nicht geschieht der Bruch dadurch, daß ein Mensch seine Ketten zerreißt, weil er nach einer neuen, freien Ordnung seines Lebens und der Dinge ein unstillbares Verlan­ gen trägt.",
+          zh: "耶穌基督的名被宣告在受洗者之上，人藉此分得了這一名字，他被「受洗歸入耶穌基督」（羅馬書六章3節，加拉太書三章27節，馬太福音二十八章19節）。此時他屬於耶穌基督。他被從這世界的治權中奪回，變成了基督的財產。因此，洗禮意味著一個「割裂」。基督切入撒旦的權勢範圍，將手按在屬祂的人身上，建立祂的會眾。過去與未來由此被撕裂開來。舊事已過，都變成新的了。這一割裂絕非因為人自己砸碎了鎖鏈（因為他對一種新的、自由的生活與事物秩序抱有不可遏制的渴望）。"
+        },
+        {
+          id: "ch12-p10",
+          de: "Christus selbst hat längst zuvor den Bruch vollzogen. In der Taufe wird dieser Bruch nun auch an meinem Leben vollstreckt. Die Unmittelbarkeit zu den Gegebenheiten der Welt wird mir geraubt, weil Christus, der Mittler und Herr, dazwischengetreten ist. Wer getauft ist, gehört nicht mehr der Welt, dient ihr nicht mehr, ist ihr nicht mehr unterworfen. Er gehört Christus allein an und verhält sich zur Welt nur durch Christus. Kanonbegriff herkommt\", sondern jeder einzelne Fall muß wiederum die Rich­ tigkeit dieser Schriftauffassung bewähren. So wird im folgenden zu zeigen sein, wie der Begriff der Nachfolge im Zeugnis des Paulus in veränderter Begrifflich­ keit aufgenommen und weitergeführt ist. 6 Die Schriften, die uns im Neuen Testament überliefert sind (,Kanon'), müs­ sen nach Bonhoeffer nicht von vornherein (,apriorisch') in allen Teilen gleich bedeutsam sein. 07 Vgl. 1935 NL B 8 (3) zu Mk 7.,14: \"Levi [ist] durch die Berufung ,getaufter Jünger\"'. 08 Vgl. Lk 9,57. 09 1936 NL B 9,5 (6): \"Die Taufe ist passio, nicht actio.\" 1936/37 NL B 9,6 (6) (u. ö. in Mitschriften) : \"Wir sil1d n,ere passive.\" Siehe M.",
+          zh: "基督自己早已成全了這一割裂。而在洗禮中，這一割裂此時正執行在我的生命之上。我與世俗萬物的直接狀態被奪走了，因為基督——這中介者與主——已介入其間。凡受洗的人，便不再屬於世界，不再服侍它，不再臣服於它。他單單屬於基督，且唯有藉由基督，他才與世界發生關係。"
+        },
+        {
+          id: "ch12-p11",
+          de: "Luther, Resolutionfs über [Luthers] Leipziger Disputationsthesen. 1519 (WA 2,421): \"Liberum arbiti'ium est mere passivum in omlli actu suo qui velle vocatur\" (\"der freie Wille ist rein passiv in jedem [seinem] Akt, der ,wollen' genannt wird\"). 0 10 Dt.: \"hinein in\". 011 II Kor 5,17. Der Bruch mit der Welt ist ein vollkommener. Er fordert I und bewirkt den Tod des Menschen!!). In der Taufe stirbt der Mensch mit seiner alten Welt. Auch dieser Tod ist im strengsten Sinn als leidentliches Geschehen aufzufassen. Nicht der Mensch soll den unmöglichen Versuch machen, sich diesen Tod zu ge­ ben durch allerlei Verzicht und Entsagung.",
+          zh: "與世界的割裂是徹底的。它要求並促成了人的死亡。在洗禮中，人與他的舊世界一同死去。這一死亡在最嚴格的意義上，也必須被理解為一個「被動的事件」。人不應當去進行那種不可能的嘗試——企圖藉由種種放棄與克己來自我賜予這一死亡。"
+        },
+        {
+          id: "ch12-p12",
+          de: "Ein solcher Tod wäre niemals der von Christus geforderte Tod des alten Men­ schen. Der alte Mensch kann sich nicht selbst töten. Er kann seinen Tod nicht wollen. Der Mensch stirbt allein an Christus, durch Christus, mit Christus. Christus ist sein Tod. Um der Gemeinschaft mit Christus willen und in ihr allein stirbt der Mensch. Mit der Christus gemeinschaft in der Taufgnade emp­ fängt er seinen Tod !2). Dieser Tod ist die Gnade, die der Mensch sich niemals selbst schaffen kann. Zwar ergeht in ihm das Gericht über den alten Menschen und seine Sünde, aber aus diesem Gericht heraus ersteht der neue Mensch, der der Welt und der Sünde abgestorben ist.!4 So ist dieser Tod nicht die letzte zornige Verwerfung des Geschöpfes durch den Schöpfer, sondern er ist gnädige Annahme des Geschöpfes durch den Schöpfer.",
+          zh: "那樣的死亡決不是基督所要求的舊人的死亡。舊人無法自我殺死。他無法想要自己的死。人唯有在基督身上死、藉由基督死、與基督同死。基督就是他的死。為了與基督契合的緣故、且唯獨在其中，人死去了。藉著洗禮恩典中與基督的契合，他領受了自己的死。這一死亡乃是恩典，是人絕不可能自我創造的。雖然在其中宣告了對舊人及其罪惡的審判，但從這一審判中卻誕生了那對世界與罪惡已然死去的「新人」。因此，這一死亡絕非創造主對被造物最終的憤怒棄絕，邊是創造主對被造物恩慈的接納。"
+        },
+        {
+          id: "ch12-p13",
+          de: "Dieser Tauf tod ist der durch Christi Tod uns erwor­ bene gnädige Tod. Es ist der Tod in der Kraft und Gemein­ schaft des Kreuzes Christi. Wer Christi Eigentum wird, muß unter sein Kreuz. Er muß mit ihm leiden und sterben. Wer die Gemeinschaft Jesu Christi empfängt, muß den gnadenvollen Tod der Taufe sterben. Das macht das Kreuz Christi, unter das Jesus seine Nachfolger stellt. Christi Kreuz und Tod war hart und schwer, das Joch unseres Kreuzes ist sanft und leicht durch die Gemeinschaft mit ihm. 15 Christi Kreuz ist unser einmaliger gnadenvoller Tod in der Taufe; unser Kreuz, zu dem wir I gerufen sind, ist das tägliche Sterben!6 in der Kraft des voll­ brachten Todes Christi.",
+          zh: "這一洗禮之死，是藉由基督之死為我們贏得的恩慈之死。它是處在基督十字架的權能與契合中的死。凡成為基督財產的人，必須置於祂的十字架之下。他必須與祂一同受難並死。凡領受與耶穌基督契合的人，必須死於這滿有恩典的洗禮之死。這正是耶穌置其跟隨者於其下的基督的十字架。基督的十字架與死亡是艱難且沉重的，而我們十字架的軛藉由與祂的契合，卻是容易且輕省的。基督的十字架是我們在洗禮中「一生一次」的恩慈之死；而我們蒙召去背負的十字架，則是藉由基督已成全之死的權能「每日的死亡」在強大的洗禮權能下。"
+        },
+        {
+          id: "ch12-p14",
+          de: "So wird die Taufe zum Empfang der 11) Schon Jesus hat seinen Tod eine Taufe genannt und seinen Jüngern diese Taufe des Todes verheißen (Mk. 10,39; Lk. 12,50).\" 12) Schlatter bezieht auch 1. Kor. 15,29 auf die Taufe des Martyriums.13 12 Die synoptischen Stellen entsprechen Röm 6,3. 0 13 A. Schlatter, Die Theologie der Apostel, 518 Anm. 1. 0 14 Anklänge an Röm 5 und 6.015 Mt 11,30.016 I Kor 15,31; vgl. in Luthers Kleinem Katechismus (BSLK 516) zur Taufe: Sterben des alten Adam \"durch tägliche Reu und Buße\". 204 Die Taufe 223 Kreuzesgemeinschaft Jesu Christi (R. 6,3 ff., Kol. 2,12). Der Glaubende kommt unter Christi Kreuz.",
+          zh: "如此，洗禮便成了對耶穌基督十字架契合的領受（羅馬書六章3節起，歌羅西書二章12節）。信徒來到了基督的十字架之下。"
+        },
+        {
+          id: "ch12-p15",
+          de: "Der Tod in der Taufe ist die Rechtfertigung von der Sünde. 17 Der Sünder muß sterben, um von seiner Sünde frei zu werden. Wer gestorben ist, der ist gerechrfertigt von der Sünde (R. 6,7, Kol. 2,20). An den Toten hat die Sünde kein Recht mehr, ihre Forderung ist mit dem Tode beglichen und erloschen. So ge­ schieht Rechtfertigung von (<'molS) der Sünde allein durch den Tod. Vergebung der Sünde heißt nicht Übersehen und Verges­ sen, sondern heißt wirkliche Tötung des Sünders und Trennung von (uno) der Sünde. Daß aber der Tod des Sünders Rechtferti­ gung und nicht Verdammnis wirkt, hat seinen einzigen Grund darin, daß dieser Tod in der Gemeinschaft des Todes Christi erlitten wird.",
+          zh: "洗禮中的死亡，就是「從罪中得稱義」（羅馬書六章7節，歌羅西書二章20節）。罪人必須死，才能脫離他的罪而得自由。凡已死的人，便脫離罪得了稱義。對於死人而言，罪不再擁有任何權利，罪的要求已隨著死亡被清算並終結。因此，從罪中得稱義，唯獨藉由死亡發生。罪的赦免絕非裝作看不見或遺忘，而是指罪人實實在在的被擊殺、以及與罪的割裂。然而，罪人之死之所以能帶來稱義而非定罪，其唯一的根基在於：這一死亡是在與基督之死的契合中被承受的。"
+        },
+        {
+          id: "ch12-p16",
+          de: "Die Taufe in den Tod Christi schafft Vergebung der Sünden und Rechtfertigung, ie schafft völlige Trennung von der Sünde. Die Gemeinschaft des Kreuzes, in die Jesus seine Jünger rief, ist die Gabe der Rechtfertigung an ie, des Todes und der Vergebung der Sünden. Der Jünger, der in der Gemeinschaft des Kreuzes Jesus nachfolgte, empfing keine an­ dere Gabe als der Gläubige, der nach der Lehre des Paulus die Taufe empfing. Daß die Taufe bei aller Passivität, in die ie den Menschen nötigt, doch niemals als mechanischer Vorgang verstanden wer­ den darf, macht die Verbindung von Taufe und Geist ganz deutlich (Mt. 3,11;Act. 10,47;Joh. 3,5; 1. Kor. 6,11; 12,13).",
+          zh: "歸入基督之死的洗禮帶來了罪的赦免與稱義，促成了與罪的徹底割裂。耶穌呼召其門徒進入的十字架契合，正是賜予他們的稱義、死亡與罪之赦免的恩賜。在十字架契合中跟隨耶穌的門徒，所領受的恩賜與按照保羅教義領受洗禮的信徒毫無二致。儘管洗禮迫使人處於全然的被動性之中，但它決不能被理解為一種機械的儀式程序；這一點藉由洗禮與聖靈的連結（馬太福音三章11節，使徒行傳十章47節，約翰福音三章5節，哥林多前書六章11節、十二章13節）顯得極其明晰。"
+        },
+        {
+          id: "ch12-p17",
+          de: "Die Gabe der Taufe ist der Heilige Geist. Der Heilige Geist aber ist der in den Herzen der Gläubigen wohnende Christus selbst (2. Kor. 3,17; Röm. 8,9-11.14ff.; Eph. 3,16f.). Die Getauften sind das Haus, in dem der Heilige Geist Wohnung gemacht hat (otxEi19). Der Heilige Geist gewährt uns die bleibende Gegen­ wart Jesu Christi und seine Gemeinschaft. Er gibt uns I rechte Erkenntnis seines Wesens (1. Kor. 2,10) und seines Willens, er lehrt und erinnert uns an alles, was Christus uns gesagt hat Goh. 14,26), er leitet uns in alle Wahrheit Goh. 16,13), daß es uns an Erkenntnis Christi nicht mangelt, daß wir wissen können, was 17 Siehe 1936 DßW 14, 607: \" ... wirwerden gerechtfertigtdnQ Tfic; a�laQllac;­ von unserer Sünde weg, nicht EV lfi cqw(l1la [\"in der Sünde\").",
+          zh: "洗禮的恩賜乃是聖靈。而聖靈正是那居住在信徒心中的基督自己（哥林多後書三章17節，羅馬書八章9-11節、14節起，以弗所書三章16-17節）。受洗者乃是聖靈入住的殿宇。聖靈賜予我們耶穌基督常存的臨在與祂的契合。祂賜予我們對祂本質與旨意的正確認識（哥林多前書二章10節），祂教導並讓我們想起基督對我們所說的一切話（約翰福音十四章26節），祂引導我們進入一切的真理（約翰福音十六章13節），使我們不致缺乏對基督的認識，使我們得以知道神開恩賜給我們的事（哥林多前書二章12節，以弗所書一章9節）。"
+        },
+        {
+          id: "ch12-p18",
+          de: "Wir sind der Sün­ de gestorben.\" 0 18 Dt.: \"weg von\". 0 19 Dt.: \"er wohnt\" (hat sein Haus). 224 Teil H. 205 uns von Gott gegeben ist (1. Kor. 2,12; Eph. 1,9). Nicht Unge­ wißheit, sondern Gewißheit und Klarheit schafft der Heilige Geist in uns. Darum können wir im Geist wandeln (Ga!. 5,16. 18.25; Röm. 8,1.4) und gewisse Tritte tun. Das Maß der Gewiß­ heit, das die Jünger Jesu in seiner irdischen Gemeinschaft hat­ ten, hat Jesus den Seinen nach seinem Hingang nicht genom-· men. Durch die Sendung des Heiligen Geistes in die Herzen der Getauften wird die Gewißheit der Erkenntnis Jesu nicht nur erhalten, sondern durch die Nähe der Gemeimchaft noch ge­ stärkt und gefestigt (R. 8,16; Joh. 16,12f.).",
+          zh: "聖靈在我們裡面所創造的，絕非迷茫，而是確信與明晰。因此我們能順著聖靈而行（加拉太書五章16、18、25節，羅馬書八章1、4節），邁出確定的步伐。耶穌的門徒在其世俗契合中所擁有的確信程度，耶穌在離去之後並未對屬祂的人予以剝奪。藉由將聖靈差遣入受洗者的心中，對耶穌認識的確信不僅得以存留，而且因著契合的親密，甚至被進一步加強與穩固了（羅馬書八章16節，約翰福音十六章12-13節）。"
+        },
+        {
+          id: "ch12-p19",
+          de: "Rief Jesus in die Nachfolge, so forderte er einen sichtbaren Gehorsamsakt. Jesus nachfolgen war eine öffentliche Sache. Ganz ebenso ist die Taufe ein öffentliches Geschehen; denn in ihr vollzieht sich die Eingliederung in die sichtbare Gemeinde Jesu Christi (Ga!. 3,27 f.; 1. Kor. 12,13). Der in Christus vollzo­ gene Bruch mit der Welt kann nicht mehr verborgen bleiben, er muß äußerlich in Erscheinung treten durch die Zugehörigkeit zum Gottesdienst20 und zum Leben der Gemeinde. Der Christ, der sich zur Gemeinde hält, tut einen Schritt aus der Welt, aus der Arbeit, aus der Familie hinaus, er steht sichtbar in der Ge­ meinschaft Jesu Christi.",
+          zh: "當耶穌呼召人去跟隨時，祂要求的是一項有形的順從行為。跟隨耶穌曾是一件公開的事情。與此完全相同，洗禮也是一個公開的事件；因為在洗禮中成全了歸入耶穌基督有形會眾的過程（加拉太書三章27-28節，哥林多前書十二章13節）。那在基督裡成全的與世界的割裂，再也無法隱藏，它必須藉由參與崇拜以及加入會眾的生活，在外部彰顯出來。那歸向會眾的基督徒，邁出了走出世界、走出工作、走出家庭的一步，他有形地站立在耶穌基督的契合中。"
+        },
+        {
+          id: "ch12-p20",
+          de: "Er tut diesen Schritt allein. Aber er findet wieder, was er verließ, Brüder, Schwestern, Häuser, Äk­ ker. 21 Der Getaufte lebt in der sichtbaren Gemeinde J esu Chri­ sti. Was das bedeutet und einschließt, muß in zwei weiteren Abschnitten über den ,Leib Christi' und über die ,sichtbare Gemeinde' gezeigt werden. Die Taufe und ihre Gabe ist etwas Einmaliges22• Mit der I Taufe Christi kann keiner zweimal getauft werden13). Die Un­ wiederholbarkeit und Einzigkeit dieser Gnadentat Gottes will der Hebräerbrief an jener dunklen Stelle verkündigen, in der er für Getaufte und Bekehrt� die Möglichkeit einer zweiten ßuße leugnet (Hebr. 6,4 ff.).",
+          zh: "他獨自邁出這一步。但他重又尋回了他所放棄的事物：弟兄、姐妹、房屋、田地（馬可福音十章30節）。受洗者活在耶穌基督的有形會眾之中。這所代表與包含的意義，將在隨後關於「基督的身體」與「有形會眾」的兩個章節中予以展現。洗禮及其恩賜是「一生一次的」。藉由基督的洗禮，沒有人能受兩次洗。"
+        },
+        {
+          id: "ch12-p21",
+          de: "Wer getauft ist, hat teilbekommen an 13) Die Johannestaufe allerdings muß durch die Christustauf� erneuert wer­ den (Act. 19,5). 20 Siche 5. 54. -Im Dritten Reich w�r der Kirchgang, da vom nationalsoziali­ stischen Regime unerwünscht, auch ein Politikum. 021 Mk 10,30. 022 Röm 6,10 (und Hebr 9,11 ff): EtjlCmaS (\"einmal\", \"ein für allemal\"). 206 Die Taufe 225 Christi Tod. Er hat durch diesen Tod sein Todesurteil empfan­ gen und ist gestorben. Wie Christus ein für allemal starb (R. 6,10) und wie es keine Wiederholung seine!; Opfers gibt, so erleidet der Getaufte mit Christus ein für allemal seinen Tod.",
+          zh: "凡受洗的人，都分得了基督的死。他藉著這一死亡領受了自己的死刑判決，並且已經死了。正如基督是一次而永遠地死了、且祂的祭物絕無重複，同樣，受洗者與基督一同一次而永遠地承受了他的死。"
+        },
+        {
+          id: "ch12-p22",
+          de: "Nun ist er gestorben. Das tägliche Absterben des Christen23 ist nur noch die Folge des einen Tauf todes, wie der Baum abstirbt, dem die Wurzel abgeschnitten ist. Hinfürt gilt von den Getauf­ ten: \"Haltet euch dafür, daß ihr der Sünde gestorben seid\" (R. 6,11). Nur als Tote kennen sich die Getauften noch, als solche, an denen schon alles zum Heil vollbracht ist. Es ist die erin­ nernde Wiederholung des Glaubens an die vollbrachte Gna­ den tat des Todes Christi an uns, nicht aber die reale Wiederho­ lung der immer neu zu vollbringenden Gnadentat dieses Todes, aus der der Getaufte lebt. Er lebt aus dem Einmaligen des Todes Christi in seiner Taufe.",
+          zh: "此時，他已經死了。基督徒「每日的死」無非是這一洗禮之死的必然結果，如同被砍斷了根的樹木必會枯死一般。從今往後，對於受洗者而言適用這話：「你們向罪也當看自己是死的」（羅馬書六章11節）。受洗者此時僅僅將自己認作死人，即將自己認作那些在其身上救恩已被完全成全的人。受洗者所仰賴而活的，是信仰對「基督之死在我們身上已然成全的恩慈作為」的紀念性重複，而非這一死亡作為需要一次次重新成全之恩慈行為的實體性重複。他乃是仰賴基督之死在洗禮中那一生一次的獨特性而活。"
+        },
+        {
+          id: "ch12-p23",
+          de: "Von der strengen Einmaligkeit der Taufe her fällt ein bedeut­ sames Licht auf die Kindertaufe14). Nicht dies wird zweifelhaft, ob die Kindertaufe Taufe sei, aber gerade weil Kindertaufe Taufe, unwiederholbare, einmalige Taufe ist, darum muß nun ihr Gebrauch bestimmte Grenzen finden. Es I war zwar gewiß kein Zeichen eines gesunden Gemeindelebens, wenn sich gläu­ bige Christen im zweiten und dritten Jahrhundert oft erst im Alter oder auf dem Sterbebett taufen ließen25, aber es verrät doch zugleich eine Klarheit der Einsicht in die Art der Tauf­ gnade, die uns weithin verloren gegangen ist. Für die Kinder­ taufe heißt das, daß die Taufe nur dort erteilt werden kann, wo die erinnernde Wiederholung des Glaubens an die ein für alle14) Zu den bekannten Stellen, die die Kindertaufe schon dem neutestamem­ lichen Zeitalter zuschreiben wollen'., darf vielleicht 1. J oh. 2,12 H. hinzugefügt werden.",
+          zh: "從洗禮那嚴格的獨特性出發，一束極其重要的光芒照射在了「嬰兒洗禮」之上。這絕非讓人去懷疑嬰兒洗禮是否是真洗禮，但鋪恰因為嬰兒洗禮是洗禮——是不可重複、一生一次的洗禮——所以此時其施予必須受到特定界限的約束。雖然公元二、三世紀的信徒往往拖延到年老或臨終前才受洗，這絕非健康會眾生活的體現，但這同時確實透露出他們對洗禮恩典之本質的一種清醒洞察，而這洞察在我們今天已被廣泛遺失了。對於嬰兒洗禮而言，這意味著：洗禮唯獨只能在「對那一次成全之救贖作為的信心的紀念性重複」能得到保障之處被施行，亦即——唯獨在一個「活生生的會眾」之中。"
+        },
+        {
+          id: "ch12-p24",
+          de: "Die zweimalige Reihenfolge: Kinder, Väter, Jünglinge erlaubt die An­ nahme, daß TEXVLa v. 12 nicht allgemeine Bezeichnung für die Gemeinde ist, sondern daß darunter wirklich die Kinder zu verstehen sind. 23 Anklang an I Kor 15,31. 0 24 In einem Gutachten Zur Tauffrage 1942 DBW 16,565 führt Bonhoeffer Act 16,15.33 und 18,8 an. 1937 DBW 14, 834 läßt er offen, ob Kindertaufe \"im N. T. vorhanden oder nicht\". 0 25 Siehe A. Harnack, Mission (1924), 400 Anm. 1 C1902: 281f); Harnacks Buch beschränkt sich auf die ersten drei Jahrhunderte. Der Taufaufschub stellte auch noch im 4. und 5. Jahr­ hundert ein erhebliches Problem dar. 226 Teil 1I. 206 mal vollbrachte Heilstat gewährleistet werden kann, d.h. aber in einer lebendigen Gemeinde.",
+          zh: "脫離會眾的嬰兒洗禮，不僅是對聖禮的濫用，同時也是在對待兒童靈魂得救的事情上表現出應受譴責的輕率；因為洗禮是絕不可重複的。"
+        },
+        {
+          id: "ch12-p25",
+          de: "Kindertaufe ohne Gemeinde ist nicht nur Mißbrauch des Sakraments, sondern zugleich ver­ werflicher Leichtsinn im Umgang mit dem Seelenheil der Kin­ der; denn die Taufe bleibt unwiederholbar. Ebenso war der Ruf Jesu von einmaliger und unwiederholba­ rer Bedeutung für den Gerufenen. Wer ihm folgte, war seiner Vergangenheit abgestorben. Darum mußte Jesus von seinen Jüngern fordern, daß ie alles verließen, was ie hatten26. Die Unwiderruflichkeit der Entscheidung mußte deutlich werden, zugleich aber auch die Vollständigkeit der Gabe, die ie von ihrem Herrn empfingen. \"Wo aber das Salz dumm wird, womit soll man's salzen?\"27 Schärfer konnte die Einmaligkeit der Gabe Jesu nicht ausgedrückt sein.",
+          zh: "同樣，耶穌的呼召對於蒙召者而言，也具有一生一次、不可重複的決定性意義。凡跟隨祂的人，便對其過去死去了。因此，耶穌必須要求祂的門徒撇下他們所擁有的一切。這一決擇的不可挽回性必須彰顯出來，但同時也必須彰顯出他們從其主那裡所領受之恩賜的完全性。「鹽若失了味，怎能叫它再鹹呢？」。耶穌恩賜的這「一生一次性」，再也沒有比這更銳利的表達了。"
+        },
+        {
+          id: "ch12-p26",
+          de: "Er nahm ihnen ihr Leben, aber nun wollte Er ihnen ein Leben bereiten, ein ganzes, volles Leben, und er schenkte ihnen sein Kreuz. Das war die Gabe der Taufe an die ersten Jünger. 26 Mk 10,28. 0 27 Mt 5,13.",
+          zh: "祂奪走了他們的生命，但此時祂要為他們預備一個生命——一個完整、豐盛的生命，且祂將祂的十字架賜給了他們。這正是洗禮賜予最初門徒的恩賜。"
+        }
       ]
     },
     {
       id: "ch13",
       title: "第十三章：基督的身體 (Der Leib Christi)",
       paragraphs: [
+        {
+          id: "ch13-p1",
+          de: "Der Leib Christi. Die ersten Jünger lebten in Jesu leiblicher Gegenwart und Ge­ meinschaft. Was bedeutet das und worin setzt sich für uns diese Gemeinschaft fort? Durch die Taufe sind wir Glieder am Leibe Christi geworden, sagt Paulus.1 Dieser Satz, der uns so fremd und unzugänglich ist, bedarf der gründlichen Erläuterung. Es ist uns damit gesagt, daß die Getauften auch nach Tod und Auferstehung des Herrn in Jesu leiblicher Gegenwart und Gemeinschaft leben sollen. Keinen Verlust bedeutet J esu Hin­ gang für die Seinen, sondern vielmehr ein neues Geschenk. Die ersten Jünger konnten in der leiblichen Gemeinschaft J esu nichts anderes und nichts mehr haben, als wir heute haben, ja diese Gemeinschaft ist uns fester, voller, gewisser gegeben als jenen.",
+          zh: "第十三章：基督的身體。基督的身體。最初的門徒活在耶穌肉身的臨在與契合中。這代表了什麼，且對我們而言這一契合又在何處延續？保羅說，藉由洗禮，我們已成為基督身體上的肢體。這一對我們而言如此陌生且難以企及的句子，需要進行徹底的闡釋。它告訴我們，即便在主受死與復活之後，受洗者仍應當活在耶穌肉身的臨在與契合之中。主的離去對屬祂的人而言決非損失，反而是一份全新的恩賜。最初的門徒在耶穌的肉身契合中所能擁有的，並不比我們今天所擁有的更多或有任何不同；是的，這一契合被賜予我們，甚至比賜予他們更加穩固、豐盛與確定。"
+        },
+        {
+          id: "ch13-p2",
+          de: "Wir leben in der vollen Gemeinschaft der leiblichen Ge­ genwart des verklärten Herrn. Die Größe dieser Gabe darf un­ serm Glauben nicht unbewußt bleiben. Der Leib Jesu Christi ist der Grund und die Gewißheit unsers Glaubens, der Leib J esu Christi ist die eine und vollkommene Gabe, in der wir des Heils teilhaftig werden, der Leib J esu Christi ist unser neues Leben. Im Leibe Jesu Christi sind wir von Gott in Ewigkeit angenommen. Seit dem Fall Adams hat Gott in die sündige Menschheit sein Wort gesandt, Menschen zu suchen und anzunehmen.2 Dazu ist das Wort Gottes bei uns, die verlorene Menschheit wieder an­ zunehmen.",
+          zh: "我們活在得榮耀之主肉身臨在的完全契合之中。我們信心決不可對這一恩賜的偉大程度一無所知。耶穌基督的身體，是我們信心的根基與確信；耶穌基督的身體，是我們得以有份於救恩的唯一的、完美的恩賜；耶穌基督的身體，是我們的新生命。在耶穌基督的身體裡，我們已被上帝在永恆中接納了。自從亞當墮落以來，上帝就在罪惡的人類中發出祂的話語，去尋求並接納人類。為此，上帝的話語來到我們中間，重新接納這迷失的人類。"
+        },
+        {
+          id: "ch13-p3",
+          de: "Gottes Wort kam als Verheißung, es kam als Ge­ setz. Es wurde schwach und gering um unsertwillen. Aber die Menschen verstießen das Wort und ließen sich nicht annehmen. Sie brachten Opfer, ie taten Werke, die sollte I Gott annehmen an ihrer Statt; aber sich selbst kauften ie damit frei. Da geschieht das Wunder aller Wunder. Gottes Sohn wird Mensch. Das Wort ward Fleisch.3 Der von Ewigkeit her in der 1 I Kor 12,13: \"Denn wir sind durch einen Geist alle zu einem Leibe getauft\". Vgl. DBW 1 (SC), bes. 85-87 und 254-259. 0 2 Vgl. in der Finkenwalder Homiletik 1936/37 NL B 10,5 (91): \"Das Wort der Predigt will Menschen annehmen\" (wie 1936 DBW 14, 503).03 Joh.1,14. 228 Teil H. 209 Herrlichkeit des Vaters war, der die Gottesgestalt trug, der im Anfang Mittler der Schöpfung war, so daß die geschaffene Welt nur durch ihn und in ihm erkannt werden kann\ Gott selbst (1. Kor. 8,6; 2. Kor. 8,9; Phil.2,6H.; Eph.1,4; KoL 1,16;Joh. 1,1 H.; Hebr. 1,1 H.), nimmt die Menschheit an und kommt auf die Erde.",
+          zh: "上帝的話語曾作為應許而來，作為律法而來。為了我們的緣故，它變得軟弱與卑微。然而，人類卻拒絕了這話語，不願被接納。他們獻上祭物，他們行出行為，指望上帝接納這些來代替他們自己；但他們如此行，無非是在將自己贖買解脫出來。此時，發生了神蹟中的神蹟。上帝的兒子成為人。道成了肉身（約翰福音一章14節）。那從永恆起便在父的榮耀中、擁有上帝形象、在太初作為創造之中介的上帝自己，接納了人類並降臨到大地上。"
+        },
+        {
+          id: "ch13-p4",
+          de: "Er nimmt die Menschheit an, indem er menschliches Wesen, menschliche ,Natur', ,sündliches Fleisch', menschliche Gestalt annimmt (R. 8,3; Gal. 4,4; Phil. 2,6 H.). Gott nimmt die Menschheit an, nicht mehr allein durch das gepredigte Wort, sondern im Leibe J esu. Gottes Erbarmen schickt seinen Sohn ins Fleisch, damit er mit dem Fleisch die ganze Menschheit selbst auf sich lade und trage. Gottes Sohn nimmt die ganze Menschheit leibhaftig an, die im Gotteshaß, im Stolz des flei­ sches Gottes leibloses, unsichtbares Wort verwarf. Jetzt ist ie im Leibe J esu Christi leibhaftig und wahrhaftig angenommen, so wie ie ist, aus göttlichem Erbarmen.",
+          zh: "祂接納了人類，乃是藉由祂承接了人類的本質、人類的「天性」、以及「罪的肉身」與人類的樣式（羅馬書八章3節，加拉太書四章4節，腓立比書二章6節起）。上帝接納人類，已不再僅僅是藉著宣講的話語，而是直接在「耶穌的身體」中。上帝的憐憫差遣祂的兒子進入肉身，以便祂連同這肉身，將整個舊人類自己扛在祂的身上。上帝的兒子以肉身的方式接納了那因著對上帝的仇恨、在肉身的驕傲中拒絕了上帝無形話語的整個舊人類。此時，這舊人類在耶穌基督的身體裡，因著上帝的憐憫，以其本然的樣貌被真實且肉身地接納了。"
+        },
+        {
+          id: "ch13-p5",
+          de: "Die Väter der Kirche haben bei der Betrachtung dieses Wun­ ders mit Leidenschaft darum gestritten, daß hier gesagt werden müsse, Gott habe die menschliche Natur angenommen, nicht aber, daß Gott sich einen einzelnen vollkommenen Menschen erwählt habe, um sich mit diesem zu vereinigen.5 Gott wurde Mensch. Das heißt: Gott nahm die ganze kranke, sündige menschliche Natur an, Gott nahm die ganze abgefallene Menschheit an; nicht aber: Gott nahm den Menschen Jesus an. Das rechte Verständnis der ganzen Heilsbotschaft hängt an die­ ser klaren Unterscheidung. Der Leib Jesu Christi, in dem wir mit der ganzen Menschheit angenommen sind, ist nun der Grund unseres Heils.",
+          zh: "在凝視這一神蹟時，教會的教父們曾滿腔熱忱地進行抗辯，強調此處必須說「上帝承接了人類的天性」，而非「上帝挑選了一個完美的個人、以便與其聯合」。上帝成為人。這意味著：上帝承接了那整個患病、罪惡的人類天性，上帝接納了整個墮落的人類；這絕不是指「上帝接納了耶穌這個人」。對整個救贖信息的正確認識，完全懸於這一清晰的區分。耶穌基督的身體——在其中我們與整個舊人類一同蒙受了接納——正是我們救恩的根基。"
+        },
+        {
+          id: "ch13-p6",
+          de: "Es ist das sündliche Fleisch, das er trägt -doch ohne Sünde I (2. Kor. 5,21; Hebr. 4,15). Wo sein menschlicher Leib ist, da ist Angenommensein für alles Fleisch. \"Fürwahr, er trug unsere Krankheit und lud auf sich unsere Schmerzen\" -darum allein konnte Jesus die Krankheiten und Schmerzen der menschlichen Natur heilen, weil er all unsere Krankheit und Schmerzen an seinem Leibe trug (Mt. 8,15-176). \"Er ist um unserer Missetat 12,317-340 altkirchliche und reformatorische ,Zwei-Naturen'-Lehren behan­ delt; s. auch BSLK 1132; 1010, 24f (mit Unterstreichungen); 1022, 19f. 0 6 In Vers 17 ist ausJes 53,4 zitiert. 210 Der Leib Christi 229 willen verwundet und um unserer Sünde willen zerschlagen.",
+          zh: "祂所背負的正是這罪的肉身——然而祂自己並無罪（哥林多後書五章21節，希伯來書四章15節）。在祂的人類身體所在之處，一切血肉之軀都蒙受了接納。「他代替我們的軟弱，擔當我們的疾病。」耶穌之所以能醫治人類天性的疾病與痛苦，唯獨是因為祂在其身體上擔當了我們所有的疾病與痛苦。他為我們的過犯受害，為我們的罪孽壓傷。"
+        },
+        {
+          id: "ch13-p7",
+          de: "\"7 Er trug unsere Sünde -darum konnte er Sünde vergeben, weil in seinem Leibe unser sündiges Fleisch ,angenommen' war. Darum nahm Jesus die Sünder an (Lk. 15,2), weil er ie leibhaf­ tig trug. Mit Jesus war das ,angenehme (oEln::o'\') Jahr des Herrn' angebrochen (Luk. 4,19). So war der menschgewordene Sohn Gottes beides, Er selbst und die neue Menschheit. Was er handelte, handelte er zugleich für die neue Menschheit, die er in seinem Leibe trug. So ist er ein zweiter Adam, der ,letzte' Adam (1. Kor. 15,45). Auch in Adam war der Einzelne und die ganze Menschheit in Einem. Auch Adam trug die ganze Menschheit in sich.",
+          zh: "祂擔當了我們的罪——祂之所以能赦免罪，是因為在祂的身體中，我們罪的肉身已被「接納」了。耶穌之所以接納罪人，是因為他以肉身承載了他們。隨著耶穌，上帝「悅納人的禧年」已然破曉（路加福音四章19節）。如此，道成肉身的上帝之子便同時是這兩者：祂自己、以及那新的人類。祂所行的一切，同時是為那被祂在其身體中所承載的新人類而行的。因此，祂是第二個亞當，是「末後的亞當」（哥林多前書十五章45節）。在亞當裡，個人與整個人類也是合而為一的。亞當亦在其自身中承載了整個舊人類。"
+        },
+        {
+          id: "ch13-p8",
+          de: "In ihm fiel die ganze Menschheit, in ,Adam' (Mensch) fiel ,der Mensch' (R. 5,19). Christus ist der zweite Mensch (1. Kor. 15,47), in eiern die neue Menschheit geschaffen wird. Er ist der ,neue Mensch'. Von hier aus verstehen wir erst das Wesen der leiblichen Gemeinschaft, die den Jüngern mit Jesus geschenkt war. Daß die Bindung der Jünger in der Nachfolge eine leibliche war, ist nicht zufällig, sondern von der Menschwerdung her notwendig. Der Prophet und Lehrer bedürfte keiner Nachfolger, er brauchte Schüler und Zuhörer. Der menschgewordene Sohn Gottes, der in das menschliche Fleisch gekommen ist, braucht eine Nachfolgergemeinde, die nicht nur seiner Lehre, sondern gerade auch seines Leibes teilhaftig wird.",
+          zh: "在亞當裡整個舊人類都墮落了，在亞當裡「人」墮落了（羅馬書五章19節）。基督是第二個人（哥林多前書十五章47節），新人類在祂裡面得以被創造出來。祂是「新人」。由此，我們方能理解曾賜予門徒與耶穌那肉身契合的本質。門徒在跟隨中與主的聯結是肉身的聯結，這絕非偶然，而是道成肉身所必然要求的。先知與教師不需要跟隨者，他們只需要學生與聽眾。而那進入人類肉身的道成肉身之子，卻需要一個跟隨者的會眾，這會眾不僅有份於祂的教理，更切實有份於「祂的身體」。"
+        },
+        {
+          id: "ch13-p9",
+          de: "Am Leibe J esu Christi haben die Nachfolger die Gemeinschaft. In der leiblichen Ge­ meinschaft Jesu leben ie und leiden ie. Die Ge-I meinschaft des Leibes J esu legt ihnen das Kreuz auf. Denn in ihm sind ie alle getragen und angenommen. Jesu irdischer Leib wird gekreuzigt und stirbt. In seinem Tode wird die neue Menschheit mitgekreuzigt und stirbt mit ihm. Weil Christus nicht einen Menschen, sondern die mensch­ liche ,Gestalt', das sündliche Fleisch, die menschliche ,Natur' angenommen hatte, darum leidet und stirbt mit ihm alles, was er trug. Es ist unser aller Krankheit und unser aller Sünde, die er ans Kreuz trägt; wir sind es, die mit ihm gekreuzigt werden und sterben.",
+          zh: "門徒是在耶穌基督的身體上享有契合。他們在耶穌肉身的契合中生活並受難。耶穌身體的契合，將十字架加在了他們身上。因為在祂裡面，他們全都被承載並接納了。耶穌地上的身體被釘十字架並死去了。在祂的死亡中，新人類與祂一同被釘十字架、一同死去了。正因為基督所承接的並非某一個個人，而是人類的「樣式」、罪的肉身、以及人類的「天性」，所以凡祂所承載的，都隨同祂一同受難並死去了。正是我們眾人的疾病與我們眾人的罪惡，被祂帶上了十字架；被與祂一同釘死與死去的，正是我們自己。"
+        },
+        {
+          id: "ch13-p10",
+          de: "Zwar stirbt der irdische Leib Christi, aber als ein un­ verweslicher, verklärter Leib ersteht er vom Tode. Es ist der7 J es 53,5. seIbe Leib -das Grab war ja leer!8 -und es ist doch ein neuer Leib. So trägt er die Menschheit, mit der er starb, hindurch in die Auferstehung. So trägt er noch in seinem verklärten Leibe die Menschheit, die er auf Erden angenommen hat. Wie gewinnen wir nun lebendigen Anteil an diesem Leibe Christi, der dies alles für uns tat? Denn das ist gewiß, es gibt keine Gemeinschaft mit Jesus Christus, es sei denn als Gemein­ schaft mit seinem Leib, in dem allein wir angenommen sind, in dem allein unser Heil liegt!",
+          zh: "基督地上的身體雖然死了，但祂卻作為一個不朽壞、得榮耀的身體從死裡復活。這是同一個身體——畢竟墳墓是空的！——但這卻是一個嶄新的身體。如此，祂將與其一同死去的人類，帶過了死亡，進入了復活。因此，祂在祂得榮耀的身體中，依然承載著祂在地上所接納的人類。那麼，我們如今又是如何與這為我們成全了這一切的基督的身體取得活生生的份額的呢？因為有一點是確定的：除了作為與祂身體的契合之外，絕無與耶穌基督的契合；因為唯獨在祂的身體裡，我們蒙受了接納，唯獨在其中，有我們的救恩！"
+        },
+        {
+          id: "ch13-p11",
+          de: "Der Gemeinschaft des Leibes Chri­ sti werden wir teilhaftig gemacht durch die beiden Sakramente des Leibes Christi, durch Taufe und Abendmahl. Der Evange­ list Johannes läßt in unübersehbarer Andeutung die Elemente beider Sakramente, Wasser und Blut, aus dem gekreuzigten Leibe Jesu Christi hervorgehen Goh. 19,34.35). Dieses Zeugnis wird durch Paulus bestätigt, indem er Gliedschaft am Leibe Christi ganz an die beiden Sakramente bindetl5l. Ziel wie Ur­ sprung der Sakramente ist der Leib Christi. Weil Leib Christi da ist, darum allein gibt es Sakramente. Nicht das Wort der Predigt be-I wirkt unsere Gemeinschaft mit dem Leibe J esu Christi, das Sakrament muß hinzukommen.",
+          zh: "我們是藉由基督身體的兩項「聖禮」——洗禮與聖餐，而被賦予對基督身體契合的參與。使徒約翰在一個極為醒目的象徵中，讓這兩項聖禮的元素「水與血」，從被釘十字架的耶穌基督身體中流出（約翰福音十九章34-35節）。這一見證得到了保羅的證實，因他將基督身體的肢體身份，完全綁定在這兩項聖禮之上。聖禮的起點與終點皆是基督的身體。正因為基督的身體存在，才會有聖禮。單憑宣講的話語並不足以促成我們與耶穌基督身體的契合，聖禮必須加入進來。"
+        },
+        {
+          id: "ch13-p12",
+          de: "Taufe ist Einglie­ derung in die Einheit des Leibes Christi, Abendmahl ist Erhal­ tung der Gemeinschaft (xmv(J)vla) am Leibe.9 Die Taufe macht uns der Gliedschaft am Leibe Christi teilhaftig. Wir sind in Christus ,hineingetauft' (Gal. 3,27; R. 6,3), wir sind ,zu einem Leibe getauft' (1. Kor. 12,13). So wird uns im Tauf tod durch den heiligen Geist zugeeignet, was Christus in seinem Leibe für alle erwarb. Die Gemeinschaft des Leibes Jesu, die wir empfan­ gen, wie ie die Jünger und Nachfolger der ersten Zeit empfin­ gen, bedeutet, daß wir nun ,mit Christus' sind, ,in Christus' sind und daß , Christus in uns' ist.10 Vom rechten Verständnis des Leibes Christi her bekommen diese Ausdrücke klaren Sinn.",
+          zh: "洗禮是「歸入」基督身體合一的結合，聖餐則是對身體「契合/交通」（Koinonia）的持守。洗禮使我們分得了基督身體肢體的身份。我們被「受洗歸入基督」（加拉太書三章27節，羅馬書六章3節），被「受洗成為一個身體」（哥林多前書十二章13節）。如此，基督在其身體中為眾人贏得的一切，便在洗禮之死中藉由聖靈歸屬了我們。我們所領受的耶穌身體的契合，正如當初最初的門徒與跟隨者所領受的那樣，意味著我們此時「與基督同在」、「在基督裡」、以及「基督在我們裡面」。從對基督身體的正確認識出發，這些表述才獲得了清晰的含義。"
+        },
+        {
+          id: "ch13-p13",
+          de: "\") Auch Eph. 3,6 umschließt die ganze Heilsgabe, Wort, Taufe, Abend­ mahl. 8 Lk 24,12; Joh 20,2-8. D 9 Abendmahl und XOLVUlVlU (\"Gemeinschaft\"): I Kor 10,16f. -Vgl. 1937 NL B 9,4 (9): \"In Taufe durch einen Geist ZIf einem Leib. In Abendmahl durch einen Leib zu einem Geist.\" D 10 Vgl. im Art. uxo),OllftEiv (\"nachfolgen\") ThWNT I, 215: \"In den [neutestamentlichen] Briefen treten [für \"nachfolgen\"] andere Aussagen ein (oliv r\"mit\"], Ev [\"in\"])\". 212 Der Leib Christi 231 ,Mit Christus' sind zwar alle Menschen schlechthin in der Kraft der Menschwerdung. Jesus trägt ja die ganze menschliche Natur. Darum ist sein Leben, sein Sterben und Auferstehen ein reales Geschehen an allen Menschen (R. 5,18ff.; 1. K. 15,22; 2. Kor. 5,14). ,Mit Christus' sind aber die Christen in besonde­ rer Weise.",
+          zh: "「與基督同在」在道成肉身的權能下，固然適用於所有人。因為耶穌承載了整個舊人類的天性。因此，祂的生、死與復活，對所有人而言都是一件真實發生的歷史事實（羅馬書五章18節起，哥林多前書十五章22節，哥林多後書五章14節）。然而，基督徒與基督的「同在」卻以一種極其特殊的方式發生。那帶給他人死亡的，卻變成了他們的恩典。"
+        },
+        {
+          id: "ch13-p14",
+          de: "Was den andern zum Tode wird, wird ihnen zur Gnade. In der Taufe wird es ihnen zugesagt, daß ie ,mit Chri­ stus gestorben' (R. 6,8; Kol. 2,20), ,mitgekreuzigt' (R. 6,6), ,mitbegraben' (R. 6,4; Kol. 2,12), ,mitgepflanzt zu gleichem Tode' (R. 6,5) sind und daß ie eben darum auch mit ihm leben werden (R. 6,8; Eph. 2,5; Kol. 2,12; 2. Tim. 2,11; 2. Kor. 7,3). , Wir mit Christus' -das hat seinen Grund darin, daß Christus der ImmanuePl, der , Gott-mit-uns' ist. Nur dem, der Christus so erkennt, wird das Mit-Christus-sein zur Gnade. Er wird ,in Christus hinein getauft' (ELs;), in die Gemeinschaft seines Lei­ dens.",
+          zh: "在洗禮中，向他們應許了：他們「與基督同死」（羅馬書六章8節，歌羅西書二章20節）、「與祂同釘十字架」（羅馬書六章6節）、「與祂同葬」（羅馬書六章4節，歌羅西書二章12節）、「與祂一同栽種在相同的死亡中」（羅馬書六章5節），且正因如此，他們也必與祂同活（羅馬書六章8節，以弗所書二章5節，歌羅西書二章12節，提摩太後書二章11節，哥林多後書七章3節）。「我們與基督同在」——其根基在於基督是「以馬內利」，即「上帝與我們同在」（以賽亞書七章14節）。唯有對這樣認出基督的人，與基督同在才變成了恩典。他被「受洗歸入基督」，進入祂受難的契合之中。"
+        },
+        {
+          id: "ch13-p15",
+          de: "So wird er selbst ein Glied dieses Leibes, und die Gemein­ schaft der Getauften wird zu dem einen Leib, der Christi eige­ ner Leib ist. So sind ie ,in Christo' (EV), und so ist ,Christus in ihnen'. Sie sind nicht mehr ,im Gesetz' (R. 2,12; 3,19), ,im Fleisch' (R. 7,5; 8,3.8.9; 2. Kor. 10,3), ,in Adam' (1. Kor. 15, I 22), sondern in ihrer ganzen Existenz und in allen Lebensäuße­ rungen sind ie von nun an ,in Christo'. In einer schier unerschöpflichen Fülle von Beziehungen kann Paulus das Wunder der Menschwerdung Christi zum Ausdruck bringen. Alles Gesagte läßt sich zusammenfassen in dem Satz: Christus ist ,für uns', nicht nur in Wort und Gesinnung, son­ dern mit seinem leibhaftigen Leben.",
+          zh: "如此，他自己便成了這身體上的一個肢體，受洗者的契合變成了那唯一的身體——即基督自己的身體。因此，他們「在基督裡」（en Christo），且「基督在他們裡面」。他們不再是「在律法以下」（羅馬書二章12節、三章19節）、「在肉體之中」（羅馬書七章5節、八章3、8、9節，哥林多後書十章3節）、「在亞當裡」（哥林多前書十五章22節）；相反地，自此以後，他們在整個生存狀態與一切生命表達中，皆「在基督裡」。保羅得以用近乎無窮無盡的豐富關係，將基督道成肉身的神蹟表達出來。以上所說的一切，皆可總結在這一句話中：基督「為我們」，不僅在話語與心意上，更在於祂那實實在在的肉身生命。"
+        },
+        {
+          id: "ch13-p16",
+          de: "Er steht mit seinem Leibe dort, wo wir vor Gott stehen sollten. Er ist an unsere Stelle getreten. Er leidet und stirbt für uns. Das kann er, weil er unser Fleisch trägt (2. Kor. 5,21; Gal.3,13; 1,4; Tit.2,14; 1. Thess. 5,10 etc.). Der Leib J esu Christi ist im eigentlichsten Sinne ,für uns', am Kreuz, im Wort, in Taufe, in Abendmahl. Darin liegt der Grund aller leiblichen Gemeinschaft mit Jesus Christus. Der Leib J esu Christi ist die von ihm angenommene neue Menschheit selbst. Der Leib Christi ist seine Gemeinde. Jesus Christus ist Er selbst und seine Gemeinde zugleich (1. Kor. 11 Jes 7,14. 12,12). Jesus Christus lebt seit Pfingsten 12 auf Erden in der Gestalt seines Leibes, der Gemeinde.",
+          zh: "祂以祂的身體，站在了我們本應在上帝面前站立的位置。祂代替了我們。祂為我們受難並死。祂之所以能如此，是因為祂承載了我們的肉身（哥林多後書五章21節，加拉太書三章13節、一章4節，提多書二章14節，帖撒羅尼迦前書五章10節等）。耶穌基督的身體在最本質的意義上是「為我們」的——在十字架上、在話語中、在洗禮中、在聖餐中。這正是與耶穌基督一切肉身契合的根基。耶穌基督的身體，本身正是祂所接納的新人類。基督的身體就是祂的會眾（教會）。耶穌基督既是祂自己、同時又是祂的會眾（哥林多前書十二章12節）。自五旬節以來，耶穌基督在地上就以祂身體的樣式——會眾——存活著。"
+        },
+        {
+          id: "ch13-p17",
+          de: "Hier ist sein Leib, der gekreuzigte und auferstandene, hier ist die angenommene Menschheit. Getauftwerden heißt daher Glied der Gemeinde werden, Glied am Leibe Christi (Gal. 3,28; 1. Kor. 12,13). In Christus sein heißt darum in der Gemeinde sein. Sind wir aber in der Gemeinde, so sind wir aucb wahrhaftig und leibhaftig in Jesus Christus. Nun wird der Begriff des Leibes Christi in sei­ ner ganzen Fülle offenbar. Der Raum J esu Christi in der Welt nach seinem Hingang wird durch seinen Leib, die Kirche, eingenommen. Die Kirche ist der gegenwärtige Christus selbst. Damit gewinnen wir einen sehr vergessenen Gedanken über die Kirche zurück.",
+          zh: "在這裡，是祂那被釘十字架與復活的身體，在這裡是蒙接納的人類。因此，被施洗意味著成為會眾的肢體、成為基督身體上的肢體（加拉太書三章28節，哥林多前書十二章13節）。在基督裡，意味著在會眾（教會）之中。而我們若在會眾之中，我們便也確實且肉身地在耶穌基督裡。此時，基督身體的概念在其全部的豐盛中彰顯了出來。耶穌基督離去後在世上所佔據的空間，是由祂的身體——教會——所填補的。教會正是那如今臨在的基督自己。藉此，我們重新尋回了一個關於教會已被廣為遺忘的思想。"
+        },
+        {
+          id: "ch13-p18",
+          de: "Wir sind gewohnt, von der Kirche als von einer Institution zu denken. Es soll aber von der Kirche gedacht werden als von einer leib­ haften Person 13, freilich einer ganz einzigartigen Person. I Die Kirche ist Einer. Alle Getauften sind ,allzumal Einer in Christo' (Gal. 3,28; R. 12,5; 1. Kor. 10,17). Die Kirche ist ,Mensch'. Sie ist der ,neue Mensch ' (XalVOS; av(}gwlloS;).14 Als solcher ist die Kirche geschaffen durch den Kreuzestod Christi. Hier wurde die Feindschaft zwischen Juden und Heiden abge­ tan, die die Menschheit zerriß, ,auf daß er in sich selbst die zwei schüfe zu Einem neuen Menschen und Frieden machte' (Eph. 2,15)Y Der ,neue Mensch' ist Einer, es sind nicht ihrer viele.",
+          zh: "我們習慣於將教會視為一個「機構/體制」。然而，教會應當被理解為一個「有形的位格/人體」，當然是一個絕無僅有的集體人格。教會是「唯一者」。所有受洗者在基督裡「都成為一了」（加拉太書三章28節，羅馬書十二章5節，哥林多前書十章17節）。教會是「人」。她是「新人」。作為新人，教會是藉著基督十字架上的死亡而被創造出來的。在這裡，那撕裂人類的猶太人與外邦人之間的敵意被廢除了，「為要使兩下在祂自己裡面創造出一個新人，成就了和平」（以弗所書二章15節）。這「新人」是唯一的一個，而不是許多個。"
+        },
+        {
+          id: "ch13-p19",
+          de: "Außerhalb der Kirche, die der neue Mensch ist, gibt es nur den alten, zerrissenen Menschen. Dieser ,neue Mensch', der die Kirche ist, ist ,nach Gott ge­ schaffen in rechtschaffener Gerechtigkeit und Heiligkeit und Wahrheitl6' (Eph. 4,24). Er wird ,erneuert zur Erkenntnis nach 12 Act 2,1-41: Gründung dp-r Kirche durch das Kommen des Geistes; Bon­ hoeffer besprach diese Verse Anfang des zweiten Finkenwalder Kurses, s. 1935 NL B 18 (3-6) (1935/36 DBW 14,426-429). D 13 Siehe schon DBW 2 (AS), 102 und 108. D 14 Die Ausführungen zum \"neuen Menschen\" erscheinen seit 1935/36 in der neutestamentlichen Vorlesung jedes Finkenwalder Kurses.",
+          zh: "在作為新人的教會之外，只有那殘破、分裂的舊人。這作為新人的教會，是「照著上帝的形象造的，有從真理而來的公義和聖潔」（以弗所書四章24節）。她「在知識上漸漸更新，正如造他主的形象」（歌羅西書三章10節）。在此處，除了基督自己被談論為上帝的形象之外，別無他人。亞當曾是照著創造主形象造的第一個人。"
+        },
+        {
+          id: "ch13-p20",
+          de: "Bei K. Barth, Römerbrief, heißt die Überschrift zu Röm 5,1-11 (125-141): \"Der neue Mensch\"; von ihm sagt Barth (136): \" ... er lebt vom Sterben des Christus\". D 15 Bonhoeffer vermeidet das altertümliche Lutherdeutsch: \"auf daß er aus zweien einen neuen Menschen in ihm selber schüfe\". D 16 Bonhoeffer hat nach der Lesart im Apparat des \"Nestle\" xm UAT]{}Elq die Worte \"und Wahrheit\" der Luther-Übersetzung hinzugefügt. 214 Der Leib Christi 233 dem Ebenbild des Schöpfers' (Kol. 3,10). Hier ist von keinem anderen als von Christus selbst geredet als dem Ebenbild Got­ tes. Adam war der erste Mensch nach dem Ebenbilde des Schöpfers.",
+          zh: "然而，亞當在墮落時失去了這一形象。此時，照著上帝的形象創造了「第二個人」、即「末後的亞當」（哥林多前書十五章45、47節）；這就是耶穌基督。如此，「新人」同時就是基督與教會。基督就是這新人中的新人類。基督就是教會。個人與這「新人」的關係在於：他去「穿上」祂（以弗所書四章24節）。這「新人」如同一件外衣，用以遮蓋個人。個人應當將自己套入那作為基督與教會的上帝形象之中。凡受洗的，就是穿上了基督（加拉太書三章27節）；這又當被解釋為：他被歸併入那身體之中、歸併入那唯一的「人」之中——在其中並不分希臘人或猶太人、自主的或為奴的，亦即——在會眾（教會）之中。"
+        },
+        {
+          id: "ch13-p21",
+          de: "Aber er verlor das Ebenbild, als er fiel. Nun wird ein ,zweiter Mensch', ein ,letzter Adam' geschaffen nach dem Ebenbild Gottes; das ist Jesus Christus (1. Kor. 15,4717). So ist der ,neue Mensch' zugleich Christus und die Kirche. Christus ist die neue Menschheit im neuen Menschen. Christus ist die Kirche. Der Einzelne verhält sich zu dem ,neuen Menschen' so, daß er ihn ,anzieht'18 16). Der ,neue Mensch' ist wie ein Kleid, das I den Einzelnen bedecken soll. In das Ebenbild22 Gottes, das Christus und die Kirche ist, soll der Einzelne sich kleiden. Wer getauft wird, der zieht den Christus an (Gal. 3,27), was wie­ derum auszulegen ist als seine Eingliederung in den Leib, in den Einen Menschen, in dem nicht Grieche noch Jude, nicht Freier noch Knecht ist, d.h. eben in die Gemeinde.",
+          zh: "沒有人能成為一個新人，除非是在會眾之中、藉著基督的身體。那企圖獨自成為新人的人，依然留在舊人之中。成為新人，意味著來到會眾之中，成為基督身體上的肢體。那蒙稱義與成聖的個人並非新人，會眾、基督的身體、基督自己才是那新人。在「穿上」這一圖像中，某種程度上包含著關於居所、遮蓋物的空間性設想。哥林多後書五章1節起在此脈絡下亦可做如此解讀。在此處，「穿上」是與那屬天的「居所」相聯繫的。人若沒有這一居所，便是赤身的，且必須在上帝面前戰兢。"
+        },
+        {
+          id: "ch13-p22",
+          de: "Es wird keiner ein neuer Mensch, es sei denn in der Gemeinde, durch den Leib Christi. Wer allein ein neuer Mensch werden will, bleibt beim alten. Ein neuer Mensch werden heißt in die Gemeinde kom­ men, Glied am Leibe Christi werden. Nicht der gerechtfertigte und geheiligte Einzelne ist der neue Mensch, sondern die Ge­ meinde, der Leib Christi, Christus. 16) In dem Bild des Evövoaol'tm19 liegt irgendwie die räumliche Vorstellung einer Behausung, einer Bekleidung vor. Vielleicht darf auch 2. Kor. 5,1 H. in diesem Zusammenhang interpretiert werden. Hier begegnet Evövaaol'tm im Zusammenhang mit dem himmlischen otxrrtllQLov.2o Der Mensch ohne dieses otXTjT�QLOV ist YU[!vot;, nackt und muß sich ängsten vor Gott.",
+          zh: "他沒有被遮蓋，並渴望能被遮蓋。這藉由被那屬天的居所「穿上」而發生。在今世「穿上」教會這一居所，難道不正是保羅所深切渴慕的「被屬天教會所披戴」的世俗對應物嗎？不論是在此時還是在那時，這都是我們被覆蓋其上的那唯一的教會——即上帝的帳幕、那神聖臨在與遮蓋的空間；不論是在此時還是在那時，這都是那遮蓋我們的基督的身體。"
+        },
+        {
+          id: "ch13-p23",
+          de: "Er ist nicht bedeckt und hat Verlangen danach, bedeckt zu werden. Das geschieht durch das Angezogenwerden mit dem himmlischen otX1']1:�QLOV. Sollte das ,Anziehen' des otXTjTilQLOV der Kirche in dieser Welt, nicht seine Entsprechung finden in einer Bekleidung mit der himmlischen Kirche, nach der Paulus sich sehnt? Es ist hier wie dort die Eine Kirche, mit der wir überkleidet werden, die Hütte Gottes21, der Raum der göttlichen Gegenwart und Bedeckung -es ist hier wie dort der Leib Christi, der uns bedeckt. 17 Vom \"letzten Adam\" ist in Vers 45 die Rede. Ll 18 Eph 4,24 (im vorigen Absatz zitiert). D t9 Dt.: \"anziehen\".",
+          zh: "那被釘十字架與復活的基督，藉著聖靈「作為會眾而存在」，正如祂確實是道成肉身者且在永恆中存留、祂的身體確實是新人類一樣。正如上帝本性的一切豐盛都有形有體地居住在祂裡面，屬祂的人也同樣被基督所充滿（歌羅西書二章9節，以弗所書三章19節）。是的，因著他們是祂的身體，且因著唯獨祂才是那在眾人中充滿萬有者，他們自己便成了這一神聖的豐盛。"
+        },
+        {
+          id: "ch13-p24",
+          de: "Dazu schon DBW 1 (SC), 257 Änm. 17 und 86 Anm.8; DBW 2 (AS), 108. D 20 Dt.: \"Behausung\" (Vers 2). D 2t \"Hütte\" in Vers 1 und 4; vgI. Apk 21,3 \"die Hütte Gottes bei den Men­ schen\". C 22 LUtilUS Übersetzung von dxwv in Kolt,15. Der gekreuzigte und auferstandene Christus existiert durch den heiligen Geist als Gemeinden, als der \"neue Mensch\", so wahr er der Menschgewordene ist und in Ewigkeit bleibt, so wahr sein Leib die neue Menschheit ist. Wie in ihm die Fülle der Gottheit leibhaftig geworden ist und Wohnung genommen hat, so sind die Seinen erfüllt von Christus (Kol. 2,9; Eph. 3,19). Ja, ie selbst sind diese göttliche Fülle, indem ie sein Leib sind und indem doch Er allein es ist, der alles in allemz4 erfüllt.",
+          zh: "基督與祂的教會（祂的身體）的合一，同時要求將基督認作祂身體的「主」。因此，在對身體概念的進一步闡述中，基督被稱為身體的「元首/頭」（以弗所書一章22節，歌羅西書一章18節、二章19節）。這清晰的「對立面」得以保留，基督是主。那使得這一對立性成為必要、且絕不容許會眾與基督之間發生神祕主義式「融合消解」的救恩史事實，正是基督的升天與祂的再臨。那在祂會眾中臨在的同一個基督，必將再次從天降臨。不論是在此時還是彼時，祂都是同一個主；不論是在此時還是彼時，這都是同一個教會；這正是那在當下臨在者、與那駕雲降臨者的同一個身體。"
+        },
+        {
+          id: "ch13-p25",
+          de: "Die Einheit Christi mit seiner Kirche, seinem Leib, fordert zugleich, daß Christus als Herr seines Leibes erkannt wird. Darum wird Christus in weiterer Ausführung des Leibbegriffes das Haupt des Leibes genannt (Eph. 1,22; Kol. 1,18; 2,19). Das klare Gegenüber wird gewahrt, Christus ist Herr. Die heils ge­ schichtliche Tatsache, die dieses Gegenüber notwendig macht, und eine mystische Verschmelzung von Gemeinde und Chri­ stus niemals zuläßtzS, ist die Himmelfahrt Christi und seine Wiederkunft. Derselbe Christus, der in seiner Gemeinde gegen­ wärtig ist, kommt wieder vom Hirn-I mel. Es ist derselbe Herr, hier wie dort, es ist dieselbe Kirche, hier wie dort, es ist der eine und selbe Leib dessen, der hier gegenwärtig ist und dessen, der auf den Wolken wiederkommt.",
+          zh: "然而，我們究竟是在此處還是在彼處，這其中有著嚴肅的區別。因此，合一性與區別性是必然共存的。教會是「唯一者」，她是基督的身體；但她同時也是眾多肢體的「多樣性與契合」（羅馬書十二章5節，哥林多前書十二章12節起）。身體有許多肢體，每一個肢體（不論是眼、手或腳）過去是、現在也依然是其自身——這正是保羅這一比喻的本意！手不能變成眼，眼也不能變成耳。每一個肢體各守其職。但它們之所以是其自身，卻唯有作為那唯一身體上的肢體、作為在這合一中進行服侍的契合。唯有從會眾的合一出發，每一個個人才是其自身，這契合才是其自身；正如會眾唯有從基督及其身體出發，才是其自身一樣。"
+        },
+        {
+          id: "ch13-p26",
+          de: "Aber es ist ein ernster Unter­ schied, ob wir hier sind oder dort.26 So ist Einheit und Unter­ schiedenheit notwendig beisammen. Die Kirche ist Einer, ie ist der Leib Christi, aber ie ist zu­ gleich die Vielheit und Gemeinschaft der Gliede?7 (R. 12,5; 1. Kor. 12,12 H.). Der Leib hat viele Glieder und ein jedes, Auge, Hand oder Fuß, ist und bleibt, was es ist, -dies ist der Sinn des paulinischen Vergleichs! Hand wird nicht Auge, und Auge wird nicht Ohr. Jedes bleibt, was es ist. Aber doch sind ie nur, was ie sind als Glieder an dem Einen Leib, als dienende 23 Weiterführung der Formel \"Christus als Gemeinde existierend\" aus DBW 1 (SC), 126 und oft; DBW 2 (AS), 108.",
+          zh: "在此處，聖靈的「職分」清晰地彰顯了出來。正是聖靈，將基督帶給了每一個個人（以弗所書三章17節，哥林多前書十二章3節）。祂藉著召集個人來建立祂的教會，然而其整體的建造在基督裡其實早已完工（以弗所書二章22節、四章12節，歌羅西書二章7節）。祂創造了身體各肢體之間的契合（哥林多後書引十三章13節，羅馬書十五章30節、五章5節，歌羅西書一章8節，以弗所書四章3節）。主就是那靈（哥林多後書三章17節）。基督的教會，正是那在聖靈中如今臨在的基督。如此，基督身體的生命，便變成了我們的生命。在基督裡，我們不再活出我們自己的生命，而是基督在我們裡面活出祂的生命。"
+        },
+        {
+          id: "ch13-p27",
+          de: "D 24 Eph 1,23; Luther übersetzt EV rramv: \"in allen [Menschen]\". D 25 Vgl. DBW 1 (SC), 257, den Hinweis auf Eph 5,32 und das Buch von T. Schmidt, Der Leib Christi. 1937 NL B 9,4 (6) zu Eph 5,22-33 zusätzlich: \"Heinrich Schlier: ,Kirche im Epheserbrief'''. D D 27 Ähnlich hatte Bonhoeffcr in der Dissertation drei Formen der Aktualiie­ rung der Kirche unterschieden; DBW 1 (SC), 103: \"Die Geistvielheit\", 106: \"Geistgemeinschaft\", 128: \"Die Geisteinheit der Gemeinde\". 216 Der Leib Christi 235 Gemeinschaft m der Einheit. Nur von der Einheit der Ge­ meinde her ist jeder Einzelne, was er ist, und ist die Gemein­ schaft, was ie ist, wie die Gemeinde nur von Christus und seinem Leibe her ist, was ie ist.",
+          zh: "信徒在會眾中的生活，實質上正是耶穌基督在他們裡面的生命（加拉太書二章20節，羅馬書八章10節，哥林多後書引十三章5節，約翰一書四章15節）。在耶穌基督被釘十字架與得榮耀之身體的契合中，我們有份於基督的受難與榮耀。基督的十字架被壓在會眾的身體之上。會眾在這十字架下所受的一切苦難，都是「基督的受難」。它首先是在洗禮中對十字架之死的被動承受，此後則是基督徒藉由其洗禮的權能所進行的「每日的死亡」（哥林多前書十五章31節）。"
+        },
+        {
+          id: "ch13-p28",
+          de: "Hier tritt das Amt des Heiligen Geistes klar heraus.28 Er ist es, der Christus den Einzelnen bringt (Eph. 3,17; 1. Kor. 12,3). Er erbaut durch die Sammlung der Einzelnen seine Kirche, deren Gesamtbau doch in Christus schon fertig ist (Eph. 2,22 ; 4,12; Kol. 2,7). Er schafft die Ge­ meinschaft (2. Kor. 13,13) der Glieder des Leibes (R. 15,30; 5,5; Kol. 1,8; Eph. 4,3). Der Herr ist der Geist (2. Kor. 3,17). Die Kirche Christi ist der gegenwärtige Christus im Heiligen Geist. So ist das Leben des Leibes Christi unser Leben geworden. In Christus leben wir nicht mehr unser Leben, sondern Christus lebt sein Leben in uns.",
+          zh: "然而除此以外，這更是一項伴隨著無上應許的受難：雖然唯獨基督自身的受難才擁有和好的贖罪權能，祂是「為我們」而受難並「為我們」而得勝；但在祂受難的權能中，祂卻賜予了那些不以祂身體契合為恥的人一項無比浩大的恩典——即現在也能反過來「為祂」受難。祂所能賜予屬祂之人的，沒有比這更大的榮耀了；對於基督徒而言，沒有比被恩准「為基督」受難更深奧的尊貴了。"
+        },
+        {
+          id: "ch13-p29",
+          de: "Das Leben der Gläubigen in der Ge­ meinde ist in Wahrheit das Leben Jesu Christi in ihnen (Gal. 2,20; R. 8,10; 2. Kor. 13,5; 1. Joh. 4,15). In der Gemeinschaft des gekreuzigten und verklärten Leibes J esu Christi nehmen wir teil an Christi Leiden und Verklärung. Christi Kreuz liegt auf dem Leibe der Gemeinde. Was ie unter diesem Kreuz leidet, ist Christusleiden. Es ist zuerst das Erlei­ den des Kreuzestodes in der Taufe, es ist I fortan das , tägliche Sterben' der Christen (1. Kor. 15,31) in der Kraft seiner Taufe. Es ist aber darüber hinaus noch ein Leiden von unaussprechli­ cher Verheißung: Zwar hat allein Christi eignes Leiden versöh­ nende Kraft, er litt ,für uns' und er iegte ,für uns', aber in der Kraft seines Leidens gibt er denen, die sich der Gemeinschaft seines Leibes nicht schämen, die unermeßliche Gnade, nun auch wieder ,für ihn' leiden zu dürfen.29 Keine größere Herr­ lichkeit konnte er den Seinen schenken, keine unbegreiflichere Würde kann es für den Christen geben, als daß er ,für Christus' leiden darf.",
+          zh: "在此處，那與律法在最深處截然相反的事變成了真實。根據律法，我們只能為我們自己的罪惡承受懲罰。在律法之下，人甚至連為他自己都無法做成或承受任何有益的事，更遑論為了他人的益處、為了基督的益處！那為我們捨棄的、為我們的罪承受了懲罰的基督的身體，此時釋放了我們，使我們在受死與受難中得以「為基督」而存在。"
+        },
+        {
+          id: "ch13-p30",
+          de: "Was dem Gesetz im tiefsten zuwider ist, wird hier wahr. Nach dem Gesetz können wir nur die Strafe für unsere eigenen Sünden leiden. Nicht einmal sich selbst zugute vermag hier ein Mensch etwas zu tun oder zu leiden30, wieviel weniger einem anderen zugute, wieviel weniger Christus zugute! Der 28 Ausdrucksweise in Luthers Großem Katechismus (BSLK 653, 34): \"der heilige Geist mit seinem Ampt\". 0 29 1936/37 NL 13 9,6 (7): \"So sehr ist er in uns, daß wir auch für ihn sein können.\" 0 30 Ähnlich: Röm 7,1+--18. Leib Christi, der für uns gegeben ist31, der für unsere Sünde die Strafe erlitt, macht uns frei, ,für Christus' da zu sein, im Tod und im Leiden.",
+          zh: "此時，我們可以為基督而工作、為基督而受難，這都是為了那為我們成就了一切的祂的益處！這正是基督身體契合中的神蹟與恩典（腓立比書一章29節、二章17節，羅馬書八章35節起，哥林多前書四章10節，哥林多後書引四章10節、五章20節、十三章9節）。雖然耶穌基督已成全了一切和好的、代刑的受難，但祂在大地上的苦難卻並未終結。祂在其恩典中，為這直到祂再臨的末後時期，為祂的會眾留下了一份「受難的剩餘」（Hystereimata），這剩餘仍需被補滿（歌羅西書一章24節）。"
+        },
+        {
+          id: "ch13-p31",
+          de: "Es kann nun für Christus gearbeitet und gelit­ ten werden, ihm zugute, der uns alles zugute getan hat! Das ist das Wunder und die Gnade in der Gemeinschaft des Leibes Christi (PhiI. 1,29; 2,17; R. 8,35ff.; 1. Kor. 4,10; 2. Kor. 4,10; 5,20; 13,9). Wiewohl Jesus Christus alles versöhnende, stellver­ tretende Leiden erfüllt hat, sind doch seine Leiden auf dieser Erde noch nicht zu Ende. Er hat in seiner Gnade für diese letzte Zeit bis zur Wiederkunft seiner Gemeinde einen Rest (V01:EQl]­ [.taTa32) von Leiden zurückgelassen, die noch erfüllt sein wollen (KoI. 1,24). Dieses Leiden darf dem Leibe Christi, der Kirche, zugute kommen. üb wir daran denken dürfen, daß auch dieses Leiden der Christen sündenverzehrende Kraft hat (vergI. 1. Pt. 4,1), bleibt unsicher.",
+          zh: "雖然耶穌基督已成全了一切和好的、代刑的受難，但祂在大地上的苦難卻並未終結。祂在其恩典中，為這直到祂再臨的末後時期，為祂的會眾留下了一份「受難的剩餘」（Hystereimata），這剩餘仍需被補滿（歌羅西書一章24節）。這一受難乃是為了基督的身體、即教會的益處。至於我們是否可以認為基督徒的這種受難也具有消抹罪惡的權能，這一點尚不確定。"
+        },
+        {
+          id: "ch13-p32",
+          de: "Deutlich aber ist es, daß der Leidende in der Kraft des Leibes Christi stellvertretend ,für' die Gemeinde, für den Leib J esu leidet, daß er tragen darf, was anderen erspart bleibt. \"Wir tragen allezeit das Sterben des Herrn Jesu an unse­ rem Leibe, auf I daß auch das Leben des Herrn J esu an unserem Leibe offenbar werde. Denn wir, die wir leben, werden immer­ dar in den Tod gegeben um J esu willen, auf daß auch das Leben Jesu offenbar werde an unserem sterblichen Fleische. Darum ist nun der Tod mächtig in uns, aber das Leben in euch\" (2. Kor. 4,10-12;vergI.l,5-7; 13,9;PhiI. 2,17). Es ist dem Leibe Christi ein Maß von Leiden verordnet.",
+          zh: "然而極其清晰的是：在基督身體的權能中，受難者乃是代替會眾、代替耶穌的身體承受苦難；他蒙恩去擔當那免除於他人的重擔。「我們身上常帶著耶穌的死，使耶穌的生也顯明在我們身上。因為我們這活著的人是常為耶穌被交於死地，使耶穌的生在我們這必死的身上顯明出來。這樣看來，死是在我們身上發動，生卻在你們身上發動。」（哥林多後書四章10-12節，參一章5-7節、十三章9節，腓立比書二章17節）基督的身體被命定了一定分量的苦難。"
+        },
+        {
+          id: "ch13-p33",
+          de: "Gott gibt dem einen die Gnade, an des anderen Stelle besonderes Leiden zu ertragen. Das Lei­ den muß ja erfüllt, getragen und überwunden werden. Selig, wer von Gott gewürdigt ist, für den Leib Christi zu leiden. Solches Leiden ist Freude (KoI. 1,24; PhiI. 2,17). In solchem Leiden darf sich der Gläubige rühmen, er trage das Sterben Jesu Christi, er trage Christi Wundmale an seinem Leibe (2. Kor. 4,10; GaI. 6,17). Nun darf der Gläubige dazu dienen, daß ,Chri­ stus verherrlicht werde an meinem Leibe, es sei durch Leben oder durch Tod' (PhiI. 1,20). Solches stellvertretende Tun und Leiden der Glieder am Leibe Christi ist selbst das Leben des 31 I Kor 11,24.",
+          zh: "上帝將恩典賜予這一人，使他能代替那一人承受特殊的苦難。苦難必須被補滿、擔當與克服。那配得上帝看重、為基督的身體受苦的人，是有福的。這樣的受苦乃是喜樂（歌羅西書一章24節，腓立比書二章17節）。在這樣的受難中，信徒可以誇口：他身上帶著耶穌基督的死、帶著基督的印記（哥林多後書四章10節，加拉太書六章17節）。此時，信徒得以奉獻自己，使「基督在我身上照常顯大，無論是生是死」（腓立比書一章20節）。基督身體肢體的這種代受代行，本身正是那要在其肢體中「成形」（加拉太書四章19節）的基督的生命。"
+        },
+        {
+          id: "ch13-p34",
+          de: "D 32 Von Luther in KalI ,24 übersetzt mit\" was noch man­ gelt\". 218 Der Leib Christi 237 Christus, der in seinen Gliedern Gestalt gewinnen will (Ga!. 4,19). In alledem aber stehen wir in der Gemeinschaft der ersten Jünger und Nachfolger Jesu. Der Abschluß dieser Betrachtung muß nun darin bestehen, daß wir das Zeugnis vom Leibe Christi im Schriftganzen wie­ derfinden. Hier erweist sich, daß im Leibe Christi die große alttestamentliche Weissagung vom Tempel Gottes ihre Erfül­ lung findet. Nicht im Zusammenhang des hellenistischen Gebrauchs die­ ses Bildes33, sondern von der alttestamentlichen Weissagung des Tempels her ist der Begriff des Leibes Christi zu verstehen.",
+          zh: "在所有這些事上，我們都站在最初的門徒與耶穌跟隨者的契合中。這一考察的結論必須在於：我們在聖經的整體中重新找到了關於基督身體的見證。在此處顯明了：在基督的身體裡，舊約關於「上帝聖殿」的偉大預言得到了成全。理解「基督的身體」這一概念，絕不可訴諸希臘文化中關於身體比喻的用法，而必須唯獨從舊約關於聖殿的預言出發。"
+        },
+        {
+          id: "ch13-p35",
+          de: "David will Gott einen Tempel bauen. Er befragt den Propheten. Dieser überbringt David Gottes Wort zu seinem Vorhaben: \"solltest du mir ein Haus bauen, daß ich darin wohne? ... der Herr verkündigt dir, daß der Herr dir ein Haus machen will\" (2. Sam. 7,5.11). Gottes Tempel kann nur I von Gott selbst ge­ baut werden. Zugleich empfängt David in seltsamem Wider­ spruch zu dem vorher Gesagten die Verheißung, daß einer aus seinem Samen Gott das Haus bauen soll und daß sein Reich in Ewigkeit bestehen werde (v. 12.13). \"Ich will sein Vater sein und er soll mein Sohn sein\" (v. 14). Salomo, der ,Sohn des Friedens' Gottes mit dem Hause David34, hat diese Verheißung auf sich bezogen.",
+          zh: "大衛想為上帝建造一座聖殿。他詢問先知。先知帶給大衛關於其計劃的上帝話語：「你豈可建造殿宇給我居住呢？……耶和華應許你，耶和華必為你建立家室。」（撒母耳記下七章5、11節）上帝的聖殿唯獨只能由上帝自己建造。同時，與先前所說的形成奇特對比的是，大衛領受了應許：他後裔中的一位必為上帝建造殿宇，且祂的國度必存到永遠（12-13節）。「我要作他的父，他要作我的子。」（14節）大衛家與上帝那帶來和平的兒子「所羅門」，曾將這一應許套在自己身上。"
+        },
+        {
+          id: "ch13-p36",
+          de: "Er baute den Tempel und wurde von Gott darin bestätigt. Dennoch war in diesem Tempel die Weissagung nicht erfüllt; denn er war von Menschenhänden gebaut und mußte zerbrechen. So blieb die Weissagung unerfüllt bestehen. Noch wartet das Volk Israel auf den Tempel, der von dem Sohn Davids gebaut werden sollte, dessen Reich ewig bestünde. Der Tempel in J erusalem war mehrfach abgebrochen, ein Zeichen, 33 Hierzu Anmerkung in 1936/37 NL B 9,6 (1): \"Rede des Agrippa.\" (Auf 494 v. Chr. datierte Fabel des Menenius Agrippa, nach der die Glieder des Leibes einen gemeinsamen Aufstand gegen den Bauch unternehmen, aber einsehen müssen, daß ie selbst von der Ernährung durch den Magen abhängig sind: Livius, Ab urbe condita II, 32; Dio Chrysostomus, Orationes 33, 16.) -In seiner Dissertation \"Sanctorum Communio\" hatte Bonhoeffer argumentiert: \"Die Organismusidee ist von Paulus der griechischen Tradition entnommen\" und die Anwendung auf die Kirche \"mißverständlich\", DBW 1 (SC), 87. 034 Erklärung des Namens Salomo; s. auch 1935 DBW 14, 899. daß es nicht der verheißene Tempel ist.",
+          zh: "他建造了聖殿，並在其中蒙了上帝的悅納。然而，在那座聖殿中，預言並未得到成全；因為它是用人手建造的，且必然毀滅。因此，預言依然懸而未決。以色列子民仍在等候那必由大衛之子建造、其國度存到永遠的聖殿。耶路撒冷的聖殿被多次摧毀，正是一個記號，表明它絕非那應許的聖殿。"
+        },
+        {
+          id: "ch13-p37",
+          de: "Wo war der wahrhaftige Tempel? Christus selbst sagt es uns, indem er die Weissagung des Tempels bezieht auf seinen Leib. \"Da sprachen die Juden: Dieser Tempel ist in 46 Jahren erbaut; und du willst ihn in drei Tagen aufrichten? Er aber redete von dem Tempel seines Lei­ bes. Da er nun auferstanden war von den Toten, gedachten seine Jünger daran, daß er dies gesagt hatte, und glaubten der Schrift und der Rede, die Jesus gesagt hatte\" a oh. 2,20 ff.). Der Tempel, auf den Israel wartet, ist der Leib Christi. Der alttesta­ mentliche Tempel ist nur der Schatten seines Leibes (KoI. 2,17; Hebr. 10,1; 8,5). Jesus meint seinen menschlichen Leib.",
+          zh: "那真實的聖殿在哪裡？基督自己告訴了我們，因祂將聖殿的預言套在祂的身體上。「猶太人便說：『這殿是四十六年才造成的，你三日內就再建立起來嗎？』但耶穌這話是以祂的身體為殿。所以到祂從死裡復活以後，門徒想起祂說過這話，便信了聖經和耶穌所說的話。」（約翰福音二章20節起）以色列所等候的聖殿，正是基督的身體。舊約的聖殿不過是祂身體的影子（歌羅西書二章17節，希伯來書十章1節、八章5節）。耶穌指的是祂人類的身體。"
+        },
+        {
+          id: "ch13-p38",
+          de: "Er weiß, daß auch der Tempel seines irdischen Leibes abgebrochen wird, aber er wird auferstehen, und der neue Tempel, der ewige Tempel wird sein auferstandener, verklärter Leib sein. Dies ist das Haus, das Gott seinem Sohn selbst baut und das doch auch der Sohn dem Vater baut. In diesem Haus wohnt Gott wahr­ haftig und zugleich die neue Menschheit, die Gemeinde Christi. Der menschgewordene Christus selbst ist der Tempel der Er­ füllung. Es entspricht dem, was die Offenbarung des I J ohannes vom neuen Jerusalem sagt, daß darin kein Tempel sei, \"denn der allmächtige Gott ist ihr Tempel und das Lamm\" (21,22).",
+          zh: "祂知道，祂地上身體的聖殿也必將被拆毀，但祂必將復活，而這嶄新的聖殿、永恆的聖殿，將是祂復活且得榮耀的身體。這正是上帝親自為其兒子建造的家，卻同時也是兒子為父建造的家。在這家中，上帝真實地居住，且同時居住著新的人類——即基督的會眾。道成肉身的基督自己，就是那成全的聖殿。這正呼應了約翰啟示錄中關於新耶路撒冷的宣告：在城內未見有殿，「因主上帝全能者和羔羊為城的殿。」（啟示錄二十一章22節）"
+        },
+        {
+          id: "ch13-p39",
+          de: "Der Tempel ist der Ort der gnädigen Gegenwart und Woh­ nung Gottes unter den Menschen. Er ist zugleich der Ort, an dem die Gemeinde von Gott angenommen wird. Beides ist wahr geworden allein im menschgewordenen Jesus Christus. Hier ist die Gegenwart Gottes wahrhaft und leibhaftig. Hier ist die Menschheit wahrhaft und leibhaftig; denn er hat ie in sei­ nem eigenen Leibe angenommen. So ist der Leib Christi der Ort der Annahme, der Versöhnung und des Friedens zwischen Gott und Menschen. Gott findet im Leib Christi den Men­ schen, und der Mensch findet sich im Leibe Christi von Gott angenommen. Christi Leib ist der geistliche Tempel (ohwt:; JLVEUlJ.m;Lxot:;35), der aus lebendigen Steinen gebaut ist (1. Pt. 2,5 ff).",
+          zh: "聖殿是上帝在人間恩慈臨在與居住的場所。它同時也是會眾蒙上帝接納的場所。這兩者唯獨在道成肉身的耶穌基督裡變成了真實。在這裡有上帝真實且肉身的臨在。在這裡有人類真實且肉身的臨在；因為祂在祂自己的身體中接納了人類。因此，基督的身體是上帝與人之間接納、和好與和平的場所。上帝在基督的身體裡找到了人，而人在基督的身體裡找到了自己蒙上帝的接納。基督的身體正是那由活石建造起來的「屬靈的殿」，修是建造在磐石上（彼得前書二章5節起）。"
+        },
+        {
+          id: "ch13-p40",
+          de: "Christus ist allein Grund und Eckstein dieses Tempels (Eph. 2,20; 1. Kor. 3,11), er ist zugleich selbst der Tempel (otxOÖOIJ.N6 Eph. 2,21), in dem der heilige Geist wohnt und die 35 In I Petr 2,5 von Luther übersetzt mit \"geistliches Haus\". 0 36 Luther übersetzt: \"Bau\". 219 Der Leib Christi 239 Herzen der Gläubigen erfüllt und heiligt (1. Kor. 3,16; 6,1937). Gottes Tempel ist die heilige Gemeinde in Jesus Christus. Chri­ sti Leib ist der lebendige Tempel Gottes und der neuen Menschheit. 37 1936/37 NL B 9,6 (2 f): \"Von 3,16 her ist 6,19 zu interpretieren: die leibliche Gemeinde ist der Leib Christi.",
+          zh: "唯獨基督是這聖殿的根基與房角石（以弗所書二章20節，哥林多前書三章11節），祂同時自己就是那聖殿本身（oikodome，以弗所書二章21節），在其中聖靈居住並充滿、聖潔化信徒的心靈（哥林多前書三章16節、六章19節）。上帝的聖殿，正是那在耶穌基督裡聖潔的會眾。基督的身體，正是上帝與新人類的活生生的聖殿。"
+        },
+        {
+          id: "ch13-p41",
+          de: "Nicht Seelengemeinschaft, sondern: die Leiber der Gemeinde konstituieren den Leib Christi ... Vom Begriff der Gemeinde her bekommt die Hurerei besondere Betonung.\" Vgl. S. 280 f. Die sichtbare Gemeinde.1 Der Leib J esu Christi nimmt Raum ein auf Erden.2 Mit der Menschwerdung fordert Christus Raum unter den Menschen. Er kam in sein Eigentum. 3 Aber ie gaben ihm bei seiner Geburt einen Stall, \"denn ie hatten sonst keinen Raum in der Her­ berge\"\ ie stießen ihn in seinem Tode von sich, daß sein Leib zwischen Erde und Himmel am Galgen hing. Doch die Fleisch­ werdung schließt den Anspruch auf eigenen Raum auf Erden ein.",
+          zh: "有形的會眾。耶穌基督的身體在大地上佔據空間。藉由道成肉身，基督在人間要求了空間。祂來到自己的地方。然而，在他降生時，人們只給了他一個馬槽，「因為客店裡沒有地方」；在他受死時，人們將祂從自己中間推出去，使祂的身體在天地之間的木架上懸掛。然而，道成肉身本身就包含了在地上索求專屬空間的主張。"
+        },
+        {
+          id: "ch13-p42",
+          de: "Was Raum einnimmt, ist sichtbar. So kann der Leib Jesu Christi nur ein sichtbarer Leib sein, oder er ist nicht Leib. Sichtbar ist der Mensch Jesus, geglaubt wird er als der Sohn Gottes. Sichtbar ist der Leib Jesu, geglaubt wird er als der Leib des menschgewordenen GOl:tes. Sichtbar ist, daß Jesus im Fleisch war, geglaubt wird, daß er unser Fleisch trug. \"Auf diesen Menschen sollst du zeigen und sprechen: das ist Gott\" (Luther).5 Eine Wahrheit, eine Lehre, eine Religion braucht keinen ei­ genen Raum. Sie ist leiblos. S Sie wird gehört, gelernt, begriffen. Das ist alles. Aber der menschgewordene Sohn Gottes braucht nicht nur Ohren oder auch Herzen, sondern er braucht leibhaf­ tige Menschen, die ihm nachfolgen.",
+          zh: "凡佔據空間的，就是有形的。因此，耶穌基督的身體唯有是一個有形的身體，否則它便不是身體。那人耶穌是可見的，祂被信靠為上帝的兒子；耶穌的身體是可見的，它被信靠為道成肉身之上帝的身體。耶穌在肉身中是顯而易見的，祂承載了我們的肉身則是信心所信靠的。「你應當指著這個人說：這就是上帝！」。真理、教理或宗教並不需要專屬的空間。它們是無身體的。它們被聆聽、學習與理解。如此而已。然而，道成肉身的上帝之子不僅需要耳朵或心靈，祂更需要實實在在、有血有肉的人來跟隨祂。"
+        },
+        {
+          id: "ch13-p43",
+          de: "Darum berief er seine Jün1 Wie die Überschrift zu Mt 5,13-16 (5. 110). 02 Vgl. 1935 NL A 57,3 (1) = DBW 14, 422-434, Anfang de� neutestamentlichen Kollegs im 2. Kurs als Rund­ briefbeilage, die beginnt: \"Mit folgender Frage kann man die gegenwärtige kirchliche und theologische Situation formulieren: Nimmt die Kirche des Wor­ tes Gottes einen Raum ein in der Welt, und welcher Art ist er? Es ist im Grunde die Frage, um die es in der ganzm theologischen Auseinandersetzung mit dem Staat geht.\" 03 Joh 1,11. 0 4 Lk 2,7.05 Bei Bonhoeffer öfter auftauchendes Luther-Wort, z.B. 1933 DBW 12, 299f und (zusammen mit Franz Hildebrandt) 1931 DBW 11, 234.",
+          zh: "因此，祂呼召祂的門徒進入肉身的跟隨，且祂與門徒的契合對每個人而言都是顯而易見的。"
+        },
+        {
+          id: "ch13-p44",
+          de: "Vgl. in Hildebrandts Buch \"EST\", 82: \"ich zeige auf den Menschen und spreche: das ist Gott\" -mit Verweis auf M. Luther, De captivi­ tate Babylonica. 1520 (WA 6, 511, 37f): \"Hic homo est deus, hic deus est homo\" (\"dieser Mensch ist Gott, dieser Gott ist Mensch\"). 0 6 Vgl. 1935 DBW 14, 423: \"Gefahr einer idealistisch-doketischen Ekklesiologie: Raum in der Welt wird bestritten ... Scheinleiblichkeit\" (\"doketisch\" hängt mit ÖOXeLV, \"scheinen\", zusammen). 1933 DBW 12, 321 wies Bonhoeffer HegeIs Auffassung der Menschwerdung als die \"genialste Auspragung\" der doketischen Häreie zurück. 242 Teil 11. 221 ger in seine leibliche Nachfolge, und seine Gemeinschaft mit ihnen war jedermann sichtbar.",
+          zh: "這契合是由道成肉身的耶穌基督自己建立並維繫的，那成了肉身的聖言發出了呼召，創造了這肉身的、有形的契合。蒙召者再也無法隱藏，他們是必須照耀的光，是山上的城，必然會被看見（馬太福音五章13-14節）。在他們的契合之上，有形地矗立著耶穌基督的十字架與受難。為著祂契合的緣故，門徒必須放棄一切，必須受難與受逼迫；然而，恰恰是在逼迫之中，他們在祂的契合裡有形地重又尋回了他們所失去的：弟兄、姐妹、田地與房屋（馬可福音十章28-31節）。跟隨者的會眾在世界面前是彰顯無遺的。"
+        },
+        {
+          id: "ch13-p45",
+          de: "Sie war begründet und zusam­ mengehalten durch Jesus Christus den Menschgewordenen selbst, das fleischgewordene Wore hatte gerufen, hatte die leib­ liche sichtbare Gemeinschaft geschaffen. Die Gerufenen konn­ ten nicht mehr verborgen bleiben, ie waren das Licht, das leuchten muß, die Stadt auf dem Berge, die gesehen werden muß. 8 Über ihrer Gemeinschaft stand sichtbar das Kreuz und Leiden Jesu Christi. Um seiner I Gemeinschaft willen mußten die Jünger alles aufgeben, mußten ie leiden und verfolgt wer­ den, und doch empfingen ie gerade unter Verfolgungen in sei­ ner Gemeinschaft sichtbar wieder, was ie verloren, Brüder und Schwestern, Äcker und Häuser.9 Die Gemeinde der Nachfol­ genden war offenbar vor der Welt.",
+          zh: "在這裡，是有血有肉的軀體在耶穌的契合中行動、工作與受難。同樣，被高升之主的身體，在會眾的樣式中也是有形的身體。這一身體是如何顯明出來的呢？首先是在話語的宣講中。「都恆心遵守使徒的教訓」（使徒行傳二章42節）。在這句話中，每個詞都至關重要。這裡的「教訓」指的是宣講，在此與任何形式的宗教演說相對立。這裡指的是對已發生事實的傳達。所要宣告的內容在客觀上是確定的，它僅僅需要藉由「教訓」來傳遞。然而，傳達在性質上僅限於未知的事物。"
+        },
+        {
+          id: "ch13-p46",
+          de: "Hier waren Leiber, die han­ delten, arbeiteten und litten in der Gemeinschaft J esu. Auch der Leib des erhöhten Herren ist sichtbarer Leib in der Gestalt der Gemeinde. Wie wird dieser Leib sichtbar? Zuerst in der Predigt des Wortes. \"Sie blieben aber beständig in der Apo­ stel Lehre\" (Apg. 2,42).10 Jedes Wort ist in diesem Satz bedeut­ sam. Lehre (CHOUXtl) heißt die Predigt, hier im Gegensatz zu jeder Art religiöser Rede. Hier ist Mitteilung von geschehenen Tatsachen gemeint. Der Inhalt des zu Sagenden liegt objektiv fest, er bedarf nur der Vermittlung durch die \"Lehre\". Mittei­ lung beschränkt sich aber ihrem Wesen nach auf Unbekanntes.",
+          zh: "事物一旦被知曉，進一步的傳達便毫無意義；因此在「教導」的概念中，本身就包含著「使自己變得多餘」的趨向。然而，與此形成奇特對比的是，此處指出最初的會眾「恆心」堅守這教訓，亦即這教訓絕不使自己變得多餘，反而恰恰要求恆常性。在這「教訓」與「恆心」的連結中，必然存在著一項客觀的必然性。這必然性正體現在它乃是「使徒的教訓」。何謂「使徒的教訓」？"
+        },
+        {
+          id: "ch13-p47",
+          de: "Ist es bekannt geworden, so ist weitere Mitteilung sinnlos; so liegt es an sich im Begriff der\" Lehre\", sich selbst überflüssig zu machen. 11 In eigenartigem Widerspruch dazu heißt es hier, daß die erste Gemeinde sich\" beständig\" zu dieser Lehre hielt, daß sich also diese Lehre nicht überflüssig macht, sondern daß ie gerade Beständigkeit fordert. Eine sachliche Nötigung muß in der Verbindung dieser \"Lehre\" mit der \"Beständigkeit\" liegen. Sie ist darin ausgesprochen, daß es \"Lehre der Apostel\" ist, um die es sich handelt. Was heißt \"Lehre der Apostel\"? Apostel 7 Joh 1,14. 0 8 Mt 5,13f. 09 Mk 10,28-31. 0 10 1935 DBW 14,429: \"Acta 2,42--47.",
+          zh: "使者乃是上帝挑選的、在耶穌基督裡神聖啟示的事實見證人。他們曾在耶穌肉身的契合中生活，親眼看見了那道成肉身、被釘十字架與復活的主，並用雙手摸過祂的身體（約翰一書一章1節）。"
+        },
+        {
+          id: "ch13-p48",
+          de: "Die neue Gemeinde.\" 0 11 HegeI, Religionsphilosophie nach Lasson XII, 93, meint, man könne \"Lehre\" \"als einen äußerlichen Umstand betrachten, vermittelst dessen wohl Religion in mich gebracht werden kann, über den ich aber hinaus bin, wenn ich den Glauben habe\" (Wellenlinie und Fragezeichen Bonhoeffers am Rand). 222 Die sichtbare Gemeinde 243 sind die von Gott erwählten Tatsachenzeugen der Offenbarung in Jesus Christus. Sie haben in J esu leiblicher Gemeinschaft gelebt, ie haben den Menschgewordenen, Gekreuzigten und Auferstandenen gesehen und seinen Leib mit ihren Händen betastet (1. J oh. 1,1).",
+          zh: "他們是上帝聖靈用作器皿以傳達話語的見證人。使徒的宣講，是對上帝在耶穌基督裡肉身啟示事實的見證。教會是建造在使徒和先知的根基上，有基督耶穌自己為房角石（以弗所書二章20節）。此後的一切宣講，只要是建造在這一根基上，本身就必須是使徒式的宣講。如此，我們與最初會眾的合一，便藉著使徒的話語得以建立。那麼，這一使徒的教訓又在何種程度上使得「恆常的聆聽」成為必要？這使徒的話語在人類的話語中，乃是實實在在的上帝的話語（帖撒羅尼迦前書二章13節）。"
+        },
+        {
+          id: "ch13-p49",
+          de: "Sie sind die Zeugen, deren sich Gott, der heilige Geist als Werkzeug bedient, um das Wort auszurichten. Apostelpredigt ist Zeugnis des leibhaftigen Geschehens der Of­ fenbarung Gottes in Jesus Christus. Auf dem Grunde I der Apo­ stel und Propheten ist die Kirche erbaut, deren Eckstein Jesus Christus ist (Eph. 2,20). Jede weitere Predigt muß selbst apostolische Predigt sein, indem ie auf diesen Grund aufbaut. So ist die Einheit zwischen uns und der ersten Gemeinde durch das Wort der Apostel hergestellt. Inwiefern macht diese aposto­ lische Lehre die Beständigkeit des Hörens notwendig? Das apostolische Wort ist im Menschenwort wahrhaftig Gottes Wort (1. Thess. 2,13).",
+          zh: "因此，這話語是要接納人、且有能力去成全此事的。上帝的話語尋求會眾，以便接納她。它本質上是處在會眾之中的。它自行走向會眾。它擁有一股指向會眾的專屬運動。情況絕非「一邊是話語真理，另一邊是會眾，而宣講者必須拿取、操作並挪動這話語以將其帶入會眾、套用在會眾身上」；相反地，話語自己便行完了這一道路，宣講者不應也不能做別的，唯獨服侍這話語本身的運動，不對其橫加阻礙。"
+        },
+        {
+          id: "ch13-p50",
+          de: "Es ist darum Wort, das Menschen anneh­ men will und Kraft hat, es zu tun. Gottes Wort sucht Ge­ meinde, um ie anzunehmen. Es ist wesentlich in der Ge­ meinde. Es geht von selbst in die Gemeinde hinein. Es hat eine eigene Bewegung zur Gemeinde hin.12 Nicht so ist es, daß auf der einen Seite ein Wort, eine Wahrheit ist, und auf der anderen Seite eine Gemeinde, und der Prediger habe nun dies Wort zu nehmen, zu handhaben, zu bewegen, um es in die Gemeinde hinein zu bringen, es auf die Gemeinde anzuwenden. Vielmehr geht das Wort diesen Weg ganz von selbst, der Prediger soll und kann nichts tun, als dieser eigenen Bewegung des Wortes zu dienen, ihr nichts in den Weg zu stellen.",
+          zh: "話語出發是為了接納人類；使徒們深知這一點，且這正是他們宣講的特質。他們曾親眼看見上帝的話語自己如何降臨、如何取了肉身，並在這肉身中接納了整個舊人類。此時，他們除了見證這「上帝的話語成了肉身、前來接納罪人、赦免與聖潔化他們」之外，別無他物。這正是此時走向會眾之中的話語；這成了肉身的話語——它已經承載了整個舊人類、它已無法與其所接納的人類分割——此時臨到了會眾。"
+        },
+        {
+          id: "ch13-p51",
+          de: "Das Wort geht aus, um Menschen anzunehmen; das wußten die Apostel, und das machte ihre Predigt aus. Sie hatten ja Gottes Wort selbst gese­ hen, wie es gekommen war, wie es Fleisch angenommen hatte und in diesem Fleisch die ganze Menschheit selbst. Nun hatten ie nichts zu bezeugen als dieses, daß Gottes Wort Fleisch ge­ worden ist, daß es kam, um Sünder anzunehmen, um zu verge­ ben und zu heiligen. Dies ist das Wort, das nun in die Ge­ meinde hinein geht; das fleischgewordene Wort, das schon die ganze Menschheit trägt, das nicht mehr sein kann ohne die Menschheit, die es angenommen hat, kommt zur Gemeinde.",
+          zh: "而在這話語中，聖靈自己降臨了，祂向個人與會眾顯明在基督裡早已賜予的一切。祂在聆聽者心中運作信心，使人信服這宣講的話語，即耶穌基督自己已在祂身體的權能中，踏入我們中間；祂來是要告訴我，祂已經接納了我，且今天重又願意接納我。使徒宣講的話語，乃是那肉身承載了全世界罪惡的話語，它是那在聖靈中如今臨在的基督。基督在祂的會眾中，這正是「使徒的教導」、使徒的宣講。"
+        },
+        {
+          id: "ch13-p52",
+          de: "In 12 Siehe auch Finkenwalder Homiletik 1936 DBW 14, 504. diesem Wort aber kommt der Heilige Geist selbst, der dem Emzelnen und der Gemeinde zeigt, was in Christus schon längst geschenkt ist. Er wirkt in den Hörenden den Glauben, daß im Wort der Predigt Jesus Christus selbst mit-I ten unter uns getreten ist in der Kraft seines Leibes, daß er kommt, um mir zu sagen, daß er mich angenommen hat und heute wie­ derum annehmen will. Das Wort der apostolischen Predigt ist das Wort, das die Sünden aller Welt leibhaftig getragen hat, es ist der gegenwär­ tige Christus im Heiligen Geist. Christus in seiner Gemeinde, das ist die\" Lehre der Apostel\", die apostolische Predigt.",
+          zh: "這一教導絕不使自己變得多餘，反而為自己創造出那恆心守在其下的會眾；因為會眾蒙受了話語的接納，且每日對此深信不疑。這一教導為自己創造出一個有形的會眾。除了基督身體在話語宣講中的有形性之外，還加入了在洗禮與聖餐中的有形性。這兩者皆源自我們的主耶穌基督那真實的人性。在這兩者中，祂皆與我們肉身地相遇，並使我們有份於祂身體的契合。這兩項禮儀皆包含著宣告。在洗禮與在聖餐中，都是宣告基督「為我們」而死（羅馬書六章3節起，哥林多前書十一章26節）。"
+        },
+        {
+          id: "ch13-p53",
+          de: "Diese Lehre macht sich niemals überflüssig, sondern ie schafft sich die Gemeinde, die beständig an ihr bleibt, weil ie vom Wort angenommen ist und täglich dessen gewiß wird. Diese Lehre schafft sich eine sichtbare Gemeinde. Zu der Sichtbarkeit des Leibes Christi in der Predigt des Wortes tritt die Sichtbarkeit in Taufe und Abendmahl. Beide kommen her aus der wahrhafti­ gen Menschheit unseres Herren J esu Chnsti. In beiden begeg­ net er uns leibhaftig und macht uns der Gemeinschaft seines Leibes teilhaftig. Zu beiden Handlungen gehört die Verkündi­ gung. In der Taufe wie beim Abendmahl ist es die Verkündung des Todes Christi für uns (Röm. 6,3 H.; 1. Kor. 11,26).",
+          zh: "在這兩者中，恩賜都是基督的身體。在洗禮中賜予了我們身體上肢體的身份，在聖餐中則賜予了我們與所領受之主的身體的肉身契合，並正因如此，賜予了我們與該身體其他肢體的肉身契合。因此，藉著祂身體的恩賜，我們與祂成為「一個身體」。若僅將洗禮與聖餐的恩賜稱為「罪的赦免」，則並未完全涵蓋其全部。在聖禮中所施予的身體恩賜，是將這實實在在的肉身之主賜予在祂的會眾中。而罪的赦免，則已被包含在「作為會眾之基督身體」的恩賜中了。"
+        },
+        {
+          id: "ch13-p54",
+          de: "Bei bei­ den ist die Gabe der Leib Christi. In der Taufe wird uns die Gliedschaft am Leibe geschenkt, im Abendmahl die leibliche Gemeinschaft (xOLvwvLa) mit dem Leib des Herren, den wir empfangen, und eben darin die leibliche Gemeinschaft mit den Gliedern dieses Leibes. 13 So werden wir durch die Gaben seines Leibes mit Ihm Ein Leib. Weder die Gabe der Taufe noch die des Abendmahls ist ganz umfaßt, wenn wir ie als Sündenverge­ bung bezeichnen. Die Gabe des Leibes, die in den Sakramenten gespendet wird, schenkt uns den leibhaftigen Herren in seiner Gemeinde.14 Sündenvergebung aber ist mit eingeschlossen in 13 1q37 NL B 9,4 (9) hier Hinweis \"Sermon von 1519\" -M.",
+          zh: "由此便不難理解：洗禮與聖餐的施行，在最初——與我們今天的習慣恰恰相反——並非綁定在使徒宣講的職分之上，而是由會眾自己來施行的（哥林多前書一章14節起、十一章17節起）。"
+        },
+        {
+          id: "ch13-p55",
+          de: "Luther, Sermon von dem hochwürdigen Sakrament des heiligen wahren Leichnams Christi und von den Bruderschaften. 1519 (W A 2, 738-758) -wie DWB 1 (SC), 117 Anm. 41 und oft bei Bonhoeffer. 0 14 1936/37 NL B 9,6 (10 f): \"Zur Kraft des Abendmahls vgl. die frühapokryphe Geschichte, nach der beim Abendmahl der ersten Christen Tod und Teufel eintreten und klagen über ihre verlorene Macht 224 Die sichtbare Gemeinde 245 der Gabe des Leibes Christi als Gemeinde. Von hier aus ist es verständlich, daß die Austeilung von Taufe und Abendmahl ursprünglich -im genauen Gegensatz zu unserem heutigen Ge­ brauch -nicht an das Amt der apostolischen Verkündigung gebunden ist, sondern von der I Gemeinde selbst vollzogen wird (1. Kor. 1,1 u. 14ff.; 11,17ff.).",
+          zh: "洗禮與聖餐唯獨屬於基督身體的會眾。話語既針對信徒，也針對非信徒。而聖禮卻單單屬於會眾。因此，基督徒會眾在最本質的意義上，乃是「洗禮與聖餐的會眾」，且唯獨以此為根基，才是「宣講的會眾」。顯而易見，耶穌基督的會眾在世上要求了一個宣講的空間。基督的身體，在圍繞「聖言與聖禮」聚集的會眾中有形地彰顯出來。這一會眾是一個結構完整的整體。"
+        },
+        {
+          id: "ch13-p56",
+          de: "Taufe und Abendmahl gehören allein der Gemeinde des Leibes Christi. Das Wort richtet sich an Glaubende und Ungläubige. Die Sakramente gehören allein der Gemeinde. So ist die christliche Gemeinde im eigentlichen Sinne Tauf-und Abendmahlsgemeinde, und erst von hier aus Predigtgemeinde.15 Es ist deutlich geworden, daß die Gemeinde J esu Christi in der Welt einen Raum der Verkündigung beansprucht. Der Leib Christi ist sichtbar in der um Wort und Sakrament versammel­ ten Gemeinde. Diese Gemeinde ist ein gegliedertes Ganzes. Der Leib Chri­ sti als Gemeinde schließt Gliederung und Ordnung der Ge­ meinde ein.",
+          zh: "作為會眾的基督身體，包含了會眾的「結構與秩序」。這秩序是與身體同時立基的。一個沒有結構的身體便處於腐爛狀態。保羅教導，活著的基督身體的樣式，是一個結構分明的樣式（羅馬書十二章5節，哥林多前書十二章12節起）。在此處將「內容與形式」、「本質與現象」割裂開來，是完全不可能的。這種割裂無異於否認基督的身體，即否認那成了肉身的基督（約翰一書四章3節）。因此，基督的身體隨同宣講的空間，也要求了「會眾秩序」的空間。會眾的秩序，具有神聖的起源與本質。當然，它處於服侍而非統治的地位。"
+        },
+        {
+          id: "ch13-p57",
+          de: "Diese ist mit dem Leib mitgesetzt. Ein ungeglieder­ ter Leib ist im Zustand der Verwesung. Die Gestalt des lebendi­ gen Leibes Christi ist nach der Lehre des Paulus gegliederte Gestalt (Röm. 12,5; 1. Kor. 12,12 H.). Die Unterscheidung von Inhalt und Form, von Wesen und Erscheinung16 ist hier un­ möglich. Sie bedeutete Leugnung des Leibes Christi, d.h. des fleischgewordenen Christus (1. Joh. 4,317). So beansprucht der Leib Christi mit dem Raum der Verkündigung auch den Raum der Gemeindeordnung. Die Ordnung der Gemeinde ist göttlichen Ursprungs und Wesens. Freilich steht ie im Dienst, nicht in der Herrschaft.",
+          zh: "會眾中的職分乃是「服侍」（哥林多前書十二章4節）。它們是由上帝（哥林多前書十二章28節）、由基督（以弗所書四章11節）、由聖靈（使徒行傳二十章28節）「設立在」會眾之中，而非「藉由」會眾設立。"
+        },
+        {
+          id: "ch13-p58",
+          de: "Die Ämter der Gemeinde sind \"Dienste\" (öwxovLm) (1. Kor. 12,4). Sie sind von Gott (1. Kor. 12,28), von Christus (Eph. [NL B 9,3 (15): \"Wer hat uns unsere Macht geraubt?\"], und dann breiten die Christen die Hände aus zum Kreuzeszeichen und rufen: Hier ist Jesus Christus der Gekreuzigte.\" Vgl. DBW 14, 434 Anm. 54.015 Vgl. DBW 1 (SC), 163-167. 016 Diese ,protestantische Unterscheidung' -s. DBW 1 (SC), 142 Anm. 79vertrat auch Rudolph Sohm (1841-1917) in der (später korrigierten) Konzeption des ersten Bandes seines \"Kirchenrechts\". Siehe auch DBW 1 (SC), 150 Anm. 92: \"Die ,wesentliche' Kirche wird optisch in der empirischen sichtbar\". 0 17 Im Apparat von Bonhoeffers \"Nestle\" ist EV aUQxL EA1']AU-frotU markiert (bei Luther: \"in das Fleisch gekommen\"); die Wendung fehlt im Haupttext. 4,11), vom Heiligen Geist (Apg. 20,28)18 in der Gemeinde ge­ setzt, d.h. nicht durch ie.",
+          zh: "即便在會眾自己授予職分的地方，她也是全然在聖靈的引領下進行的（使徒行傳十三章2節等）。「職分與會眾」在三位一體的上帝中具有同等的本源。職分服眾，它們的屬靈權利唯獨在這一服侍中成立。因此，在不同的會眾中必須有不同的職分與服侍，例如耶路撒冷的職分與保羅差傳會眾中的職分各不相同。結構雖是上帝設立的，但其樣式卻是可以改變的，且單單屈從於會眾自身的屬靈審判，由會眾任命其肢體去履行服侍。"
+        },
+        {
+          id: "ch13-p59",
+          de: "Auch dort, wo die Gemeinde selbst Ämter austeilt, tut ie es ganz unter der Leitung des Heiligen Geistes (Apg. 13,2 u. ö.). Amt und Gemeinde sind gleich ur­ sprünglich im dreieinigen Gott. Die Ämter dienen der Ge­ meinde, ie haben ihr geistliches Recht allein in diesem Dienst. Darum muß es in verschiedenen Gemeinden verschiedene Äm­ ter, \"Diakonien\" geben, z.B. andere in Jerusalem als in I den paulinischen Missionsgemeinden. Zwar ist die Gliederung von Gott gesetzt, aber ihre Gestalt ist veränderlich und allein dem geistlichen Urteil der Gemeinde selbst unterworfen, die ihre Glieder zum Dienst verordnet.",
+          zh: "甚至聖靈賜予個人的「屬靈恩賜」，也必須嚴格約束在對會眾的服侍紀律之下，因為上帝不是叫人混亂，乃是叫人安靜（哥林多前書十四章32-33節）。聖靈的有形化彰顯（哥林多前書引十二章7節），恰恰在於一切都是為了會眾的益處而行的。使徒、先知、教師、監督（主教）、執事、長老、治理的與引導的（哥林多前書十二章28節起，以弗所書二章20節、四章11節），皆是會眾的僕人，是基督身體的僕人。他們若蒙召在會眾中履行服侍，其職分便是神聖起源與本質的。唯有會眾能免除他們的服侍。"
+        },
+        {
+          id: "ch13-p60",
+          de: "Auch die Charismenl9, die der Heilige Geist Einzelnen schenkt, stehen streng in der Zucht der Diakonie an der Gemeinde, denn Gott ist nicht ein Gott der Unordnung, sondern des Friedens (1. Kor. 14,32 f.). Darin eben macht sich der Heilige Geist sichtbar (cpaVE(?Wmc;20 1. Kor. 12,7), daß alles zum Nutzen der Gemeinde geschieht. Apostel, Propheten, Lehrer, Aufseher (Bischöfe), Diakone, Älteste, Vorsteher und Leiter (1. Kor. 12,28 H.; Eph. 2,20 u. 4,11) sind Diener der Gemeinde, des Leibes Christi. Sind ie zum Dienst in der Gemeinde verordnet, so ist ihr Amt göttlichen U r­ sprungs und Wesens. Allein die Gemeinde kann ie vom Dienst entbinden.",
+          zh: "使徒、先知、教師、監督、執事、長老、治理的與引導的，皆是會眾的僕人，是基督身體的僕人。他們若蒙召在會眾中履行服侍，其職分便是神聖起源與本質的。唯有會眾能免除他們的服侍。"
+        },
+        {
+          id: "ch13-p61",
+          de: "So ist die Gemeinde zwar frei in der Gestaltung ihrer Ordnungen je nach ihrer Not; wird aber ihre Ordnung von außen angetastet, so ist damit die sichtbare Gestalt des Leibes Christi selbst angetastet.21 Besondere Aufmerksamkeit verdient unter den Ämtern der Gemeinde zu aller Zeit die Sorge für die unverfälschte Austei18 Mit den drei in diesem Satz genannten und anderen Bibelstellen führt Bon­ hoeffer im Gutachten\" Irrlehre in der Bekennenden Kirche?\" 1936 DBW 14, 703 den Schriftbeweis: \"Die Einsetzung eines kirchlichen Amtes durch eine außer­ kirchliche Autorität ist für das N. T. eine völlige Unmöglichkeit.\" 0 19 1935/36 DBW 14, 454 gibt die Definition: \"Das Charisma ist die durch den Heiligen Geist ermöglichte subjektive Voraussetzung für den objektiven Dienst an der Gemeinde.\" 020 Dt.: \"Sichtbarmachung\".",
+          zh: "因此，會眾雖然可以根據其實際需要，自由地去塑造其規章秩序；然而，一旦其秩序受到外來的侵犯干預，那麼基督身體的有形樣式本身便受到了侵犯。在會眾的職分中，歷來最值得特別關注的，莫過於對話語與聖禮之純潔施予的護衛。在此，必須考量以下幾點："
+        },
+        {
+          id: "ch13-p62",
+          de: "Im Druck 1937 war dazu angegeben ,,1. Kor. 12,6\" statt Vers 7 -eine der irrtümlichen Stellenangaben, die in diesem Kapitel relativ häufig waren. 0 21 Die Zeugnis aufgabe der eigenen Ordnung (Gestalt) der Gemeinde betont die Barmer Theologische Erklärung von 1934 in der Dritten These, s. Bekenntnisse 1934, 94. 226 Die sichtbare Gemeinde 247 lung des Wortes und der Sakramente. Dabei ist Folgendes zu bedenken22: Immer wird die Verkündigung dem Auftrag und den Gaben der Verkündiger entsprechend eine mannigfaltige und verschiedene sein. Aber ob paulisch oder petrisch oder apollisch oder christisch, in allem muß doch der Eine unzer­ teilte Christus erkannt werden (1. Kor. 1,11 ff.).",
+          zh: "（接上文，註：此處包含字詞注釋，修正了1937年版圖書中印錯的經文編號。）宣講必然會根據宣講者的召命與恩賜的不同，而呈現出多樣性與差異性。然而，不論是屬保羅的、屬彼得的、屬亞波羅的，或屬基督的，在一切宣講之中，都必須讓人認出那唯一的、不可分割的基督（哥林多前書一章11節起）。"
+        },
+        {
+          id: "ch13-p63",
+          de: "Einer soll dem andern in die Hände arbeiten (1. Kor. 3,6). Schulbildungen füh­ ren zu Schulgezänk, in dem jeder sein eigenes sucht (1. Tim. 6,5 u. 20; 2. Tim. 2,16; 3,8; Tit. 1,10). Allzu leicht wird hier aus der \"Gottseligkeit\"23 ein irdischer Gewinn, sei es an Ehre, an Macht oder an Geld. Auch wird die Neigung zum Problemati­ ieren um des Problematiierens willen leicht entbrennen und von der klaren, einfachen Wahrheit ablenken (2. Tim. 3,7). Sie wird zum Eigenwillen und Ungehorsam ge-I gen Gottes Gebot verleiten. Dem gegenüber bleibt die gesunde24 heilsame Lehre das Ziel der Verkündigung (2. Tim. 4,3; 1. Tim. 1,10; 4,16; 6,1; Tit. 1,9 u. 13; 2,1; 3,8) und Gewähr für rechte Ordnung und Einheit.",
+          zh: "宣講者應當彼此配合、互相協力（哥林多前書三章6節）。結黨分派會導致門戶之爭，在爭吵中每個人都只圖謀私利（提摩太前書六章5、20節，提摩太後書二章16節、三章8節，提多書一章10節）。在此處，屬世的利益（無論是名譽、權力或金錢）太容易被包裝在「敬虔」的外表之下了。此外，為了思辨而思辨的狂熱極易被點燃，從而偏離了明晰、簡單的真理（提摩太後書三章7節）。這會誘使人陷於己意，叛逆上帝的命令。與此相對立的，唯有「純正健全的教訓」始終是宣講的目標與正確秩序及合一的保障（提摩太後書四章3節，提摩太前書一章10節、四章16節、六章1節，提多書一章9、13節、二章1節、三章8節）。"
+        },
+        {
+          id: "ch13-p64",
+          de: "Es ist nicht immer leicht, den Übergang zwischen erlaubter Schulmeinung und Irrlehre zu erkennen.25 So ist in mancher Gemeinde eine Lehre, die in einer anderen schon als Irrlehre ausgeschieden ist, noch als Schulmeinung geduldet (Offenb. 2,6 u. 15 ff.). Wird aber die Irrlehre offenbar, so ist völlige Schei­ dung nötig. Den Irrlehrer aber trifft die Ausstoßung aus der christlichen Gemeinde und aus der persönlichen Gemeinschaft (Ga!. 1,8; 1. Kor. 16,22; Tit.3,10; 2.Joh. 10ff.). So muß das Wort der reinen Verkündigung verbinden und trennen in sicht­ barer Weise. Der Raum der Verkündigung und der Ordnung der Gemeinde ist somit in seiner gottgesetzten Notwendigkeit deutlich geworden.",
+          zh: "要認清在「可容許的學派見解」與「錯謬教義」之間的過渡界限，並不總是那麼容易。因此，在一些會眾中，某種在其他地方早已被斥為異端而排除的教訓，卻依然作為學派見解而被容忍著（啟示錄二章6、15節起）。然而，一旦異端教義顯露無遺，徹底的割裂與分離便是必不可少的。對於傳播異端者，必將施予逐出基督會眾以及中斷個人相交的懲罰（加拉太書一章8節，哥林多前書十六章22節，提多書三章10節，約翰二書10節起）。如此，純潔宣講的話語必須以有形的方式起到凝聚與分裂的作用。宣講的空間與會眾秩序的空間，其上帝所設立的必要性已因之昭然若揭。"
+        },
+        {
+          id: "ch13-p65",
+          de: "Die Frage ist nun, ob hiermit bereits die sichtbare Gestalt der Gemeinde des Leibes Christi umschrieben ist, oder ob ie noch 22 Zum Folgenden bis Zeile 23 s. 18.-22.5.1937 DBW 14, 842. 023 II Tim 3,5: \" ... Schein eines gottseligen Wesens\". 0 24 1937 NL B 9,4 (30): \"Starke Rolle der Begriff der Gesundheit in den Pastoralbriefen. Gibt kranke Lehre, Krebsge­ schwür, das um sich frißt.\" Vgl. 1936 DBW 14, 964 (dort Hinweis auf II Tim 2,17).025 Vgl. DB 510 (Barth gebrauchte 1934 das Begriffspaar \"schulbil­ dende\" und \"kirchentrennende\" Gegensätze); 1935 DBW 14,309 und Anm. 17. weiteren Anspruch auf Raum in der Welt einschließt.",
+          zh: "此時的問題在於，基督身體之會眾的有形樣式是否已被限制在這些範圍之內，抑或它還包含了對世俗空間的進一步索求。"
+        },
+        {
+          id: "ch13-p66",
+          de: "Die Ant­ wort des Neuen Testaments geht unzweideutig dahin, daß die Gemeinde nicht nur für ihren Gottesdienst und ihre Ordnung, sondern auch für das tägliche Leben ihrer Glieder Raum auf Erden beansprucht. Es wird daher jetzt zu sprechen sein von dem Lebensraum der sichtbaren Gemeinde.26 Die Gemeinschaft J esu mit seinen Jüngern war volle Lebens­ gemeinschaft in sämtlichen Lebensbeziehungen. In der Jünger­ gemeinde spielte sich das ganze Leben des Einzelnen ab. Diese Gemeinschaft ist ein lebendiges Zeugnis für die leibhaftige Menschheit des Sohnes Gottes. Die leibliche Gegenwart des Sohnes Gottes fordert den leiblichen Einsatz für ihn und mit ihm im täglichen Leben.",
+          zh: "新約聖經對此的回答是毫不含糊的：會眾不僅為其崇拜禮拜與其規章秩序索求空間，更為其肢體的日常日常生活索求大地上空間。因此，現在必須來探討「有形會眾的生命空間」。耶穌與其門徒的契合，是涵蓋了一切生命關係的完整的「生命契合」。在門徒的團體中，展現了個人生命的全部。這一契合，正是上帝之子肉身人性的活生生見證。上帝之子肉身的臨在，要求人在日常生活中為祂且與祂一同進行肉身的投入。"
+        },
+        {
+          id: "ch13-p67",
+          de: "Der Mensch mit seinem ganzen leben­ digen Leibesleben gehört zu dem, der um seinetwillen den menschlichen Leib annahm. Der Jünger gehört I in der Nach­ folge mit dem Leib Jesu unzertrennlich zusammen. So bezeugt es auch der erste Bericht über die junge Ge­ meinde in der Apostelgeschichte (2,42 H.; 4,32 H.). \"Sie blieben aber beständig in der Apostel Lehre und in der Gemeinschaft und im Brotbrechen und im Gebet. «27 \"Aber die gläubig waren geworden, waren beisammen und hatten alle Dinge gemein­ sam. «28 Es ist lehrreich, daß hier die Gemeinschaft (XOlVWVLU) zw;schen Wort und Abendmahl ihren Ort bekommt.",
+          zh: "人連同他整個活生生的肉體生命，皆屬於那為了他的緣故而承載了人類身體的祂。在跟隨中，門徒與耶穌的身體是不可分割地聯結在一起的。使徒行傳中關於年輕會眾的第一篇記載也對此做出了見證（使徒行傳二章42節起、四章32節起）。「都恆心遵守使徒的教訓，彼此交接，擘餅，祈禱。」「信的人都在一處，凡物公用。」這極其富有教益：在此處，「契合/交通」被安置在聖言與擘餅之間。"
+        },
+        {
+          id: "ch13-p68",
+          de: "Es ist keine zufällige Bestimmung ihres Wesens, wenn ie ihren Ur­ sprung immer wieder im Wort, ihr Ziel und ihre Vollendung immer wieder im heiligen Abendmahl haben soll. Alle christli­ che Gemeinschaft lebt zwischen Wort und Sakrament, ie ent26 Auf die jetzt folgenden Ausführungen verweist das Sachregister des Buches \"Nachfolge\" 1937 unter dem Stichwort \"Menschwerdung\". Vg!. 1935/36 DBW 14, 460: Der Raum der Gemeinde \"umfaßt den ganzen Menschen in allen seinen Lebensgebieten und Beziehungen. Die Begründung hierfür liegt in der Menscbwerdung Jesu Christi. Er ist ganz Mensch geworden in allen Le­ bensbeziehungen und hat daher auf den ganzen Menschen Anspruch.",
+          zh: "會眾契合的本質並非隨機被設定的，它的源頭一次次被追溯到聖言之中，它的終點與成全一次次在聖餐中實現。一切基督徒的契合，皆存活於「聖言與聖禮」之間，它發源於崇拜，也終結於崇拜。它等候著在上帝的國度中與主同享的終極聖餐。擁有如此源頭與終點的契合，乃是「完全的契合/共同體」，今生的一切事物與財富都必須順從於它之下。"
+        },
+        {
+          id: "ch13-p69",
+          de: "Wen er in die Nachfolge ruft, den ruft er ganz. Wer zu seiner Gemeinde gehören will, der muß ihm ganz gehören. Dieser Raum, der begründet ist in der Gegenwart des Mensch gewordcnen Christus, wird abgesteckt und begrenzt durch die Gebote. Der Raum zwischen der Verkündigung des ganzen menschgewordenen Chri­ stus und den Geboten ist der Lebensraum der Christen.\" D 27 Act 2,42. D 28 Act 2,44. Vers 43 (\" ... geschahen viel Wunder und Zeichen ... \") ist ausge­ lassen. 228 Die sichtbare Gemeinde 249 springt und ie endet im Gottesdienst. Sie wartet auf das letzte Abendmahl mit dem Herren im Reich Gottes. Eine Gemein­ schaft, die solchen Ursprung und solches Ziel hat, ist völlige Gemeinschaft, der auch die Dinge und Güter dieses Lebens sich einordnen.",
+          zh: "在自由、喜樂與聖靈的權能中，在此建立起了一個完美的共同體，在其中「沒有一個缺乏的」，且「照各人所需用的，分給各人」，在其中「也沒有一人說他的東西有一分是自己的」（使徒行傳二章45節、四章32、34-35節）。在這一事件的日常性中，顯明了那完全無需世俗強權逼迫的福音自由。因為他們確實是「一心一意」的。"
+        },
+        {
+          id: "ch13-p70",
+          de: "In Freiheit, Freude und in der Kraft des Heiligen Geistes wird hier eine vollkommene Gemeinschaft hergestellt, in der \"keiner Mangel hatte\", und man \"einem jeglichen gab, was ihm not war\", in der auch \"keiner von seinen Gütern sagte, daß ie sein wären\"29. In der Alltäglichkeit dieses Geschehens bekundet sich die volle evangelische Freiheit, die keines Zwan­ ges bedarf. Sie waren ja\" ein Herz und eine Seele\". 30 Sichtbar stand diese junge Gemeinde vor aller Augen und - seltsam genug! -\"ie hatten Gnade bei dem ganzen Volk\" (Apg. 2,47). Ist das die Blindheit des Volkes Israel, das hinter dieser völligen Gemeinschaft das Kreuz J esu nicht mehr sah?",
+          zh: "這一年輕的會眾有形地佇立在所有人的眼前，且——奇妙的是！——「得眾民的喜愛」（使徒行傳二章47節）。這難道是以色列子民的盲目，以致在這完全的契合體後面，再也看不見耶穌的十字架了嗎？"
+        },
+        {
+          id: "ch13-p71",
+          de: "Ist es die Vorwegnahme des Tages, an dem alles Volk das Volk Gottes ehren muß? Ist es jene Freundlichkeit Gottes, in der er gerade in Zeiten des Wachstums, des ernsten Kampfes und der Scheidung in Gläubige und Feinde um die Gemeinde einen Ring rein menschlichen Wohlwollens, I menschlicher Anteil­ nahme an den Geschicken der Gemeinde legt3!, oder ist das Volk, bei dem die Gemeinde Gnade fand, das Volk, das das Hosianna, aber eben nicht das Kreuzige schrie ?32 \"Und der Herr tat hinzu täglich die da selig wurden zur Gemeinde.\" Diese sichtbare Gemeinde der völligen Lebensgemeinschaft bricht herein in die Welt und entreißt ihr ihre Kinder.",
+          zh: "這一年輕的會眾有形地佇立在所有人的眼前，且——奇妙的是！——「得眾民的喜愛」（使徒行傳二章47節）。這難道是以色列子民的盲目，以致在這完全 the 契合體後面，再也看不見耶穌的十字架了嗎？還是這是那預先嚐到的日子——即萬民終必尊崇上帝子民的日子？抑或是上帝的那種仁慈，在會眾經歷增長、嚴峻鬥爭以及分裂為信徒與仇敵的歷史時期，在會眾周圍環繞起一圈純粹出於人性的好感與對會眾命運的人類同情？又或者，這群讓會眾得其喜愛的民眾，正是那喊著「和散那」卻絕不喊「釘祂十字架」的群眾？"
+        },
+        {
+          id: "ch13-p72",
+          de: "Das tägliche Wachstum der Gemeinde beweist die Kraft des in ihr lebendigen Herren. Es gilt für die ersten Jünger: wo ihr Herr ist, da müssen ie auch sein, und wo ie sein werden, da wird ihr Herr auch sein bis an der Welt Ende.33 Alles, was der Jünger tut, tut er in der Gemeinschaft der Gemeinde Jesu als ihr Glied. Auch das pro29 Act 2,45; 4,32.34f. Vgl. 1936/37 DBW 14, 722f: \"Das heiligste Recht, das Eigentumsgesetz, verliert -nicht seine Geltung, aber seinen Ernst.\" D 30 Zitat aus Act4,32-bis Vers 35 eine Parallelstelle zu Act2,42-47. D 31 Vgl. 1936 DBW 14,934; 1937 DBW 14, 724 Anm. 18: \" ... beim Entstehen einer jungen Kirche immer freundlicher Glanz, bei der ersten Gemeinde war's so, bei der jüdischen Exilsgemeinde auch, ferner Reformation und Bek[enntnis-]Gemeinde.\" D 32 ,Hosianna': Mk 11,9; ,Kreuzige': Mk 15,13f.",
+          zh: "「『主將得救的人天天加給他們。』」這有形的、實行完全生命契合的會眾，正闖入這世界之中，並奪走世界的孩子。會眾每日的增長，證實了那在其內部活著的主的權能。對於最初的門徒而言適用：他們的主在哪裡，他們也必須在哪裡；而他們將要去往何處，他們的主也必與他們同在，直到世界的末了（馬太福音二十八章20節）。門徒所做的一切，皆是作為耶穌會眾肢體在會眾的契合中做的。即便最世俗日常的行為，此時也是在會眾中成全的。"
+        },
+        {
+          id: "ch13-p73",
+          de: "D 33 Mt 28,20. 250 Teil H. 229 fanste Tun geschieht nun in der Gemeinde. So gilt es für den Leib Christi: Wo ein Glied ist, da ist auch der ganze Leib, und wo der Leib ist, da ist auch das Glied. 34 Es gibt keinen Lebens­ bereich, in dem sich das Glied dem Leibe entziehen dürfte oder wollte. Wo immer einer ist, was immer einer tut, es geschieht \"im Leib\", in der Gemeinde, \"in Christo\". Das ganze Leben ist \"in Christo\" aufgenommen. Der Christ ist stark oder schwach in Christo (Phi!. 4,13; 2. Kor. 13,4), er arbeitet und müht sich oder er freut sich \"im Herrn\" (Röm. 16,9 u. 12; 1. Kor. 15,58; Phi!. 4,4), er redet und ermahnt in Christo (2. Kor. 2,17; Phi!. 2,1), er übt Gastfreundschaft in Christo (Röm. 16,2), er heiratet in dem Herren (1. Kor. 7,39), er ist im Gefängnis in dem Herrn (Phi!. 1,13 u. 23), er ist ein Sklave in dem Herren (1. Kor. 7,22).",
+          zh: "因此，對於基督的身體而言適用：哪裡有一個肢體，哪裡便有整個身體；哪裡有身體，哪裡便有該肢體（哥林多前書延十二章12-26節）。不存在任何一個生活領域，是肢體可以或願意脫離身體而獨立的。不論人在何處，不論人做什麼，都是在「身體內」、在會眾中、「在基督裡」發生的。整個生命皆被納入到了「在基督裡」。基督徒的剛強或軟弱是在基督裡（腓立比書四章13節，哥林多後書引十三章4節），他的作工勞苦或喜樂是「在主裡」（羅馬書十六章9、12節，哥林多前書引十五章58節，腓立比書四章4節），他的說話與勸勉是在基督裡（哥林多後書引二章17節，腓立比書二章1節），他實行好客是在基督裡（羅馬書十六章2節），他的結婚是在主裡（哥林多前書引七章39節），他的坐牢是在主裡（腓立比書一章13、23節），他作奴隸是在主裡（哥林多前書引七章22節）。"
+        },
+        {
+          id: "ch13-p74",
+          de: "Die ganze Fülle menschlicher Beziehungen unter den Christen ist von Christus, von der Gemeinde umschlossen. Die Taufe in den Leib Christi hinein ist es, die jedem Chri­ sten das volle Leben in Christo, in der Gemeinde gewährt. Es ist eine böse, ganz und gar nicht neutestamentliche Verkür­ zung, wenn die Gabe der Taufe auf die Teilnahme an Predigt und Abendmahl, d.h. also, auf den Anteil an den Heilsgütern, vielleicht auch noch an den Ämtern und Dien-I sten der Ge­ meinde beschränkt wird. Vielmehr ist mit der Taufe der Raum des gemeinschaftlichen Lebens der Glieder des Leibes Christi in sämtlichen Lebensbeziehungen jedem Getauften vorbehaltlos aufgetan.",
+          zh: "基督徒之間整個人類關係的全部豐盛，皆被基督、被會眾所環抱。正是在基督身體裡的洗禮，賜予了每個基督徒在基督裡、在會眾中的豐盛生命。如果將洗禮的恩賜僅僅侷限在參與宣講與聖餐（亦即僅限於分得救恩資源）、或者最多加上在會眾中分得職分與服侍，那麼這將是一項極其惡劣的、完全不符合新約聖經的「窄化」。相反地，隨著洗禮，基督身體各肢體共同生活的空間，在一切生命關係中，皆毫無保留地對每個受洗者敞開了。"
+        },
+        {
+          id: "ch13-p75",
+          de: "Wer einem getauften Bruder die Teilnahme am Got­ tesdienst gewährt, ihm aber im täglichen Leben die Gemein­ schaft versagt, ihn mißbraucht oder verachtet, der macht sich am Leib Christi selbst schuldig. Wer getauften Brüdern die Gaben des Heils zuerkennt, ihnen aber die Gaben des irdischen Lebens verweigert oder ie wissentlich in irdischer Not und Bedrängnis läßt, verspottet die Gabe des Heils und wird zum Lügner. Wer dort, wo der Heilige Geist gesprochen hat, noch der Stimme seines Blutes35, seiner Natur, seiner Sympathien und Antipathien Gehör leiht, versündigt sich am Sakrament. 34 V gl. I Kor 12,12-26. 0 35 In Bonhoeffers Katechismus-Entwurf 1936 DBW 14, 814 steht: Die Gemeinde weiß, \"daß der Heilige Geist Menschen fester zusammenschließt als Blut und Geschichte.",
+          zh: "凡是在禮拜崇拜中允許受洗的弟兄參與、卻在日常生活中拒絕對他實行契合、甚至濫用或鄙視他的人，便直接對基督的身體犯了罪。凡承認受洗弟兄擁有救恩恩賜、卻拒絕與他共享地上生活的物資、或明知他在地上的匱乏與困境中卻袖手旁觀的人，乃是在嘲弄救恩的恩賜，並成了說謊者。凡是在聖靈已經發言的地方，卻依然去聽從其血統、其天性、其好惡之聲音的人，便是對聖禮犯了罪。"
+        },
+        {
+          id: "ch13-p76",
+          de: "In der Gemeinde ist nicht ... Jude oder Deutscher\". 230 Die sichtbare Gemeinde 251 Die Taufe in den Leib Christi hinein verändert nicht nur den persönlichen Heilsstand des Getauften, sondern auch alle seine Lebensbeziehungen. Den Sklaven Onesimus, der seinem gläubigen Herren Phile­ mon entflohen ist und ihn sehr geschädigt hat, soll Philemon nach seiner Taufe \"ewig wiederhaben\" (Philem. 15) \"nicht mehr als einen Knecht, sondern mehr denn einen Knecht, als einen lieben Bruder ... beides, nach dem Fleisch und in dem Herren\" (Philem. 16).36 \"Nach dem Fleisch\" ein Bruder, betont Paulus und warnt damit vor jenem gefährlichen Mißverständnis aller \"privilegierten ,,37 Christen, die Gemeinschaft mit den Christen minderen Ansehens und Rechts wohl im Gottesdienst zu dulden, aber darüber hinaus nicht wirksam werden zu las­ sen.",
+          zh: "歸入基督身體的洗禮，不僅改變了受洗者個人的救恩地位，也改變了他一切的生命關係。對於那從其信主的主人腓利門那裡逃跑、並對主人造成極大損失的奴隸阿尼西謀，在阿尼西謀受洗之後，腓利門應當「永遠得著他」（腓利門書15節），「不再是奴僕，乃是高過奴僕，是親愛的弟兄……在肉體上和在主裡都是如此」（腓利門書16節）。「在肉體上」也是弟兄！保羅如此強調，藉此警告了一切「特權階層」基督徒那種危險的誤解——即只在崇拜禮拜中容忍與那些地位卑微、權利缺失的基督徒相通，但在崇拜之外卻絕不讓這相通發生效力。"
+        },
+        {
+          id: "ch13-p77",
+          de: "Nach dem Fleisch ein Bruder des Philemon! Brüderlich soll Philemon den Sklaven aufnehmen, als wäre es Paulus selbst (Y. 17), brüderlich ihm den zugefügten Schaden nicht zurech­ nen (Y. 18). Freiwillig soll Philemon dies tun, wiewohl Paulus auch den Freimut hätte, hier zu gebieten (Y. 8-14), und gewiß wird Philemon mehr tun als gefordert (Y. 21). Nach dem Fleisch ein Bruder, weil ge-I tauft. Ob nun Onesimus auch Knecht seines Herrn Philemon bleibt, es ist auch in dieser ihrer Beziehung zueinander jetzt alles anders geworden. Wodurch? Freier und Knecht sind Glieder am Leibe Christi geworden. In ihrer Gemeinschaft lebt nun als in einer kleinen Zelle der Leib Christi, die Gemeinde.",
+          zh: "在肉體上是腓利門的弟兄！腓利門應當像接待保羅自己一樣，以手足之情接待這奴隸（17節）；以手足之情免除他所造成的損失（18節）。腓利門應當甘心樂意地如此行，儘管保羅有權柄在此處下達命令（8-14節），且保羅深信腓利門所行的必多於所要求的（21節）。在肉體上是弟兄，因為受了洗。此時，即便阿尼西謀依然作其主人腓利門的奴隸，但他們彼此之間的這一關係也已全然改變了。因何改變？自主的與為奴的，皆已成為基督身體上的肢體。在他們的契合中，基督的身體此時正作為一個小小的細胞存活著。"
+        },
+        {
+          id: "ch13-p78",
+          de: "\"Wieviel ihrer getauft sind, die haben Christum angezogen. Hier ist kein Jude noch Grieche, hier ist kein Knecht noch Freier, hier ist kein Mann noch Weib; denn ihr seid allzumal einer in Christo J esu\" (GaI. 3,27 f.; KoI. 3,11). 36 1937 DBW 14, 823 hat hier: \" Philemon ... (Steglitzer Synode: Unser Ver­ hältnis zu jüdischen Brüdern, zu getauften Juden.)\". Zur Altpreußischen Be­ kenntnis synode in Berlin-Steglitz 23.-26. September 1935 iehe DB 555-559. Die Synode versäumte die Chance, ein klares Wort gegen die kurz vorher, am 15. September 1935, erlassenen \"Nürnberger Gesetze\" zu sagen, die eine neue Phase der Judenverfolgung einleiteten und staatlich sanktionierten.",
+          zh: "「你們受洗歸入基督的，都是穿上了基督。並不分猶太人、希臘人、自主的、為奴的、或男或女；因為你們在基督耶穌裡都成為一了。」（加拉太書三章27-28節，歌羅西書三章11節）在會眾之中，人與人相看，不再將對方看作自主的或為奴的、男人或女人，而是看作基督身體上的肢體。這當然絕非指奴僕不再是奴僕、丈夫不再是丈夫。但這絕不意味著，在會眾中可以繼續根據某人是猶太人還是希臘人、是自主的還是為奴的，來對待他。"
+        },
+        {
+          id: "ch13-p79",
+          de: "Eberhard Bethge entrüstete sich in einem Brief (5. 10. 1935 an die Eltern von Gerhard Vibrans; So ist es gewesen, 209) über \"den auf der Synode gefallenen Satz: Die Taufe verleiht dem Juden keinerlei gesellschaftliche Rechte oder Ansprüche\". D 37 Wie Philemon dem Onesimus gegenüber ,privilegiert' war, so waren es die Nicht juden im Dritten Reich den Juden gegenüber. In der Gemeinde ieht der eine im andern nicht mehr den Freien oder den Knecht, den Mann oder die Frau, sondern das Glied am Leib Christi. Gewiß heißt dies nicht, daß nun der Knecht nicht mehr Knecht und der Mann nicht mehr Mann sei. Aber es heißt darum noch lange nicht, daß nun weiterhin in der Gemeinde ein jeder daraufhin anzusprechen sei, ob er Jude oder Grieche, Freier oder Knecht ist.",
+          zh: "這寶是應當被排除的。我們相看，唯獨基於我們是基督身體肢體的身份，亦即基於我們在祂裡面「都成為一了」。猶太人與希臘人、自主的與為奴的、男人與女人，此時作為基督身體之會眾的一部分，站在這契合之中。凡他們共同生活、交談、行事的地方，便有會眾存在，他們便是在基督裡。藉此，他們的契合也得到了決定性的規範與改變。妻子「在主裡」順服丈夫，僕人在服侍主人時是在服侍上帝，主人知道他自己有一位主在天上（歌羅西書三章18節至四章1節），但他們此時卻是「在肉體上和在主裡」的弟兄。"
+        },
+        {
+          id: "ch13-p80",
+          de: "Gerade dies soll ausgeschlossen sein. Wir sehen einander nur auf unsere Gliedschaft am Leibe Christi hin an, darauf also, daß wir allzumal Einer sind in ihm. Jude und Grieche, Freier und Knecht, Mann und Frau stehen nun in der Gemeinschaft als Teil der Gemeinde des Leibes Christi. Wo ie miteinander leben, sprechen, handeln, ist die Gemeinde, sind ie in Christo. Damit aber ist auch ihre Ge­ meinschaft entscheidend bestimmt und verändert. Das Weib gehorcht dem Mann \"im Herrn\", der Knecht dient Gott, wenn er seinem Herrn dient, der Herr weiß, daß auch er einen Herren im Himmel hat (KoI. 3,18-4,138), aber ie sind nun Brüder \"nach dem Fleisch und in dem Herren\".39 So greift die Gemeinde mitten hinein in das Leben der Welt und erobert Raum für Christus; denn was \"in Christo\" ist, ist nicht mehr unter der Herrschaft der Welt, der Sünde und des Gesetzes.",
+          zh: "如此，會眾便直接切入到世界的生命之中，為基督奪取空間；因為凡「在基督裡」的，便不再臣服於世界、罪惡與律法的統治之下。"
+        },
+        {
+          id: "ch13-p81",
+          de: "In dieser neugewordenen Gemeinschaft hat kein Ge­ setz der Welt etwas zu bestimmen. Der Bereich der christlichen Bruderliebe steht unter Christus, nicht unter der I Welt. Den Dienst der Liebe am Bruder, den Dienst der Barmherzigkeit kann sich die Gemeinde niemals mehr beschränken lassen. Denn wo der Bruder ist, da ist Christi eigener Leib, und wo Christi Leib ist, da ist immer auch seine Gemeinde, da muß ich auch sein.40 Wer zu Christi Leib gehört, der ist aus der Welt befreit und herausgerufen, der muß der Welt sichtbar werden, nicht nur durch die Gemeinschaft des Gottesdienstes und der gemeindli­ chen Ordnung, sondern auch durch die neue Gemeinschaft des brüderlichen Lebens.",
+          zh: "在這一嶄新的契合體中，世界的任何法律都無權支配。基督徒弟兄相愛的領域置於基督之下，而非在世界之下。對弟兄的愛之服侍與憐憫的服侍，會眾絕不能再任由他人施加限制。因為弟兄在哪裡，那裡就有基督自己的身體；而基督的身體在哪裡，那裡就必定有祂的會眾，我也必須在那裡。凡屬於基督身體的人，已被從世界中解放並召集出來，他必須在世人面前有形地彰顯出來——不僅藉著崇拜的契合與會眾的規章秩序，也同樣藉著弟兄生活的全新相通契合。"
+        },
+        {
+          id: "ch13-p82",
+          de: "Wo die Welt den christlichen Bruder ver­ achtet, wird der Christ ihn lieben und ihm dienen; wo die Welt ihm Gewalt tut, wird er helfen und lindern; wo die Welt ihn 38 Genauer: Kai 3,18.22f; 4,1. 039 Phlm 16. 040 Ähnlich DBW 1 (SC), 119, im Zusammenhang mit Luthers Abendmahls-Sermon von 1519. 232 Die sichtbare Gemeinde 253 entehrt und beleidigt, wird er seine Ehre geben für die Schande des Bruders. Wo die Welt Gewinn sucht, wird er verzichten; wo die Welt ausbeutet, wird er sich entäußern, wo die Welt unterdrückt, wird er sich herabbeugen und aufrichten. Verwei­ gert die Welt Gerechtigkeit, so wird er Barmherzigkeit üben, hüllt sich die Welt in Lüge, so wird er seinen Mund für die Stummen auhun41 und für die Wahrheit Zeugnis geben.",
+          zh: "世界在何處鄙視基督徒弟兄，基督徒便要在何處愛他並服侍他；世界在何處對他施加暴力，基督徒便要在何處給予幫助並減輕其痛苦；世界在何處侮辱並損害他，基督徒便要在何處獻出自己的榮譽以分擔弟兄的羞辱。世界在何處牟取利益，基督徒便要在何處放棄；世界在何處進行剝削，基督徒便要在何處倒空自己；世界在何處實行壓迫，基督徒便要在何處彎下腰去將人扶起。世界若拒減正義，基督徒便要施予憐憫；世界若將自己裹入謊言之中，基督徒便要「為啞巴開口說話」（箴言三十一章8節），並為真理作見證。"
+        },
+        {
+          id: "ch13-p83",
+          de: "Um des Bruders willen, sei er Jude oder Grieche, Knecht oder Freier42, stark oder schwach, edel oder unedel43, wird er auf alle Ge­ meinschaft der Welt verzichten; denn er dient der Gemein­ schaft des Leibes J esu Christi. So kann er in dieser Gemein­ schaft auch nicht verborgen bleiben vor der Welt. Er ist heraus­ gerufen und folgt nach. Aber \"ein jeglicher bleibe in dem Beruf, darin er berufen ist. Du bist als Sklave berufen, laß es dich nicht anfechten! Auch wenn du frei werden könntest, brauche es lieber\" (nämlich: Sklave zu bleiben!44); \"denn der als Sklave berufen ist im Herrn, ist ja der Freigelassene des Herrn; desgleichen wer als Freier berufen ist, der ist ein Knecht Christi.",
+          zh: "為了弟兄的緣故——不論他是猶太人還是希臘人、奴隸還是自由人、剛強的還是軟弱的、尊貴的還是卑微的——基督徒都將放棄與世界的一切合流契合；因為他是在服侍耶穌基督身體的契合。如此，在這契合中，他也絕不可能對世界隱藏。他已被召集出來並在跟隨。然而，「各人蒙召的時候是什麼身份，仍要守住這身份。你是作奴隸蒙召的嗎？不要因此憂慮；即便你能獲得自由，也寧可守住這身份」；「因為作奴僕蒙召於主的，就是主所釋放的人；作自由之人蒙召的，就是基督的奴僕。」"
+        },
+        {
+          id: "ch13-p84",
+          de: "Ihr seid teuer erkauft; werdet nicht der Menschen Knechte. Ein jeglicher, liebe Brüder, worin er berufen ist, darinnen bleibe er I bei Gott\" (1. Kor. 7,20-24). Ist hier nicht alles anders geworden als da­ mals beim ersten Rufe Jesu in die Nachfolge? Dort mußten die Jünger alles verlassen4S, um mit Jesus zu gehen. Hier heißt es: Ein jeglicher bleibe in dem Beruf, darinnen er berufen ist! Wie löst sich dieser Widerspruch? Allein darin, daß wir erkennen, daß es bei dem Ruf J esu wie bei der Ermahnung der Apostel allein darum geht, daß der Angesprochene in die Gemeinschaft 41 Prov 31,8, in LB stark angestrichen.",
+          zh: "「你們是重價買來的，不要作人的奴僕。弟兄們，各人蒙召的時候是什麼身份，仍要在上帝面前守住這身份。」（哥林多前書七章23-24節）這難道不是與當初耶穌那對「跟隨」的最初呼召截然不同了嗎？在當初，門徒必須撇下一切，以便與耶穌同去。而在此處卻說：各人蒙召時是什麼身份，仍要守住這身份！這一矛盾又是如何化解的？唯獨在於我們認清：不論是耶穌的呼召，還是使徒的勸勉，其關鍵唯獨在於讓那聽見的人，進入到「耶穌基督身體的契合」之中。"
+        },
+        {
+          id: "ch13-p85",
+          de: "Vgl. im Brief an Erwin Sutz 11. 9.1934 DBW 13, 204f: \"Es muß auch endlich mit der theologisch begründeten Zurück­ haltung gegenüber dem Tun des Staates gebrochen werden -es ist ja doch alles nur Angst. ,Tu den Mund auf für die Stummen' Spr. 31,8 -wer weiß denn das heute noch in der Kirche, daß dies die mindeste Forderung der Bibel in solchen Zeiten ist?\" 042 GaI3,28. 043 I Kor 1,26-28.044 1937 NL B 9,4 (22) zu I Kor 7,21: \"WitJ.ov XQnam [\"brauche es viellieber\"] wahrscheinlich von Luther falsch übersetzt [nämlich im Sinne von: nutze es aus, frei zu werden]. Richtiger: so bleib im Sklavenstand, trage es.\" Ahnlich A.",
+          zh: "當初最初的門徒必須隨耶穌同去，才能站在祂肉身的契合中。然而現在，藉著聖言與聖禮，基督的身體已不再被綁定在大地的某個單一場所。復活且被高升的基督已與這世界更加親近，基督的身體已——在會眾的樣式中——切入到了世界的中間。凡受洗的人，便是受洗歸入了基督的身體。基督已臨到了他，接納了他的生命，並藉此奪回了世界曾佔有的屬於祂的部分。"
+        },
+        {
+          id: "ch13-p86",
+          de: "Harnack, Mission (1924), 192 Anm. 4. -In der Liste der Situationen \"in Christo\" S. 250 steht auch das Sklave-Sein. 045 Mk 10,28. 254 Teill!. 233 des Leibes Jesu Christi kommt. Die ersten Jünger mußten mit Jesus gehen, um in seiner leiblichen Gemeinschaft zu stehen. Jetzt aber ist der Leib Christi durch Wort und Sakrament nicht mehr an einen einzigen Ort der Erde gebunden. Der auferstan­ dene und erhöhte Christus ist der Welt näher gerückt, der Leib Christi ist mitten in die Welt -in der Gestalt der Gemeinde - eingedrungen. Wer getauft ist, ist in Christi Leib hineingetauft. Christus ist zu ihm gekommen, hat sein Leben angenommen und hat damit der Welt geraubt, was ihr gehörte.",
+          zh: "若一個人是作為奴隸受洗，此時他便是作為奴隸，有份於耶穌基督身體的契合。作為奴隸，他其實已被世界奪回，成了基督所釋放的自由人。因此，奴隸便可以繼續作奴隸！作為基督會眾的肢體，他已分得了一份自由，這自由是任何反抗或「革命」都未曾且絕不可能帶給他的！"
+        },
+        {
+          id: "ch13-p87",
+          de: "Ist einer als Sklave getauft, so ist er nun als Sklave der Gemeinschaft des Leibes J esu Christi teilhaftig geworden. Als Sklave ist er der Welt schon entrissen, ist er ein Freigelassener Christi gewor­ den. So mag denn der Sklave Sklave bleiben! Als Glied der Gemeinde Christi ist ihm ja eine Freiheit zuteil geworden, die ihm keine Auflehnung, keine Revolution46 eingebracht hätten oder noch einbringen könnten! Wahrhaftig nicht, um ihn der Welt fester zu verbinden, um sein Leben in der Welt auch noch \"religiös zu verankern\", um aus ihm einen besseren, treueren Bürger dieser Welt zu machen, ermahnt Paulus den Sklaven, Sklave zu bleiben!",
+          zh: "保羅勸勉奴隸繼續作奴隸，絕非為了讓他與世界綁定得更緊、將他在世界中的生活進行所謂的「宗教式神聖化」、或將他塑造成這個世界更優秀、更忠誠的公民！保羅的發言，絕非為了給一種黑暗的社會秩序進行辯護或塗抹基督教口紅。並非因為世界的職業秩序是多麼美好與神聖以致不容推翻；而純粹是因為，整個世界其實已經藉由耶穌基督的作為、藉由奴隸與自由人透過耶穌基督所經歷的解放，而被「連根拔起」了。"
+        },
+        {
+          id: "ch13-p88",
+          de: "Wahrhaftig nicht zur Rechtfertigung, zur christlichen Verbrämung einer dunklen sozialen Ordnung47 spricht Paulus. Nicht weil die berufliche Ordnung der Welt so gut und göttlich wäre, daß ie nicht umgestoßen werden dürfte, sondern allein darum, weil die ganze Welt ja schon aus den Angeln gehoben ist durch die Tat J esu Christi, durch die Befrei­ ung, die der I Sklave wie der Freie durch Jesus Christus erfahren hat. Müßte eine Revolution, ein Umsturz der Gesellschaftsord­ llung48 nicht nur den Blick für die göttliche Neuordnung aller 46 Die Machtübernahme Hitlcrs 1933 und die anschließenden Maßnahmen waren seitens der Nationalsozialisten als ,Revolution' proklamiert worden. 0 47 Bonhoeffer vertritt eine andere Position als E.",
+          zh: "一場革命、一場社會秩序的傾覆，難道不會適得其反，遮蔽人們看見上帝對萬物之「神聖新秩序」、以及其中所包含之自由的目光嗎？且這種自作主張，難道不會將這「新造」誤解為一項尚待在現世實現的烏托邦？因此，不論是自由人還是奴隸，都當如此理解洗禮中那神聖的呼召。兩者皆為了這同一個跟隨而被釋放、被約束。"
+        },
+        {
+          id: "ch13-p89",
+          de: "Troeltsch, Soziallehren, 19 Anm., der aus der \"Abhandlung von Ovcrbeck, ,Studien zur Geschichte der alten Kirche', 1875, über ,das Verhältnis der alten Kirche zur Sklaverei im römischen Reiche'\" christentumskritisch referiert: \" ... ja die Sklaverei wird als zu den herkömmlichen Bcsitzverlültnissen gehörig vom Christentum geradezu gefestigt, wie denn später die Kirche selbst Sklaven hält und ie nicht einmal freilassen darf.\" 0 48 K. Barth, Römerbrief, 461 f, ieht in RÖI11 12,21-13,7 die Warnung vor dem \"Titanisl11Lls des Umsturzes\", der Hybris des revolutionären Menschen.",
+          zh: "（接上文，註：此處包含字詞注釋，引用巴特對羅馬書十二章21節至十三章7節的論述，警告防範革命之人的驕傲僭越，即「顛覆的巨人主義」）。"
+        }
       ]
     },
     {
       id: "ch14",
       title: "第十四章：聖徒 (Die Heiligen)",
       paragraphs: [
+        {
+          id: "ch14-p1",
+          de: "Die Heiligen. Die Ekklesia Christi, die Jüngergemeinde, ist der Herrschaft der Welt entrissen. Zwar lebt ie mitten in der Welt. Aber ie ist zu Einem Leib gemacht, ie ist ein eigener Herrschaftsbereich, ein Raum für sich. Sie ist die heilige Kirche (Eph. 5,27), die Gemeinde der Heiligen (1. Kor. 14,34), und ihre Glieder sind die berufenen Heiligen (Röm. 1,7), die in Jesus Christus gehei­ ligt sind (1. Kor. 1,2), auserwählt und ausgesondert, ehe der Welt Grund gelegt wurde (Eph. 1,4). Das war das Ziel ihrer Berufung zu Jesus Christus, ja ihrer Erwählung vor der Grün­ dung der Welt, daß ie heilig und untadelig seien (Eph. 1,4), dazu hatte Christus seinen Leib in den Tod gegeben, daß er die Seinen heilig, unbefleckt und unsträflich vor sich selbst dar­ stellte (Kol. 1,22), das ist die Frucht der Befreiung von der Sünde durch den Tod Christi, daß die, die einstmals ihre Glie­ der der Ungerechtigkeit liehen, ie nun zum Dienst der Gerech­ tigkeit gebrauchen, zur Heiligung (Röm. 6,19-221).",
+          zh: "第十四章：門徒的生命。聖徒。基督的教會，即門徒的會眾，已被從世界的治權中奪回。她固然活在世界的中間。但她已被塑造成一個身體，她是一個專屬的治權範圍，一個獨特的空間。她是聖潔的教會（以弗所書五章27節），是聖徒的會眾（哥林多前書十四章34節），其肢體乃是蒙召作聖徒的（羅馬書一章7節），在耶穌基督裡成聖（哥林多前書一章2節），在創立世界以前在祂裡面蒙了揀選與分別出來（以弗所書一章4節）。他們蒙召歸入耶穌基督、甚至在創立世界以前蒙揀選的目標，正是要他們成為聖潔、無可指摘（以弗所書一章4節）。為此，基督將祂的身體捨棄至死，以便將屬祂的人作為聖潔、無瑕疵、無可責備的獻給自己（歌羅西書一章22節）。這正是藉由基督之死脫離罪惡而得自由的果子：使那些曾將肢體獻給不義作奴僕的人，此時將肢體獻給公義作奴僕，以至於成聖（羅馬書六章19-22節）。"
+        },
+        {
+          id: "ch14-p2",
+          de: "Heilig ist allein Gott. Er ist es sowohl in der völligen Abson­ derung von der sündigen Welt, wie in der Gründung seines Heiligtums mitten in der Welt. So singt Mose mit den Kindern Israel nach dem Untergang der Ägypter dem Herrn, der sein Volk aus der Knechtschaft der Welt erlöst hat, das Loblied: \"Herr, wer ist Dir gleich unter den Göttern? Wer ist Dir gleich, der so mächtig, heilig, schrecklich an Ruhm und wundertätig sei? Da Du Deine Hand ausstrecktest, verschlang ie die Erde. Du hast geleitet durch Deine Barmherzigkeit Dein Volk, das Du erlöst hast und hast ie geführt durch Deine Stärke zu Dei­ ner heiligen Wohnung ...",
+          zh: "唯獨上帝是聖潔的。祂的聖潔既體現在與罪惡世界的徹底「分別」中，也體現在祂於世界中間建立起祂的聖所。因此，在埃及人覆滅之後，摩西與以色列子民向那將祂的子民從世界的奴役中救贖出來的主歌唱讚美詩：「耶和華啊，眾神之中，誰能像你？誰能像你——獨行奇事、在聖潔中顯為威嚴、可頌可畏？你伸出右手，地便吞滅了他們。你憑慈愛引領了你所贖回的百姓；你憑能力引導了他們到你的聖所……"
+        },
+        {
+          id: "ch14-p3",
+          de: "Du bringest ie hinein und pflanzest ie auf dem Berge Deines Erbteils, I den Du Herr, Dir zur Wohnung gemacht hast, zu Deinem Heiligtum, Herr, das Deine Hand bereitet hat\" (Ex. 15,11 fU). Das ist Gottes Heilig­ keit, daß er sich mitten in der Welt seine Wohnung, sein Heilig1 Formulierungen im Anklang an Vers 19. 0 2 Verse 11-13.17. Das ,,(die Erde verschlang) ie\" in V. 12 bezieht sich auf die Ägypter. In LB Markierun­ gen im Kapitel Ex 15. turn bereitet, und von diesem Heiligtum Gericht und Erlösung ausgehen läßt (Psalm 99 u. ö.). Im Heiligtum aber verbindet sich der Heilige mit seinem Volk. Das geschieht durch Versöh­ nung, die nirgends anders erlangt wird als im Heiligtum (Lev. 16,16 H.).",
+          zh: "你將他們引入，栽培在你產業的山上——耶和華啊，就是你為自己預備的住處；主啊，就是你手所建立的聖所。」（出埃及記十五章11-13、17節）。這正是上帝的聖潔：祂在世界之中為自己預備住處與聖所，並讓審判與救贖從這聖所中發出（詩篇九十九篇等）。而在聖所中，那聖者與祂的子民相聯結。這藉由和好而成全，而和好唯獨在聖所中方能獲得（利未記十六章16節起）。"
+        },
+        {
+          id: "ch14-p4",
+          de: "Gott schließt mit seinem Volk einen Bund. Er son­ dert es aus, er macht es zu seinem Eigentum und verbürgt sich selbst für diesen Bund. \"Ihr sollt heilig sein, denn ich bin heilig, der Herr, euer Gott\" (Lev. 19,2), und \"ich bin heilig, der Herr, der euch heiligt\" (Lev. 21,8). -Das ist der Grund, auf dem dieser Bund besteht. Alle weiteren Gesetze, die dem Volk gege­ ben werden, und die es halten soll in Gerechtigkeit, haben zur Voraussetzung und zum Ziel die Heiligkeit Gottes und seiner Gemeinde. Wie Gott selbst als der Heilige abgesondert ist vom Gemei­ nen, von der Sünde, so ist es auch die Gemeinde seines Heilig­ tums.",
+          zh: "上帝與祂的子民立約。祂將子民分別出來，立為自己的產業，並為這約親自作保。「你們要聖潔，因為我耶和華你們的上帝是聖潔的。」（利未記十九章2節）以及「我是叫你們成聖的耶和華」（利未記二十一章8節）。——這正是立約的根基所在。給予子民、且子民應當在公義中持守的一切其他律法，皆以「上帝及其會眾的聖潔」為前提與目標。正如上帝自己作為聖者與凡俗和罪惡相分別，祂聖所的會眾也同樣如此。"
+        },
+        {
+          id: "ch14-p5",
+          de: "Er hat ie selbst erwählt. Er hat ie zur Gemeinde seines Bundes gemacht. Er hat ie im Heiligtum versöhnt und gerei­ nigt. Das Heiligtum aber ist der Tempel, und der Tempel ist der Leib Christi. So ist im Leib Christi der Wille Gottes zu einer heiligen Gemeinde erfüllt. Abgesondert von Welt und Sünde zum Eigentum Gottes gemacht, ist der Leib Christi das Heilig­ tum Gottes in der Welt. Gott wohnt in ihm mit dem heiligen Geist. Wie geht das zu? Wie schafft sich Gott aus sündigen Men­ schen eine Gemeinde der Heiligen, die von der Sünde vollkom­ men getrennt ist? Wie wendet Gott die Anklage der Ungerech­ tigkeit von sich, wenn er sich mit Sündern verbindet?",
+          zh: "祂親自揀選了會眾。祂使會眾成為祂立約的會眾。祂在聖所中使她和好並潔淨。而聖所就是聖殿，聖殿就是基督的身體。因此，在基督的身體裡，上帝要建立一個聖潔會眾的旨意得到了成全。基督的身體被從世界與罪惡中分別出來、成為上帝的產業，它正是上帝在世上的聖所。上帝在其中藉由聖靈居住。這是如何發生的？上帝如何從罪人中為自己塑造一個與罪惡完全割裂的聖徒會眾？當上帝與罪人聯結時，祂如何免除對其自身「不義」的指控？"
+        },
+        {
+          id: "ch14-p6",
+          de: "Wie kann der Sünder gerecht sein, und doch Gott gerecht bleiben? Gott rechtfertigt sich selbst, er führt den Beweis für seine Gerechtigkeit. Im Kreuz J esu Christi geschieht das Wunder I der Selbstrechtfertigung Gottes vor sich selbst und vor den Menschen (Röm. 3,21 ff.). 3 Der Sünder soll von der Sünde ge3 \"Selbstrechtfertigung Gottes\" ist 1937 ein Stichwort im Sachregister des Bu­ ches \"Nachfolge\". Im \"Nestle\" (neben vielen anderen Markierungen in Röm 3) Fragezeichen an den Versen 21, 25 und 26 bei Luthers ausdeutender Überset­ zung von ÖLxmoouvll {}WU (\" Gerechtigkeit Gottes\"): \"Gerechtigkeit, die vor Gott gilt\".",
+          zh: "罪人如何能得稱義，而上帝又如何依然保持公義？上帝在此「自我稱義」，祂為自己的公義提出實證。在耶穌基督的十字架上，發生了上帝在自身面前以及在人類面前「自我稱義」的神蹟（羅馬書三章21節起）。罪人應當與罪惡分離，卻又要在上帝面前存活。然而，對於罪人而言，與罪的分離唯有藉著死亡才能發生。他的生命已被罪惡浸透，以致他若要脫離罪，就必須死。上帝的公義唯有體現在祂擊殺罪人上。然而，這罪人卻又應當存活、且在上帝面前成為聖潔？這如何可能？"
+        },
+        {
+          id: "ch14-p7",
+          de: "Bonhoeffer faßt Röm 3,21 ff anders auf als Luther und ähnlich wie K. Barth, Römerbrief, 67: \"Er [Gott] rechtfertigt sich vor sich selbst, indem er 248 Die Heiligen 271 trennt werden und doch vor Gott leben. Trennung von der Sünde aber gibt es für den Sünder nur durch den Tod. So sehr ist sein Leben Sünde, daß er sterben muß, soll er von der Sünde frei sein. Nur darin kann Gott gerecht sein, daß er den Sünder tötet. Aber dennoch soll ja der Sünder leben und vor Gott heilig sein? Wie wird das möglich? Gott selbst wird Mensch, er selbst nimmt unser Fleisch an in Jesus Christus, seinem Sohn, er trägt in seinem Leib unser Fleisch in den Tod am Kreuz.",
+          zh: "上帝自己成為人，祂自己耶穌基督之中承接了我們的肉身，祂在祂的身體中將我們的肉身帶向十字架上的死亡。上帝擊殺了祂那承載著我們肉身的兒子，並隨同祂的兒子，擊殺了大地上一切屬血肉的。此時彰顯了：除了唯一的上帝之外，沒有人是良善的；除了上帝自己之外，沒有人是公義的。此時，上帝藉由祂兒子的死，為祂自己的公義做出了可怕的實證（羅馬書三章26節）。上帝必須在十字架的烈怒審判中，將整個人類交於死亡，以便唯獨祂自己是公義的。"
+        },
+        {
+          id: "ch14-p8",
+          de: "Gott tötet seinen Sohn, der unser Fleisch trägt, und mit seinem Sohn tötet er alles, was Fleisch ist auf Erden. Nun ist es offenbar, daß niemand gut ist denn der einige Gott\ daß keiner gerecht ist, als Gott allein. Nun hat Gott den furchtbaren Beweis seiner eigenen Gerechtigkeit ge­ führt (EVÖELSl� Tli� ('HXmOO1)vY]� alrrou Röm. 3,26) durch den Tod seines Sohnes.5 Gott mußte die ganze Menschheit in den Tod geben im Zornesgericht am Kreuz, damit Er allein gerecht sei. Gottes Gerechtigkeit ist offenbar im Tode J esu Christi. Der Tod Jesu Christi ist der Ort, an dem Gott den gnädigen Beweis seiner Gerechtigkeit geführt, an dem von nun an allein Gottes Gerechtigkeit wohnt.",
+          zh: "上帝的公義在耶穌基督的死亡中顯明了。耶穌基督的死亡，正是上帝對其公義做出恩慈實證的場所，是自此以後唯獨上帝公義居住的場所。凡能有份於這一死亡的人，便也分得了上帝的公義。然而，此時基督承接了我們的肉身，並在祂的身體上將我們的罪帶上了木頭（彼得前書二章24節）。在祂身上所發生的一切，實則發生在我們所有人身上。祂有份於我們的生與死，我們便也由此有份於祂的生與死。"
+        },
+        {
+          id: "ch14-p9",
+          de: "Wer an diesem Tod teil bekommen könnte, bekäme damit auch teil an der Gerechtigkeit Gottes. Nun aber hat Christus unser Fleisch angenommen und an sei­ nem Leib unsere Sünde ans Holz getragen (1. Petr. 2,246). Was an ihm geschah, geschah an uns allen. Er nahm teil an unserem Leben und Sterben, so gewannen wir teil an seinem Leben und Sterben. Mußte Gottes Gerechtigkeit sich in Christi Tod erwei­ sen, so sind wir mit ihm dort, wo Gottes Gerechtigkeit wohnt, an seinem Kreuz, denn er trug unser Fleisch. So gewinnen wir als die Getöteten teil an der Gerechtigkeit Gottes in J esu Tod. Gottes eigene Gerechtigkeit, die uns Sünder tötet, ist im Tode sich zum Menschen und seiner Welt bekennt\". -Vgl. 1936/37 DBW 14, 32M.",
+          zh: "上帝的公義既然必須在基督的死中顯明出來，我們便隨同祂一道，處在上帝公義居住的場所——即在祂的十字架上，因為祂承載了我們的肉身。因此，我們作為被擊殺的人，在耶穌的死中分得了上帝的公義。上帝那擊殺我們罪人的專屬公義，在耶穌的死亡中，變成了祂「為我們」的公義。隨著上帝的公義在耶穌的死中得以確立，對於我們這些被包容在耶穌之死中的人而言，上帝的公義也同樣得以確立了。"
+        },
+        {
+          id: "ch14-p10",
+          de: "D 4 Vgl. Mk 10,18. D 5 Vgl. Hegels Religionsphilosophie nach Lasson XIV, 157f (dort Unterstreichungen Bonhoeffers): \"Die höchste Entäußerung der göttlichen Idee: ,Gott ist gestorben, Gott selbst ist tot' ist eine ungeheure, fürch­ terliche Vorstellung, die vor die Vorstellung den tiefsten Abgrund der Ent­ zweiung bringt.\" Mit dieser Hegel-Stelle hat Bonhoeffer sich DBW 3 (SF), 34, auseinandergesetzt. D 6 An dieser Stelle steht \"Sünden\", im Plural; im \"Nestle\" wird dazu auf \"Röm. 6,11\" (von Bonhoeffer mehrfach unterstrichen) verwiesen -dort steht \"Sünde\" im Singular. Jesu seine Gerechtigkeit für uns.",
+          zh: "上帝顯明祂的公義，「使人知道祂自己為義，也稱信耶穌的人為義。」（羅馬書三章26節）因此，罪人的「得稱義」就在於：唯獨上帝是公義的，而他自己則是徹底不義的，而不是指他在上帝身旁也算為公義。任何想要自己也成為公義的意圖，都使我們徹底與那藉由上帝唯一稱義的得稱義相割裂。唯獨上帝是公義的。這在十字架上被認作那加諸我們罪人身上的判決。"
+        },
+        {
+          id: "ch14-p11",
+          de: "Indem im I Tode Jesu Gottes Gerechtigkeit hergestellt ist, ist auch für uns, die wir im Tode Jesu eingeschlossen sind, Gottes Gerechtigkeit hergestellt. Gott erweist seine Gerechtigkeit \"auf daß er allein gerecht sei und rechtfertige den, der aus dem Glauben an Jesus ist\"7 (Röm. 3,26). Darill also besteht die Rechtfertigung des Sünders, daß Gott allein gerecht ist und er ganz und gar ungerecht, nicht daß er neben Gott auch noch gerecht sei. Jeder Wille, selbst auch gerecht zu sein, trennt uns ganz und gar von der Rechtfertigung durch die alleinige Rechtfertigung Gottes. Gott allein ist ge­ recht. Das wird im Kreuz erkannt als Urteil, das über uns als Sünder ergangen ist.",
+          zh: "我們的得稱義，其根基唯獨在於上帝的自我稱義——「以致你說話的時候顯為公義，判斷的時候顯為清正」（羅馬書三章4節）。關鍵唯獨在於上帝戰勝我們的不義，在於上帝在自身面前保持公義，在於唯獨祂自己是公義的。上帝的這一勝利是在十字架上贏得的。因此，對於一切相信耶穌之死中唯有上帝是公義的、且認清自己罪咎的人而言，這十字架不僅是審判，更是「和好/挽回祭」（羅馬書三章25節）。上帝的公義親自締造了這和好。"
+        },
+        {
+          id: "ch14-p12",
+          de: "Wer sich aber im Glauben im Tode J esu im Kreuz findet, der empfängt dort, wo er als der Sünder zum Tode verurteilt ist, die Gerechtigkeit Gottes, die am Kreuz triumphiert. Der erfährt gerade als der, der niemals selbst ge­ recht sein kann und will, sondern der Gott ganz allein gerecht sein läßt, seine Rechtfertigung. Denn nicht anders kann der Mensch vor Gott recht fertig gemacht seinS, als in der Erkennt­ nis, daß Gott allein gerecht und er, der Mensch, ganz und gar Sünder sei. Die Frage, wie wir Sünder vor Gott gerecht sein können, ist im Grunde die Frage, wie Gott gegen uns allein gerecht sei.",
+          zh: "「上帝在基督裡，叫世人與自己和好。」（哥林多後書五章19節）「不將他們的過犯歸到他們身上」——祂親自擔當了過犯，並為此承受了罪人的死亡。「並且將這和好的道理傳給了我們。」這話語旨在尋求信心——相信唯獨上帝是公義的、且在耶穌裡成了我們的公義。"
+        },
+        {
+          id: "ch14-p13",
+          de: "Unsere Rechtfertigung hat ihren Grund allein in der Rechtfertigung Gottes, \"auf daß du (Gott)9 gerechtfertigt wer­ dest in deinen Worten und den Sieg davon trägst, wenn du gerichtet wirst\" (Röm. 3,4). Um den Sieg Gottes über unsere Ungerechtigkeit geht es allein, darum, daß Gott gerecht bleibe vor sich selbst, darum, daß er allein gerecht sei. Dieser Sieg Gottes ist im Kreuz errun­ gen. Darum ist dieses Kreuz nicht nur Gericht, sondern Ver­ söhnung (tA.a<JL�QLOVl0 v. 25) für alle, die glauben, daß im Tode Jesu Gott allein gerecht sei: und die ihre Sünde erkennen. Got­ tes Gerechtigkeit schafft selbst die Versöhnung (JlQOE11cW11 v. 25).",
+          zh: "然而，在基督的死亡與十字架的信息之間，橫亙著祂的復活。唯有作為復活的主，祂的十字架才在我們身上擁有權能。關於那被釘十字架者的信息，向來就已經是關於那並未留在死亡中之主的信息。「所以，我們作基督的使者，就好像上帝藉我們勸你們一般。我們替基督求你們：容讓自己與上帝和好罷！」（哥林多後書五章20節）。和好的信息乃是基督自己的話語。祂是復活的主，在使徒的話語中向我們見證自己是那被釘十字架者：在耶穌基督的死亡中，在該處賜予我們的上帝公義中，重新尋回你們自己。"
+        },
+        {
+          id: "ch14-p14",
+          de: "\"Gott war in Christo und versöhnte die Welt mit sich 7 Bonhoeffer hält sich an das EX (\"aus\") im griechischen Text; Luther übersetzt: \" ... der da ist des Glaubens an J esum\". D 8 Die Ausdrucksweise \"recht fertig\" benutzte Bonhoeffer zu I Kor 13,13 1934 DBW 13,403; vgl. 1935 DBW 14, 327. D 9 Unterstreichender Einschub Bonhoeffers in das Zitat aus Ps 51,6. D 10 Dt.: \"Sühnemittel\" . D 11 Dt.: ,,(Gott) hat öffentlich vorgestellt\". Vgl. 1935 250 Die Heiligen 273 selbst\" (2. Kor. 5,19 H.). \"Er rechnete ihnen ihre I Sünde nicht ZU\"12 -er trug ie selbst und ertrug dafür den Tod des Sünders. \"Er hat unter uns aufgerichtet das Wort von der Versöhnung.\" Dieses Wort will Glauben finden, Glauben, daß Gott allein gerecht sei und in Jesus unsere Gerechtigkeit geworden sei.",
+          zh: "凡在耶穌之死中尋得自己的，便是在上帝唯獨的公義中尋得了自己。「神使那無罪的，替我們成為罪，好叫我們在祂裡面成為上帝的義。」（哥林多後書五章21節）。那無罪者被擊殺，因為祂承載了我們罪的肉身；祂被上帝與世界所恨惡與咒詛，為著我們肉身的緣故「成了罪」。然而我們卻在祂的死中找到了上帝的公義。在祂道成肉身的權能下，我們是在祂裡面。因此祂為我們死，好叫我們這些罪人，在祂裡面成為上帝的公義——即作為那藉著上帝唯獨的公義而被宣告脫離罪惡的罪人。"
+        },
+        {
+          id: "ch14-p15",
+          de: "Aber zwischen Christi Tod und der Botschaft vom Kreuz liegt seine Auferstehung. Nur als der Auferstandene ist er der, des­ sen Kreuz an uns Macht hat. Die Botschaft vom Gekreuzigten ist immer schon die Botschaft von dem, der nicht im Tode blieb. \"So sind wir nun Botschafter an Christi statt, denn Gott vermahnt durch uns; so bitten wir nun an Christi statt: Seid versöhnt mit Gott\"13. Die Botschaft von der Versöhnung ist Christi eigenes Wort. Er ist der Auferstandene, der sich uns bezeugt als der Gekreuzigte im Wort des Apostels: findet euch selbst wieder im Tode J esu Christi in der Gerechtigkeit Gottes, die uns dort geschenkt ist.",
+          zh: "如果在上帝面前基督成了我們那必須被定罪的罪，那麼在祂裡面我們便成了公義 – 此時當然絕非「我們自己的義」（羅馬書十章3節，腓立比書三章9節），而是在最嚴格的意義上唯獨是「上帝的公義」。因此，上帝的公義就在於：我們作為罪人成了祂的公義；而我們的公義——即祂的公義（以賽亞書五十四章17節）——就在於：唯獨上帝是公義的，而我們則是蒙祂接納的罪人。上帝的公義正是基督自己（哥林多前書一章30節）。而基督正是「上帝與我們同在」（以馬內利，以賽亞書七章14節）、「耶和華我們的義」（耶利米書三十三章16節）。"
+        },
+        {
+          id: "ch14-p16",
+          de: "Wer sich in J esu Tod finden wird, findet sich in Gottes alleiniger Gerechtigkeit. \"Denn er hat den, der von keiner Sünde wußte, für uns zur Sünde gemacht, auf daß wir würden die Gerechtigkeit Gottes in ihm\"14. Der Un­ schuldige wird getötet, weil er unser sündiges Fleisch trägt, er ist von Gott und der Welt gehaßt und verflucht, zur Sünde gemacht um unseres Fleisches willen. Wir aber finden in seinem Tode Gottes Gerechtigkeit. Wir sind in ihm in der Kraft seiner Menschwerdung. So starb er für uns, damit wir, die wir Sünder sind, in ihm Gottes Ge­ rechtigkeit würden als die Sünder, die durch Gottes alleinige Gerechtigkeit von der Sünde losgesprochen sind.",
+          zh: "宣講基督為我們而死，就是「稱義的宣講」。歸併入基督的身體（亦即歸入祂的死亡與復活），就是洗禮。基督死了一次，因此我們所受的洗禮與稱義也是「一生一次」賜予的。在最嚴格的意義上，它們是絕不可重複的。可重複的，唯有對在我們身上一次成全之作為的「紀念」，這不僅是可以重複的，更是需要每日進行重複的。"
+        },
+        {
+          id: "ch14-p17",
+          de: "Ist Christus vor Gott unsere Sünde, die verurteilt werden muß, so sind wir in ihm die Gerechtigkeit, nun aber gewiß nicht unsere eigene Gerechtigkeit (tö(a öLxmoouvll Röm. 10,3; Phil. 3,9), sondern eben in ganz strengem Sinn allein Gottes Gerechtigkeit. Das also ist Gottes Gerechtigkeit, daß wir als Sünder seine Gerech­ tigkeit werden, und das ist unsere, d.h. Seine Gerechtigkeit DBW 14,328: Gott entzweit sich um seiner eigenen Gerechtigkeit willen ... zu unserer Sühnung sein Blut.\" D 12 WIederum -wie I Petr 2,24 -statt des Plurals, der in II Kor 5,19 steht, Singular. D 13 II Kor 5,20 (LB: \"Lasset euch versöhnen\").",
+          zh: "然而，紀念依然有別於事情本身。人若失去了事情本身，便再也沒有重複的可能。在此處，希伯來書是完全正確的（希伯來書六章4-6節、十章26-27節）。鹽若失了味，怎能叫它再鹹呢？（馬太福音五章13節）。對於受洗者而言適用這話：「豈不知……？」（羅馬書六章3節，哥林多前書三章16節、六章19節）以及「你們向罪也當看自己是死的，向上帝在基督耶穌裡卻當看自己是活的」（羅馬書六章11節）。一切皆已成全，不僅成全在耶穌的十字架上，也同樣成全在你們身上。你們已與罪割裂，你們已經死了，你們已經得稱義。至此，上帝完成了祂的工作。"
+        },
+        {
+          id: "ch14-p18",
+          de: "D 14 II Kor 5,21(LB: \"Gerechtigkeit, die vor Gott gilt\"). 274 Teil H. 251 (Jes. 54,715), daß Gott allein gerecht ist und wir I von ihm ange­ nommene Sünder. Gottes Gerechtigkeit ist Christus selbst (1. Kor. 1,30). Christus aber ist \"Gott mit uns\", \"Immanuel\" (Jes. 7,14), Gott unsere Gerechtigkeit (Jer. 33,16). Die Verkündigung des Todes Christi für uns ist die Rechtfer­ tigungspredigt. Die Eingliederung in den Leib Christi, d.h. in seinen Tod und seine Auferstehung ist die Taufe. Einmal ist Christus gestorben, so wird auch uns Taufe und Rechtfertigung ein für allemal zuteil. Sie sind in strengstem Sinne unwiederhol­ bar.16 Wiederholbar ist nur die Erinnerung an das, was an uns ein für allemal geschehen ist, und nicht nur wiederholbar, son­ dern der täglichen Wiederholung bedürftig17.",
+          zh: "祂藉著公義在大地上建立起祂的聖所。這聖所就叫作基督、基督的身體。與罪的分離，是藉著罪人在耶穌基督裡的死亡而成全的。上帝擁有一個脫離罪惡、蒙受稱義的會眾。這就是耶穌門徒的會眾，聖徒的會眾。他們已被接納入祂的聖所，他們自己就是祂的聖所、祂的聖殿。他們被從世界中召集出來，在世界的中間活在一個嶄新且專屬的空間裡。自此以後，基督徒在新約聖經中，被單單稱呼為「聖徒」。"
+        },
+        {
+          id: "ch14-p19",
+          de: "Dennoch bleibt die Erinnerung etwas Anderes als die Sache selbst. Wer die Sache selbst verliert, für den gibt es keine Wiederholung. Hier behält der Hebräerbrief recht (6,5f. und 10,26f.). Wo das Salz dumm wird, womit soll man salzen?18 Für die Getauften heißt es: Wisset ihr nicht. .. ? (Röm. 6,3; 1. Kor. 3,16 und 6,19) und: Haltet euch dafür, daß ihr der Sünde abgestorben seid und lebet Gott in Christo J esu (Röm. 6,11 )19. Es ist alles geschehen, nicht nur am Kreuz Jesu, sondern auch an euch. Ihr seid von der Sünde getrennt, ihr seid gestorben, ihr seid gerechtfertigt. Da­ mit hat Gott sein Werk vollbracht.",
+          zh: "另一個原本可以想見的稱呼——即「義人」，卻並未被採用。因為它無法以同等的方式，來描述受領恩賜的全部範疇。它是指向洗禮與稱義那「一生一次」的事件。雖然對這一事件的紀念是必須每日重複的。雖然聖徒依然是「得稱義的罪人」。然而，隨著洗禮與稱義那一生一次的恩賜、以及對它的每日紀念，在基督的死中，同時為我們擔保了「將蒙稱義者的生命保守到審判之日」的恩賜。而活在這一保守之中的生命，正是「成聖」。"
+        },
+        {
+          id: "ch14-p20",
+          de: "Er hat sein Heiligtum auf Erden gegründet durch Gerechtigkeit. Dies Heiligtum heißt Christus, Leib Christi. Die Trennung von der Sünde ist vollzo­ gen durch den Tod des Sünders in Jesus Christus. Gott hat eine von der Sünde gerechtfertigte Gemeinde. Das ist die Gemeinde der Jünger Jesu, die Gemeinde der Heiligen. Sie sind aufgenom­ men in sein Heiligtum, ie selbst sind sein Heiligtum, sein Tem­ pel. Sie sind aus der Welt herausgenommen und leben in einem neuen eigenen Raum mitten in der Welt. Von nun an heißen die Christen im Neuen Testament nur 15 Wohl irrtümlich statt: Jes 51,7 (an diesen Vers klingt Mt 5,11 an).",
+          zh: "這兩項恩賜皆有同一個根基，即那被釘十字架的耶穌基督（哥林多前書一章2節、六章11節）。這兩項恩賜皆有同一個內容，即與基督的契合。這兩項恩賜不可分割地相聯結。但也正因如此，它們絕非同一個事物。稱義是向基督徒宣告上帝「已成全」的作為，而成聖則是向他應許上帝「當下與未來」的作工。"
+        },
+        {
+          id: "ch14-p21",
+          de: "D 16 Bonhoeffer kommentiert das vorangehende \"ein für allemal\" (EqJC'mas); vgl. S. 224f. D 17 1936 NL B 9,5 (21) -vgl. DBW 14, 608 -steht der griechische Ausdruck aus I Kor 15,31 xa{}' �f!fQav (\"täglich\"). Vgl. Luther im Kleinen Ka­ techismus zum \"Wassertäufen\" (BSLK 516): täglich \"sterben mit allen Sunden\", täglich \"auferstehen ein neuer Mensch\". D 18 Mt 5,13. D 19 Bei Luther: (der Sünde) \"gestorben\". Bonhoeffer betont das \"weg von\" (dn6), iehe S. 223. 252 Die Heiligen 275 noch \"die Heiligen\"20. Der andere Name, der sich denken ließe, nämlich\" Gerechte\", findet keinen Eingang. Er vermag I nicht in derselben Weise den ganzen Umfang der empfangenen Gabe zu beschreiben.",
+          zh: "另一個原本可以想見的稱呼——即「義人」，卻並未被採用。因為它無法以同等的方式，來描述受領恩賜的全部範疇。它是指向洗禮與稱義那「一生一次」的事件。雖然對這一事件的紀念是必須每日重複的。雖然聖徒依然是「得稱義的罪人」。然而，隨著洗禮與稱義那一生一次的恩賜、以及對它的每日紀念，在基督的死中，同時為我們擔保了「將蒙稱義者的生命保守到審判之日」的恩賜。而活在這一保守之中的生命，正是「成聖」。"
+        },
+        {
+          id: "ch14-p22",
+          de: "Er ist bezogen auf das einmalige Ereignis der Taufe und Rechtfertigung. Zwar ist das Gedächtnis dieses Er­ eignisses ein täglich zu wiederholendes. Zwar bleiben die Heili­ gen die gerechtfertigten Sünder. Aber mit der einmaligen Gabe der Taufe und Rechtfertigung, der täglichen Erinnerung an ie ist uns zugleich im Tode Christi die Gabe der Bewahrung des Lebens der Gerechtfertigten bis an den jüngsten Tag verbürgt. Das Leben in dieser Bewahrung aber ist die Heiligung.21 Beide Gaben haben denselben Grund, nämlich Jesus Christus den Gekreuzigten (1. Kor. 1,2 und 6,11). Beide Gaben haben Einen Inhalt, nämlich die Gemeinschaft mit Christus.",
+          zh: "這兩項恩賜皆有同一個根基，即那被釘十字架的耶穌基督（哥林多前書一章2節、六章11節）。這兩項恩賜皆有同一個內容，即與基督的契合。這兩項恩賜不可分割地相聯結。但也正因如此，它們絕非同一個事物。稱義是向基督徒宣告上帝「已成全」的作為，而成聖則是向他應許上帝「當下與未來」的作工。"
+        },
+        {
+          id: "ch14-p23",
+          de: "Beide Gaben gehören unlöslich zueinander. Aber ie sind eben darum auch nicht ein und dasselbe. Während die Rechtfertigung dem Chri­ sten Gottes geschehene Tat zuspricht, verheißt ihm die Heili­ gung Gottes gegenwärtiges und zukünftiges Handeln. Während der Glaubende in der Rechtfertigung durch den einmaligen Tod in die Gemeinschaft Jesu Christi versetzt wird, bewahrt ihn die Heiligung in dem Raum, in den er versetzt wurde, in Christo in der Gemeinde. Während bei der Rechtfertigung die Stellung des Menschen zum Gesetz im Vordergrund steht, ist bei der Heili­ gung die Absonderung von der Welt bis auf die Zukunft Christi entscheidend.",
+          zh: "在稱義中，信徒藉由一生一次的死亡，被遷移入耶穌基督的契合之中；而在成聖中，信徒被「保守」在他被遷移入的空間——即在基督裡、在會眾中。在稱義中，人與律法的關係站在最前沿；而在成聖中，與世界的「分別」直到基督的再來才是決定性的。"
+        },
+        {
+          id: "ch14-p24",
+          de: "Während die Rechtfertigung den einzelnen der Gemeinde eingliedert, bewahrt die Heiligung die Gemeinde mit allen einzelnen. Die Rechtfertigung entreißt den Glaubenden seiner sündigen Vergangenheit, die Heiligung läßt ihn bei Chri­ stus bleiben, in seinem Glauben stehen, in der Liebe wachsen. Es mag erlaubt sein, Rechtfertigung und Heiligung in dem Ver­ hältnis von Schöpfung und Erhaltung zu denken. Rechtferti­ gung ist die Neuschöpfung des neuen Menschen22, Heiligung seine Erhaltung und Bewahrung bis auf den Tag J esu Christi. 20 Der Titel der Dissertation Bonhoeffers enthält diesen Namen: \"Sanctürum Communio\" (\"Der Heiligen Gemeinschaft\").",
+          zh: "稱義將個人歸併入會眾，而成聖則保守這會眾連同所有的個人。稱義將信徒從其罪惡的過去中奪回，而成聖則使他堅守在基督身旁、在祂的信心上站立、在愛心中增長。我們或許可以將「稱義與成聖」理解為類似於「創造與保存」的關係。稱義是新人的「重新創造」，而成聖則是新人的「保存與保守」，直至耶穌基督的日子。"
+        },
+        {
+          id: "ch14-p25",
+          de: "D 21 Ausdrücklich ist 1936/37 NL B 9,6 (14) vermerkt: \",Heiligung', nicht ,Heiligkeit'.\" D 22 Vgl. S. 232 f. Schon DBW 3 (S1'), 33 f, hatte Bonhoeffer die Schöpfung -aus dem Nichts - von Tod und Auferstehung her ausgelegt. 276 Teil 11. 253 In der Heiligung erfüllt sich Gottes Wille: \"Ihr sollt heilig I sein, denn ich bin heilig\" und \"ich bin heilig, der Herr, der euch heiligt\".23 Diese Erfüllung vollbringt Gott, der Heilige Geist. In ihm vollendet sich Gottes Werk am Menschen. Er ist das \"Sie­ gel\"24, mit dem die Gläubigen zu Gottes Eigentum veriegelt werden bis auf den Tag der Erlösung. Wie ie vorher gefangen gehalten wurden unter dem Gesetz als in einem verschlossenen Gefängnis (Gal. 3,23), so sind die Gläubigen nun \"in Christo\" abgeschlossen, veriegelt mit Gottes SiegeL dem Heiligen Geist.",
+          zh: "在成聖中，上帝的旨意得到了成全：「你們要聖潔，因為我是聖潔的」以及「我是叫你們成聖的耶和華，你們的上帝」（利未記十九章2節、二十一章8節）。這一成全是上帝聖靈所作的工。在聖靈中，上帝在人身上的工作得以圓滿。聖靈正是那「印記」，信徒藉此被封印為上帝的產業，直至救贖的日子。正如先前他們被看守在律法之下，像被關在封閉的監獄中一樣（加拉太書三章23節）；如今信徒則被封閉「在基督裡」，用上帝的印記——聖靈——封印了起來。"
+        },
+        {
+          id: "ch14-p26",
+          de: "Niemand darf dies Siegel brechen. Gott selbst hat verschlossen und hält den Schlüssel in der Hand. Das bedeutet, daß Gott nun vollkommen Besitz ergriffen hat von denen, die er in Christo gewonnen hat. Der Kreis ist geschlossen. Im heiligen Geist ist der Mensch Gottes Eigentum geworden. Von der Welt abge­ schlossen durch ein unzerbrechliches Siegel, wartet die Ge­ meinde der Heiligen der letzten Errettung. Wie ein veriegelter Zug im fremden Lande25, so geht die Gemeinde durch die Welt. Wie die Arche Noah \"inwendig und auswendig mit Pech ver­ picht\" werden mußte (Gen. 6,14), um durch die Flut gerettet zu werden, so gleicht der Weg der veriegelten Gemeinde der Fahrt der Arche durch die Wasserflut. 26 Ziel der Verschließung ist die Erlösung, die Errettung, das Heil (Eph. 4,30; 1,14; 1. Thess. 5,23; 1. Pet. 1,5 u. ö.) bei der \Y/iederkunft Christi.",
+          zh: "沒有人敢揭開這一印記。上帝自己將其鎖閉，並將鑰匙握在手中。這意味著，上帝此時已完全佔有了那些祂在基督裡贏得的人。這圈子已閉合。在聖靈中，人已成為上帝的產業。聖徒的會眾被以不可磨滅的印記與世界相隔絕，等候著最終的拯救。如同在異國土地上飛馳的「密封列車」，會眾如此穿行於世界。如同挪亞方舟必須「內外抹上松香」（創世記六章14節）才能在洪水中得救一樣，這被封印之會眾的道路，也如同方舟在洪水中的航行。"
+        },
+        {
+          id: "ch14-p27",
+          de: "Das Pfand aber, das die Veriegelten ihres Ziels gewiß macht, ist eben der Heilige Geist selbst. \"Auf daß wir etwas seien zu Lob seiner Herrlichkeit, die wir zuvor auf Christum hofften; durch welchen auch ihr gehört habt das Wort der Wahrheit, das Evan­ gelium von eurer Seligkeit; durch welchen ihr auch, da ihr gläu­ big wurdet, veriegelt worden seid mit dem Heiligen Geist der Verheißung, welcher ist das Pfand unsers Erbes zu unsrer Erlö23 Die zu Anfang des Kapitels zitierten Bibelstellen Lev 19,2 und 21,8 werden wieder aufgenommen. 024 1936 NL B 9,5 (22): ,,2. Kor 1,22 O(PQay(� [\"Sie­ gel\"] und nVEÜrW [\"Geist\"] parallel.\" 0 25 Dieses Bild läßt an den Zug den­ ken, in dem Lenin 1917 aus der Schweiz kommend mit Hilfe des deutschen Geheimdienstes durch Deutschland nach Rußland fuhr. -Seit den zwanziger Jahren fuhren Züge nach Ostpreußen veriegelt durch den ,polnischen Korri­ dor'. 026 1936/37 NL B 9,6 (15): \" ... die ,Arche' ist abgefahren.",
+          zh: "而使那些蒙封印者確信其終點的「憑據/質押」，正是聖靈自己。「叫他的榮耀，從我們這首先在基督裡有盼望的人，可以得著稱讚。你們既聽見真理的道，就是那叫你們得救的福音，也信了基督，既然信他，就受了所應許的聖靈為印記。這聖靈是我們得基業的憑據，直等到被贖的產業被贖，使他的榮耀得著稱讚。」（以弗所書一章12-14節）"
+        },
+        {
+          id: "ch14-p28",
+          de: "Man kann nun herausfallen!\" 254 Die Heiligen 277 sung, daß wir sein Eigentum würden zu Lob seiner Herrlich­ keit\" (Eph. 1,12-14). Das ist Heiligung der Gemeinde, daß ie durch Gott abge­ sondert ist vom Unheiligen, von der Sünde. Das ist ihre I Heili­ gung, daß ie in dieser Veriegelung Gottes erwähltes Eigentum geworden ist, die Wohnung Gottes auf Erden, der Ort von dem Gericht und Versöhnung ausgeht an alle Welt. Das ist Heili­ gung, daß die Christen nunmehr ganz und gar gerichlet und bewahrt werden auf die Zukunft Christi und ihr entgegen ge­ hen. Das bedeutet für die Gemeinde der Heiligen ein Dreifaches: Ihre Heiligung wird sich bewähren in der klaren Absonderung von der Welt.",
+          zh: "會眾的成聖，就在於她藉由上帝與不聖潔、與罪惡相隔離。她的成聖，就在於在這一封印中，她成了上帝所揀選的產業、上帝在大地上的住處、審判與和好走向全世界的源頭。成聖，就在於基督徒從今往後完全被引導與保守，以迎接基督的再來、並向著祂走去。這對於聖徒的會眾而言意味著三點：第一，她們的成聖將在與世界的「清晰分別」中得到證實。第二，她們的成聖將在與上帝聖所相稱的「行事為人」中得到證實。第三，她們的成聖將「隱藏」在對耶穌基督日子的等候之中。"
+        },
+        {
+          id: "ch14-p29",
+          de: "Ihre Heiligung wird sich in einem Wandel be­ währen, der des Heiligtums Gottes würdig ist. Ihre Heiligung wird verborgen sein im Warten auf den Tag J esu Christi. Heiligung gibt es darum -das ist das erste -nur in der sichtbaren Gemeinde. Die Sichtbarkeit der Gemeinde ist ein entscheidendes Merkmal der Heiligung. Der Anspruch der Ge­ meinde auf Raum in der Welt und die damit gegebene Abgren­ zung vom Raum der Welt bezeugt, daß die Gemeinde im Stand der Heiligung ist. Das Siegel des heiligen Geistes veriegelt ja die Gemeinde gegen die Welt. In der Kraft dieses Siegels muß die Gemeinde Gottes Anspruch auf die ganze Welt geltend machen, muß ie zugleich einen bestimmten Raum in der Welt für sich beanspruchen und damit die Grenzen zwischen sich und der Welt klar ziehen.",
+          zh: "因此——這是第一點——成聖唯獨存在於「有形的會眾」之中。會眾的有形性，乃是成聖的決定性特徵。會眾對世界空間的主張、以及由此與世界空間劃定的界限，見證了會眾正處於成聖的狀態之中。聖靈的印記將會眾封印起來，防範世界的侵入。在這一印記的權能中，會眾必須去聲明上帝對整個世界的主權要求，同時她自己必須在世上要求一個專屬的有形空間，藉此將她與世界的界限清晰地劃定出來。"
+        },
+        {
+          id: "ch14-p30",
+          de: "Weil die Gemeinde die von Gott selbst auf dieser Erde gegründete Stadt auf dem Berge -POliS27 (Matth. 5,14) -ist, weil ie als solche Gottes veriegeltes Eigen­ turn ist, darum gehört ihr \"politischer\" Charakter unabdingbar zu ihrer Heiligung. Ihre \"politische Ethik\"28 hat ihren einzigen Grund in ihrer Heiligung, daß Welt Welt sei und Gemeinde Gemeinde, und daß doch das Wort Gottes von der Gemeinde 27 Auf das griechische Wort für ,Stadt' (oder ,Gemeinwesen', ,Gesellschaft') spielt Bonhoeffer im folgenden mit ,politisch' an; vgl. bei A. Harnack, Mission (1924),268: \"Politie\". 1936 NL B 9,5 (51): \"Jt6AL�, mit Christus eigenes Leben in eigenen Geboten führend (in Ungehorsam und Sünden erkenntnis in Kirche Gnade der Vergebung).\" D 28 So heißt das 1932 erschienene Buch von Friedrich Gogarten, das Bonhoeffer in seiner Vorlesung \"Jüngste Theologie\" Anfang 1933 DBW 12, 162-168 kritisch besprach. 278 Teil H. 255 ausgehe über alle Welt als die Botschaft davon, daß die Erde und was darinnen ist, des Herrn ist29; das ist der\" politische\" Charakter der Gemeinde.",
+          zh: "因為會眾是上帝自己在地上建立的「山上的城」——即城邦——是上帝封印的產業，所以她的「政治性」特徵不可分割地屬於她的成聖。她的「政治倫理」唯一的根基在於她的成聖——即「世界是世界，會眾是會眾」，然而上帝的話語卻要從會眾發出，走向整個世界，宣告：地和其中所充滿的，都屬耶和華（詩篇二十四篇1節）；這正是會眾的「政治性」特徵。"
+        },
+        {
+          id: "ch14-p31",
+          de: "Eine persönliche Heiligung, die an dieser öffentlichen sichtbaren Abgrenzung der Gemeinde von der I Welt vorübergehen will, verwechselt die frommen Wün­ sche des religiösen Fleisches mit der im Tode Christi erwirkten Heiligung der Gemeinde durch das Siegel Gottes. Es ist der trügerische Hochmut und die falsche geistliche Sucht des alten Menschen, der heilig sein will außerhalb der sichtbaren Ge­ meinde der Brüder. Es ist die Verachtung des Leibes Christi als der sichtbaren Gemeinschaft der gerechtfertigten Sünder, die sich hinter der Demut dieser Innerlichkeit versteckt. Verach­ tung des Leibes Christi, denn es hat Christus gefallen, sichtbar mein Fleisch anzunehmen und ans Kreuz zu tragen; Verach­ tung der Gemeinschaft, denn ich will für mich heilig sein ohne die Brüder; Verachtung der Sünder, denn ich entziehe mich der sündigen Gestalt meiner Kirche in selbstgewählter Heiligkeit.",
+          zh: "一種企圖繞過會眾與世界之公開、有形界限的「個人成聖」，乃是將宗教肉體的虔敬願望，與上帝藉由印記在基督之死中為會眾所成就的成聖相混淆。這是在兄弟的有形會眾之外企圖自封聖潔的舊人的欺騙性驕傲與錯誤的屬靈癖好。這是在這種「內在性/屬靈內省」的謙卑背後，所隱藏的對作為蒙稱義罪人有形契合體之「基督身體的蔑視」。這是對基督身體的蔑視，因為基督樂意有形地承接我的肉身並將其帶上十字架；這是對契合相通的蔑視，因為我想在沒有弟兄的情況下獨自成聖；這是對罪人的蔑視，因為我以自選的聖潔，逃避了我那充滿罪惡樣式的教會。"
+        },
+        {
+          id: "ch14-p32",
+          de: "Heiligung außerhalb der sichtbaren Gemeinde ist Selbstheilig­ sprechung. Heiligung durch das Siegel des Heiligen Geistes stellt die Kirche immer in den Kampf. 30 Es ist im Grunde der Kampf um dieses Siegel, daß es nicht gebrochen werde, weder von außen noch von innen, daß nicht die Welt Kirche noch die Kirche Welt sein wolle. Der Kampf der Kirche um den Raum, der dem Leib Christi auf Erden gegeben ist, ist ihre Heiligung. Abson­ derung der Welt von der Kirche und der Kirche von der Welt ist der heilige Kampf der Kirche um das Heiligtum Gottes auf Erden. Heiligtum gibt es nur in der sichtbaren Gemeinde.",
+          zh: "在有形會眾之外的成聖，乃是「自我封聖」。藉著聖靈印記的成聖，始終將教會置於「爭戰」之中。這在本質上是護衛這一印記不被折斷的爭戰，無論是來自外部還是內部，防範世界企圖變成教會、或教會企圖變成世界。教會為著基督身體在地上被賦予的空間而進行的抗爭，正是她的成聖。世界與教會的分離、以及教會與世界的分離，正是教會為著上帝在大地上的聖所而進行的聖潔爭戰。聖所，唯獨存在於有形的會眾之中。"
+        },
+        {
+          id: "ch14-p33",
+          de: "Aber - das ist das zweite -gerade in der Absonderung von der Welt lebt die Gemeinde im Heiligtum Gottes, und in der Gemeinde lebt auch noch ein Stück Welt in diesem Heiligtum. Darum heißt es für die Heiligen, ihrem Beruf und des Evangeliums würdig zu wandeln in allen Stücken (Eph. 4,1; PhiI. 1,27; KoI. 1,10; 1. Thess. 2,12); würdig aber werden ie allein darin sein, daß ie sich des Evangeliums täglich erinnern, von dem ie le29 Ps 24,1; Anklang in Act 17,24. 0 30 Vgl. im Sachregister des Buches \"Nachfolge\" von 1937: \"Kampf der Kirche s. Heiligung\". 256 Die Heiligen 279 ben. \"Ihr seid abgewaschen, ihr seid geheiligt, ihr seid gerecht­ fertigt\" (1. Kor. 6,11).",
+          zh: "然而——這是第二點——恰恰是在與世界的分別中，會眾活在上帝的聖所裡，而在會眾內部，在這一聖所中依然殘留著一部分世界。因此，對於聖徒而言，就是要「行事為人與蒙召的恩相稱」（以弗所書四章1節，腓立比書一章27節，歌羅西書一章10節，帖撒羅尼迦前書二章12節）；而他們之所以能相稱，唯獨在於他們每日紀念那作為他們生命所賴的福音。「你們奉主耶穌基督的名，並我們上帝的靈，已經洗淨，成聖，稱義了。」（哥林多前書六章11節）"
+        },
+        {
+          id: "ch14-p34",
+          de: "Aus dieser Er-I innerung täglich zu leben ist ihre Heiligung.31 Das ist ja die Botschaft, deren ie würdig sein sollen, daß die Welt und das Fleisch tot sind, daß ie ge­ kreuzigt und gestorben sind mit Christus am Kreuz und durch die Taufe, daß die Sünde nicht mehr herrschen kann, weil ihre Königsgewalt schon gebrochen ist32, daß es darum gar nicht mehr möglich ist, daß der Christ sündigt. \"Wer aus Gott gebo­ ren ist, der sündigt nicht\" (1. J oh. 3,9). Der Bruch ist vollzogen. Der\" vorige\" Wandel (Eph. 4,22) ist zu Ende gebracht. \"Ihr wart weiland Finsternis, nun aber seid ihr ein Licht in dem Herrn\" (Eph. 5,8).",
+          zh: "每日仰賴這一紀念而活，正是他們的成聖。這正是他們應當相稱的信息：世界與肉體已經死了，它們已在十字架上並藉由洗禮與基督一同被釘死與死去了；罪已不再能作主，因為其王權統治已被摧毀；因此，基督徒去犯罪已不再可能。「凡從上帝生的，就不犯罪」（約翰一書三章9節）。割裂已然成全。「從前的行為」（以弗所書四章22節）已被終結。「從前你們是暗昧的，但如今在主裡面是光明的。」（以弗所書五章8節）"
+        },
+        {
+          id: "ch14-p35",
+          de: "Vorher vollbrach­ ten ie die schändlichen und \"unfruchtbaren Werke des Flei­ sches\"33, jetzt wirkt der Geist die Frucht der Heiligung. So dürfen die Christen nicht mehr \"Sünder\" genannt wer­ den, sofern darunter solche verstanden sind, die unter der Ge­ walt der Sünde leben (&.!-la�.n:wAo( verg!. als einzige Ausnahme und Selbstaussage 1. Tim. 1,15), vielmehr, einst waren ie Sün­ der, Gottlose, Feinde (Rö. 5,8 u. 10; Ga!. 2,15 u. 17), nun aber sind ie die Heiligen um Christi willen. Als Heilige werden ie erinnert und ermahnt zu sein, was ie sind. Nicht das Unmögli­ che wird gefordert, daß die, die Sünder sind, heilig seien, -das wäre der völlige Rückfall in die Werkerei und Lästerung Chri­ sti -, sondern die Heiligen sollen heilig sein; denn ie sind ge­ heiligt in Christus Jesus durch den Heiligen Geist.",
+          zh: "從前他們行出可恥且「暗昧無益的行為」；如今聖靈則結出成聖的果子。因此，基督徒絕不可再被稱呼為「罪人」， sofern darunter solche verstanden sind, die unter der Gewalt der Sünde leben（約以唯一例外和自我稱謂哥林多前書一章15節相鄰），相反地，他們從前曾是罪人、不虔敬者、仇敵（羅馬書五章8、10節，加拉太書二章15、17節），如今因著基督的緣故，他們乃是聖徒。作為聖徒，他們被提醒與勸勉去成為他們已是的樣式。這並非要求罪人去成為聖潔，——這是不可能的，且是完全墮回律法主義工作義、以及對基督的審判——，而是要求「聖徒本身」成為聖潔；因為他們在基督耶穌裡藉由聖靈已被聖潔化了。"
+        },
+        {
+          id: "ch14-p36",
+          de: "Von einem furchtbar schwarzen Hintergrund hebt sich das Leben der Heiligen ab. Die finstern Werke des Fleisches wer­ den durch das helle Licht des Lebens im Geist ganz aufgedeckt: \"Ehebruch, Hurerei, Unreinigkeit, Unzucht, Abgötterei, Zau­ berei, Feindschaft, Hader, Neid, Zorn, Zank, Zwietracht, Rot­ ten, Haß, Mord, Saufen, Fressen und dergleichen\" (Ga!. 5,1934). Dies alles hat in der Gemeinde Christi keinen Raum mehr. Es 609: \"Es ist sehr auffallend, wie wenig Paulus von der täglichen Sünde und der täglichen Sündenvergebung zu sagen weiß. Sünde innerhalb der Gemeinde ge­ tragen und vergeben.\" D 32 Vgl. Röm 6,14 a, im \"Nestle\" unterstrichen. 1936 NL B 25 (6) dazu: \"aus der XUQLOtljC:; [\"Königsherrschaft\"] der Sünde gestellt in die XUQLOtljC:; Christi .... der, der seine Sünde bekennt, der ist ohne Sünde.\" D 33 Vgl. Eph 5,11; GaI5,19.",
+          zh: "在一個極其黑暗的背景之下，聖徒的生命被襯托出來。肉體暗昧的行為，被聖靈生命明亮的光芒完全揭露了出來：「姦淫、污穢、邪蕩、拜偶像、邪術、仇恨、爭競、忌恨、惱怒、結黨、紛爭、外道、嫉妒、兇殺、醉酒、荒宴等類」（加拉太書五章19-21節）。這一切在基督的會眾中皆不再有任何空間。"
+        },
+        {
+          id: "ch14-p37",
+          de: "D 34 Richtig: GaI5,19-21. 280 Teil H. 257 ist abgetan und am Kreuz gerichtet und zu Ende gebracht. Es ist den Christen von Anfang an gesagt, I daß \"die solches tun, das Reich Gottes nicht ererben werden\" (Gal. 5,21; Eph. 5,5; 1. Kor. 6,9; Röm. 1,32). Diese Sünden trennen vom ewigen Heil. Wird aber eines dieser Laster in der Gemeinde dennoch offenbar, so muß das den Ausschluß aus der Gemeinschaft der Gemeinde nach sich ziehen (1. Kor. 5,1 ff.). Es ist auffallend, daß in den sogenannten Lasterkatalogen eine weitgehende Gemeinsamkeit in der Aufzählung der Sün­ den begegnet. Fast ausnahmslos steht an erster Stelle die Sünde der Hurerei (rroQvELa), die mit dem neuen Leben des Christen unvereinbar ist.",
+          zh: "它們已被廢除，在十字架上被審判並終結了。基督徒從一開始就被告誡：「行這樣事的人必不能承受上帝的國。」（加拉太書五章21節，以弗所書五章5節，哥林多前書六章9節，羅馬書一章32節）這些罪惡會使人與永恆的救恩割裂。然而，一旦這些惡行在會眾中顯論出來，便必須隨之將其「逐出會眾的契合體」（哥林多前書五章1節起）。令人注目的是，在所謂的惡行列表中，在列舉罪惡時表現出極大的一致性。幾乎毫無例外地，排在首位的皆是「淫亂/邪蕩」（porneia），這與基督徒的新生命是完全水火不容的。"
+        },
+        {
+          id: "ch14-p38",
+          de: "Meist folgt dann die Sünde der Habgier (rrAEü­ vE�(a 1. KOL 5,10; 6,10; Eph. 4,19; 5,3.5; Kol. 3,5; 1. Thess. 4,4 H.35), die mit der vorigen zusammengefaßt werden kann als \"Unreinigkeit\" und \"Abgötterei\" (1. Kor. 5,10; 6,9; Gal. 5,336 u. [Ga1. 5,J 19; Kol. 3,5 u. 8). Es folgen dann die Sünden gegen die Bruderliebe, schließlich die Sünde der Schwelgerei!7). Es ist gewiß nicht zufällig, daß in der Reihe der Sünden die Sünde der Hurerei am Anfang steht. Der Grund hierfür liegt nicht in besonderen Zeityerhältnissen, sondern in der besonderen Art dieser Sünde. In ihr lebt die Sünde Adams wieder auf, selbst wie Gott sein zu wollen37, Schöpfer des Lebens sein zu wollen, herrschen und nicht dienen zu wollen.",
+          zh: "緊隨其後的通常是「貪婪」（哥林多前書五章10節、六章10節，以弗所書四章19節、五章3-5節，歌羅西書三章5節，提摩太前書四章3-7節），它與前一項罪一同被歸納為「污穢」與「拜偶像」（哥林多前書五章10節、六章9節，加拉太書五章19節，歌羅西書三章5、8節）。隨後則是對抗兄弟之愛的罪，最後則是荒宴之罪。淫亂之罪排在首位決非偶然。其根基不在於特定的時代背景，而在於這一罪惡的特殊本質。在其中，亞當那「想要自己如上帝一般」（創世記三章5節）、想要成為生命的創造者、想要統治而非服侍的罪惡重新復活了。"
+        },
+        {
+          id: "ch14-p39",
+          de: "In ihr greift der Mensch über die ihm von Gott gesetzten Grenzen hinaus und vergreift sich an Gottes Geschöpfen.38 Es war die Sünde Israels, daß es immer wieder die Treue seines Herrn verleugnete und \"mit den Abgöttern Hurerei\" trieb (1. Kor. 10,739), sich an ie hängte. Hurerei ist zuerst Sünde gegen Gott den Schöpfer. Es ist für den Christen aber in besonderer Weise Sünde gegen den Leib 17) Als Ursprung dieser Lasterkataloge mag das Wort des Herrn Mark. 7,21 f. anzusehen sein. 35 Genauer: I Thess 4,3-7. D 36 Gal 5,3 irrtümlich. 1936/37 DBW 14, 729 nennt zusätzlich zu den anderen Stellen dieser Reihe: \"Eph. 5,3 f.\" (genauer: Verse 3-5).",
+          zh: "在淫亂中，人僭越了上帝給予他設定的界限，並侵犯了上帝的被造物。這正是以色列的罪惡——一次次背叛其主的忠實，並與「偶像行淫」（哥林多前書十章7-8節），依附於偶像。淫亂首先是對抗創造主上帝的罪。但對於基督徒而言，它在特殊意義上是對抗基督身體本尊的罪；"
+        },
+        {
+          id: "ch14-p40",
+          de: "D 37 Gen 3,5. D 38 Vgl. DBW 3 (SF), 117f, zu Gen 3,7 (nach dem Essen vom Baum der Erkenntnis von \"Gut\" und \"Böse\"): \"Das Wissen um tob und ra ist ... Sexualität, d.h. Verkehrung des Verhältnisses von Mensch zu Mensch.\" D 39 Bonhoeffer zieht die Aussagen von Vers 7 und 8 zusammen. 258 Die HeiligeT! 281 Christi selbst; denn der Leib des Christen ist ein Glied Christi. Er gehört allein Christus zu. Die leibliche Vereinigung mit der Hure aber I hebt die geistliche Gemeinschaft mit Christus auf. Wer Christus seinen Leib raubt und ihn der Sünde leiht, der hat sich von ihm getrennt. Die Hurerei ist Sünde am eigenen Leib.",
+          zh: "因為基督徒的身體正是基督的一個肢體。它單單屬於基督。而與娼妓的肉身聯合，便取消了與基督的屬靈契合。凡從基督那裡強奪其身體、並將其獻給罪惡的人，他便與基督割裂了。淫亂，是行在自己身體上的罪。"
+        },
+        {
+          id: "ch14-p41",
+          de: "Der Christ aber soll wissen, daß auch sein Leib Tempel des Heiligen Geistes ist, der in ihm wohnt (1. Kor. 6,13 H. 40). So eng ist die Gemeinschaft des Leibes des Christen mit Christus, daß er auch mit seinem Leib nicht zugleich der Welt gehören kann. Die Gemeinschaft des Leibes Christi verbietet die Sünde gegen den eigenen Leib. Den Hurer muß der Zom Gottes treffen (Röm. 1,29; l.Kor. 5,1f.41; 7,2; 10,7; 2. Kor. 12,21; Hebr. 12,16; 13,4). Der Christ ist keusch, er gibt seinen Leib ganz in den Dienst des Leibes Christi. Er weiß, daß mit dem Leiden und Sterben des Leibes Christi am Kreuz auch sein Leib getrof­ fen und dem Tode anheim gegeben ist.",
+          zh: "然而，基督徒應當知道，他自己的身體也是聖靈的殿，聖靈居住在祂裡面（哥林多前書六章13-19節）。基督徒身體與基督的契合是如此緊密，以致他絕不可能用其身體同時去屬於世界。基督身體的契合，嚴厲禁止對自己身體犯罪。淫亂者必然要遭遇上帝的烈怒（羅馬書一章29節，哥林多前書五章1-2節、七章2節、十章7節，哥林多後書十二章21節，希伯來書十二章16節、十三章4節）。基督徒是貞潔的，他將其身體完全奉獻給基督身體的服侍。他深知，隨著基督的身體在十字架上的受難與死亡， his 身體也同樣受到了打擊並被交付於死亡。"
+        },
+        {
+          id: "ch14-p42",
+          de: "Die Gemeinschaft mit dem gemarterten und verklärten Leibe Christi befreit den Chri­ sten von der Zuchtlosigkeit des leiblichen Lebens. Die wilden leiblichen Begierden sterben täglich in dieser Gemeinschaft. In Zucht und Enthaltsamkeit dient der Christ mit seinem Leib allein der Auferbauung des Leibes Christi, der Gemeinde. Er tut das auch in der Ehe und macht ie dadurch selbst zu einem Stück des Leibes Christi. Mit der Hurerei ist die Habgier verbunden. Die Unersätt­ lichkeit des Begehrens ist beiden gemeinsam und läßt auch den Habgierigen der Welt verfallen. Du sollst nicht begehren, sagt Gottes Gebot.42 Der Hurer und der Habgierige sind nichts als Begierde.",
+          zh: "與那受難且得榮耀之基督身體的契合，將基督徒從肉體生活的放蕩無度中解放了服務。野蠻的肉體私慾，在這一契合中每日死去。在紀律與節制中，基督徒僅以其身體來服侍基督身體的建造。他在婚姻中也是如此行，並藉此使婚姻本身也成了基督身體的一部分。與淫亂緊密相連的是貪婪。慾望的貪得無厭是這兩者的共同點，且使貪婪者也同樣淪陷於世界。上帝的命令說：「不可貪婪」（出埃及記二十章17節）。淫亂者與貪婪者，無非都是慾望的奴隸。"
+        },
+        {
+          id: "ch14-p43",
+          de: "Der Hurer begehrt den Besitz eines andern Men­ schen. Der Habgierige begehrt den Besitz der Güter der Welt. Der Habgierige will Herrschaft und Macht, aber er wird zum Knecht der Welt, an die er sein Herz gehängt hat. Hurerei und Habgier bringen den Menschen mit der Welt in eine Berüh­ rung, die ihn befleckt und unrein macht. Hurerei und Habgier sind Abgötterei, weil hier des Menschen Herz nicht mehr Gott 40 Genauer: I Kor 6,13-19. D 41 Im Druck 1937 stand: ,,1. Kor. 1,5f.\"-In diesem Kapitel waren im Druck 1937 Irrtümer bei Bibelstellenangaben ver­ gleichsweise häufig. D 42 1936/37 DBW 14, 731: ,,10.",
+          zh: "淫亂者渴望佔有另一個個人。貪婪者渴望佔有世界的財富。貪婪者想要統治與權力，但他卻成了那被他寄託了心靈之世界的奴僕。淫亂與貪婪使人與世界發生接觸，這接觸使他被污穢與不潔。淫亂與貪婪就是拜偶像，因為在此處，人的心已不再屬於上帝與基督，而是屬於他所渴望之專屬世界的財富。"
+        },
+        {
+          id: "ch14-p44",
+          de: "Gebot\" (Ex 20,17). 282 Teil H. 2591260 und Christus zugehört, sondern den begehrten Gütern der ei­ genen Welt. I Wer sich aber seinen Gott und seine Welt selbst schafft, wem seine eigene Sucht zum Gott wird, der muß den Bruder hassen, der ihm im Wege steht und seinen Willen hindert. Streit, Haß, Neid, Mord gehen alle aus der Quelle der eigenen Begierde hervor. \"Woher kommt Streit und Krieg unter euch? Kommt's nicht daher: aus euren Wollüsten, die da streiten in euren Glie­ dern?\" a ak. 4,1 f.). Der Hurer und der Habgierige kann keine Bruderliebe kennen. Er lebt aus der Finsternis seines eigenen Herzens.",
+          zh: "凡是自己為自己創造神明與世界的人、凡是讓自己的私慾成為神明的人，必然會恨惡那擋在他路上、阻礙其意圖的弟兄。爭競、仇恨、嫉妒、謀殺，皆源自個人私慾的泉源。「你們中間的爭鬥戰競是從哪裡來的？不是從你們百體中戰鬥之私慾來的嗎？」（雅各書四章1-2節）。淫亂者與貪婪者絕不可能認識兄弟之愛。他存活於自己心靈的黑暗之中。"
+        },
+        {
+          id: "ch14-p45",
+          de: "Indem er sich am Leibe Christi versündigt, versündigt er sich an seinem Bruder. Hurerei und Bruderliebe schließen sich aus um des Leibes Christi willen. Der Leib, den ich der Gemeinschaft des Leibes Christi entziehe, kann auch dem Nächsten nicht dienen. Wiederum muß der Nichtachtung des eigenen Leibes und des Bruders die freche, gottlose Schwelgerei in Fressen und Saufen folgen.43 Wer seinen Leib verachtet, der verfällt seinem Fleisch und \"sein Bauch wird ihm sein Gott sein\"44 (Röm. 16,18). Die Häßlichkeit dieser Sünde besteht darin, daß sich hier das tote Fleisch selbst pflegen will und so den Menschen auch in seiner äußeren Gestalt schändet.",
+          zh: "當他對基督的身體犯罪時，他便是對他的弟兄犯罪。為了基督身體的緣故，淫亂與兄弟之愛是水火不容的。我從基督身體契合中奪走的身體，也同樣無法去事奉鄰舍。反過來，對自己身體與弟兄的漠視，必然會帶來吃喝上狂妄、不虔敬的「荒宴」（腓立比書三章19節，羅馬書十六章18節）。這一罪惡的醜陋在於：已死的肉體妄圖自我保養，並藉此在外部樣式上也羞辱了人。"
+        },
+        {
+          id: "ch14-p46",
+          de: "Der Schweiger hat am Leibe Christi keinen Teil. Die Welt dieser Laster ist für die Gemeinde Vergangenheit. Von denen, die in solchen Lastern leben, hat sich die Gemeinde getrennt und soll ie sich immer wieder trennen (1. Kor. 5,9 ff.); denn\" was hat das Licht für Gemeinschaft mit der Finsternis\" (2. Kor. 6,14 H. 45)? Dort sind\" die Werke des Fleisches\"46, hier ist \"die Frucht des Geistes\"47 (Gal. 5,19 ff.; Eph. 5,9). Was heißt Frucht? Es sind viele\" Werke\" des Fleisches, aber es ist nur eine \"Frucht\" des Geistes. Werke werden gewirkt von Menschenhand, die Frucht treibt und wächst, ohne daß der Baum es weiß.",
+          zh: "荒宴者在基督的身體中毫無份額。這些惡行的世界，對於會眾而言已成過去。對於那些活在這些惡行中的人，會眾已經與之割裂，且必須一次次與之割裂（哥林多前書五章9節起）；因為「光明和黑暗有什麼相通呢？」（哥林多後書六章14節）。那邊是「肉體的行為」，這邊則是「聖靈的果子」（加拉太書五章19節起，以弗所書五章9節）。何謂果子？肉體的行為是複數多個的，而聖靈的果子卻僅是單數一個的。行為是由人手做出來的，而果子卻是在樹木不知不覺中抽芽並長成的。"
+        },
+        {
+          id: "ch14-p47",
+          de: "Werke sind tot, die Frucht lebt und ist Träger von Samen, der neue Frucht hervorbringt. Werke können für sich da sein, die Frucht ist niemals ohne den I Baum. Frucht ist immer das ganz Wunderbare, Gewirkte, ie ist nicht ein Ge43 Bonhoeffer orientiert sich, wie er zu Anfang der Besprechung der Lasterka­ taloge andeutet, besonders an Gal 5,19-21. D 44 Anlehnung an Phil 3,19. D 45 Zitiert ist II Kor 6,14 c. D 46 GaI5,19. D 47 Ga15,22 und Eph 5,9. 261 Die Heiligen 283 wolltes, sondern ein Gewachsenes. Die Frucht des Geistes ist von Gott allein gewirkte Gabe. Wer ie trägt, weiß von ihr so wenig, wie der Baum von seiner Frucht.",
+          zh: "行為是死的，果子則是活的，且承載著能結出新果子的種子。行為可以孤立存在，果子卻決不能脫離樹木。果子始終是極其奇妙的、被做成的事物，它不是憑意志做出來的，而是生長出來的。聖靈的果子，是唯獨由上帝做成的恩賜。那承載果子的人，對這果子的知曉，正如樹木對其自身果子的知曉一樣微乎其微。"
+        },
+        {
+          id: "ch14-p48",
+          de: "Er weiß allein von der Kraft dessen, aus dem er lebt. Es gibt hier keinen Ruhm, son­ dern allein die immer innigere Vereinigung mit dem Ursprung, mit Christus. Die Heiligen wissen selbst nicht um die Frucht der Heiligung, die ie bringen. Die linke Hand weiß nicht, was die rechte tut.48 Wollten ie hier etwas wissen, wollten ie hier in Selbstbetrachtung fallen, dann hätten ie sich schon von der Wurzel losgerissen und die Zeit ihres Fruchttragens wäre dahin. \"Die Frucht des Geistes ist Liebe, Freude, Friede, Geduld, Freundlichkeit, Gütigkeit, Glaube, Sanftmut, Keuschheit\" (Gal. 5,22). Neben der Heiligkeit der Gemeinde tritt hier die Heiligung des Einzelnen ins hellste Licht.",
+          zh: "他唯獨知道那作為他生命源泉的祂的權能。在此處沒有任何誇口，而唯有與源頭、與基督更加緊密的契合。聖徒自己並不知道他們所結出的成聖的果子。左手不知道右手所做的（馬太福音六章3節）。如果他們想在此處知道些什麼、落入自我內省之中，那他們其實就已經將自己從根部折斷了，他們結果子的時期也將宣告結束。「聖靈所結的果子，就是仁愛、喜樂、和平、忍耐、恩慈、良善、信實、溫柔、節制。」（加拉太書五章22-23節）除了會眾的聖潔之外，在此處個人的成聖也進入了最明亮的光芒之中。"
+        },
+        {
+          id: "ch14-p49",
+          de: "Aber die Quelle ist ein-und dieselbe, die Gemeinschaft mit Christus, die Gemein­ schaft am selben Leibe. Wie die Absonderung von der Welt nur im fortwährenden Kampf sichtbar vollzogen wird, so besteht auch die persönliche Heiligung im Kampf des Geistes gegen das Fleisch.49 Die Heiligen sehen nur Streit, Not, Schwachheit und Sünde in ihrem eigenen Leben; und je reifer ie in der Heiligung stehen, desto mehr erkennen ie sich als die Unterliegenden, als die Sterbenden nach dem Fleisch. \"Welche Christo angehören, die kreuzigen ihr Fleisch samt den Lüsten und Begierden\" (Gal. 5,24). Noch leben ie im Fleisch, aber eben darum muß ihr ganzes Leben ein Glaube an den Sohn Gottes sein, der in ihnen Sein Leben angefangen hat (Gal. 2,20).",
+          zh: "然而，源泉是同一個，即與基督的契合、在同一個身體上的契合。正如與世界的「分別」唯有在持續不斷的有形爭戰中才能成全，個人的成聖也同樣體現在聖靈對抗肉體的爭戰中（加拉太書五章17節）。聖徒在他們自己的生活中，看見的只有衝突、匱乏、軟弱與罪惡；且他們在成聖中越是成熟，就越發將自己認作那失敗者、認作那在肉體上正在死去的人。「凡屬基督耶穌的人，是已經把肉體連肉體的邪情私慾同釘在十字架上了。」（加拉太書五章24節）他們依然活在肉體中，但正因如此，他們的整個生命必須是對上帝之子的信心，這子已在他們裡面開始了祂的生命（加拉太書二章20節）。"
+        },
+        {
+          id: "ch14-p50",
+          de: "Der Christ stirbt täglich (1. Kor. 15,31), aber ob sein Fleisch darunter leidet und zugrunde geht, so wird doch der innere Mensch von Tag zu Tag erneuert (2. Kor. 4,16). Das Sterben der Heiligen nach ihrem Fleisch hat seinen einzigen Grund darin, daß Christus durch den Heiligen Geist sein Leben in ihnen angefangen hat. Die Heiligen ster-I ben an Christus und seinem Leben. Nun brau­ chen ie keine eigenen selbstgewählten Leiden mehr zu suchen, wodurch ie sich nur abermals in ihrem Fleisch behaupten wür­ den. Christus ist ihr täglicher Tod und ihr tägliches Leben. Darum gilt aber für ie in vollem Maße der Jubel, daß der von Gott Geborene nicht mehr sündigen kann50, daß die Sünde über 48 Mt 6,3.049 Vgl. Gal 5,17.050 I Joh 3,9. 284 Teil H. 262 ie nicht mehr herrscht, daß ie der Sünde gestorben sind und im Geiste leben18l• ,,50 ist nichts Verdammliches in52 denen, die in Christus Jesus sind\" (Röm. 8,1).",
+          zh: "基督徒每日在死（哥林多前書十五章31節），但即或他的外體在此承受痛苦並日漸毀壞，他的內心卻一天新似一天（哥林多後書四章16節）。聖徒在肉體上的死，其唯一的根基在於：基督已藉著聖靈在他們裡面開始了祂的生命。聖徒死於基督與祂的生命。此時，他們再也不需要去尋求自己所挑選的受苦，否則那無非是在肉體上重新確立了自我。基督是他們每日的死與每日的生。因此，那「凡從上帝生的，就不犯罪」（約翰一書三章9節）、罪不再作主、他們對罪已死且活在聖靈中的凱歌，在極大程度上適用於他們。「如今，那些在基督耶穌裡的就不定罪了。」（羅馬書八章1節）"
+        },
+        {
+          id: "ch14-p51",
+          de: "Gott hat Gefallen an seinen Heiligen; denn er selbst ist es, der ihren I Kampf und ihr Sterben wirkt, und eben darin die Frucht der Heiligung treiben läßt, von der die Heiligen ganz gewiß sein sollten, daß ie da ist, auch wenn ie ihnen tief verborgen bleibt. Freilich, es ist nicht so, daß nun weiterhin Hurerei, Geiz, Mord, Bruderhaß in der Ge­ meinde herrschen kann unter der Botschaft von der Vergebung. Es ist auch nicht so, daß die Frucht der Heiligung unsichtbar bleiben kann. Aber gerade dort, wo ie weithin sichtbar wird, wo die Welt im Anblick der christlichen Gemeinde sprechen muß, wie in den ersten Tagen der Christenheit: \"Sehet wie lieb ie einander haben\"53, gerade dort werden die Heiligen ganz 18) \"Ich lebe aber, spricht der Gläubige.",
+          zh: "上帝喜悅祂的聖徒；因為是祂自己運作了他們的爭戰與死亡，並正是在此之中使成聖的果子抽芽長大。對於這果子的存在，聖徒應當深信不疑，即使它對他們而言仍是深藏不露的。當然，這決不意味著，在宣講罪得赦免的信息下，淫亂、貪婪、謀殺、兄弟相恨依然可以在會眾中橫行霸道。這也決不意味著，成聖的果子可以是無形不可見的。然而，恰恰在它廣泛地有形彰顯出來的地方——在世人目睹基督徒會眾時，不得不像早期基督教時代那樣驚嘆說：「看哪，他們是多麼彼此相愛」的地方——恰恰在那裡，聖徒將完全"
+        },
+        {
+          id: "ch14-p52",
+          de: "Ich lebe vor dem Angesicht Gottes, ich lebe vor seinem Richterstuhl in seiner Gnade; ich lebe in seiner Huld, in seinem Licht, in seiner Liebe; ich bin vollkommen erlöst von allen meinen Sünden; es steht in dem Schuldbuch nichts mehr offen oder unbezahlt. Das Gesetz fordert nichts mehr von mir, es treibt mich nicht mehr, es verdammt mich nicht mehr. Ich bin gerecht vor meinem Gott, wie er gerecht ist; heilig und vollkommen, wie mein Gott heilig ist, wie mein Vater im Himmel voll­ kommen ist. Das ganze Wohlgefallen Gottes um faßt mich; es ist mein Grund, worauf ich stehe, mein Obdach, darnnter ich geborgen bin.",
+          zh: "「我活著，是在上帝的面前活著，在祂的恩典中在祂的審判台前活著；我活在祂的恩寵、祂光、祂的愛中；我已從我一切的罪中完全被贖出來；在債務簿上再也沒有任何未結清或未償付的款項。律法不再向我索要任何東西，它不再催逼我，不再定我的罪。我在我的上帝面前是公義的，正如祂是公義的一樣；我是聖潔與完美的，正如我的上帝是聖潔的一樣，正如我的天父是完美的一樣。上帝全部的喜悅環抱著我；這是我立足的根基， my 避難所，我藏身其下。"
+        },
+        {
+          id: "ch14-p53",
+          de: "Die ganze Seligkeit Gottes, alle seine Ruhe hebt und trägt mich; darin atme ich auf und befinde mich darin ewig wohl. Sünde habe ich nicht mehr und tue ich nicht mehr; ich weiß mit gutem Gewissen, daß ich in Gottes Wegen bin und seinen Willen tue, daß ich ganz nach seinem Willen bin, -ich gehe oder stehe, ich sitze oder liege, ich wache oder schlafe. Auch was ich denke oder rede, ist nach seinem Willen. Wo ich mich befinde, es sei draußen oder daheim, es ist nach seinem gnädigen Willen. Ich bin ihm angenehm, es sei, daß ich wirke oder ruhe. Meine Schuld ist auf ewig ausgetilgt, und neue Schulden, die nicht sollten ausgetilgt sein, kann ich nicht mehr machen.",
+          zh: "上帝全部的福樂、祂所有的安息提升並托住我；在其中我深呼吸，在其中我永遠安舒。我再也沒有罪，也再不犯罪；我以良心知道，我行在上帝的道路上，行祂的旨意，我全然符合祂的旨意——不論我是行是止、是坐是臥、是醒是睡。甚至我所思所言，也皆符合祂的旨意。不論我身在何處，是在外還是在家，皆符合祂恩慈的旨意。不論我是工作還是安息，我都蒙祂悅納。我的債務已被永遠抹除，而那些不應被抹除的新債，我已不再可能欠下。"
+        },
+        {
+          id: "ch14-p54",
+          de: "Ich bin wohlverwahrt in seiner Gnade und kann nicht mehr sündigen. Kein Tod kann mich mehr töten, ich lebe ewig, wie alle Engel Gottes. Auf mich zürnen oder mich schelten wird mein Gott nicht mehr; ich bin für immer erlöst von dem zukünftigen Zorn. Der Arge wird mich nicht mehr antasten, die Welt bekommt mich nie mehr in ihre Stricke. Wer will uns scheiden von der Liebe Gottes? So Gott für uns ist, wer mag wider uns sein?\" (Kohlbrügge).51 51 Der Textabschnitt, aus einer Predigt Friedrich Kohlbrügges (1803-1875), steht in dem von Th. Stiasny herausgegebenen Kohlbrügge-Andachtenbuch \"Quellwasser\", 37, zu Gal 2,20.",
+          zh: "我在祂的恩典中被妥善保守，再也不能犯罪。沒有死亡能再殺死我，我永遠活著，如同上帝所有的天使一樣。我的上帝絕不會再向我發怒或責備我；我已永遠從未來的烈怒中被救贖出來。那惡者絕不能再碰我，世界絕不能再將我套入其網羅。誰能使我們與上帝的愛隔絕呢？上帝若幫助我們，誰能抵擋我們呢？」（引自科爾布呂熱關於加拉太書二章20節的證道集《泉源》）。"
+        },
+        {
+          id: "ch14-p55",
+          de: "D 52 LB: \"an\". D 53 Tertullian, Apologeti­ cus 39; die Angabe steht bei A. Harnack, Mission (1924),174. -1936/37 NL B 263 Die Heiligen 285 allein und unentwegt auf den sehen, dem ie angehören, werden ie unwissend um ihr Gutes Vergebung erbitten für ihre Sün­ den. Dieselben Christen, die es sich zu eigen machen, daß die Sünde nicht mehr herrscht, daß der Glaubende nicht mehr sün­ digt, werden bekennen: \"So wir sagen, wir haben keine Sünde, so verführen wir uns selbst, und die Wahrheit ist nicht in uns. So wir aber unsere Sünden bekennen, so ist er treu und gerecht, daß er uns die Sünden vergibt und reinigt uns von aller Untu­ gend.",
+          zh: "單單且堅定地注視那屬於祂的祂，他們將在對自己所行之善毫無察覺的情況下，為他們的罪求赦免。正是這些確信罪不再作主、信徒不再犯罪的基督徒，將會承認：「我們若說自己無罪，便是自欺，真理不在我們心裡了。我們若認自己的罪，上帝是信實的，是公義的，必要赦免我們的罪，洗淨我們一切的不義。我們若說自己沒有犯過罪，便是以上帝為說謊的，他的道也不在我們心裡了。我小子們哪，我將這些話寫給你們，是要叫你們不犯罪。若有人犯罪，在父那裡我們有一位中保，就是那義者耶穌基督。」（約翰一書一章8節至二章1節）。"
+        },
+        {
+          id: "ch14-p56",
+          de: "So wir sagen, wir haben nicht gesündigt, so machen wir ihn zum Lügner, und sein Wort ist nicht in uns. Meine Kind­ lein, solches schreibe ich euch, auf daß ihr nicht sündiget. Und ob jemand sündigt, so haben wir einen Fürsprecher bei dem Vater, Jesum Christum, der gerecht ist\" (1. Joh. 1,8-2,1). So hat ie der Herr selbst gelehrt zu beten: Vergib uns unsere Schuld. 54 So hat er ie geheißen, einander die Sünden zu vergeben ohne Aufhören (Eph. 4,32 ; Matth. 18,21 ff.). Indem die Christen ein­ ander brüderlich vergeben, geben ie der Vergebung Jesu Raum in ihrer Gemeinschaft. Sie erkennen in dem Anderen nicht mehr den, der ihnen etwas zuleide tat, sondern den, dem Chri­ stus am Kreuz die Vergebung erwirkt hat.",
+          zh: "因此，主親自教導他們如此禱告：免我們的債（馬太福音六章12節）。因此，祂命令他們要無休止地彼此饒恕罪過（以弗所書四章32節，馬太福音十八章21節起）。當基督徒以手足之情彼此饒恕時，他們便是在其契合中給予了耶穌的饒恕發揮效力的空間。他們在對方身上認出的不再是那個傷害了自己的人，而是那個基督在十字架上為其贏得了赦免的人。他們作為被耶穌十字架成聖的人彼此相遇。在這十字架下，藉由每日的死亡，他們的心思、言語、身體皆蒙受了成聖。在這十字架下，成聖的果子正在生長。"
+        },
+        {
+          id: "ch14-p57",
+          de: "Sie begegnen einan­ der als die durch Jesu Kreuz Geheiligten. Unter diesem Kreuz wird durch tägliches Sterben ihr Denken, ihr Wort, ihr Leib ge­ I heiligt. Unter diesem Kreuz wächst die Frucht der Heiligung. Die Gemeinde der Heiligen ist nicht die \"ideale\" Gemeinde der Sündlosen und Vollkommenen. Es ist nicht die Gemeinde der Reinen, die dem Sünder keinen Raum zur Buße mehr gibt. Sie ist vielmehr gerade die Gemeinde, die sich des Evangeliums von der Sündenvergebung würdig erweist, indem hier wahrhaf­ tig Gottes Vergebung verkündigt wird, die nichts mehr mit Selbstvergebung zu schaffen hat; die Gemeinde derer, denen wahrhaftig Gottes teure Gnade widerfahren ist, und die darin des Evangeliums würdig wandeln, daß ie es nicht verschleu­ dern und wegwerfen.",
+          zh: "聖徒的會眾並非那由無罪者與完美者組成的「理想」會眾。她並非那種不再給罪人留下任何悔改空間的純潔者會眾。相反地，她恰恰是那表明自己與罪得赦免之福音相稱的會眾——因為在此處，宣講的乃是那真實的上帝的饒恕，這饒恕與人的「自我饒恕」毫無瓜葛；她是那些真正蒙受了上帝「昂貴恩典」之人的會眾，他們與福音相稱地行事為人，絕不將福音任意踐踏與拋棄。"
+        },
+        {
+          id: "ch14-p58",
+          de: "Damit ist gesagt, daß in der Gemeinde der Heiligen Verge­ bung nur gepredigt werden kann, wo auch Buße gepredigt 9,6 (12) -zu Act 2,44 f -verweist auf Joh 13,34 f: \"Die Schwärmer, besonders Schwenckfeld [1489-1561J, haben dies gegen die lutherischen notae ecclesiae [\"Erkennungszeichen der Kirche\"J ins Feld geführt!\" D 54 Mt 6,12. 286 Teil H. 264 wird, wo das Evangelium nicht ohne Gesetzespredigt bleibt, wo die Sünden nicht nur und nicht bedingungslos vergeben, sondern auch behalten werden. So ist es der Wille des Herrn selbst, daß das Heiligtum des Evangeliums nicht den Hunden gegeben wird5S, sondern daß es nur im Schutz der Bußpredigt gepredigt werden kann.",
+          zh: "這意味著，在聖徒的會眾之中，唯有在宣講悔改的地方，才能宣講赦免；福音絕不能脫離律法的宣講；罪過不僅且非無條件地被赦免，也同樣被保留。因為這正是主自己的旨意：絕不可將福音的聖物丟給狗吃（馬太福音七章6節），而是它唯有在悔改宣講的保護屏障下才能被宣講。"
+        },
+        {
+          id: "ch14-p59",
+          de: "Eine Gemeinde, die nicht Sünde Sünde nennt, kann auch keinen Glauben finden, wo ie Sünde verge­ ben will. Sie versündigt sich am Heiligtum, ie wandelt unwür­ dig des Evangeliums. Sie ist unheilige Gemeinde, weil ie die teure Vergebung des Herrn verschleudert. Nicht damit ist es getan, daß über die allgemeine Sündhaftigkeit des Menschen auch in seinen guten Werken geklagt wird, das ist keine Buß­ predigt, sondern konkrete Sünde muß genannt, gestraft und gerichtet werden. Das ist der rechte Gebrauch der Schlüsselge­ walt56 (Matth. 16,19; 18,18; Joh. 20,23), die der Herr seiner Kirche gegeben hat, und von der die Reformatoren noch so nachdrücklich gesprochen haben. 57 Um des Heiligtums willen, um der Sünder willen und um der Gemeinde willen muß in der Gemeinde auch der Schlüssel des Bindens, des Sündenbehaltens geübt werden.",
+          zh: "一個不敢將罪稱為罪的會眾，在企圖宣布赦罪時，也決不可能找到信心。她是在對聖所犯罪，她的行事為人與福音完全不相稱。她是「不聖潔的會眾」，因為她廉價踐踏了主那昂貴的赦免。如果僅僅哀嘆人類甚至在善行中也普遍具有罪性，那是遠遠不夠的——那絕非悔改的宣講，而是必須將「具體的罪惡」予以指明、懲戒與審判。這正是主賜予其教會之「鑰匙權柄」的正確使用，對此改革家們曾極其有力地論述過。為了聖所的緣故、為了罪人的緣故，且為了會眾的緣故，在會眾中也必須去操練那綑綁、亦即保留罪過的鑰匙。"
+        },
+        {
+          id: "ch14-p60",
+          de: "I Zum würdigen Wandel der Gemeinde vor dem Evangelium gehört die Übung der Gemeindezucht. Ebenso wie die Heiligung die Abscheidung der Gemeinde von der welt bewirkt, muß ie auch die Abscheidung der Welt von der Ge­ meinde bewirken. Eins ohne das Andre bleibt unecht und un­ wahr. Die Gemeinde, die von der Welt abgesondert ist, muß nach innen Gemeindezucht üben. Gemeindezucht dient nicht der Herstellung einer Gemeinde der Vollkommenen, sondern allein der Erbauung einer Ge­ meinde derer, die wahrhaftig unter Gottes vergebender Barm­ herzigkeit leben. Gemeindezucht steht im Dienst der teuren Gnade Gottes.",
+          zh: "要讓會眾與福音相稱地行事為人，便包含著操練「會眾紀律」。正如成聖帶來了會眾與世界的分離，它也必須帶來世界與會眾的分離。這兩者若缺其一，便是不真誠與虛假的。那被從世界中分別出來的會眾，在內部必須操練會眾紀律。會眾紀律並非為了去打造一個完美者的會眾，而純粹是為了去建造一個「真正活在上帝赦免之憐憫下」的會眾。會眾紀律，處於上帝昂貴恩典的服侍之下。"
+        },
+        {
+          id: "ch14-p61",
+          de: "Der Sünder in der Gemeinde muß vermahnt und gestraft werden, damit er nicht seines Heils verlustig gehe, und damit das Evangelium nicht mißbraucht werde. So kann nur der die Taufgnade empfangen, der Buße tut und seinen Glauben an Jesus Christus bekennt. So kann nur der die Gnade des Abend55 Mt 7,6. D 56 Vgl. schon im Brief an Erwin Sutz 1932 DBW 11, 89; dort steht der lateinische Ausdruck \"potestas clavium\". D 57 Vgl. GA XXV 4 (BSLK 98,4), und Schmalkaldische Artikel (BSLK 452, 26ff). 265 Die Heiligen 287 mahls empfangen, der \"unterscheiden kann\" (1. Kor. 11,29) zwischen dem wahrhaftigen Leib und Blut Jesu Christi zur Vergebung der Sünden und irgend einem anderen Mahl symbo­ lischer oder sonstiger Art.",
+          zh: "會眾中的罪人必須受到勸誡與懲戒，免得他喪失救恩，也免得福音被隨意濫用。因此，唯有悔改並宣信對耶穌基督之信心的人，方能領受洗禮的恩典。因此，唯有能「分辨」（哥林多前書十一章29節）耶穌基督真實身體與寶血（為了罪得赦免）與任何其他象徵性或別種性質的宴席之間區別的人，方能領受聖餐的恩典。"
+        },
+        {
+          id: "ch14-p62",
+          de: "Dazu gehört wiederum, daß er sich ausweisen kann über seine Glaubenserkenntnis, daß er sich \"prüft\" oder sich der Prüfung durch den Bruder unterwirft, ob er wahrhaftig Christi Leib und Blut und seine Vergebung be­ gehrt. Zum Glaubensverhör tritt die Beichte, in der der Christ die Gewißheit der Vergebung seiner Sünden sucht und emp­ fängt. Hier gibt Gott dem Sünder Hilfe aus der Gefahr des Selbstbetruges und der Selbstvergebung. In dem Bekenntnis der Sünde vor seinem Bruder stirbt das Fleisch mit seinem Stolz. 58 Es wird mit Christus in die Schande und in den Tod gegeben, und durch das Wort der Vergebung ersteht ein neuer Mensch, der der Barmherzigkeit Gottes gewiesen ist59.",
+          zh: "這反過來要求，他能夠對自己的信仰認識做出說明，他能夠「省察」自己，或甘願接受弟兄的省察，以確認自己是否真正渴望基督的身體、寶血與祂的饒恕。在信仰考核之外，還加入了「認罪」，基督徒在其中尋求並領受其罪得赦免的確據。在此處，上帝將罪人從自我欺騙與自我饒恕的危險中拯救出來。在向弟兄認罪的過程中，肉體連同其驕傲一同死去了。"
+        },
+        {
+          id: "ch14-p63",
+          de: "So gehört der Gebrauch der Beichte in das Leben der Heiligen. Sie ist Gottes Gnadengabe, die nicht ungestraft mißbraucht wird. I In der Beichte wird Gottes teure Gnade empfangen. Hier wird der Christ dem Tode Christi ähnlich. \"Darum wenn ich zur Beichte vermahne, so tue ich nichts anders, denn daß ich ver­ mahne, ein Christ zu sein\" (Luther, Großer Katechismus)60. Die Zucht durchwaltet das ganze Leben der Gemeinde. Es besteht hier eine im Dienst der Barmherzigkeit wohlbegründete Stufenreihe. Der Ursprung aller Zuchtübung bleibt die Verkün­ digung des Wortes nach beiden Schlüsseln61• Sie bleibt nicht beschränkt auf die gottesdienstliche Versammlung, vielmehr ist der Amtsträger niemals von seinem Auftrag entbunden.",
+          zh: "它隨同基督被交付於羞辱與死亡，且藉著赦免的話語，一個單單仰賴上帝憐憫的新人得以復活。因此，認罪的操練屬於聖徒的生命。它是上帝恩慈的賞賜，濫用它必將遭受懲罰。在認罪中，人領受了上帝昂貴的恩典。在此處，基督徒變得與基督的死相似。「所以，當我勸人去認罪時，我無非是在勸他作一個基督徒。」（路德《大問答》中關於認罪的簡要勸誡）。紀律貫穿了會眾的整個生命。在此處，存在著一個完全立足於憐憫服侍之下的、層層遞進的階梯秩序。一切紀律操練的源頭，始終是根據釋放與綑綁這「雙重鑰匙」所進行的話語宣講。它絕不侷限於崇拜聚會，相反地，聖職人員絕不可免除其職責。"
+        },
+        {
+          id: "ch14-p64",
+          de: "\"Pre­ dige das Wort, halte an, die Zeit sei günstig oder ungünstig, strafe, drohe, ermahne mit aller Geduld und Lehre\" (2. Tim. 4,2). Das ist der Beginn der Gemeindezucht. Dabei muß so­ gleich deutlich sein, daß hier nur Sünden gestraft werden köndem Schlußabschnitt \"Ein kurze Vermahnung zu der Beicht\" (WA 30 I, 238,1 f; BSLK 732, 40-42). -1938, rückblickend auf Finkenwalde, schrieb Bonhoeffer DBW 5 (GL), 96: \"Beichte ist Nachfolge.\" D 61 Binde-und Löseschlüssel, vgl. 1937 DBW 14, 830. -Von hier an bis S. 291 f Ende Anm. 20) sehr genaue Über­ einstimmung mit den \"Sätzen\" 8 und 9 über \"Schlüsselgewalt und Gemeinde­ zucht\" 1937 DBW 14, 836-843. 288 Teil H. 266 nen, die offenbar geworden sind.",
+          zh: "「務要傳道，無論得時不得時，總要專心，並用百般的忍耐、各樣的教訓責備人，警戒人，勸勉人。」（提摩太後書四章2節）這手是會眾紀律的開端。在此同時必須清晰彰顯：在此處唯有那些已經「顯露出來」的罪惡才能受到懲戒。"
+        },
+        {
+          id: "ch14-p65",
+          de: "\"Etlicher Menschen Sünden sind offenbar, daß man ie zuvor richten kann, bei etlichen aber wird62 ie hernach offenbar\" (1. Tim. 5,24). So ist die Gemein­ dezucht eine Verschonung vor der Strafe des letzten Gerichts. Versagt die Gemeindezucht aber schon auf dieser ersten Stufe, d.h. in dem täglichen Hirtendienst des Amtsträgers, so ist damit auch alles folgende in Frage gestellt. Die zweite Stufe nämlich ist die brüderliche Vermahnung der Gemeindeglieder untereinander: \"lehret und vermahnet euch untereinander\" (KoI. 3,16; 1. Thess. 5,11 u. 14). ZurVermahnung gehört auch das Trösten der Kleinmütigen, Tragen der Schwachen, Geduld üben gegen jedermann (1. Thess. 5,14).",
+          zh: "「有些人的罪是明顯的，如同先去受審判；有些人的罪是隨後跟著來的。」（提摩太前書五章24節）。因此，會眾紀律乃是讓人免受末日審判懲罰的保護。如果會眾紀律在第一階段——即聖職人員每日的牧養關懷中——便宣告失敗，那麼隨後的一切步驟也都將被打上問號。第二階段正是會眾肢體之間彼此的手足勸誡：「用各樣的智慧，彼此教導，互相勸戒」（歌羅西書三章16節，帖撒羅尼迦前書五章11、14節）。而在勸誡中，也包含了安慰灰心的人、扶助軟弱的人、向眾人忍耐（帖撒羅尼迦前書五章14節）。"
+        },
+        {
+          id: "ch14-p66",
+          de: "Allein so kann ja der täglichen Anfechtung und dem Abfall in der Gemeinde gewehrt werden. Wo solcher brüderlicher Dienst in der Gemeinde nicht mehr lebt, da wird auch schwerlich die dritte Stufe recht erreicht werden. Fällt nämlich dennoch ein Bruder in offenbare Sünde des Wortes oder der Tat, so muß die Gemeinde die Kraft I haben, das eigentliche Gemeindezuchtverfahren gegen ihn ein­ zuleiten. Auch dieses ist ein langer Weg: Die Gemeinde muß sich zunächst überwinden können, sich von dem Sünder zu trennen. \"Habt nichts mit ihm zu schaffen\" (2. Thess. 3,14), \"Weichet von ihnen\" (Röm. 16,17), \"Ihr sollt auch nicht mit ihm essen\" (Abendmahl?) (1. Kor. 5,11), \"Meide solche\" (2. Tim. 3,5; 1. Tim. 6,5).",
+          zh: "唯有如此，才能抵禦會眾中每日的誘惑與背道。在會眾中若不再存活這種手足相顧的服侍，那麼第三階段也將很難被正確觸及。如果一個弟兄依然陷於言語或行為的公開罪惡之中，那麼會眾就必須擁有力量，去對他啟動真正的「會眾紀律程序」。這同樣是一條漫長的道路：會眾首先必須能夠克服自己，去與罪人相隔離。「不要與他交往」（帖撒羅尼迦後書三章14節）、「避開他們」（羅馬書十六章17節）、「若有稱為弟兄的……這樣的人不可與他同吃」（哥林多前書五章11節）、「躲避這些人」（提摩太後書三章5節，提摩太前書六章5節）。"
+        },
+        {
+          id: "ch14-p67",
+          de: "\"Wir gebieten euch aber, liebe Brü­ der, in dem Namen unseres Herrn Jesu Christi (!), daß ihr euch entziehet von jedem Bruder, der da unordentlich wandelt und nicht nach der Satzung, die ihr von uns empfangen habt\" (2. Thess. 3,6). Dieses Verhalten der Gemeinde ist dazu da, den Sünder \"schamrot\" werden zu lassen (2. Thess. 3,14), und ihn dadurch zurückzugewinnen. Gewiß schließt dieses Meiden des Sünders auch seinen zeitweiligen Ausschluß aus den Handlun­ gen der Gemeinde in sich. Doch soll solches Meiden des offen­ baren Sünders nicht schon die Aufhebung jeder Gemeinschaft sein. Vielmehr soll die Gemeinde, die sich vom Sünder trennt, 62 In LB emsprechend dem griechischen Text Plural: \"werden\"; Bonhoeffer gab dem Singular \"Sünde\" gemäß Röm 6,11 den Vorzug. 267 Die Heiligen 289 diesem weiterhin begegnen mit dem Wort der Vermahnung.",
+          zh: "「弟兄們，我們奉主耶穌基督的名吩咐你們，凡有弟兄不按規矩行事，不遵守從我們所受的傳授，就當遠離他。」（帖撒羅尼迦後書三章6節）。會眾的這一表態，旨在叫罪人「自覺羞愧」（帖撒羅尼迦後書三章14節），並藉此挽回他。當然，這種對罪人的規避，也包含了暫時排除他參與會眾的禮儀。然而，對這公開罪人的規避，絕非指完全取消一切相交。相反地，那與罪人相隔離的會眾，仍應當繼續帶著勸誡的話語去面對他。"
+        },
+        {
+          id: "ch14-p68",
+          de: "\"Haltet ihn nicht als einen Feind, sondern vermahnet ihn als einen Bruder\" (2. Thess. 3,15). Der Sünder bleibt noch Bruder und erfährt eben darum Strafe und Vermahnung der Gemeinde. Es ist barmherzige Brüderlichkeit, die die Gemeinde Zucht üben läßt. Mit aller Sanftmut müssen die Widerspenstigen ge­ straft, die Bösen getragen werden, \"ob ihnen Gott nicht der­ maleinst Buße gäbe, die Wahrheit zu erkennen, daß ie wieder nüchtern werden und der Schlinge des Teufels entgehen und sich von Ihm einfangen lassen in seinen Willen\" (2. Tim. 2,[25.]26). Der Weg dieser Vermahnungwird je nach dem Sünder ein verschiedener sein, aber er wird immer dasselbe Ziel haben, zur Buße und zur Versöhnung zu führen.",
+          zh: "「但不要以他為仇人，要勸他如弟兄。」（帖撒羅尼迦後書三章15節）。罪人依然是弟兄，且正因如此，他承受了會眾的懲戒與勸誡。正是這種「憐憫的手足之情」，促使會眾去操練紀律。必須以百般的溫柔管教那抵擋的人，寬容那行惡的人，「或者上帝給他們悔改的心，能明白真道，使他們這些被魔鬼任意擄去的，可以醒悟，脫離他的網羅。」（提摩太後書二章25-26節）。這一勸誡的道路將會因罪人的不同而有所不同，但它將始終抱有同一個目標——引導人悔改與和好。"
+        },
+        {
+          id: "ch14-p69",
+          de: "Kann die Sünde ver­ borgen bleiben zwischen dir und dem Sünder, so sollst du ie nicht offenbaren, vielmehr sollst du ihn allein strafen und zur Buße rufen, \"so hast du einen63 Bruder gewonnen\". Hört er dich I aber nicht, sondern verharrt er in seiner Sünde, so sollst du abermals nicht sogleich die Sünde offenbaren, sondern sollst dir einen oder zwei Zeugen suchen (Matth. 18,15 f.). Des Zeu­ gen bedarf es sowohl wegen des sündigen Tatbestandes -d.h. ist derselbe nicht zu erweisen und wird er von dem Gemeinde­ glied geleugnet, so befehle man die Sache Gott; Zeugen, nicht Inquisitoren sind die Brüder! -als auch wegen der Verstockung des Sünders gegen die Buße.",
+          zh: "如果這罪惡在你與那罪人之間可以被隱瞞，你便不可將其公開，相反地，你應當單獨去指出他的錯，召他悔改，「你便得了你的弟兄」（馬太福音十八章15節）。但他若不聽你的，而是繼續頑固在罪中，你依然不可立即將罪公開，而是應當去尋找一兩個證人（馬太福音十八章16節）。證人的需要，既是為了確認犯罪事實，也是為了確認罪人面對悔改時的頑固態度。"
+        },
+        {
+          id: "ch14-p70",
+          de: "Die Heimlichkeit der Zuchtübung soll dem Sünder die Umkehr erleichtern. Hört er auch jetzt nicht oder ist die Sünde sowieso schon offenbar vor der ganzen Gemeinde, dann ist es Sache der ganzen Gemeinde, den Sünder zu ermahnen, zur Umkehr zu rufen (Matth. 18,17; cf. 2. Thess. 3,14). Ist der Sünder Träger eines Amtes der Gemeinde, so soll er nur auf zweier oder dreier Zeugen Anklage hin verklagt werden.64 \"Die da sündigen, die strafe vor allen, auf daß sich auch die anderen fürchten\" (1. Tim. 5,20). Nun ist die Ge­ meinde aufgerufen, mit dem Amtsträger zusammen das Schlüs­ selamt zu verwalten. Der öffentliche Spruch bedarf der öffentli­ chen Vertretung der Gemeinde und des Amtes.",
+          zh: "紀律操練的隱秘性，旨在使罪人的悔改變得更加容易。如果此時他依然不聽，或者這罪惡原本在整個會眾面前就已經是公開的，那麼這便是整個會眾的責任去勸誡罪人、呼召他回轉（馬太福音十八章17節，帖撒羅尼迦後書三章14節）。如果這罪人是會眾的職分承擔者，那麼唯有憑著兩三個證人的控告，方能對他提起訴訟（提摩太前書五章19節）。「犯罪的人，當在眾人面前責備他，叫其餘的人也可以懼怕。」（提摩太前書五章20節）。此時，會眾蒙召與聖職人員一道去管理鑰匙的職分。公開的判決，需要會眾與職分代表共同進行公開的代表性宣示。"
+        },
+        {
+          id: "ch14-p71",
+          de: "\"Ich beschwöre 63 So auch 1937 DBW 14, 838; Mt 18,15: \"deinen Bruder\". -Mit seiner Über­ setzung von II Tim 2,26 weicht Bonhoeffer vom \"Nestle\"-Text ab. 0 64 Vgl. I Tim 5,19. 290 Teil H. 268 dich vor Gott und dem Herrn Jesus Christus und den auser­ wählten Engeln, daß du solches haltest ohne eigenes Vorurteil und nichts tust nach Gunst\" (1. Tim. 5,21); denn nun soll Got­ tes eigenes Urteil über den Sünder ergehen. Tut dieser aufrich­ tige Buße, bekennt er öffentlich seine Sünde, so empfängt er die Vergebung aller seiner Sünden im Namen Gottes (cf. 2. Kor. 2,6 ff. 65), beharrt er bei seiner Sünde, so muß ihm die Gemeinde im Namen Gottes seine Sünde behalten.",
+          zh: "「我在上帝和主耶穌基督並蒙揀選的天使面前囑咐你：要遵守這些話，不可存成見，行事也不可偏心。」（提摩太前書五章21節）；因為此時上帝對罪人的判決應當頒布。罪人若真誠悔改，公開承認他的罪， he 便在上帝的名裡領受了他一切罪過的赦免；他若頑固不化，會眾就必須在上帝的名裡保留他的罪。"
+        },
+        {
+          id: "ch14-p72",
+          de: "Das aber bedeutet den Ausschluß aus jeder Gemeinschaft der Gemeinde. \"Halte ihn für einen Heiden und Zöllner\" (Matth. 18,17), \"Wahrlich, ich sage euch: was ihr auf Erden binden werdet, soll auch im Him­ mel geb.unden sein, und was ihr auf Erden lösen werdet, soll auch im Himmel los sein\" ... \"Denn wo zwei oder drei versam­ melt sind in meinem Namen, da bin ich mitten unter I ihnen\" (18,18 ff.66). Im Ausschluß aus der Gemeinde aber wird nur bestätigt, was schon Tatsache ist, nämlich, daß der unbußfertige Sünder ein solcher ist, der \"sich selbst verurteilt hat\" (Tit. 3,11). Nicht die Gemeinde verurteilt ihn, er selbst hat sich das Urteil gesprochen.",
+          zh: "而這意味著將其逐出會眾的一切契合體。「看他像外邦人和稅吏一樣」（馬太福音十八章17節）。「我實在告訴你們，凡你們在地上所捆綁的，在天上也要捆綁；凡你們在地上所釋放的，在天上也要釋放。」……「因為無論在哪裡，有兩三個人奉我的名聚會，那裡就有我在他們中間。」（馬太福音十八章18-20節）。逐出會眾，無非只是確認了那已成事實的狀態——即那不願悔改的罪人乃是「自己判決了自己」的人（提多書三章11節）。不是會眾定他的罪，是他自己給自己宣判了判決。"
+        },
+        {
+          id: "ch14-p73",
+          de: "Diesen vollkommenen Ausschluß bezeichnet Pau­ lus mit \"dem Satan übergeben\" (1. Kor. 5,5; 1. Tim. 1,20). Der Schuldige wird der Welt zurückgegeben, in der der Satan herrscht und den Tod wirkt. (Daß hier nicht an einen Akt der Todesstrafe wie Act. 5 gedacht ist, beweist ein Vergleich von 1. Tim. 1,20 und 2. Tim. 2,17; 2. Tim. 4,15). Der Schuldige ist aus der Gemeinschaft des Leibes Christi ausgestoßen, weil er sich selbst getrennt hat. Kein Anrecht an die Gemeinde steht ihm mehr zu. Dennoch bleibt auch dieses letzte Handeln noch ganz im Dienste des Heilszieles mit dem Betroffenen, \"daß der Geist selig werde am Tage des Herrn Jesu\" (1. Kor. 5,5), \"daß er gezüchtigt werde67, nicht mehr zu lästern\" (1. Tim. 1,20).",
+          zh: "保羅將這種完全的逐出稱作「交給撒但」（哥林多前書五章5節，提摩太前書一章20節）。罪人被退還給世界，在世界中撒但實行統治並製造死亡（在此並非指使徒行傳五章那種肉身擊殺的死刑，這可由提摩太前書一章20節與提摩太後書二章17節、四章15節的對比中得到證實）。罪人被逐出基督身體的契合，是因為他自己與之割裂了。他不再享有對會眾的任何權利。然而，即便這最後的處置，也依然全然是在為當事人的「救恩目標」服務——「使他的靈魂在主耶穌的日子可以得救」（哥林多前書五章5節），「使他受管教，不敢再謗瀆了」（提摩太前書一章20節）。"
+        },
+        {
+          id: "ch14-p74",
+          de: "Die Rückkehr zur Gemeinde oder die Erlangung des Heils bleibt das Ziel der Gemeindezucht. Sie bleibt pädagogisches Handeln. So gewiß der Spruch der Gemeinde in Ewigkeit besteht, wo der andere nicht Buße tut, so ist dieser Spruch, in dem dem Sünder und 20. D 67 I Tim 1,20: \"daß ie gezüchtigt werden\", nämlich Hymenäus und Alexander. 269 Die Heiligen 291 das Heil genommen werden muß, nur das letztmögliche Ange­ bot der Gemeinschaft6� der Gemeinde und des Heilsl9) 20). I So bewährt sich die Heiligung der Gemeinde in ihrem Wan­ del, der des Evangeliums würdig ist. Sie bringt die Frucht des Geistes und steht in der Zucht des Wortes.",
+          zh: "回轉歸向會眾、或重獲救恩，始終是會眾紀律的目標。它依然是一項「教育性」的處置。正如在對方不願悔改時，會眾的判決在永恆中依然立足一樣；這項不得不奪走罪人救恩的判決，實則是會眾契合與救恩向他發出的「最後一次挽回邀請」。如此，會眾的成聖在她那與福音相稱的行事為人中得到了證實。她結出聖靈的果子，並置於聖言的規戒之下。"
+        },
+        {
+          id: "ch14-p75",
+          de: "In alledem bleibt ie Gemeinde derer, deren Heiligung allein Christus ist (1. Kor. 1,30) und die dem Tag der Wiederkunft entgegengeht. 19) Jenseits aller Gemeindezuchtübung, die immer im Dienst der Barmher­ zigkeit steht, selbst über die Auslieferung des hartnäckigen Sünders an den Satan hinaus, kennt das Neue Testament als furchtbarste Strafe die Verflu­ chung, das Anathema. Sie ist nicht mehr verbunden mit dem Heilszweck. Sie tritt als Vorwegnahme des göttlichen Urteils auf. Im Alten Testament ent­ spricht ihr der \"Cherem\"\", der an Gottlosen vollstreckt wird . .Er bedeutet definitive Absonderung von der Gemeinde, der Gebannte wird getötet.",
+          zh: "在一切事上，她依然是那些唯獨以基督為其成聖（哥林多前書一章30節）的人的會眾，並向著主再來的日子前行。（註：此處包含神學注釋，指出在一切為著憐憫服務的會眾紀律之外，甚至在將頑固罪人交給撒但之外，新約聖經所知道的最可怕懲罰乃是「詛咒」，它已不再包含挽回的目的，而是末世審判的提前宣示）。"
+        },
+        {
+          id: "ch14-p76",
+          de: "Damit ist ein Doppeltes gesagt: Die Gemeinde vermag den Gebannten unter keinen Umständen mehr zu tragen und zu absolvieren. Darum wird er Gott allein hingegeben. Damit aber ist der Gebannte zugleich verflucht und doch heilig, weil er GOlt ausgeliefert ist. Weil er aber GOll allein gehört als Verfluchter, darum kann die Gemeinde hier nicht mehr Heilsabsichten verfolgen. Daß Ana­ thema Trennung vom Heil bedeutet, beweist Röm. 9,3; daß Anathema eschato­ logisch bezogen ist, legt 1. Kor. 16,22 nahe. Daß vom Anathema der getroffen wird, der das Evangelium selbst durch seine Predigt willentlich zerstört, sagt Gal. 1,8 f.",
+          zh: "這包含著雙重含義：首先，會眾在任何情況下都無法再承擔與赦免該受詛咒者。因此他被單單交給了上帝。然而，這受詛咒者因此既是可咒詛的，同時又是聖潔的，因為他已被徹底交付予上帝。因為他作為受詛咒者單單屬於上帝，所以會眾在此處不能再追求任何挽回的救恩意圖。詛咒意味著與救恩割裂（羅馬書九章3節），且它指向末世的審判（哥林多前書十六章22節）。凡藉由宣講故意摧毀福音本身的人，必將遭受這詛咒（加拉太書一章8-9節）。"
+        },
+        {
+          id: "ch14-p77",
+          de: "Es ist gewiß kein Zufall, daß die einzige Stelle, die über bestimmte Menschen das Anathema spricht, sich auf dic irrlehrer bezieht. Doctrina est coelum, vita terra (Luther).70 20) Die Lehrzucht ist von der Gemeindezucht insofern verschieden, als letz­ tere aus rechter Lehre, d.h. aus rechtem Gebrauch der Schlüssel folgt, erstere sich aber gegen den Mißbrauch der Lehre selbst richtet. Durch falsche Lehre wird die Quelle des Lebens der Gemeinde und der Gemeindezucht verdorben. Darum wiegt die Versündigung gegen die Lehre schwerer als die Versündigung im Wandel. Wer der Gemeinde das Evangelium raubt, verdient uneinge­ schränkte Verurteilung, wer aber in seinem Wandel sündigt, für den ist das Evangelium da.",
+          zh: "新約中唯一對特定的人宣讀詛咒的經文，乃指向「傳播異端邪說者」，這決非偶然。馬丁·路德曾說：「教義是天，生活是地。」教義紀律與會眾紀律的不同在於：後者源自正確的教義、亦即對鑰匙權的正確使用；而前者則是針對對教義本身的濫用。錯誤的教義會毒害會眾生命與會眾紀律的源泉。因此，對抗教義的罪過，比在行事為人上的罪過要嚴重得多。凡強奪會眾之福音的人，理應遭受毫無保留的譴責；然而對於在行事為人上犯罪的人，福音卻正是為他而設的。"
+        },
+        {
+          id: "ch14-p78",
+          de: "Lehrzucht erstreckt sich in erster Linie auf die Träger des Lehramtes in der Kirche. Voraussetzung von allem ist, daß bei der Übertragung des Amtes Gewähr dafür besteht, daß der Amtsträger \"didaktikos\", zur Lehre befähigt ist (1. Tim. 3,2; 2. Tim. 2,24; Tit. 1,9), \"tüchtig auch andere zu lehren\" 68 Wie Mt 18,17 und I Kor 5,11 verstand Bonhoeffer, vgl. 1936 DBW 14, 676, unter Gemeindezucht eine \"Aufhebung der Gemeinschaft\", die \"das letzte Angebot der Gemeinschaft\" ist. D 69 Dt.: \"Bann\". Vgl. ThWNT I, 356, zu dvcdtq.!u (\"Verfluchung\"). D 70 Dt.: \"Lehre ist Himmel, Leben Erde.\" Zitat aus Luthers Galaterbrief-Vorlesung 1531/1535 (WA 57, 13 Druckfassung; vgl.",
+          zh: "教義紀律首先延伸到教會中「宣講」的承擔者身上。一切的前提在於，在授予職分時必須有保障，確信該職分承擔者是「善於教導」（提摩太前書三章2節，提摩太後書二章24節，提多書一章9節）、「也能教導別人」的人（提摩太後書二章2節）。這引領我們來到真正成聖的「第三個定義」：一切成聖，皆指向在耶穌基督的日子挺立。「你們要追求聖潔；非聖潔沒有人能見主。」（希伯來書十二章14節）。成聖始終指向末了。它的目標不在於能在世界或自我的判決前挺立，而是在於能在主面前挺立。"
+        },
+        {
+          id: "ch14-p79",
+          de: "WA 40 II, 51, 8 f Handschrift). -Die folgende Anmerkung entspricht dem \"Satz\" 9 über \"Schlüsselgewalt und Gemeindezucht\" 1937 DBW 14, 841-843. 292 Teil 11. 270 Damit stehen wir bei der dritten Bestimmung74 echter Heili­ gung. Alle Heiligung ist auf das Bestehen am Tage J esu Christi gerichtet. \"Jaget nach der Heiligung, ohne welche I wird nie­ mand den Herrn sehen\" (Hebr. 12,14).75 Heiligung ist immer auf das Ende bezogen. Sie hat ihr Ziel nicht darin, vor dem Urteil der Welt oder vor dem eigenen Urteil, sondern vor dem Herrn bestehen zu können. Vor sich selbst und vor der Welt mag ihre Heiligkeit Sünde, ihr Glaube Unglaube, ihre Liebe (2. Tim. 2,2), daß keinem die Hände voreilig aufgelegt werden, weil sonst des­ sen Schuld auf den zurückfällt, der ihn einsetzte (1. Tim. 5,22).",
+          zh: "在他們自己和世界的眼中，他們的聖潔可能是罪惡，他們的信心可能是小信，他們的愛心可能是嚴酷，他們的紀律可能是軟弱。他們真實的聖潔始終是隱藏著的。然而基督自己為自己預備祂的會眾，使她能在祂面前挺立。「你們作丈夫的，要愛你們的妻子，正如基督愛教會，為教會捨己。要用水藉著道把教會洗淨，成為聖潔，可以獻給自己，作個榮耀的教會，毫無玷污、皺紋等類的病，乃是聖潔沒有瑕疵的。」（以弗所書五章25-27節，歌羅西書一章22節，以弗所書一章4節，註：此處提到按立聖職時不可急促行按手禮，否則別人的罪便歸在按立者身上，提摩太前書五章22節）。"
+        },
+        {
+          id: "ch14-p80",
+          de: "Die Lehrzucht setzt also bereits vor der Berufung ins Lehramt ein. An der äußersten Gewis­ senhaftigkeit hängt hier Leben und Tod von Gemeinden. Die Lehrzucht aber hat mit der Berufung ins Lehramt kein Ende, vielmehr erst ihren Anfang. In unaufhörlicher Ermahnung muß selbst der bewährte Amtsträger - Timo­ theus\" -zur Bewahrung der rechten, heilsamen Lehre angehalten werden. Das Lesen der Schrift wird ihm dafür besonders nahe gelegt. Zu groß ist die Gefahr des Abirrens (2. Tim. 3,10; 3,14; 4,2; 2,15; 1. Tim. 4,13.16; Tit. 1,9; 3,8). Dazu muß aber noch die Ermahnung zum vorb-ildlichen Lebenswandel kommen: \"Habe acht auf dich selbst und auf die Lehre\" (1. Tim. 4,13 U' ; Act. 20,28).",
+          zh: "因此，教義紀律在召召進入聖職之前就已經開始了。在此處，會眾的生死取決於極致的敬虔審慎。而教義紀律絕不隨著進入聖職而終結，反而只是其開端。在無休止的勸誡中，即使是久經考驗的聖職人員，也必須被督促去持守那正確、健全的教義。為此，研讀聖經被特別委託予他。偏離真道的危險實在是太大了（提摩太後書三章10、14節、四章2節、二章15節，提摩太前書四章13、16節，提多書一章9節、三章8節）。在此之外，還必須加上對活出表率生活樣式的勸勉：「你要謹慎自己和自己的教訓」（提摩太前書四章16節，使徒行傳二十章28節）。"
+        },
+        {
+          id: "ch14-p81",
+          de: "Zur Keuschheit, Demut, Unparteilichkeit, zum Fleiß ermahnt zu werden, ist für Timotheus keine Beschämung. So steht vor aller Gemeindezuchtübung die Übung der Zucht an den Amtsträgern. Es ist die Aufgabe des Amtsträgers, in seiner Gemeinde die rechte Lehre zu verbreiten und jeder Verkehrung entge­ genzutreten. \"TO offenbare Irrlehre einzieht, dort soll der Amtsträger gebieten, \"daß ie nicht anders lehrten\" (1. Tim. 1,3); denn erträgt das Lehramt und kann gebieten. Weiter soll er warnen und erinnern, das Wortgezänk zu meiden (2. Tim. 2,14). Ist einer als Irrlehrer offenbar, so soll er \"einmal und abermals ermahnt\" werden.",
+          zh: "被規戒要貞潔、謙卑、無私與勤勉，對提摩太而言並非恥辱。因此，在一切會眾紀律操練之前，首先是對聖職人員進行紀律規戒。聖職人員的職責，是在其會眾中傳播正確的教義，並抵制一切扭曲。在公開的異端邪說滲入的地方，聖職人員應當吩咐「不可傳別的教義」（提摩太前書一章3節）；因為他擔當著教導的職分且有權吩咐。此外，他應當警告並提醒人們避免言語的爭辯（提摩太後書二章14節）。如果一個人明顯是傳播異端者，就應當對他進行「一次和再次的勸誡」。"
+        },
+        {
+          id: "ch14-p82",
+          de: "Hört er nicht, so soll mit einem ketzerischen Menschen die Gemeinschaft abgebrochen werden (Tit. 3,10; 1. Tim. 6,4f.); denn er verführt die Gemeinde (2. Tim. 3,6 f.). \"Wer nicht in der Lehre Christi bleibt, der hat keinen Gott,,'3. Einem solchen falschen Lehrer soll auch die häusliche Gemein­ schaft und der fromme Grußwunsch versagt werden (2. Joh. 10). Im Irrlehrer kommt der Widerchrist. Nicht der Sünder in seinem Lebenswandel, sondern allein der Irrlehrer wird Antichrist genannt. Ihm allein gilt das Anathema von Ga!. 1,9. Über das Verhältnis von Lehrzucht und Gemeindezucht gilt: Es gibt keine Gemeindezucht ohne Lehrzucht.",
+          zh: "他若不聽，便應與這分門結黨的人斷絕來往契合（提多書三章10節，提摩太前書六章4-5節）；因為他會勾引敗壞會眾（提摩太後書三章6-7節）。「凡越過基督的教訓、不常守著的，就沒有上帝。」（約翰二書9節）。對於這類假教師，甚至連家庭相交與敬虔的問安祝福也應當拒絕給予（約翰二書10節）。在異端傳播者身上，敌基督降臨了。在新約中，不是行事為人上有罪的罪人、而唯獨是傳播異端邪說者被稱呼為「敵基督」。唯獨他承受了加拉太書一章9節的詛咒。關於教義紀律與會眾紀律的關係適用：沒有教義紀律，就沒有會眾紀律。"
+        },
+        {
+          id: "ch14-p83",
+          de: "Es gibt aber auch keine Lehrzucht, die nicht zur Gemeindezucht führen müßte. Paulus wirft den Korinthern vor, daß ie in ihrer Aufgeblasenheit Schismata anrichten wollen ohne doch Gemeinde­ zucht zu üben (1. Kor. 5,2). Diese Trennung der Lehrfrage von der Frage des Wandels in der Gemeinde ist unmöglich. 71 Zu den Timotheus-Stellen vg!. bes. 1936 DBW 14, 963-969. D 72 Genauer: Verse 13-16. Das Zitat: I Tim 4,16 a. D 73 II Joh 9. D 74 Angekündigt S. 277. D 75 1936/37 DBW 14, 728 ist hier auf \"Mt 5\" (Vers 8) verwiesen. 2711272 Die Heiligen 293 Härte, ihre Zucht Schwäche sein. Ihre wahre Heiligkeit bleibt verborgen.",
+          zh: "然而，也同樣沒有任何教義紀律是不用走向會眾紀律的。保羅責備哥林多人，因為他們在自高自大中企圖製造分裂，卻不操練會眾紀律（哥林多前書五章2節）。在會眾中，將教義問題與行事為人問題割裂開來是完全不可能的。其嚴厲將流於冷酷，其紀律將流於軟弱。她真實的聖潔，也隨之被隱藏了。"
+        },
+        {
+          id: "ch14-p84",
+          de: "Aber Christus selbst bereitet sich seine Gemeinde, so daß ie vor ihm bestehen kann. \"Ihr Männer, liebet eure Weiber, gleichwie Christus auch I geliebt hat die Gemeinde und hat sich selbst für ie gegeben, auf daß er ie heiligte, und hat ie gereinigt durch das Wasserbad im Wort, auf daß er ie sich selbst darstellte als eine Gemeinde, die herrlich sei, die nicht habe einen Flecken oder Runzel oder des etwas, sondern daß ie heilig sei.und unsträflich\" (Eph. 5,25-27; Kol. 1,22; Eph. 1,4). Vor Jeslls Christus kann nur die geheiligte Gemeinde bestehen; der die Feinde Gottes versöhnte und sein Leben für die Gottlo­ sen gab, der tat es, damit seine Gemeinde heilig sei bis zu seiner Wiederkunft.",
+          zh: "然而，基督親自為自己預備祂的會眾，使她能在祂面前挺立。「你們作丈夫的，要愛你們的妻子，正如基督愛教會，為教會捨己。要用水藉著道把教會洗淨，成為聖潔，可以獻給自己，作個榮耀的教會，毫無玷污、皺紋等類的病，乃是聖潔沒有瑕疵的。」（以弗所書五章25-27節，歌羅西書一章22節，以弗所書一章4節）。在耶穌基督面前，唯獨那被聖潔化的會眾方能挺立；祂使上帝的仇敵和好、為不虔敬者獻出生命，正是為了叫祂的會眾聖潔，直到祂的再來。"
+        },
+        {
+          id: "ch14-p85",
+          de: "Das geschieht durch die Veriegelung mit dem Heiligen Geist, wodurch die Heiligen im Heiligtum der Ge­ meinde verschlossen und bewahrt werden bis auf den Tag J esu Christi. An jenem Tage sollen ie nicht mit Befleckung und Schande, sondern an Geist, Seele und Leib heilig und unsträf­ lich vor ihm erfunden werden (1. Thess. 5,23). \"Wisset ihr nicht, daß die Ungerechten werden das Reich Gottes nicht erer­ ben? Lasset euch nicht verführen! Weder die Hurer noch die Abgöttischen noch die Ehebrecher noch die Weichlinge noch die Knabenschänder noch die Diebe noch die Geizigen noch die Trunkenbolde noch die Lästerer noch die Räuber werden das Reich Gottes ererben.",
+          zh: "這是藉著聖靈的印記封印而成全的，聖徒藉此在會眾的聖所中被鎖閉與保守，直到耶穌基督的日子。在那日，他們應當被發現為不受玷污與羞辱，而是靈與魂與身子都在祂面前得蒙保守、聖潔、無可指摘（帖撒羅尼迦前書五章23節）。「你們豈不知不義的人不能承受上帝的國嗎？不要自欺！無論是淫亂的、拜偶像的、姦淫的、作孌童的、親男色的、偷竊的、貪婪的、醉酒的、辱罵的、勒索的，都不能承受上帝的國。」"
+        },
+        {
+          id: "ch14-p86",
+          de: "Und solche sind euer etliche gewesen; aber ihr seid abgewaschen, ihr seid geheiligt, ihr seid gerecht geworden durch den Namen des Herrn J esu und durch den Geist unseres Gottes\" (1. Kor. 6,9-11). Darum trotze keiner auf Gottes Gnade, der in der Sünde verharren will! Nur die gehei­ ligte Gemeinde wird am Tage J esu Christi errettet werden vor dem Zorn; denn der Herr wird nach den Werken richten76 und die Person nicht ansehen77. Es wird eines jeglichen Werk offen­ bar werden, und er wird einem jeglichen geben \"danach er gehandelt hat bei leiblichem Leben, es sei gut oder böse\" (2. Kor. 5,10; Röm. 2,6ff.; Matth. 16,27).",
+          zh: "「你們中間也有人從前是這樣；但如今你們奉主耶穌基督的名，並我們上帝的靈，已經洗淨、成聖、稱義了。」（哥林多前書六章9-11節）。因此，凡想要頑固在罪中之人，決不可狂妄仗恃上帝的恩典！唯有那被聖潔化的會眾，在耶穌基督的日子方能免受上帝的烈怒而得救；因為主將要照著各人的行為進行審判（羅馬書二章6節起，馬太福音十六章27節），且不看人的外貌。各人的工程都要顯露，且祂必照著各人「在肉身生命中所行的，或善或惡」報應各人（哥林多後書五章10節）。"
+        },
+        {
+          id: "ch14-p87",
+          de: "Was hier auf Erden sein Urteil nicht empfangen hat, das wird am Gerichtstage nicht verborgen bleiben, es muß alles ans Licht. Wer wird dann be­ stehen? Der in guten I Werken erfunden wIrd. Nicht die Hörer, 294 Teil H. 272 sondern die Täter des Gesetzes werden gerechtfertigt werden (Röm. 2,13). Es ist des Herrn eigenes Wort, daß in sein Him­ melreich nur die kommen können, die den Willen seines Vaters im Himmel tun.78 Weil wir nach unseren Werken gerichtet werden, darum ist uns das \"gute Werk\" geboten.79 Die Furcht vor dem guten Werk, mit der wir unsere bösen Werke rechtfertigen wollen80, ist der Bibel allerdings fremd.",
+          zh: "凡在大地上未曾接受判決的，在審判之日絕不可能被隱藏，一切都必須顯露在光中。屆時誰能挺立？那被發現「行了善工」的人。因為不是聽律法的，乃是行律法的得稱為義（羅馬書二章13節）。這是主自己的話語：唯獨遵行祂天父旨意的人，才能進入天國（馬太福音七章21節）。正因為我們是照著行為受審判，所以「善工」被吩咐給了我們。以對「善工」的恐懼來為我們自己的「惡行」進行辯護，這種做法在聖經中是完全陌生的。"
+        },
+        {
+          id: "ch14-p88",
+          de: "Nirgends setzt die Schrift den Glauben so gegen das gute Werk, daß ie in dem guten Werk die Zerstörung des Glaubens ieht, vielmehr ist es das böse Werk, das den Glauben hindert und vernichtet. Gnade und Tun gehören zusammen. Es gibt keinen Glauben ohne das gute Werk, wie es kein gutes Werk ohne Glauben gibt21l• Um seines Heils willen sind dem Christen gute Werke vonnöten; denn wer in bösen Werken erfunden wird, der wird das Reich Gottes nicht sehen. Darum ist das gute Werk das Ziel des Christseins. 82 Weil in diesem Leben nur eins wichtig ist, nämlich wie der Mensch im letzten Gericht bestehen kann, und weil jeder nach seinen Werken gerichtet werden wird, darum geht es in allem um die Bereitung des Christen zum guten Werk.",
+          zh: "聖經在任何地方都絕不把信心與善工對立起來，以致在善工中看出對信心的破壞；相反地，恰恰是「惡行」阻礙並摧毀了信心。恩典與實行是不可分割的。沒有善工就沒有信心，正如沒有信心就沒有善工一樣。為了其救恩的緣故，善工對基督徒而言是必不可少的；因為凡被發現行惡的人，必不得見上帝的國。因此，善工乃是作基督徒的終極目標。既然在今生只有一件事是重要的——即人如何在最後的審判中挺立，且既然每個人都要照其行為受審，那麼一切的關鍵就在於預備基督徒去行善工。"
+        },
+        {
+          id: "ch14-p89",
+          de: "So hat auch 21) Der Unterschied zwischen Paulus und Jakobus besteht darin, daß durch Jakobus der Demut des Glaubens die Möglichkeit des Selbstruhms genommen wird, und daß durch Paulus der Demut des Werkes die Möglichkeit des Selbst­ ruhms entzogen wird. Jakobus will nicht die Gültigkeit des Satzes, daß der Mensch allein durch den Glauben gerechtfertigt werde, bestreiten, sondern er will den Glaubenden selbst von der Gefahr der Sicherheit in seinem Glauben auf das Werk des Gehorsams weisen und ihn damit wahrhaftig demütigen. Paulus wie Jakobus geht es darum, daß der Mensch wahrhaftig aus der Gnade und nicht aus sich selbst lebe.81 78 Mt 7,21. 0 79 1936/37 DBW 14, 618 Anm. 103: \"An der Stelle des guten ,Werkes' [beijakobus] steht bei Paulus dann x(lQJt6�\" (\"Frucht\"); vgl.",
+          zh: "（接上文，註：此處包含神學注釋，深入剖析了保羅與雅各在信心與善工論述上的合一。指出保羅對應雅各書二章17節起，旨在排除人因行律法稱義而生的驕傲，而雅各旨在排除因虛空信心而生的虛假安全感，使人真正謙卑）。"
+        },
+        {
+          id: "ch14-p90",
+          de: "S. 282f. 0 [im Protestantismus] hörte es nicht ungern, daß ,gute Werke' unnötig, ja seelen­ gefährlich seien.\" 0 81 Als Stellen sind 1936 DBW 14, 613 genannt: \"Rm 3,28-31: Jak 2,17ff\". 1936/37 DBW 14, 613 Anm. 80: \"Widerspruch [zwischen Paulus und Jakobus] nur bei einem nicht rechten Verständnis der paulinischen Rechtfertigungslehre.\" 0 82 1936/37 DBW 14, 614 Anm. 88 ist �rklärt: tO.Ho�-Sein des Menschen heißt \"zielstrebig, auf ein Ziel, nicht auf zweie hin\", nicht öl\j!uxo�, d.h. mit zwei Seelen -Jak 1,4.8 (im \"N estle\" Unterstreichungen). Vgl. Mt 5,48 (tEAELO� = \"vollkommen\"); 6,22 (\"einfältig\"). 273/274 Die Heiligen 295 die Neuschöpfung des Menschen in Christus die guten Werke zum Ziel.",
+          zh: "因此，人在基督裡的重新創造，也同樣以善工為其目標。"
+        },
+        {
+          id: "ch14-p91",
+          de: "\"Denn aus Gnade seid ihr selig geworden durch den Glauben, und das nicht aus euch, I Gottes Gabe ist es; nicht aus den Werken, auf daß sich nicht jemand rühme. Denn wir sind sein Werk, geschaffen in Christo Jesu zu guten Werken, zu welchen Gott uns zuvor bereitet hat, daß wir darin wandeln sollen\" (Eph. 2,8-10; vgl. 2. Tim. 2,21; 3,17; Tit. 1,16; 3, 1. 8.14). Hier ist alles ganz deutlich. Das Ziel ist die Herstellung des guten Werkes, das Gott fordert. Gottes Gesetz bleibt aufge­ richtet und muß erfüllt werden (Röm. 3,31). Das geschieht durch das gute Werk. Es gibt aber nur ein gutes Werk, das ist Gottes Werk in Christus Jesus.",
+          zh: "「你們得救是本乎恩，也因著信；這並不是出於自己，乃是上帝所賜的；也不是出於行為，免得有人自誇。我們原是他的工作，在基督耶穌裡造成的，為要叫我們行善，就是上帝所預備叫我們行的。」（以弗所書二章8-10節，參見提摩太後書二章21節、三章17節，提多書一章16節、三章1、8、14節）。在此一切都極其明晰。目標是去行出上帝所要求的善工。上帝的律法依然被建立且必須被成全（羅馬書三章31節）。這藉由善工成全。然而，世上只有一個善工，那便是上帝在基督耶穌裡的作工。"
+        },
+        {
+          id: "ch14-p92",
+          de: "Durch Gottes eigenes Werk in Christus sind wir selig geworden, nicht durch unsere eigenen Werke. So fällt uns niemals ein Ruhm aus eigenen Werken zu; denn wir sind sein Werk. Aber dazu sind wir neu geschaffen in Christus, daß wir in ihm zu guten Werken kämen. Alle unsere guten Werke aber sind allein Gottes eigene gute Werke, zu denen er uns zuvor bereitet hat. Also gute Werke sind zwar geboten um des Heils willen, und gute Werke sind doch immer nur die Werke, die Gott selbst an uns wirkt. Sie sind sein Geschenk. Wir selbst sind es, die in guten Werken wandeln sollen, die jeden Augenblick zu guten Werken gefor­ dert sind, und wir wissen doch, daß wir mit unseren Werken vor Gottes Gericht niemals bestehen könnten, sondern daß es Christus allein ist und sein Werk, an das wir uns im Glauben klammern.",
+          zh: "藉由上帝自己在基督裡的作工，我們得救了，而非藉由我們自己的工作。因此，我們決沒有因自己工作而誇口的可能；因為我們是祂的工作。然而，我們在基督裡被重新創造，正是為了在祂裡面能行出善工。我們一切的善工，其實唯獨是上帝自己預備叫我們行的祂專屬的善工。所以，善工固然為了救恩而被吩咐，但善工卻始終僅僅是上帝自己在我們身上所運作的工作。它們是祂的禮物。應當在善工中行事為人的是我們自己，在每一瞬間蒙召去行善工的是我們，然而我們卻深知，憑藉我們的行為在上帝的審判前我們決不可能挺立，相反地，唯獨是基督與祂的作工，是我們在信心裡所緊緊抓住的。"
+        },
+        {
+          id: "ch14-p93",
+          de: "So verheißt Gott denen, die in Christus Jesus sind, gute Werke, mit denen ie einst bestehen können, er verheißt ihnen die Bewahrung in der Heiligung bis zum Tage J esu. Wir aber können dieser Verheißung Gottes nur glauben auf sein Wort hin, und hingehen und in den guten Werken wandeln, zu denen er uns bereitet hat. So bleibt uns ern Augen unser gutes Werk gänzlich entzogen. Unsere Heiligung bleibt uns verborgen bis auf den Tag, da alles offenbar wird. Wer hier etwas sehen will, wer sich hier selbst offenbar werden will und nicht in Geduld warten, der hat sei­ nen Lohn dahin. Gerade in unserem vermeintlich sicht-I baren Fortschritt der Heiligung, an dem wir uns freuen wollen, sind wir erst recht in die Buße gerufen und erkennen wir unsere Werke als durch und durch sündig.",
+          zh: "如此，上帝向那些在基督耶穌裡的人應許了善工，使他們屆時能藉以挺立；祂向他們應許了在成聖中的保守，直到耶穌的日子。然而我們對上帝的這一應許，唯獨只能憑藉祂的話語去相信，並前去在祂為我們預備的善工中行事為人。如此，在我們自己的眼前，我們的善工被完全奪走了。我們的成聖對我們始終是隱藏的，直到一切顯露的日子。凡想在此處看見些什麼、想在此處自我彰顯而不願耐心等候的人，他已經得到了他的賞賜。"
+        },
+        {
+          id: "ch14-p94",
+          de: "Wir sind aber zur immer größeren Freude an unserem Herrn gerufen. Gott allein kennt unsere guten Werke, wir kennen nur sein gutes Werk und hö­ ren sein Gebot und gehen unter seiner Gnade hin, wandeln in seinen Geboten und sündigen. Es muß dabei bleiben, daß die neue Gerechtigkeit, die Heiligung, das Licht, das leuchten soll, uns ganz verborgen bleibt. Die linke Hand weiß nicht, was die rechte tut.83 Aber wir glauben es, und sind desselbigen guter Zuversicht, daß \"der in uns angefangen hat das gute Werk, der wird es auch vollführen bis an den Tag Jesu Christi\" (Phil. 1,6). An jenem Tag wird uns Christus selbst die guten Werke offen­ baren, die wir nicht kannten.",
+          zh: "恰恰在我們那自以為有形的、企圖自我引以為傲的成聖進步中，我們更被召去悔改，並認清我們的行為徹頭徹尾都是有罪的。然而，我們被召去在我們的主裡面享有越來越大的喜樂。唯有上帝知道我們的善工，我們只知道祂的善工並聽從祂的命令，在祂的恩典下前行，行在祂的誡命之中且在犯罪。必須保持的是：這新公義、這成聖、這應當發光的光，對我們自己是完全隱藏的。左手不知道右手所做的。"
+        },
+        {
+          id: "ch14-p95",
+          de: "Als wir es nicht wußten, haben wir ihn gespeist, getränkt, gekleidet und besucht, und als wir es nicht wußten, haben wir ihn von uns gestoßen. Dann wird ein großes Verwundern anheben, und wir werden erkennen, daß es nicht unsere Werke sind, die hier bestehen, sondern das Werk, das Gott zu seiner Zeit ohne unser Wollen und Mühen durch uns getan hat (Matth. 25,31 ff.). So bleibt uns abermals nichts als von uns wegzusehen auf den, der alles schon für uns voll­ bracht hat und ihm nachzufolgen. Der Glaubende wird gerechtfertigt, der Gerechtfertigte wird geheiligt, der Geheiligte wird im Gericht errettet84, nicht weil unser Glaube, unsere Gerechtigkeit, unsere Heiligung, soweit es an uns ist, etwas anderes wäre als Sünde, sondern weil Jesus Christus uns gemacht ist \"zur Gerechtigkeit und zur Heiligung und zur Erlösung, auf daß, wer sich rühmt, der rühme sich des Herrn\" (1. Kor. 1,3085). 83 Anklänge an Mt 5,16; 6,2 f.",
+          zh: "然而我們相信這點，且深信「那在你們心裡動了善工的，必成全這工，直到耶穌基督的日子。」（腓立比書一章6節）。在那日，基督自己將向我們顯明那些我們自己並不知道的善工。當我們自己不知道的時候，我們給祂吃、給祂喝、給祂穿、去看望祂；而當我們不知道的時候，我們將祂推開了。屆時將升起極大的驚奇，我們將認清：在此挺立的電非我們自己的工作，而是上帝在祂的時候，在完全不憑我們的意志與勞苦的情況下，藉由我們所做成的工作（馬太福音二十五章31節起）。"
+        },
+        {
+          id: "ch14-p96",
+          de: "D 84 Vgl. K. Barth, Römerbrief, 401: \"die unmögliche, die eschatologische Möglichkeit\" -der Mensch, \"gerettet als der Verlorene, gerechtfertigt als der nicht zu Rechtfertigende, allferweckt von den Toten\". D 85 Zitiert ist aus den Versen 30 und 31.",
+          zh: "如此，我們再次別無選擇，唯有從自己身上移開視線，去注視那已經為我們成全了一切的祂，並跟隨祂。基於這同一個跟隨：信徒得稱義、得稱義者得成聖、得成聖者在審判中得救。這並非因為我們的信心、我們的公義、我們的成聖無非只是罪惡，而是因為耶穌基督成了我們的「公義、聖潔、救贖，如經上所記：『誇口的，當指著主誇口。』」（哥林多前書一章30-31節）。"
+        }
       ]
     },
     {
       id: "ch15",
       title: "第十五章：基督的形象 (Das Bild Christi)",
       paragraphs: [
+        {
+          id: "ch15-p1",
+          de: "Das Bild Christi. \"Welche er zuvor ersehen hat, die hat er auch verordnet, daß ie gleichgestaltet sein sollten dem Bilde seines Sohnes, auf daß derselbe der Erstgeborene sei unter vielen Brüdern\" (R. 8,29).1 Es ist die unfaßlich große Verheißung, die denen gegeben ist, die vom Ruf in die Nachfolge Jesu Christi getroffen wurden, daß ie Christus gleich werden sollen. Sie sollen sein Bild tragen als die Brüder des erstgeborenen Sohnes Gottes. Das ist die letzte Bestimmung des Jüngers, daß er werden soll, wie Chri­ stus'. Das Bild Jesu Christi, das der Nachfolgende immer vor Augen hat, vor dem ihm alle anderen Bilder entschwinden, dringt in ihn ein, erfüllt ihn, gestaltet ihn um2, daß der Jünger dem Meister ähnlich, ja gleich wird.",
+          zh: "第十五章：基督的畫像。基督的畫像。「因為他預先所知道的人，就預先定下效法他兒子的模樣，使他兒子在許多弟兄中作長子。」（羅馬書八章29節）。這是給予那些蒙耶穌基督跟隨之呼召所擊中的人的、難以想像的偉大應許：他們將要與基督同塑樣式。他們作為上帝首生之子的弟兄，應當承載祂的畫像。這正是門徒的終極命定——他應當「如同基督一般」。耶穌基督的畫像，乃是跟隨者始終注目凝視、以致在它面前其他一切畫像皆消逝而去的畫像；這畫像滲入他、充滿他、重塑他，使門徒變得與大師相似，甚至完全相同。"
+        },
+        {
+          id: "ch15-p2",
+          de: "Das Bild J esu Christi prägt in der täglichen Gemeinschaft das Bild des Jüngers. Der Nach­ folgende kann das Bild des Sohnes Gottes nicht anschauen in toter, müßiger Betrachtung; von diesem Bilde geht umschaf­ fende Kraft aus. Wer sich Jesus Christus ganz ergibt, der wird und muß sein Bild tragen. Er wird zum Sohne Gottes, er steht neben Christus als dem unsichtbaren Bruder in gleicher Gestalt, als das Ebenbild Gottes. Gott schnf einst Adam zu seinem Ebenbild.3 Gott suchte in Adam als der Vollendung seiner Schöpfung das Wohlgefallen an seinem eigensten Bild, \"und iehe, es war sehr gut\"4. In Adam erkannte Gott sich selbst.",
+          zh: "耶穌基督的畫像，在每日的契合中塑造著門徒的畫像。跟隨者不可能在死板、閒散的觀賞中去看上帝之子的畫像；從這一畫像中正發出重建受造的權能。凡將自己全然降服於耶穌基督的人，他便將且必須承載祂的畫像。他成為上帝的兒子，他在同一個樣式中站在基督這看不見的弟兄身旁，作為上帝的真像。上帝當初照著自己的真像創造了亞當（創世記一章27節）。上帝在作為其創造頂峰的亞當身上，尋求對祂自己最本真畫像的喜悅，「看哪，都甚好」（創世記一章31節）。在亞當身上，上帝認出了祂自己。"
+        },
+        {
+          id: "ch15-p3",
+          de: "So ist es das unauflösliche Geheimnis des Menschen vom Anfang her, daß er Geschöpf'ist und doch dem Schöpfer gleich sein soll. Der geschaffene Mensch soll das Bild des ungeschaffenen Gottes tragen. Adam ist, wie Gott'. Nun soll er sein Geheimnis, Geschöpf und doch gottgleich zu sein, dankbar und gehorsam tragen. Es war die Lüge der Schlange, daß ie Adam vor-I hielt, er müsse erst noch 1 LB: \" ... gleich sein sollten dem Ebenbilde ... \"; in dem mit \"gleich\" über­ setzten Wort (auf-lf-l6Qcpou�) steckt f-I0QCPij, \"Gestalt\". -Zur ,Bildchristologie' vgl. Irenäus (griechischer Kirchenvater, seit 177/1/8 Bischof von Lyon), Adver­ sus haereses IV, 37 Schluß und Demonstratio 22. 0 2 Vgl. Röm 12,2. 0 3 Gen 1,27. 04 Gen 1,31. 298 Teil H. 277 werden wie Gott, und �war aus eigner Tat und Entscheidung.5 Da verwarf Adam die Gnade und erwählte die eigne Tat.",
+          zh: "因此，人從起初起便具有這不可分割的奧秘：他既是「被造物」，卻又應當「與創造主相似」。被造的人應當承載那防被造之上帝的畫像。亞當乃是「如同上帝一般」。此時，他應當以感恩與順從，去承載他那身為被造物卻又與神相似的奧秘。蛇的謊言就在於向亞當宣稱：他必須先通過他自己的作為與抉擇，才能成為「如上帝一般」（創世記三章5節）。於是，亞當拋棄了恩典，揀選了自己的作為。"
+        },
+        {
+          id: "ch15-p4",
+          de: "Adam wollte das Geheimnis seines Wesens, Geschöpf und gottgleich zu sein, selbst lösen. Er wollte von sich aus werden, was er von Gott her schon war. Das war der Sündenfall. Adam wurde\" wie Gott\" -sicut deus -in seiner Weise. Er hatte sich selbst zum Gott gemacht und hatte jetzt keinen Gott mehr. Er herrschte allein als Schöpfergott in einer entgotteten, unterworfenen Welt. 6 Aber das Rätsel seines Daseins bleibt ungelöst. Der Mensch hat sein eigenes, gottgleiches Wesen, das er von Gott hatte, verloren. Er lebt nun ohne seine wesentliche Bestimmung, Got­ tes Ebenbild zu sein. Der Mensch lebt, ohne Mensch zu sein.",
+          zh: "亞當企圖自己去解決他那「既是被造物又與神相似」之本質的奧秘。他想憑藉自己去成為他本已從上帝那裡獲得的樣式。這正是墮落。亞當以他的方式成了「如上帝一般」（sicut deus）。他將自己立為神明，自此他便不再有上帝。他獨自作為創造主神明，統治著一個去神化、被屈服的世界。然而，他生存的謎題依然未解。人失去了他原本從上帝那裡獲得的、那與神相似的本質。他自此存活著，卻失去了他作為「上帝真像」的本質命定。人存活著，卻不再是人。"
+        },
+        {
+          id: "ch15-p5",
+          de: "Er muß leben, ohne leben zu können. Das ist der Widerspruch unseres Daseins und die Quelle aller unserer Not. Seitdem su­ chen die stolzen Kinder Adams das verlorene Bild Gottes aus eigner Kraft in sich wiederherzustellen. Aber gerade je ernster, je hingebender ihr Streben, das Verlorene wiederzugewinnen, und je überzeugender und stolzer der scheinbare Erfolg, desto tiefer der Widerspruch zu Gott. Ihre Mißgestalt, die ie an dem Bild ihres selbsterdachten Gottes prägen, trägt ohne ihr Wissen mehr und mehr das Bild Satans. Das Ebenbild Gottes als die Gnade des Schöpfers bleibt auf dieser Erde verloren.",
+          zh: "他必須存活，卻無法真正擁有生命。這正是我們生存的矛盾，也是我們一切匱乏痛苦的源頭。自此以後，亞當那些驕傲的孩子們，企圖憑藉自己的力量在自己內部重新建立那失去的上帝畫像。然而，他們想要贏回失去之物的努力越是嚴肅、越是投入，其表面上的成功越是令人信服與驕傲，他們與上帝的矛盾就越發深重。他們照著自己所杜撰的神明畫像所塑造成的「畸形」，在他們毫無察覺的情況下，越來越多地承載了撒但的畫像。作為創造主恩典的上帝真像，在大地上依然迷失了。"
+        },
+        {
+          id: "ch15-p6",
+          de: "Aber Gott wendet sein Auge nicht von seinem verlorenen Geschöpf. Er will in ihm sein Bild zum zweiten Male schaffen. Gott will wieder Wohlgefallen haben an seinem Geschöpf. Er sucht an ihm sein eignes Bild, um es zu lieben. Aber er findet es nicht anders, als indem er selbst aus lauter Barmherzigkeit das Bild und die Gestalt der verlorenen Menschen annimmt. Gott muß dem Menschenbild gleich werden, weil der Mensch dem Bilde Gottes nicht mehr gleich werden kann. Gottes Bild soll im Menschen wiederhergestellt werden. Da­ bei geht es um ein Ganzes. Nicht daß der Mensch wieder I rechte Gedanken über Gott habe, nicht daß er seine einzelnen Taten wieder unter Gottes Wort stelle, sondern daß er als gische Auslegung von Genesis 1-3, die 1937 in 2. Auflage erschien. 278 Das Bild Christi 299 Ganzheit, als lebendiges Geschöpf Gottes Bild sei, ist das Ziel und die Bestimmung.",
+          zh: "然而，上帝並未將其視線從祂這迷失的被造物身上移開。祂要在人身上第二次創造祂的畫像。上帝要重新在祂的被造物身上找到喜悅。祂在人身上尋求祂自己的畫像，以便去愛它。然而，祂唯有通過自己出於純粹的憐憫承接這迷失之人的畫像與樣式，方能找到它。上帝必須與「人的畫像」變得相同，因為人已無法再與「上帝的畫像」變得相同。上帝的畫像應當在人身上重新恢復。在此，這關乎一個「整體」。目標與命定不在於人重新獲得關於上帝的正確思想，不在於他將自己零散的行為重新置於上帝的話語之下，而是他作為一個「整體」、作為一個活生生的被造物，本身就是上帝的畫像。"
+        },
+        {
+          id: "ch15-p7",
+          de: "Leib, Seele und Geist, die ganze Gestalt des Menschen soll das Bild Gottes auf Erden tragen. Gottes Wohlgefallen ruht allein auf seinem vollendeten Ebenbild. Das Bild entspringt am Leben, am lebendigen Urbild. Ge­ stalt formt sich an Gestalt. Entweder ist es die erdachte Gottes­ gestalt, an der die menschliche Gestalt sich bildet, oder es ist die wahrhaftige, lebendige Gottesgestalt selbst, die die Menschen­ gestalt zu Gottes Ebenbild prägt. Es muß eine Umgestaltung, eine \"Metamorphose\" (R. 12,2; 2. Kor. 3,18), ein Wandel der Gestalt vor sich gehen, wenn der gefallene Mensch wieder zum Bilde Gottes werden soll.",
+          zh: "身體、靈魂與心靈，人的整個樣式應當在大地上承載上帝的畫像。上帝的喜悅唯獨安息在祂完美的真像之上。畫像發源於生命，發源於那活生生的原型。樣式乃是照著樣式被塑造成的。人要麼是照著自己杜撰的神明樣式來塑造人類樣式，要麼就是那真實、活生生的上帝樣式本身，將人類樣式烙印為上帝的真像。如果墮落的人要重新成為上帝的畫像，就必須進行一場重塑、一場「變形」（羅馬書延十二章2節，哥林多後書三章18節），進行一場樣式的徹底轉變。"
+        },
+        {
+          id: "ch15-p8",
+          de: "Die Frage ist, wie die Umwandlung des Menschen in Gottes Bild möglich werden kann. Weil der gefallene Mensch Gottes Gestalt nicht wiederfinden und annehmen kann, darum gibt es nur einen Weg zur Hilfe. Gott selbst nimmt die Gestalt des Menschen an und kommt zu ihm. Gottes Sohn, der in göttlicher Gestalt beim Vater lebte, entäußert sich dieser seiner Gestalt und kommt in der Gestalt des Knechtes zu den Menschen (Phil. 2,5 H.). Der Wandel der Gestalt, die sich bei den Menschen nicht ereignen konnte, ge­ schieht nun in Gott selbst. Gottes Ebenbild, das in Ewigkeit bei Gott geblieben war, nimmt nun das Bild des gefallenen, sündi­ gen Menschen an.",
+          zh: "問題在於，人如何可能被重塑為上帝的畫像。因為墮落的人無法重新尋得並承接上帝的樣式，所以唯一的拯救道路就在於：上帝自己承接人的樣式並臨到他。上帝的兒子，原本以神的樣式與父同活，此時祂倒空了自己（虛己）的這一樣式，以奴僕的樣式來到人類中間（腓立比書二章5節起）。那無法在人類身上發生的樣式轉變，此時發生在上帝自己身上。上帝的真像，在永恆中與上帝同在，此時承接了那墮落、有罪之人的畫像。"
+        },
+        {
+          id: "ch15-p9",
+          de: "Gott sendet seinen Sohn in der Gleichgestalt des Fleisches der Sünde (R. 8,2 f.). 7 Gott sendet seinen Sohn - nur darin kann die Hilfe liegen. Nicht eine neue Idee, nicht eine bessere Religion vermöchte das Ziel zu erreichen.8 Es kommt ein Mensch zum Menschen. Jeder Mensch trägt ein Bild. Sein Leib und sein Leben treten sichtbar in Erscheinung. Ein Mensch ist nicht ein bloßes Wort, ein Ge­ danke, ein Wille, sondern er ist vor dem allen I und in dem allen eben ein Mensch, eine Gestalt, ein Bild, ein Bruder. So entsteht 7 Das of-lolWfW oaQx6� -Christus als \"das wirkliche Ebenbild der menschlichen Sarx\" (\"des menschlichen Fleisches\") -hatte Bonhoeffer in der Christologie­ Vorlesung 1933 DBW 12,343-348 behandelt.",
+          zh: "上帝差遣祂的兒子，成為罪惡肉身的同塑樣式（羅馬書八章2-3節）。上帝差遣祂的兒子——拯救唯獨在於此。不是一項全新的觀念，也不是一種更優秀的宗教能夠達成這一目標。是一個「人」臨到了人。每個人都承載著一個畫像。他的身體與他的生命有形地呈現出來。一個人不僅是一個話語、思想或意志，而是在這一切之前與之中，他乃是一個「人」、一個樣式、一個畫像、一個弟兄。因此，在祂身上產生的不僅是新的思想、意志與行為，而是一個全新的畫像、全新的樣式。"
+        },
+        {
+          id: "ch15-p10",
+          de: "D 8 Gegen Hegels Religionsphi­ losophie, 1933 DBW 12, 342 und 322: \"Es ist verkehrt, die Menschwerdung Got­ tes aus einer Idee abzuleiten\"; \"sonst ist es nicht der wirkliche Mensch, sondern eine Idee des Menschen\". Auf die Frage, wer der \"Menschgewordene\" ist, lief die Christologie-Vorlesung hinaus, s. DBW 12, 340-348. 300 Teil H. 279 an ihm nicht nur neues Denken, Wollen, Handeln, sondern ein neu es Bild, eine neue Gestalt. In Jesus Christus ist Gottes Ebenbild in der Gestalt unseres verlorenen menschlichen Le­ bens unter uns getreten, in der Gleichgestalt des Fleisches der Sünde. In seiner Lehre und seinen Taten, seinem Leben und seinem Sterben wird sein Bild offenbar.",
+          zh: "在耶穌基督裡，上帝的真像以我們迷失之人類生活的樣式、以罪惡肉身的同塑樣式踏入了我們中間。在祂的教導與作為中、在祂的生命與死亡中，祂的畫像顯露無遺。"
+        },
+        {
+          id: "ch15-p11",
+          de: "In ihm hat Gott sein Ebenbild auf Erden neu geschaffen. Menschwerdung, Wort und Tat J esu und sein Tod am Kreuz gehören unveräußerlich zu diesem Bild. Es ist ein anderes Bild als das Adams in der ersten Herrlichkeit des Paradieses. Es ist das Bild dessen, der sich mitten in die Welt der Sünde und des Todes hineinstellt,. der die Not des menschlichen Fleisches auf sich nimmt, der sich dem Zorn und Gericht Gottes über die Sünder demütig unter­ wirft, der Gottes Willen gehorsam bleibt im Tode und im Lei­ den; der in Armut Geborene, der Zöllner und Sünder Freund und Tischgenosse9, der am Kreuz von Gott und Menschen Ver­ worfene und Verlassene -das ist Gott in Menschengestalt, das ist der Mensch als d<Js neue Ebenbild Gottes!",
+          zh: "在祂裡面，上帝在大地上重新創造了祂的真像。道成肉身、耶穌的言與行以及祂在十字架上的死亡，皆不可分割地屬於這一畫像。這是一個與亞當在樂園最初榮耀中完全不同的畫像。這是那將自己置於罪惡與死亡世界中間的祂的畫像：祂親自擔當了人類肉身的匱乏，祂謙卑地順從了上帝對罪人的烈怒與審判，祂在死亡與受苦中始終順從上帝的旨意；那在貧困中降生者、稅吏與罪人的朋友和席上同伴（馬太福音九章10-11節）、在十字架上被上帝與世人所棄絕與遺棄者——這正是神成了人樣，這正是人作為上帝全新真像的樣式！"
+        },
+        {
+          id: "ch15-p12",
+          de: "Wohl wissen wir, daß die Zeichen des Leidens, die Wund­ male des Kreuzes jetzt die Gnadenzeichen am Leibe des aufer­ standenen und verklärten Christus sind1o, daß das Bild des Ge­ kreuzigten hinfort lebt in der Herrlichkeit des ewigen Hohen­ priesters, der im Himmel vor Gott für uns betetlI. Aus der Knechtsgestalt Je�u erstand am Ostermorgen ein neuer Leib in himmlischer Gestalt und Klarheit. Aber wer nach Gottes Ver­ heißung teilgewinnen will an der Klarheit und Herrlichkeit J esu, der muß vorher gleichgeworden sein dem Bilde des gehor­ samen, leidenden Knechtes Gottes am Kreuz. Wer das verklärte Bild Jesu tragen will, der muß das in der Welt geschändete Bild des Gekreuzigten getragen haben.",
+          zh: "我們固然深知，受難的記號、十字架的傷痕，如今已是那復活且得榮耀之基督身體上的恩典記號（約翰福音二十章19-20節），被釘十字架者的畫像自此活在永恆大祭司的榮耀之中，在天上在上帝面前為我們代求（參見希伯來書二章17節等）。從耶穌的奴僕樣式中，在復活節的清晨復活出了一個具有屬天樣式與榮光的全新身體。然而，凡想照著上帝的應許有份於耶穌的榮光與榮耀的人，在此之前必須先與那在十字架上順從、受苦的上帝奴僕的畫像變得相同。凡想承載耶穌那得榮耀之畫像的人，必須先承載了那在世上被羞辱之被釘十字架者的畫像。"
+        },
+        {
+          id: "ch15-p13",
+          de: "Niemand findet das verlo­ rene Ebenbild Gottes wieder, es sei denn, daß er teilgewinnt an der Gestalt des menschgewor-I denen und gekreuzigten Jesus Christus. Allein auf diesem Bilde ruht Gottes Wohlgefallen. Nur wer sich in der Gleichheit dieses Bildes vor ihm finden läßt, lebt unter dem Wohlgefallen Gottes. Der Gestalt J esu Christi gleichzuwerden, ist nicht ein uns aufgegebenes Ideal der Verwirklichung irgend einer Christus9 Mt 9,10 f. D 10 Joh 20,19 f. D 11 Vgl. Hebr 2,17 u. ö. 280 Das Bild Christi 301 ähnlichkeit. Nicht wir machen uns zum Ebenbilde, sondern es ist das Ebenbild Gottes selbst, es ist die Gestalt Christi selbst, die in uns Gestalt gewinnen will (Gal. 4,19).",
+          zh: "沒有人能重新尋得那迷失的上帝真像，除非他有份於那成了肉身且被釘十字架的耶穌基督的樣式。唯獨在這一畫像之上，安息著上帝的喜悅。唯有在那與這一畫像相同的狀態下呈現在上帝面前的人，才是活在上帝的喜悅之中。與耶穌基督的樣式相同，並非一項交付給我們去實現某種「像基督」的理想。不是我們將自己塑造成真像，而是上帝的真像自己、是基督的樣式自己，要在我們裡面塑造出祂的樣式（加拉太書四章19節）。"
+        },
+        {
+          id: "ch15-p14",
+          de: "Es ist seine eigene Gestalt, die sich in uns zur Erscheinung bringen will. Christus ruht nicht mit seiner Arbeit an uns, bis er uns zur Christus ge­ stalt gebracht hat. Es ist die ganze Gestalt des Menschgeworde­ nen, des Gekreuzigten und des Verklärten, der wir gleich wer­ den sollen. Christus hat diese Menschengestalt angenommen. Er wurde Mensch wie wir. In seiner Menschheit und seiner Niedrigkeit erkennen wir unsere eigene Gestalt wieder. Er ist den Men­ schen gleich geworden, damit ie ihm gleich seien. In der Menschwerdung Christi empfängt die ganze Menschheit die Würde der Gottebenbildlichkeit zurück.",
+          zh: "是祂自己的樣式，要在我們身上顯現出來。基督在我們身上的工作決不罷休，直等到祂將我們帶入到「基督的樣式」之中。那成了肉身者、被釘十字架者與得榮耀者的完整樣式，正是我們應當與之相同的樣式。基督承接了這人的樣式。祂成了如我們一樣的人。在祂的人性與祂的卑微之中，我們認出了我們自己的樣式。祂與人類變得相同，正是為了叫人類能與祂相同。在基督的道成肉身中，整個人類重又獲得了「與神相似」的尊嚴。"
+        },
+        {
+          id: "ch15-p15",
+          de: "Wer sich jetzt am ge­ ringsten Menschen vergreift, vergreift sich an Christus, der Menschengestalt angenommen hat und in sich das Ebenbild Gottes für alles, was Menschenantlitz trägt, wiederhergestellt hat. In der Gemeinschaft des Menschgewordenen wird uns un­ ser eigentliches Menschsein wiedergeschenkt. Wir werden da­ mit aus der Vereinzelung der Sünde herausgerissen und zu­ gleich der ganzen Menschheit wiedergeschenkt. Sofern wir teil­ haben an Christus, dem Menschgewordenen, haben wir teil an der ganzen Menschheit, die von ihm getragen ist. Weil wir in J esu Menschheit uns selbst angenommen und getragen wissen, darum besteht nun auch unser neues Menschsein darin, daß wir die Not und die Schuld der andern tragen.",
+          zh: "此時，凡侵犯那最微不足道之人的人，便是侵犯了那承接了人類樣式、並在祂自身中為一切承載著人類面容者恢復了上帝真像的基督。在與這成了肉身者的契合中，我們真實的人性重又被賜予了我們。我們藉此被從罪惡的孤立隔絕中奪回，並同時被重新賜予了整個人類。只要我們有份於基督這成了肉身者，我們便有份於被祂所承載的整個人類。因為在耶穌的人性中，我們深知自己是被接納與承載的，所以此時我們的新人性也正體現在：我們去承載他人的匱乏與罪責。"
+        },
+        {
+          id: "ch15-p16",
+          de: "Der Menschgewor­ dene macht seine Jünger zu Brüdern aller Menschen. Die ,Phil­ anthropie' (Tit. 3,4) Gottes, die in I der Menschwerdung Christi offenbar wurde, begründet die Bruderliebe der Christen zu al­ lem, was Mensch heißt auf Erden. Es ist die Gestalt des Menschgewordenen, die die Gemeinde zu dem Leibe Christi werden läßt, auf den die Sünde und die Not der ganzen Menschheit fällt und durch den allein ie getragen wird. Die Gestalt des Christus auf Erden ist die Todesgestalt des Gekreuzigten. Das Ebenbild Gottes ist das Bild J esu Christi am Kreuz. In dieses Bild hinein muß das Leben des Jüngers umge­ staltet werden.",
+          zh: "這成了肉身者，使其門徒成為所有人的弟兄。在基督道成肉身中顯明出來的上帝之「慈愛」（提多書三章4節），奠定了基督徒對大地上一切被稱為人的兄弟之愛。正是這成了肉身者的樣式，使會眾成了基督的身體，整個人類的罪惡與匱乏都落在這身體之上，且唯獨藉由這身體而被承載。基督在地上（有形）的樣式，乃是被釘十字架者的「死亡樣式」。上帝的真像是耶穌基督在十字架上的畫像。門徒的生命必須被重塑入這一畫像之中。"
+        },
+        {
+          id: "ch15-p17",
+          de: "Es ist ein Leben in der Gleichgestalt des Todes Christi (Phil. 3,10; R. 6,4 f.). Es ist ein gekreuzigtes Leben (Gal. 2,19). Christus prägt dem Leben der Seinen seine Todesgestalt 302 Teil H. 281 auf in der Taufe. Gestorben dem Fleisch und der Sünde, ist der Christ tot für diese Welt und die Welt ist tot für ihn (Ga!. 6,14). Wer aus seiner Taufe lebt, lebt aus seinem Tode. Christus zeichnet das Leben der Seinen durch das tägliche Sterben im Kampfe des Geistes wider das Fleisch, durch das tägliche Lei­ den der Todesschmerzen, die der Teufel dem Christen schlägt. Das ist das Leiden J esu Christi selbst, das alle seine Jünger auf Erden leiden müssen.",
+          zh: "這是一個與基督的死「同塑樣式」的生命（腓立比書三章10節，羅馬書六章4-5節）。這是一個同釘十字架的生命（加拉太書二章19節）。基督在洗禮中，將祂的死亡樣式烙印在屬祂之人的生命上。對肉體與罪已死，基督徒對於這世界而言是死的，而世界對於他而言也是死的（加拉太書六章14節）。仰賴其洗禮而活的人，便是仰賴其死亡而活。基督藉由聖靈對抗肉體爭戰中的「每日死亡」、藉由魔鬼打擊基督徒時每日承受的死亡痛苦，來標註屬祂之人的生命。這正是耶穌基督「祂自身的受難」，是祂所有的門徒在大地上都必須承受的。"
+        },
+        {
+          id: "ch15-p18",
+          de: "Christus würdigt das Leben nur weniger seiner Nachfolger der engsten Gemeinschaft seines Leidens, des Martyriums. Hier erweist das Leben des Jüngers die tiefste Gleichheit mit der Todesgestalt J esu Christi. In der öffentlichen Schmach, im Leiden und im Tode um Christi willen gewinnt Christus sichtbare Gestalt in seiner Gemeinde. Es ist aber von der Taufe bis zum Martyrium dasselbe Leiden, derselbe Tod. Es ist die Neuschöpfung des Ebenbildes Gottes durch den Ge­ kreuzigten. Wer in der Gemeinschaft des Menschgewordenen und Ge­ kreuzigten steht, in wem er Gestalt gewonnen hat, der wird auch dem Verklärten und Auferstandenen gleich werden. , Wir werden das Bild des himmlischen Menschen tragen' (1. Kor. 15,49). ,Wir werden ihm gleich sein, denn wir werden I ihn schauen, wie er ist' (1. Joh. 3,212).",
+          zh: "基督只看中並使祂極少數跟隨者的生命配得那最親密的受難契合——即「殉道」。在此處，門徒的生命彰顯出與耶穌基督之死亡樣式最深沉的相同。在為了基督的緣故而承受的公開恥辱、受難與死亡中，基督在其會眾中有形地贏得了樣式。然而，從洗禮直至殉道，皆是同一個受難、同一個死亡。這正是被釘十字架者對上帝真像的重新創造。凡站在這成了肉身者與被釘十字架者的契合中、凡基督已在其內部贏得了樣式的人，他也將與得榮耀且復活的祂相同。「我們……也必承受天上的形狀。」（哥林多前書十五章49節）。「我們必要與祂相同，因為我們必得見祂的真體。」（約約一書三章2節）。"
+        },
+        {
+          id: "ch15-p19",
+          de: "Wie das Bild des Gekreuzig­ ten, so wird auch das Bild des Auferstandenen die umgestalten, die es sehen. Wer Christus schaut, der wird in sein Bild hinein­ gezogen, seiner Gestalt gleichgemacht, ja er wird zum Spiegel des göttlichen Bildes. Schon auf dieser Erde wird sich in uns die Herrlichkeit Jesu Christi widerspiegeln. Aus der Todesgestalt des Gekreuzigten, in der wir leben, in Not und Kreuz, wird schon die Klarheit und das Leben des Auferstandenen hervor­ leuchten, und immer tiefer wird die Umgestaltung zum göttli­ chen Ebenbild, immer klarer wird das Bild Christi in uns; es ist ein Fortschreiten von Erkenntnis zu Erkenntnis, von Klarheit zu Klarheit, zu immer vollkommenerer Gleichheit mit dem Bilde des Sohnes Gottes. ,Wir alle aber, die wir mit unverhüll­ tem Angesicht die Herrlichkeit des Herrn sich in uns spiegeln 12 LB: \" ... ihn sehen ...",
+          zh: "正如被釘十字架者的畫像一樣，那復活之主的畫像也同樣會重塑那些看見它的人。凡注視基督的人，便被吸入到祂的畫像之中，與祂的樣式變得相同，甚至他自己成了神聖畫像的「鏡子」。甚至在這大地上，耶穌基督的榮耀就已經要在我們身上反射出來。從我們所活在其下的被造之物的被釘十字架的死亡樣式（處在匱乏與十字架中）中，復活之主的榮光與生命就已經要照亮出來；且向著神聖真像的重塑將越來越深，基督的畫像在我們內部將越來越清晰；這是一個從認識到認識、從榮光到榮光、與上帝之子畫像越來越完美相同的過程。「我們眾人既然敞著臉，讓主的榮光在我們身上反射出來，"
+        },
+        {
+          id: "ch15-p20",
+          de: "\"; Bonhoeffer übersetzt das Verb wie in Mt 5,8. 282 Das Bild Christi 303 lassen, werden dadurch in sein Ebenbild umgestaltet von Herr­ lichkeit zu Herrlichkeit' (2. Kor. 3,18).13 Das ist die Einwohnung J esu Christi in unseren Herzen. Das Leben J esu Christi ist auf dieser Erde noch nicht zu Ende ge­ bracht. Christus lebt es weiter in dem Leben seiner Nachfolger. Nicht von unserem christlichen Leben, sondern von dem wahr­ haftigen Leben Jesu Christi in uns ist nun zu reden. ,Nun aber lebe nicht ich, sondern Christus lebt in mir' (Gal. 2,20). Der Menschgewordene, der Gekreuzigte, der Verklärte ist in mich eingegangen und lebt mein Leben. ,Christus ist mein Leben' (Phil. 1,21).",
+          zh: "藉此被重塑為祂的真像，榮上加榮。」（哥林多後書三章18節）。這正是耶穌基督在我們心中的「內住」。耶穌基督的生命在這大地上還沒有結束。基督在祂跟隨者的生命中繼續活出這生命。此時，應當論述的不是「我們基督徒的生命」，而是耶穌基督在我們內部那「真實的生命」。「現在活著的不再是我，乃是基督在我裡面活著。」（加拉太書二章20節）。那成了肉身者、被釘十字架者與得榮耀者已經進入了我，並活出了我的生命。「基督是我的生命」（腓立比書一章21節）。"
+        },
+        {
+          id: "ch15-p21",
+          de: "Mit Christus aber wohnt der Vater bei mir, und Vater und Sohn durch den Heiligen Geist. Es ist die heilige Dreieinigkeit selbst, die in dem Christen Wohnung gemacht hat, ihn erfullt und ihn zu ihrem Ebenbilde macht.14 Der menschgewordene, der gekreuzigte und der verklärte Christus nimmt Gestalt an in den Einzelnen, weil ie Glieder seines Lei­ bes, der Kirche sind. Die Kirche trägt die Menschengestalt, die Todesgestalt und die Auferstehungsgestalt J esu Christi. Sie ist zuerst sein Ebenbild (Eph. 4,24; I Kol. 3,10), und durch ie sind es alle ihre Glieder. Im Leibe Christi sind wir, wie Christus' geworden.",
+          zh: "隨著基督，父也與我同住，且父與子藉由聖靈同在。這正是聖三位一體自己，在基督徒裡面設立了住處，充滿他並使其成為祂們的真像。那成了肉身、被釘十字架與得榮耀的基督，在各人身上成形，因為他們是祂的身體（教會）的肢體。教會承載著耶穌基督的人類樣式、死亡樣式與復活樣式。她首先是祂的真像（以弗所書四章24節，歌羅西書三章10節），且藉由她，她所有的肢體皆成了這真像。在基督的身體裡，我們成了「如同基督一般」。"
+        },
+        {
+          id: "ch15-p22",
+          de: "Nun wird es begreiflich, daß das Neue Testament immer wieder davon spricht, daß wir sein sollen, wie Christus' (xm'}(l)(; XQw't6�). Weil wir zum Ebenbilde Christi gemacht sind, darum sollen wir sein wie Christus. Weil wir Christi Bild schon tragen, darum allein kann Christus das ,Vorbild<15 sein, dem wir folgen. Weil er selbst sein wahrhaftiges Leben in uns führt, darum können wir, wandeln gleichwie er gewandelt ist' (1. Joh. 2,6), ,tun wie er getan' hat (Joh. 13,15), ,lieben wie er geliebt hat' (Eph. 5,2; Joh. 13,34; 15,12), ,vergeben wie er vergeben hat' (Kol. 3,13), ,gesinnt sein wie Jesus Christus auch war' decktem Angesicht, und wir werden verklärt in dasselbe Bild von einer Klarheit zu der andern ...",
+          zh: "至此，我們終於能夠理解，為何新約聖經一次次提及我們應當「如同基督一般」（kathos Christos）。因為我們已被塑造成了基督的真像，所以我們應當如同基督。正因為我們已經承載了基督的畫像，所以基督自己才能成為我們跟隨的「榜樣」，向我們跟隨。因為祂自己在我們裡面活出祂那真實的生命，所以我們才能「照主所行的去行」（約約一書二章6節）、「照我給你們做作的去做」（約約福音十三章15節）、「憑愛心行事，正如基督愛我們一樣」（以弗所書五章2節，約約福音十三章34節、十五章12節）、「彼此饒恕，正如主饒恕了你們一樣」（歌羅西書三章13節）、「你們當以基督耶穌的心為心」"
+        },
+        {
+          id: "ch15-p23",
+          de: "\"; Bonhoeffer gibt !-lEtU!-lO()(POU!-lE{}U statt mit \"verklärt\" wört­ licher mit \"umgestaltet\" wieder. 0 14 Vgl. 1935 DBW 14, 444 zu \"Einwohnung der Trinität\": \"Der Raum des Christus als Gemeinde existierend ist also zugleich der Raum des Heiligen Geistes in den Gläubigen. Nur als solcher ist der Raum des Christus -Kirche real.\" Siehe DBW 3 (SF), 59; H. Schmid, Dogmatik, 155, 163 Anm. 18. 0 15 Vgl. Kierkegaard 163 (von Bonhoeffer angestrichen):",
+          zh: "（腓立比書二章5節）。在祂身體的契合中，我們已與基督的畫像同塑樣式。我們是那基督已在其內部成形的聖徒。至此，門徒跟隨的工作完成了。跟隨，乃是與耶穌基督之人格的「緊緊綁定」，亦即被吸入到祂的畫像之中，與祂的死亡與祂的榮耀同塑樣式。跟隨，是藉由祂教會中現今臨在的基督，對生命進行的成聖——是聖言與聖禮的規戒，是在手足契合中舊人的每日死亡與新人的每日復活。它絕非人的工作，而是上帝自己在基督裡的作工。"
+        }
       ]
     }
   ]

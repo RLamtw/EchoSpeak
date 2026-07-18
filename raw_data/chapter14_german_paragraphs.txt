@@ -1,0 +1,482 @@
+[
+  {
+    "id": "ch14-p1",
+    "de": "Die Heiligen. Die Ekklesia Christi, die Jüngergemeinde, ist der Herrschaft der Welt entrissen. Zwar lebt ie mitten in der Welt. Aber ie ist zu Einem Leib gemacht, ie ist ein eigener Herrschaftsbereich, ein Raum für sich. Sie ist die heilige Kirche (Eph. 5,27), die Gemeinde der Heiligen (1. Kor. 14,34), und ihre Glieder sind die berufenen Heiligen (Röm. 1,7), die in Jesus Christus gehei­ ligt sind (1. Kor. 1,2), auserwählt und ausgesondert, ehe der Welt Grund gelegt wurde (Eph. 1,4). Das war das Ziel ihrer Berufung zu Jesus Christus, ja ihrer Erwählung vor der Grün­ dung der Welt, daß ie heilig und untadelig seien (Eph. 1,4), dazu hatte Christus seinen Leib in den Tod gegeben, daß er die Seinen heilig, unbefleckt und unsträflich vor sich selbst dar­ stellte (Kol. 1,22), das ist die Frucht der Befreiung von der Sünde durch den Tod Christi, daß die, die einstmals ihre Glie­ der der Ungerechtigkeit liehen, ie nun zum Dienst der Gerech­ tigkeit gebrauchen, zur Heiligung (Röm. 6,19-221).",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p2",
+    "de": "Heilig ist allein Gott. Er ist es sowohl in der völligen Abson­ derung von der sündigen Welt, wie in der Gründung seines Heiligtums mitten in der Welt. So singt Mose mit den Kindern Israel nach dem Untergang der Ägypter dem Herrn, der sein Volk aus der Knechtschaft der Welt erlöst hat, das Loblied: \"Herr, wer ist Dir gleich unter den Göttern? Wer ist Dir gleich, der so mächtig, heilig, schrecklich an Ruhm und wundertätig sei? Da Du Deine Hand ausstrecktest, verschlang ie die Erde. Du hast geleitet durch Deine Barmherzigkeit Dein Volk, das Du erlöst hast und hast ie geführt durch Deine Stärke zu Dei­ ner heiligen Wohnung ...",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p3",
+    "de": "Du bringest ie hinein und pflanzest ie auf dem Berge Deines Erbteils, I den Du Herr, Dir zur Wohnung gemacht hast, zu Deinem Heiligtum, Herr, das Deine Hand bereitet hat\" (Ex. 15,11 fU). Das ist Gottes Heilig­ keit, daß er sich mitten in der Welt seine Wohnung, sein Heilig1 Formulierungen im Anklang an Vers 19. 0 2 Verse 11-13.17. Das ,,(die Erde verschlang) ie\" in V. 12 bezieht sich auf die Ägypter. In LB Markierun­ gen im Kapitel Ex 15. turn bereitet, und von diesem Heiligtum Gericht und Erlösung ausgehen läßt (Psalm 99 u. ö.). Im Heiligtum aber verbindet sich der Heilige mit seinem Volk. Das geschieht durch Versöh­ nung, die nirgends anders erlangt wird als im Heiligtum (Lev. 16,16 H.).",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p4",
+    "de": "Gott schließt mit seinem Volk einen Bund. Er son­ dert es aus, er macht es zu seinem Eigentum und verbürgt sich selbst für diesen Bund. \"Ihr sollt heilig sein, denn ich bin heilig, der Herr, euer Gott\" (Lev. 19,2), und \"ich bin heilig, der Herr, der euch heiligt\" (Lev. 21,8). -Das ist der Grund, auf dem dieser Bund besteht. Alle weiteren Gesetze, die dem Volk gege­ ben werden, und die es halten soll in Gerechtigkeit, haben zur Voraussetzung und zum Ziel die Heiligkeit Gottes und seiner Gemeinde. Wie Gott selbst als der Heilige abgesondert ist vom Gemei­ nen, von der Sünde, so ist es auch die Gemeinde seines Heilig­ tums.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p5",
+    "de": "Er hat ie selbst erwählt. Er hat ie zur Gemeinde seines Bundes gemacht. Er hat ie im Heiligtum versöhnt und gerei­ nigt. Das Heiligtum aber ist der Tempel, und der Tempel ist der Leib Christi. So ist im Leib Christi der Wille Gottes zu einer heiligen Gemeinde erfüllt. Abgesondert von Welt und Sünde zum Eigentum Gottes gemacht, ist der Leib Christi das Heilig­ tum Gottes in der Welt. Gott wohnt in ihm mit dem heiligen Geist. Wie geht das zu? Wie schafft sich Gott aus sündigen Men­ schen eine Gemeinde der Heiligen, die von der Sünde vollkom­ men getrennt ist? Wie wendet Gott die Anklage der Ungerech­ tigkeit von sich, wenn er sich mit Sündern verbindet?",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p6",
+    "de": "Wie kann der Sünder gerecht sein, und doch Gott gerecht bleiben? Gott rechtfertigt sich selbst, er führt den Beweis für seine Gerechtigkeit. Im Kreuz J esu Christi geschieht das Wunder I der Selbstrechtfertigung Gottes vor sich selbst und vor den Menschen (Röm. 3,21 ff.). 3 Der Sünder soll von der Sünde ge3 \"Selbstrechtfertigung Gottes\" ist 1937 ein Stichwort im Sachregister des Bu­ ches \"Nachfolge\". Im \"Nestle\" (neben vielen anderen Markierungen in Röm 3) Fragezeichen an den Versen 21, 25 und 26 bei Luthers ausdeutender Überset­ zung von ÖLxmoouvll {}WU (\" Gerechtigkeit Gottes\"): \"Gerechtigkeit, die vor Gott gilt\".",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p7",
+    "de": "Bonhoeffer faßt Röm 3,21 ff anders auf als Luther und ähnlich wie K. Barth, Römerbrief, 67: \"Er [Gott] rechtfertigt sich vor sich selbst, indem er 248 Die Heiligen 271 trennt werden und doch vor Gott leben. Trennung von der Sünde aber gibt es für den Sünder nur durch den Tod. So sehr ist sein Leben Sünde, daß er sterben muß, soll er von der Sünde frei sein. Nur darin kann Gott gerecht sein, daß er den Sünder tötet. Aber dennoch soll ja der Sünder leben und vor Gott heilig sein? Wie wird das möglich? Gott selbst wird Mensch, er selbst nimmt unser Fleisch an in Jesus Christus, seinem Sohn, er trägt in seinem Leib unser Fleisch in den Tod am Kreuz.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p8",
+    "de": "Gott tötet seinen Sohn, der unser Fleisch trägt, und mit seinem Sohn tötet er alles, was Fleisch ist auf Erden. Nun ist es offenbar, daß niemand gut ist denn der einige Gott\\ daß keiner gerecht ist, als Gott allein. Nun hat Gott den furchtbaren Beweis seiner eigenen Gerechtigkeit ge­ führt (EVÖELSl� Tli� ('HXmOO1)vY]� alrrou Röm. 3,26) durch den Tod seines Sohnes.5 Gott mußte die ganze Menschheit in den Tod geben im Zornesgericht am Kreuz, damit Er allein gerecht sei. Gottes Gerechtigkeit ist offenbar im Tode J esu Christi. Der Tod Jesu Christi ist der Ort, an dem Gott den gnädigen Beweis seiner Gerechtigkeit geführt, an dem von nun an allein Gottes Gerechtigkeit wohnt.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p9",
+    "de": "Wer an diesem Tod teil bekommen könnte, bekäme damit auch teil an der Gerechtigkeit Gottes. Nun aber hat Christus unser Fleisch angenommen und an sei­ nem Leib unsere Sünde ans Holz getragen (1. Petr. 2,246). Was an ihm geschah, geschah an uns allen. Er nahm teil an unserem Leben und Sterben, so gewannen wir teil an seinem Leben und Sterben. Mußte Gottes Gerechtigkeit sich in Christi Tod erwei­ sen, so sind wir mit ihm dort, wo Gottes Gerechtigkeit wohnt, an seinem Kreuz, denn er trug unser Fleisch. So gewinnen wir als die Getöteten teil an der Gerechtigkeit Gottes in J esu Tod. Gottes eigene Gerechtigkeit, die uns Sünder tötet, ist im Tode sich zum Menschen und seiner Welt bekennt\". -Vgl. 1936/37 DBW 14, 32M.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p10",
+    "de": "D 4 Vgl. Mk 10,18. D 5 Vgl. Hegels Religionsphilosophie nach Lasson XIV, 157f (dort Unterstreichungen Bonhoeffers): \"Die höchste Entäußerung der göttlichen Idee: ,Gott ist gestorben, Gott selbst ist tot' ist eine ungeheure, fürch­ terliche Vorstellung, die vor die Vorstellung den tiefsten Abgrund der Ent­ zweiung bringt.\" Mit dieser Hegel-Stelle hat Bonhoeffer sich DBW 3 (SF), 34, auseinandergesetzt. D 6 An dieser Stelle steht \"Sünden\", im Plural; im \"Nestle\" wird dazu auf \"Röm. 6,11\" (von Bonhoeffer mehrfach unterstrichen) verwiesen -dort steht \"Sünde\" im Singular. Jesu seine Gerechtigkeit für uns.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p11",
+    "de": "Indem im I Tode Jesu Gottes Gerechtigkeit hergestellt ist, ist auch für uns, die wir im Tode Jesu eingeschlossen sind, Gottes Gerechtigkeit hergestellt. Gott erweist seine Gerechtigkeit \"auf daß er allein gerecht sei und rechtfertige den, der aus dem Glauben an Jesus ist\"7 (Röm. 3,26). Darill also besteht die Rechtfertigung des Sünders, daß Gott allein gerecht ist und er ganz und gar ungerecht, nicht daß er neben Gott auch noch gerecht sei. Jeder Wille, selbst auch gerecht zu sein, trennt uns ganz und gar von der Rechtfertigung durch die alleinige Rechtfertigung Gottes. Gott allein ist ge­ recht. Das wird im Kreuz erkannt als Urteil, das über uns als Sünder ergangen ist.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p12",
+    "de": "Wer sich aber im Glauben im Tode J esu im Kreuz findet, der empfängt dort, wo er als der Sünder zum Tode verurteilt ist, die Gerechtigkeit Gottes, die am Kreuz triumphiert. Der erfährt gerade als der, der niemals selbst ge­ recht sein kann und will, sondern der Gott ganz allein gerecht sein läßt, seine Rechtfertigung. Denn nicht anders kann der Mensch vor Gott recht fertig gemacht seinS, als in der Erkennt­ nis, daß Gott allein gerecht und er, der Mensch, ganz und gar Sünder sei. Die Frage, wie wir Sünder vor Gott gerecht sein können, ist im Grunde die Frage, wie Gott gegen uns allein gerecht sei.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p13",
+    "de": "Unsere Rechtfertigung hat ihren Grund allein in der Rechtfertigung Gottes, \"auf daß du (Gott)9 gerechtfertigt wer­ dest in deinen Worten und den Sieg davon trägst, wenn du gerichtet wirst\" (Röm. 3,4). Um den Sieg Gottes über unsere Ungerechtigkeit geht es allein, darum, daß Gott gerecht bleibe vor sich selbst, darum, daß er allein gerecht sei. Dieser Sieg Gottes ist im Kreuz errun­ gen. Darum ist dieses Kreuz nicht nur Gericht, sondern Ver­ söhnung (tA.a<JL�QLOVl0 v. 25) für alle, die glauben, daß im Tode Jesu Gott allein gerecht sei: und die ihre Sünde erkennen. Got­ tes Gerechtigkeit schafft selbst die Versöhnung (JlQOE11cW11 v. 25).",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p14",
+    "de": "\"Gott war in Christo und versöhnte die Welt mit sich 7 Bonhoeffer hält sich an das EX (\"aus\") im griechischen Text; Luther übersetzt: \" ... der da ist des Glaubens an J esum\". D 8 Die Ausdrucksweise \"recht fertig\" benutzte Bonhoeffer zu I Kor 13,13 1934 DBW 13,403; vgl. 1935 DBW 14, 327. D 9 Unterstreichender Einschub Bonhoeffers in das Zitat aus Ps 51,6. D 10 Dt.: \"Sühnemittel\" . D 11 Dt.: ,,(Gott) hat öffentlich vorgestellt\". Vgl. 1935 250 Die Heiligen 273 selbst\" (2. Kor. 5,19 H.). \"Er rechnete ihnen ihre I Sünde nicht ZU\"12 -er trug ie selbst und ertrug dafür den Tod des Sünders. \"Er hat unter uns aufgerichtet das Wort von der Versöhnung.\" Dieses Wort will Glauben finden, Glauben, daß Gott allein gerecht sei und in Jesus unsere Gerechtigkeit geworden sei.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p15",
+    "de": "Aber zwischen Christi Tod und der Botschaft vom Kreuz liegt seine Auferstehung. Nur als der Auferstandene ist er der, des­ sen Kreuz an uns Macht hat. Die Botschaft vom Gekreuzigten ist immer schon die Botschaft von dem, der nicht im Tode blieb. \"So sind wir nun Botschafter an Christi statt, denn Gott vermahnt durch uns; so bitten wir nun an Christi statt: Seid versöhnt mit Gott\"13. Die Botschaft von der Versöhnung ist Christi eigenes Wort. Er ist der Auferstandene, der sich uns bezeugt als der Gekreuzigte im Wort des Apostels: findet euch selbst wieder im Tode J esu Christi in der Gerechtigkeit Gottes, die uns dort geschenkt ist.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p16",
+    "de": "Wer sich in J esu Tod finden wird, findet sich in Gottes alleiniger Gerechtigkeit. \"Denn er hat den, der von keiner Sünde wußte, für uns zur Sünde gemacht, auf daß wir würden die Gerechtigkeit Gottes in ihm\"14. Der Un­ schuldige wird getötet, weil er unser sündiges Fleisch trägt, er ist von Gott und der Welt gehaßt und verflucht, zur Sünde gemacht um unseres Fleisches willen. Wir aber finden in seinem Tode Gottes Gerechtigkeit. Wir sind in ihm in der Kraft seiner Menschwerdung. So starb er für uns, damit wir, die wir Sünder sind, in ihm Gottes Ge­ rechtigkeit würden als die Sünder, die durch Gottes alleinige Gerechtigkeit von der Sünde losgesprochen sind.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p17",
+    "de": "Ist Christus vor Gott unsere Sünde, die verurteilt werden muß, so sind wir in ihm die Gerechtigkeit, nun aber gewiß nicht unsere eigene Gerechtigkeit (tö(a öLxmoouvll Röm. 10,3; Phil. 3,9), sondern eben in ganz strengem Sinn allein Gottes Gerechtigkeit. Das also ist Gottes Gerechtigkeit, daß wir als Sünder seine Gerech­ tigkeit werden, und das ist unsere, d.h. Seine Gerechtigkeit DBW 14,328: Gott entzweit sich um seiner eigenen Gerechtigkeit willen ... zu unserer Sühnung sein Blut.\" D 12 WIederum -wie I Petr 2,24 -statt des Plurals, der in II Kor 5,19 steht, Singular. D 13 II Kor 5,20 (LB: \"Lasset euch versöhnen\").",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p18",
+    "de": "D 14 II Kor 5,21(LB: \"Gerechtigkeit, die vor Gott gilt\"). 274 Teil H. 251 (Jes. 54,715), daß Gott allein gerecht ist und wir I von ihm ange­ nommene Sünder. Gottes Gerechtigkeit ist Christus selbst (1. Kor. 1,30). Christus aber ist \"Gott mit uns\", \"Immanuel\" (Jes. 7,14), Gott unsere Gerechtigkeit (Jer. 33,16). Die Verkündigung des Todes Christi für uns ist die Rechtfer­ tigungspredigt. Die Eingliederung in den Leib Christi, d.h. in seinen Tod und seine Auferstehung ist die Taufe. Einmal ist Christus gestorben, so wird auch uns Taufe und Rechtfertigung ein für allemal zuteil. Sie sind in strengstem Sinne unwiederhol­ bar.16 Wiederholbar ist nur die Erinnerung an das, was an uns ein für allemal geschehen ist, und nicht nur wiederholbar, son­ dern der täglichen Wiederholung bedürftig17.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p19",
+    "de": "Dennoch bleibt die Erinnerung etwas Anderes als die Sache selbst. Wer die Sache selbst verliert, für den gibt es keine Wiederholung. Hier behält der Hebräerbrief recht (6,5f. und 10,26f.). Wo das Salz dumm wird, womit soll man salzen?18 Für die Getauften heißt es: Wisset ihr nicht. .. ? (Röm. 6,3; 1. Kor. 3,16 und 6,19) und: Haltet euch dafür, daß ihr der Sünde abgestorben seid und lebet Gott in Christo J esu (Röm. 6,11 )19. Es ist alles geschehen, nicht nur am Kreuz Jesu, sondern auch an euch. Ihr seid von der Sünde getrennt, ihr seid gestorben, ihr seid gerechtfertigt. Da­ mit hat Gott sein Werk vollbracht.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p20",
+    "de": "Er hat sein Heiligtum auf Erden gegründet durch Gerechtigkeit. Dies Heiligtum heißt Christus, Leib Christi. Die Trennung von der Sünde ist vollzo­ gen durch den Tod des Sünders in Jesus Christus. Gott hat eine von der Sünde gerechtfertigte Gemeinde. Das ist die Gemeinde der Jünger Jesu, die Gemeinde der Heiligen. Sie sind aufgenom­ men in sein Heiligtum, ie selbst sind sein Heiligtum, sein Tem­ pel. Sie sind aus der Welt herausgenommen und leben in einem neuen eigenen Raum mitten in der Welt. Von nun an heißen die Christen im Neuen Testament nur 15 Wohl irrtümlich statt: Jes 51,7 (an diesen Vers klingt Mt 5,11 an).",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p21",
+    "de": "D 16 Bonhoeffer kommentiert das vorangehende \"ein für allemal\" (EqJC'mas); vgl. S. 224f. D 17 1936 NL B 9,5 (21) -vgl. DBW 14, 608 -steht der griechische Ausdruck aus I Kor 15,31 xa{}' �f!fQav (\"täglich\"). Vgl. Luther im Kleinen Ka­ techismus zum \"Wassertäufen\" (BSLK 516): täglich \"sterben mit allen Sunden\", täglich \"auferstehen ein neuer Mensch\". D 18 Mt 5,13. D 19 Bei Luther: (der Sünde) \"gestorben\". Bonhoeffer betont das \"weg von\" (dn6), iehe S. 223. 252 Die Heiligen 275 noch \"die Heiligen\"20. Der andere Name, der sich denken ließe, nämlich\" Gerechte\", findet keinen Eingang. Er vermag I nicht in derselben Weise den ganzen Umfang der empfangenen Gabe zu beschreiben.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p22",
+    "de": "Er ist bezogen auf das einmalige Ereignis der Taufe und Rechtfertigung. Zwar ist das Gedächtnis dieses Er­ eignisses ein täglich zu wiederholendes. Zwar bleiben die Heili­ gen die gerechtfertigten Sünder. Aber mit der einmaligen Gabe der Taufe und Rechtfertigung, der täglichen Erinnerung an ie ist uns zugleich im Tode Christi die Gabe der Bewahrung des Lebens der Gerechtfertigten bis an den jüngsten Tag verbürgt. Das Leben in dieser Bewahrung aber ist die Heiligung.21 Beide Gaben haben denselben Grund, nämlich Jesus Christus den Gekreuzigten (1. Kor. 1,2 und 6,11). Beide Gaben haben Einen Inhalt, nämlich die Gemeinschaft mit Christus.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p23",
+    "de": "Beide Gaben gehören unlöslich zueinander. Aber ie sind eben darum auch nicht ein und dasselbe. Während die Rechtfertigung dem Chri­ sten Gottes geschehene Tat zuspricht, verheißt ihm die Heili­ gung Gottes gegenwärtiges und zukünftiges Handeln. Während der Glaubende in der Rechtfertigung durch den einmaligen Tod in die Gemeinschaft Jesu Christi versetzt wird, bewahrt ihn die Heiligung in dem Raum, in den er versetzt wurde, in Christo in der Gemeinde. Während bei der Rechtfertigung die Stellung des Menschen zum Gesetz im Vordergrund steht, ist bei der Heili­ gung die Absonderung von der Welt bis auf die Zukunft Christi entscheidend.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p24",
+    "de": "Während die Rechtfertigung den einzelnen der Gemeinde eingliedert, bewahrt die Heiligung die Gemeinde mit allen einzelnen. Die Rechtfertigung entreißt den Glaubenden seiner sündigen Vergangenheit, die Heiligung läßt ihn bei Chri­ stus bleiben, in seinem Glauben stehen, in der Liebe wachsen. Es mag erlaubt sein, Rechtfertigung und Heiligung in dem Ver­ hältnis von Schöpfung und Erhaltung zu denken. Rechtferti­ gung ist die Neuschöpfung des neuen Menschen22, Heiligung seine Erhaltung und Bewahrung bis auf den Tag J esu Christi. 20 Der Titel der Dissertation Bonhoeffers enthält diesen Namen: \"Sanctürum Communio\" (\"Der Heiligen Gemeinschaft\").",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p25",
+    "de": "D 21 Ausdrücklich ist 1936/37 NL B 9,6 (14) vermerkt: \",Heiligung', nicht ,Heiligkeit'.\" D 22 Vgl. S. 232 f. Schon DBW 3 (S1'), 33 f, hatte Bonhoeffer die Schöpfung -aus dem Nichts - von Tod und Auferstehung her ausgelegt. 276 Teil 11. 253 In der Heiligung erfüllt sich Gottes Wille: \"Ihr sollt heilig I sein, denn ich bin heilig\" und \"ich bin heilig, der Herr, der euch heiligt\".23 Diese Erfüllung vollbringt Gott, der Heilige Geist. In ihm vollendet sich Gottes Werk am Menschen. Er ist das \"Sie­ gel\"24, mit dem die Gläubigen zu Gottes Eigentum veriegelt werden bis auf den Tag der Erlösung. Wie ie vorher gefangen gehalten wurden unter dem Gesetz als in einem verschlossenen Gefängnis (Gal. 3,23), so sind die Gläubigen nun \"in Christo\" abgeschlossen, veriegelt mit Gottes SiegeL dem Heiligen Geist.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p26",
+    "de": "Niemand darf dies Siegel brechen. Gott selbst hat verschlossen und hält den Schlüssel in der Hand. Das bedeutet, daß Gott nun vollkommen Besitz ergriffen hat von denen, die er in Christo gewonnen hat. Der Kreis ist geschlossen. Im heiligen Geist ist der Mensch Gottes Eigentum geworden. Von der Welt abge­ schlossen durch ein unzerbrechliches Siegel, wartet die Ge­ meinde der Heiligen der letzten Errettung. Wie ein veriegelter Zug im fremden Lande25, so geht die Gemeinde durch die Welt. Wie die Arche Noah \"inwendig und auswendig mit Pech ver­ picht\" werden mußte (Gen. 6,14), um durch die Flut gerettet zu werden, so gleicht der Weg der veriegelten Gemeinde der Fahrt der Arche durch die Wasserflut. 26 Ziel der Verschließung ist die Erlösung, die Errettung, das Heil (Eph. 4,30; 1,14; 1. Thess. 5,23; 1. Pet. 1,5 u. ö.) bei der \\Y/iederkunft Christi.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p27",
+    "de": "Das Pfand aber, das die Veriegelten ihres Ziels gewiß macht, ist eben der Heilige Geist selbst. \"Auf daß wir etwas seien zu Lob seiner Herrlichkeit, die wir zuvor auf Christum hofften; durch welchen auch ihr gehört habt das Wort der Wahrheit, das Evan­ gelium von eurer Seligkeit; durch welchen ihr auch, da ihr gläu­ big wurdet, veriegelt worden seid mit dem Heiligen Geist der Verheißung, welcher ist das Pfand unsers Erbes zu unsrer Erlö23 Die zu Anfang des Kapitels zitierten Bibelstellen Lev 19,2 und 21,8 werden wieder aufgenommen. 024 1936 NL B 9,5 (22): ,,2. Kor 1,22 O(PQay(� [\"Sie­ gel\"] und nVEÜrW [\"Geist\"] parallel.\" 0 25 Dieses Bild läßt an den Zug den­ ken, in dem Lenin 1917 aus der Schweiz kommend mit Hilfe des deutschen Geheimdienstes durch Deutschland nach Rußland fuhr. -Seit den zwanziger Jahren fuhren Züge nach Ostpreußen veriegelt durch den ,polnischen Korri­ dor'. 026 1936/37 NL B 9,6 (15): \" ... die ,Arche' ist abgefahren.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p28",
+    "de": "Man kann nun herausfallen!\" 254 Die Heiligen 277 sung, daß wir sein Eigentum würden zu Lob seiner Herrlich­ keit\" (Eph. 1,12-14). Das ist Heiligung der Gemeinde, daß ie durch Gott abge­ sondert ist vom Unheiligen, von der Sünde. Das ist ihre I Heili­ gung, daß ie in dieser Veriegelung Gottes erwähltes Eigentum geworden ist, die Wohnung Gottes auf Erden, der Ort von dem Gericht und Versöhnung ausgeht an alle Welt. Das ist Heili­ gung, daß die Christen nunmehr ganz und gar gerichlet und bewahrt werden auf die Zukunft Christi und ihr entgegen ge­ hen. Das bedeutet für die Gemeinde der Heiligen ein Dreifaches: Ihre Heiligung wird sich bewähren in der klaren Absonderung von der Welt.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p29",
+    "de": "Ihre Heiligung wird sich in einem Wandel be­ währen, der des Heiligtums Gottes würdig ist. Ihre Heiligung wird verborgen sein im Warten auf den Tag J esu Christi. Heiligung gibt es darum -das ist das erste -nur in der sichtbaren Gemeinde. Die Sichtbarkeit der Gemeinde ist ein entscheidendes Merkmal der Heiligung. Der Anspruch der Ge­ meinde auf Raum in der Welt und die damit gegebene Abgren­ zung vom Raum der Welt bezeugt, daß die Gemeinde im Stand der Heiligung ist. Das Siegel des heiligen Geistes veriegelt ja die Gemeinde gegen die Welt. In der Kraft dieses Siegels muß die Gemeinde Gottes Anspruch auf die ganze Welt geltend machen, muß ie zugleich einen bestimmten Raum in der Welt für sich beanspruchen und damit die Grenzen zwischen sich und der Welt klar ziehen.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p30",
+    "de": "Weil die Gemeinde die von Gott selbst auf dieser Erde gegründete Stadt auf dem Berge -POliS27 (Matth. 5,14) -ist, weil ie als solche Gottes veriegeltes Eigen­ turn ist, darum gehört ihr \"politischer\" Charakter unabdingbar zu ihrer Heiligung. Ihre \"politische Ethik\"28 hat ihren einzigen Grund in ihrer Heiligung, daß Welt Welt sei und Gemeinde Gemeinde, und daß doch das Wort Gottes von der Gemeinde 27 Auf das griechische Wort für ,Stadt' (oder ,Gemeinwesen', ,Gesellschaft') spielt Bonhoeffer im folgenden mit ,politisch' an; vgl. bei A. Harnack, Mission (1924),268: \"Politie\". 1936 NL B 9,5 (51): \"Jt6AL�, mit Christus eigenes Leben in eigenen Geboten führend (in Ungehorsam und Sünden erkenntnis in Kirche Gnade der Vergebung).\" D 28 So heißt das 1932 erschienene Buch von Friedrich Gogarten, das Bonhoeffer in seiner Vorlesung \"Jüngste Theologie\" Anfang 1933 DBW 12, 162-168 kritisch besprach. 278 Teil H. 255 ausgehe über alle Welt als die Botschaft davon, daß die Erde und was darinnen ist, des Herrn ist29; das ist der\" politische\" Charakter der Gemeinde.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p31",
+    "de": "Eine persönliche Heiligung, die an dieser öffentlichen sichtbaren Abgrenzung der Gemeinde von der I Welt vorübergehen will, verwechselt die frommen Wün­ sche des religiösen Fleisches mit der im Tode Christi erwirkten Heiligung der Gemeinde durch das Siegel Gottes. Es ist der trügerische Hochmut und die falsche geistliche Sucht des alten Menschen, der heilig sein will außerhalb der sichtbaren Ge­ meinde der Brüder. Es ist die Verachtung des Leibes Christi als der sichtbaren Gemeinschaft der gerechtfertigten Sünder, die sich hinter der Demut dieser Innerlichkeit versteckt. Verach­ tung des Leibes Christi, denn es hat Christus gefallen, sichtbar mein Fleisch anzunehmen und ans Kreuz zu tragen; Verach­ tung der Gemeinschaft, denn ich will für mich heilig sein ohne die Brüder; Verachtung der Sünder, denn ich entziehe mich der sündigen Gestalt meiner Kirche in selbstgewählter Heiligkeit.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p32",
+    "de": "Heiligung außerhalb der sichtbaren Gemeinde ist Selbstheilig­ sprechung. Heiligung durch das Siegel des Heiligen Geistes stellt die Kirche immer in den Kampf. 30 Es ist im Grunde der Kampf um dieses Siegel, daß es nicht gebrochen werde, weder von außen noch von innen, daß nicht die Welt Kirche noch die Kirche Welt sein wolle. Der Kampf der Kirche um den Raum, der dem Leib Christi auf Erden gegeben ist, ist ihre Heiligung. Abson­ derung der Welt von der Kirche und der Kirche von der Welt ist der heilige Kampf der Kirche um das Heiligtum Gottes auf Erden. Heiligtum gibt es nur in der sichtbaren Gemeinde.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p33",
+    "de": "Aber - das ist das zweite -gerade in der Absonderung von der Welt lebt die Gemeinde im Heiligtum Gottes, und in der Gemeinde lebt auch noch ein Stück Welt in diesem Heiligtum. Darum heißt es für die Heiligen, ihrem Beruf und des Evangeliums würdig zu wandeln in allen Stücken (Eph. 4,1; PhiI. 1,27; KoI. 1,10; 1. Thess. 2,12); würdig aber werden ie allein darin sein, daß ie sich des Evangeliums täglich erinnern, von dem ie le29 Ps 24,1; Anklang in Act 17,24. 0 30 Vgl. im Sachregister des Buches \"Nachfolge\" von 1937: \"Kampf der Kirche s. Heiligung\". 256 Die Heiligen 279 ben. \"Ihr seid abgewaschen, ihr seid geheiligt, ihr seid gerecht­ fertigt\" (1. Kor. 6,11).",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p34",
+    "de": "Aus dieser Er-I innerung täglich zu leben ist ihre Heiligung.31 Das ist ja die Botschaft, deren ie würdig sein sollen, daß die Welt und das Fleisch tot sind, daß ie ge­ kreuzigt und gestorben sind mit Christus am Kreuz und durch die Taufe, daß die Sünde nicht mehr herrschen kann, weil ihre Königsgewalt schon gebrochen ist32, daß es darum gar nicht mehr möglich ist, daß der Christ sündigt. \"Wer aus Gott gebo­ ren ist, der sündigt nicht\" (1. J oh. 3,9). Der Bruch ist vollzogen. Der\" vorige\" Wandel (Eph. 4,22) ist zu Ende gebracht. \"Ihr wart weiland Finsternis, nun aber seid ihr ein Licht in dem Herrn\" (Eph. 5,8).",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p35",
+    "de": "Vorher vollbrach­ ten ie die schändlichen und \"unfruchtbaren Werke des Flei­ sches\"33, jetzt wirkt der Geist die Frucht der Heiligung. So dürfen die Christen nicht mehr \"Sünder\" genannt wer­ den, sofern darunter solche verstanden sind, die unter der Ge­ walt der Sünde leben (&.!-la�.n:wAo( verg!. als einzige Ausnahme und Selbstaussage 1. Tim. 1,15), vielmehr, einst waren ie Sün­ der, Gottlose, Feinde (Rö. 5,8 u. 10; Ga!. 2,15 u. 17), nun aber sind ie die Heiligen um Christi willen. Als Heilige werden ie erinnert und ermahnt zu sein, was ie sind. Nicht das Unmögli­ che wird gefordert, daß die, die Sünder sind, heilig seien, -das wäre der völlige Rückfall in die Werkerei und Lästerung Chri­ sti -, sondern die Heiligen sollen heilig sein; denn ie sind ge­ heiligt in Christus Jesus durch den Heiligen Geist.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p36",
+    "de": "Von einem furchtbar schwarzen Hintergrund hebt sich das Leben der Heiligen ab. Die finstern Werke des Fleisches wer­ den durch das helle Licht des Lebens im Geist ganz aufgedeckt: \"Ehebruch, Hurerei, Unreinigkeit, Unzucht, Abgötterei, Zau­ berei, Feindschaft, Hader, Neid, Zorn, Zank, Zwietracht, Rot­ ten, Haß, Mord, Saufen, Fressen und dergleichen\" (Ga!. 5,1934). Dies alles hat in der Gemeinde Christi keinen Raum mehr. Es 609: \"Es ist sehr auffallend, wie wenig Paulus von der täglichen Sünde und der täglichen Sündenvergebung zu sagen weiß. Sünde innerhalb der Gemeinde ge­ tragen und vergeben.\" D 32 Vgl. Röm 6,14 a, im \"Nestle\" unterstrichen. 1936 NL B 25 (6) dazu: \"aus der XUQLOtljC:; [\"Königsherrschaft\"] der Sünde gestellt in die XUQLOtljC:; Christi .... der, der seine Sünde bekennt, der ist ohne Sünde.\" D 33 Vgl. Eph 5,11; GaI5,19.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p37",
+    "de": "D 34 Richtig: GaI5,19-21. 280 Teil H. 257 ist abgetan und am Kreuz gerichtet und zu Ende gebracht. Es ist den Christen von Anfang an gesagt, I daß \"die solches tun, das Reich Gottes nicht ererben werden\" (Gal. 5,21; Eph. 5,5; 1. Kor. 6,9; Röm. 1,32). Diese Sünden trennen vom ewigen Heil. Wird aber eines dieser Laster in der Gemeinde dennoch offenbar, so muß das den Ausschluß aus der Gemeinschaft der Gemeinde nach sich ziehen (1. Kor. 5,1 ff.). Es ist auffallend, daß in den sogenannten Lasterkatalogen eine weitgehende Gemeinsamkeit in der Aufzählung der Sün­ den begegnet. Fast ausnahmslos steht an erster Stelle die Sünde der Hurerei (rroQvELa), die mit dem neuen Leben des Christen unvereinbar ist.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p38",
+    "de": "Meist folgt dann die Sünde der Habgier (rrAEü­ vE�(a 1. KOL 5,10; 6,10; Eph. 4,19; 5,3.5; Kol. 3,5; 1. Thess. 4,4 H.35), die mit der vorigen zusammengefaßt werden kann als \"Unreinigkeit\" und \"Abgötterei\" (1. Kor. 5,10; 6,9; Gal. 5,336 u. [Ga1. 5,J 19; Kol. 3,5 u. 8). Es folgen dann die Sünden gegen die Bruderliebe, schließlich die Sünde der Schwelgerei!7). Es ist gewiß nicht zufällig, daß in der Reihe der Sünden die Sünde der Hurerei am Anfang steht. Der Grund hierfür liegt nicht in besonderen Zeityerhältnissen, sondern in der besonderen Art dieser Sünde. In ihr lebt die Sünde Adams wieder auf, selbst wie Gott sein zu wollen37, Schöpfer des Lebens sein zu wollen, herrschen und nicht dienen zu wollen.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p39",
+    "de": "In ihr greift der Mensch über die ihm von Gott gesetzten Grenzen hinaus und vergreift sich an Gottes Geschöpfen.38 Es war die Sünde Israels, daß es immer wieder die Treue seines Herrn verleugnete und \"mit den Abgöttern Hurerei\" trieb (1. Kor. 10,739), sich an ie hängte. Hurerei ist zuerst Sünde gegen Gott den Schöpfer. Es ist für den Christen aber in besonderer Weise Sünde gegen den Leib 17) Als Ursprung dieser Lasterkataloge mag das Wort des Herrn Mark. 7,21 f. anzusehen sein. 35 Genauer: I Thess 4,3-7. D 36 Gal 5,3 irrtümlich. 1936/37 DBW 14, 729 nennt zusätzlich zu den anderen Stellen dieser Reihe: \"Eph. 5,3 f.\" (genauer: Verse 3-5).",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p40",
+    "de": "D 37 Gen 3,5. D 38 Vgl. DBW 3 (SF), 117f, zu Gen 3,7 (nach dem Essen vom Baum der Erkenntnis von \"Gut\" und \"Böse\"): \"Das Wissen um tob und ra ist ... Sexualität, d.h. Verkehrung des Verhältnisses von Mensch zu Mensch.\" D 39 Bonhoeffer zieht die Aussagen von Vers 7 und 8 zusammen. 258 Die HeiligeT! 281 Christi selbst; denn der Leib des Christen ist ein Glied Christi. Er gehört allein Christus zu. Die leibliche Vereinigung mit der Hure aber I hebt die geistliche Gemeinschaft mit Christus auf. Wer Christus seinen Leib raubt und ihn der Sünde leiht, der hat sich von ihm getrennt. Die Hurerei ist Sünde am eigenen Leib.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p41",
+    "de": "Der Christ aber soll wissen, daß auch sein Leib Tempel des Heiligen Geistes ist, der in ihm wohnt (1. Kor. 6,13 H. 40). So eng ist die Gemeinschaft des Leibes des Christen mit Christus, daß er auch mit seinem Leib nicht zugleich der Welt gehören kann. Die Gemeinschaft des Leibes Christi verbietet die Sünde gegen den eigenen Leib. Den Hurer muß der Zom Gottes treffen (Röm. 1,29; l.Kor. 5,1f.41; 7,2; 10,7; 2. Kor. 12,21; Hebr. 12,16; 13,4). Der Christ ist keusch, er gibt seinen Leib ganz in den Dienst des Leibes Christi. Er weiß, daß mit dem Leiden und Sterben des Leibes Christi am Kreuz auch sein Leib getrof­ fen und dem Tode anheim gegeben ist.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p42",
+    "de": "Die Gemeinschaft mit dem gemarterten und verklärten Leibe Christi befreit den Chri­ sten von der Zuchtlosigkeit des leiblichen Lebens. Die wilden leiblichen Begierden sterben täglich in dieser Gemeinschaft. In Zucht und Enthaltsamkeit dient der Christ mit seinem Leib allein der Auferbauung des Leibes Christi, der Gemeinde. Er tut das auch in der Ehe und macht ie dadurch selbst zu einem Stück des Leibes Christi. Mit der Hurerei ist die Habgier verbunden. Die Unersätt­ lichkeit des Begehrens ist beiden gemeinsam und läßt auch den Habgierigen der Welt verfallen. Du sollst nicht begehren, sagt Gottes Gebot.42 Der Hurer und der Habgierige sind nichts als Begierde.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p43",
+    "de": "Der Hurer begehrt den Besitz eines andern Men­ schen. Der Habgierige begehrt den Besitz der Güter der Welt. Der Habgierige will Herrschaft und Macht, aber er wird zum Knecht der Welt, an die er sein Herz gehängt hat. Hurerei und Habgier bringen den Menschen mit der Welt in eine Berüh­ rung, die ihn befleckt und unrein macht. Hurerei und Habgier sind Abgötterei, weil hier des Menschen Herz nicht mehr Gott 40 Genauer: I Kor 6,13-19. D 41 Im Druck 1937 stand: ,,1. Kor. 1,5f.\"-In diesem Kapitel waren im Druck 1937 Irrtümer bei Bibelstellenangaben ver­ gleichsweise häufig. D 42 1936/37 DBW 14, 731: ,,10.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p44",
+    "de": "Gebot\" (Ex 20,17). 282 Teil H. 2591260 und Christus zugehört, sondern den begehrten Gütern der ei­ genen Welt. I Wer sich aber seinen Gott und seine Welt selbst schafft, wem seine eigene Sucht zum Gott wird, der muß den Bruder hassen, der ihm im Wege steht und seinen Willen hindert. Streit, Haß, Neid, Mord gehen alle aus der Quelle der eigenen Begierde hervor. \"Woher kommt Streit und Krieg unter euch? Kommt's nicht daher: aus euren Wollüsten, die da streiten in euren Glie­ dern?\" a ak. 4,1 f.). Der Hurer und der Habgierige kann keine Bruderliebe kennen. Er lebt aus der Finsternis seines eigenen Herzens.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p45",
+    "de": "Indem er sich am Leibe Christi versündigt, versündigt er sich an seinem Bruder. Hurerei und Bruderliebe schließen sich aus um des Leibes Christi willen. Der Leib, den ich der Gemeinschaft des Leibes Christi entziehe, kann auch dem Nächsten nicht dienen. Wiederum muß der Nichtachtung des eigenen Leibes und des Bruders die freche, gottlose Schwelgerei in Fressen und Saufen folgen.43 Wer seinen Leib verachtet, der verfällt seinem Fleisch und \"sein Bauch wird ihm sein Gott sein\"44 (Röm. 16,18). Die Häßlichkeit dieser Sünde besteht darin, daß sich hier das tote Fleisch selbst pflegen will und so den Menschen auch in seiner äußeren Gestalt schändet.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p46",
+    "de": "Der Schweiger hat am Leibe Christi keinen Teil. Die Welt dieser Laster ist für die Gemeinde Vergangenheit. Von denen, die in solchen Lastern leben, hat sich die Gemeinde getrennt und soll ie sich immer wieder trennen (1. Kor. 5,9 ff.); denn\" was hat das Licht für Gemeinschaft mit der Finsternis\" (2. Kor. 6,14 H. 45)? Dort sind\" die Werke des Fleisches\"46, hier ist \"die Frucht des Geistes\"47 (Gal. 5,19 ff.; Eph. 5,9). Was heißt Frucht? Es sind viele\" Werke\" des Fleisches, aber es ist nur eine \"Frucht\" des Geistes. Werke werden gewirkt von Menschenhand, die Frucht treibt und wächst, ohne daß der Baum es weiß.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p47",
+    "de": "Werke sind tot, die Frucht lebt und ist Träger von Samen, der neue Frucht hervorbringt. Werke können für sich da sein, die Frucht ist niemals ohne den I Baum. Frucht ist immer das ganz Wunderbare, Gewirkte, ie ist nicht ein Ge43 Bonhoeffer orientiert sich, wie er zu Anfang der Besprechung der Lasterka­ taloge andeutet, besonders an Gal 5,19-21. D 44 Anlehnung an Phil 3,19. D 45 Zitiert ist II Kor 6,14 c. D 46 GaI5,19. D 47 Ga15,22 und Eph 5,9. 261 Die Heiligen 283 wolltes, sondern ein Gewachsenes. Die Frucht des Geistes ist von Gott allein gewirkte Gabe. Wer ie trägt, weiß von ihr so wenig, wie der Baum von seiner Frucht.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p48",
+    "de": "Er weiß allein von der Kraft dessen, aus dem er lebt. Es gibt hier keinen Ruhm, son­ dern allein die immer innigere Vereinigung mit dem Ursprung, mit Christus. Die Heiligen wissen selbst nicht um die Frucht der Heiligung, die ie bringen. Die linke Hand weiß nicht, was die rechte tut.48 Wollten ie hier etwas wissen, wollten ie hier in Selbstbetrachtung fallen, dann hätten ie sich schon von der Wurzel losgerissen und die Zeit ihres Fruchttragens wäre dahin. \"Die Frucht des Geistes ist Liebe, Freude, Friede, Geduld, Freundlichkeit, Gütigkeit, Glaube, Sanftmut, Keuschheit\" (Gal. 5,22). Neben der Heiligkeit der Gemeinde tritt hier die Heiligung des Einzelnen ins hellste Licht.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p49",
+    "de": "Aber die Quelle ist ein-und dieselbe, die Gemeinschaft mit Christus, die Gemein­ schaft am selben Leibe. Wie die Absonderung von der Welt nur im fortwährenden Kampf sichtbar vollzogen wird, so besteht auch die persönliche Heiligung im Kampf des Geistes gegen das Fleisch.49 Die Heiligen sehen nur Streit, Not, Schwachheit und Sünde in ihrem eigenen Leben; und je reifer ie in der Heiligung stehen, desto mehr erkennen ie sich als die Unterliegenden, als die Sterbenden nach dem Fleisch. \"Welche Christo angehören, die kreuzigen ihr Fleisch samt den Lüsten und Begierden\" (Gal. 5,24). Noch leben ie im Fleisch, aber eben darum muß ihr ganzes Leben ein Glaube an den Sohn Gottes sein, der in ihnen Sein Leben angefangen hat (Gal. 2,20).",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p50",
+    "de": "Der Christ stirbt täglich (1. Kor. 15,31), aber ob sein Fleisch darunter leidet und zugrunde geht, so wird doch der innere Mensch von Tag zu Tag erneuert (2. Kor. 4,16). Das Sterben der Heiligen nach ihrem Fleisch hat seinen einzigen Grund darin, daß Christus durch den Heiligen Geist sein Leben in ihnen angefangen hat. Die Heiligen ster-I ben an Christus und seinem Leben. Nun brau­ chen ie keine eigenen selbstgewählten Leiden mehr zu suchen, wodurch ie sich nur abermals in ihrem Fleisch behaupten wür­ den. Christus ist ihr täglicher Tod und ihr tägliches Leben. Darum gilt aber für ie in vollem Maße der Jubel, daß der von Gott Geborene nicht mehr sündigen kann50, daß die Sünde über 48 Mt 6,3.049 Vgl. Gal 5,17.050 I Joh 3,9. 284 Teil H. 262 ie nicht mehr herrscht, daß ie der Sünde gestorben sind und im Geiste leben18l• ,,50 ist nichts Verdammliches in52 denen, die in Christus Jesus sind\" (Röm. 8,1).",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p51",
+    "de": "Gott hat Gefallen an seinen Heiligen; denn er selbst ist es, der ihren I Kampf und ihr Sterben wirkt, und eben darin die Frucht der Heiligung treiben läßt, von der die Heiligen ganz gewiß sein sollten, daß ie da ist, auch wenn ie ihnen tief verborgen bleibt. Freilich, es ist nicht so, daß nun weiterhin Hurerei, Geiz, Mord, Bruderhaß in der Ge­ meinde herrschen kann unter der Botschaft von der Vergebung. Es ist auch nicht so, daß die Frucht der Heiligung unsichtbar bleiben kann. Aber gerade dort, wo ie weithin sichtbar wird, wo die Welt im Anblick der christlichen Gemeinde sprechen muß, wie in den ersten Tagen der Christenheit: \"Sehet wie lieb ie einander haben\"53, gerade dort werden die Heiligen ganz 18) \"Ich lebe aber, spricht der Gläubige.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p52",
+    "de": "Ich lebe vor dem Angesicht Gottes, ich lebe vor seinem Richterstuhl in seiner Gnade; ich lebe in seiner Huld, in seinem Licht, in seiner Liebe; ich bin vollkommen erlöst von allen meinen Sünden; es steht in dem Schuldbuch nichts mehr offen oder unbezahlt. Das Gesetz fordert nichts mehr von mir, es treibt mich nicht mehr, es verdammt mich nicht mehr. Ich bin gerecht vor meinem Gott, wie er gerecht ist; heilig und vollkommen, wie mein Gott heilig ist, wie mein Vater im Himmel voll­ kommen ist. Das ganze Wohlgefallen Gottes um faßt mich; es ist mein Grund, worauf ich stehe, mein Obdach, darnnter ich geborgen bin.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p53",
+    "de": "Die ganze Seligkeit Gottes, alle seine Ruhe hebt und trägt mich; darin atme ich auf und befinde mich darin ewig wohl. Sünde habe ich nicht mehr und tue ich nicht mehr; ich weiß mit gutem Gewissen, daß ich in Gottes Wegen bin und seinen Willen tue, daß ich ganz nach seinem Willen bin, -ich gehe oder stehe, ich sitze oder liege, ich wache oder schlafe. Auch was ich denke oder rede, ist nach seinem Willen. Wo ich mich befinde, es sei draußen oder daheim, es ist nach seinem gnädigen Willen. Ich bin ihm angenehm, es sei, daß ich wirke oder ruhe. Meine Schuld ist auf ewig ausgetilgt, und neue Schulden, die nicht sollten ausgetilgt sein, kann ich nicht mehr machen.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p54",
+    "de": "Ich bin wohlverwahrt in seiner Gnade und kann nicht mehr sündigen. Kein Tod kann mich mehr töten, ich lebe ewig, wie alle Engel Gottes. Auf mich zürnen oder mich schelten wird mein Gott nicht mehr; ich bin für immer erlöst von dem zukünftigen Zorn. Der Arge wird mich nicht mehr antasten, die Welt bekommt mich nie mehr in ihre Stricke. Wer will uns scheiden von der Liebe Gottes? So Gott für uns ist, wer mag wider uns sein?\" (Kohlbrügge).51 51 Der Textabschnitt, aus einer Predigt Friedrich Kohlbrügges (1803-1875), steht in dem von Th. Stiasny herausgegebenen Kohlbrügge-Andachtenbuch \"Quellwasser\", 37, zu Gal 2,20.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p55",
+    "de": "D 52 LB: \"an\". D 53 Tertullian, Apologeti­ cus 39; die Angabe steht bei A. Harnack, Mission (1924),174. -1936/37 NL B 263 Die Heiligen 285 allein und unentwegt auf den sehen, dem ie angehören, werden ie unwissend um ihr Gutes Vergebung erbitten für ihre Sün­ den. Dieselben Christen, die es sich zu eigen machen, daß die Sünde nicht mehr herrscht, daß der Glaubende nicht mehr sün­ digt, werden bekennen: \"So wir sagen, wir haben keine Sünde, so verführen wir uns selbst, und die Wahrheit ist nicht in uns. So wir aber unsere Sünden bekennen, so ist er treu und gerecht, daß er uns die Sünden vergibt und reinigt uns von aller Untu­ gend.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p56",
+    "de": "So wir sagen, wir haben nicht gesündigt, so machen wir ihn zum Lügner, und sein Wort ist nicht in uns. Meine Kind­ lein, solches schreibe ich euch, auf daß ihr nicht sündiget. Und ob jemand sündigt, so haben wir einen Fürsprecher bei dem Vater, Jesum Christum, der gerecht ist\" (1. Joh. 1,8-2,1). So hat ie der Herr selbst gelehrt zu beten: Vergib uns unsere Schuld. 54 So hat er ie geheißen, einander die Sünden zu vergeben ohne Aufhören (Eph. 4,32 ; Matth. 18,21 ff.). Indem die Christen ein­ ander brüderlich vergeben, geben ie der Vergebung Jesu Raum in ihrer Gemeinschaft. Sie erkennen in dem Anderen nicht mehr den, der ihnen etwas zuleide tat, sondern den, dem Chri­ stus am Kreuz die Vergebung erwirkt hat.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p57",
+    "de": "Sie begegnen einan­ der als die durch Jesu Kreuz Geheiligten. Unter diesem Kreuz wird durch tägliches Sterben ihr Denken, ihr Wort, ihr Leib ge­ I heiligt. Unter diesem Kreuz wächst die Frucht der Heiligung. Die Gemeinde der Heiligen ist nicht die \"ideale\" Gemeinde der Sündlosen und Vollkommenen. Es ist nicht die Gemeinde der Reinen, die dem Sünder keinen Raum zur Buße mehr gibt. Sie ist vielmehr gerade die Gemeinde, die sich des Evangeliums von der Sündenvergebung würdig erweist, indem hier wahrhaf­ tig Gottes Vergebung verkündigt wird, die nichts mehr mit Selbstvergebung zu schaffen hat; die Gemeinde derer, denen wahrhaftig Gottes teure Gnade widerfahren ist, und die darin des Evangeliums würdig wandeln, daß ie es nicht verschleu­ dern und wegwerfen.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p58",
+    "de": "Damit ist gesagt, daß in der Gemeinde der Heiligen Verge­ bung nur gepredigt werden kann, wo auch Buße gepredigt 9,6 (12) -zu Act 2,44 f -verweist auf Joh 13,34 f: \"Die Schwärmer, besonders Schwenckfeld [1489-1561J, haben dies gegen die lutherischen notae ecclesiae [\"Erkennungszeichen der Kirche\"J ins Feld geführt!\" D 54 Mt 6,12. 286 Teil H. 264 wird, wo das Evangelium nicht ohne Gesetzespredigt bleibt, wo die Sünden nicht nur und nicht bedingungslos vergeben, sondern auch behalten werden. So ist es der Wille des Herrn selbst, daß das Heiligtum des Evangeliums nicht den Hunden gegeben wird5S, sondern daß es nur im Schutz der Bußpredigt gepredigt werden kann.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p59",
+    "de": "Eine Gemeinde, die nicht Sünde Sünde nennt, kann auch keinen Glauben finden, wo ie Sünde verge­ ben will. Sie versündigt sich am Heiligtum, ie wandelt unwür­ dig des Evangeliums. Sie ist unheilige Gemeinde, weil ie die teure Vergebung des Herrn verschleudert. Nicht damit ist es getan, daß über die allgemeine Sündhaftigkeit des Menschen auch in seinen guten Werken geklagt wird, das ist keine Buß­ predigt, sondern konkrete Sünde muß genannt, gestraft und gerichtet werden. Das ist der rechte Gebrauch der Schlüsselge­ walt56 (Matth. 16,19; 18,18; Joh. 20,23), die der Herr seiner Kirche gegeben hat, und von der die Reformatoren noch so nachdrücklich gesprochen haben. 57 Um des Heiligtums willen, um der Sünder willen und um der Gemeinde willen muß in der Gemeinde auch der Schlüssel des Bindens, des Sündenbehaltens geübt werden.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p60",
+    "de": "I Zum würdigen Wandel der Gemeinde vor dem Evangelium gehört die Übung der Gemeindezucht. Ebenso wie die Heiligung die Abscheidung der Gemeinde von der welt bewirkt, muß ie auch die Abscheidung der Welt von der Ge­ meinde bewirken. Eins ohne das Andre bleibt unecht und un­ wahr. Die Gemeinde, die von der Welt abgesondert ist, muß nach innen Gemeindezucht üben. Gemeindezucht dient nicht der Herstellung einer Gemeinde der Vollkommenen, sondern allein der Erbauung einer Ge­ meinde derer, die wahrhaftig unter Gottes vergebender Barm­ herzigkeit leben. Gemeindezucht steht im Dienst der teuren Gnade Gottes.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p61",
+    "de": "Der Sünder in der Gemeinde muß vermahnt und gestraft werden, damit er nicht seines Heils verlustig gehe, und damit das Evangelium nicht mißbraucht werde. So kann nur der die Taufgnade empfangen, der Buße tut und seinen Glauben an Jesus Christus bekennt. So kann nur der die Gnade des Abend55 Mt 7,6. D 56 Vgl. schon im Brief an Erwin Sutz 1932 DBW 11, 89; dort steht der lateinische Ausdruck \"potestas clavium\". D 57 Vgl. GA XXV 4 (BSLK 98,4), und Schmalkaldische Artikel (BSLK 452, 26ff). 265 Die Heiligen 287 mahls empfangen, der \"unterscheiden kann\" (1. Kor. 11,29) zwischen dem wahrhaftigen Leib und Blut Jesu Christi zur Vergebung der Sünden und irgend einem anderen Mahl symbo­ lischer oder sonstiger Art.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p62",
+    "de": "Dazu gehört wiederum, daß er sich ausweisen kann über seine Glaubenserkenntnis, daß er sich \"prüft\" oder sich der Prüfung durch den Bruder unterwirft, ob er wahrhaftig Christi Leib und Blut und seine Vergebung be­ gehrt. Zum Glaubensverhör tritt die Beichte, in der der Christ die Gewißheit der Vergebung seiner Sünden sucht und emp­ fängt. Hier gibt Gott dem Sünder Hilfe aus der Gefahr des Selbstbetruges und der Selbstvergebung. In dem Bekenntnis der Sünde vor seinem Bruder stirbt das Fleisch mit seinem Stolz. 58 Es wird mit Christus in die Schande und in den Tod gegeben, und durch das Wort der Vergebung ersteht ein neuer Mensch, der der Barmherzigkeit Gottes gewiesen ist59.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p63",
+    "de": "So gehört der Gebrauch der Beichte in das Leben der Heiligen. Sie ist Gottes Gnadengabe, die nicht ungestraft mißbraucht wird. I In der Beichte wird Gottes teure Gnade empfangen. Hier wird der Christ dem Tode Christi ähnlich. \"Darum wenn ich zur Beichte vermahne, so tue ich nichts anders, denn daß ich ver­ mahne, ein Christ zu sein\" (Luther, Großer Katechismus)60. Die Zucht durchwaltet das ganze Leben der Gemeinde. Es besteht hier eine im Dienst der Barmherzigkeit wohlbegründete Stufenreihe. Der Ursprung aller Zuchtübung bleibt die Verkün­ digung des Wortes nach beiden Schlüsseln61• Sie bleibt nicht beschränkt auf die gottesdienstliche Versammlung, vielmehr ist der Amtsträger niemals von seinem Auftrag entbunden.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p64",
+    "de": "\"Pre­ dige das Wort, halte an, die Zeit sei günstig oder ungünstig, strafe, drohe, ermahne mit aller Geduld und Lehre\" (2. Tim. 4,2). Das ist der Beginn der Gemeindezucht. Dabei muß so­ gleich deutlich sein, daß hier nur Sünden gestraft werden köndem Schlußabschnitt \"Ein kurze Vermahnung zu der Beicht\" (WA 30 I, 238,1 f; BSLK 732, 40-42). -1938, rückblickend auf Finkenwalde, schrieb Bonhoeffer DBW 5 (GL), 96: \"Beichte ist Nachfolge.\" D 61 Binde-und Löseschlüssel, vgl. 1937 DBW 14, 830. -Von hier an bis S. 291 f Ende Anm. 20) sehr genaue Über­ einstimmung mit den \"Sätzen\" 8 und 9 über \"Schlüsselgewalt und Gemeinde­ zucht\" 1937 DBW 14, 836-843. 288 Teil H. 266 nen, die offenbar geworden sind.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p65",
+    "de": "\"Etlicher Menschen Sünden sind offenbar, daß man ie zuvor richten kann, bei etlichen aber wird62 ie hernach offenbar\" (1. Tim. 5,24). So ist die Gemein­ dezucht eine Verschonung vor der Strafe des letzten Gerichts. Versagt die Gemeindezucht aber schon auf dieser ersten Stufe, d.h. in dem täglichen Hirtendienst des Amtsträgers, so ist damit auch alles folgende in Frage gestellt. Die zweite Stufe nämlich ist die brüderliche Vermahnung der Gemeindeglieder untereinander: \"lehret und vermahnet euch untereinander\" (KoI. 3,16; 1. Thess. 5,11 u. 14). ZurVermahnung gehört auch das Trösten der Kleinmütigen, Tragen der Schwachen, Geduld üben gegen jedermann (1. Thess. 5,14).",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p66",
+    "de": "Allein so kann ja der täglichen Anfechtung und dem Abfall in der Gemeinde gewehrt werden. Wo solcher brüderlicher Dienst in der Gemeinde nicht mehr lebt, da wird auch schwerlich die dritte Stufe recht erreicht werden. Fällt nämlich dennoch ein Bruder in offenbare Sünde des Wortes oder der Tat, so muß die Gemeinde die Kraft I haben, das eigentliche Gemeindezuchtverfahren gegen ihn ein­ zuleiten. Auch dieses ist ein langer Weg: Die Gemeinde muß sich zunächst überwinden können, sich von dem Sünder zu trennen. \"Habt nichts mit ihm zu schaffen\" (2. Thess. 3,14), \"Weichet von ihnen\" (Röm. 16,17), \"Ihr sollt auch nicht mit ihm essen\" (Abendmahl?) (1. Kor. 5,11), \"Meide solche\" (2. Tim. 3,5; 1. Tim. 6,5).",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p67",
+    "de": "\"Wir gebieten euch aber, liebe Brü­ der, in dem Namen unseres Herrn Jesu Christi (!), daß ihr euch entziehet von jedem Bruder, der da unordentlich wandelt und nicht nach der Satzung, die ihr von uns empfangen habt\" (2. Thess. 3,6). Dieses Verhalten der Gemeinde ist dazu da, den Sünder \"schamrot\" werden zu lassen (2. Thess. 3,14), und ihn dadurch zurückzugewinnen. Gewiß schließt dieses Meiden des Sünders auch seinen zeitweiligen Ausschluß aus den Handlun­ gen der Gemeinde in sich. Doch soll solches Meiden des offen­ baren Sünders nicht schon die Aufhebung jeder Gemeinschaft sein. Vielmehr soll die Gemeinde, die sich vom Sünder trennt, 62 In LB emsprechend dem griechischen Text Plural: \"werden\"; Bonhoeffer gab dem Singular \"Sünde\" gemäß Röm 6,11 den Vorzug. 267 Die Heiligen 289 diesem weiterhin begegnen mit dem Wort der Vermahnung.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p68",
+    "de": "\"Haltet ihn nicht als einen Feind, sondern vermahnet ihn als einen Bruder\" (2. Thess. 3,15). Der Sünder bleibt noch Bruder und erfährt eben darum Strafe und Vermahnung der Gemeinde. Es ist barmherzige Brüderlichkeit, die die Gemeinde Zucht üben läßt. Mit aller Sanftmut müssen die Widerspenstigen ge­ straft, die Bösen getragen werden, \"ob ihnen Gott nicht der­ maleinst Buße gäbe, die Wahrheit zu erkennen, daß ie wieder nüchtern werden und der Schlinge des Teufels entgehen und sich von Ihm einfangen lassen in seinen Willen\" (2. Tim. 2,[25.]26). Der Weg dieser Vermahnungwird je nach dem Sünder ein verschiedener sein, aber er wird immer dasselbe Ziel haben, zur Buße und zur Versöhnung zu führen.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p69",
+    "de": "Kann die Sünde ver­ borgen bleiben zwischen dir und dem Sünder, so sollst du ie nicht offenbaren, vielmehr sollst du ihn allein strafen und zur Buße rufen, \"so hast du einen63 Bruder gewonnen\". Hört er dich I aber nicht, sondern verharrt er in seiner Sünde, so sollst du abermals nicht sogleich die Sünde offenbaren, sondern sollst dir einen oder zwei Zeugen suchen (Matth. 18,15 f.). Des Zeu­ gen bedarf es sowohl wegen des sündigen Tatbestandes -d.h. ist derselbe nicht zu erweisen und wird er von dem Gemeinde­ glied geleugnet, so befehle man die Sache Gott; Zeugen, nicht Inquisitoren sind die Brüder! -als auch wegen der Verstockung des Sünders gegen die Buße.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p70",
+    "de": "Die Heimlichkeit der Zuchtübung soll dem Sünder die Umkehr erleichtern. Hört er auch jetzt nicht oder ist die Sünde sowieso schon offenbar vor der ganzen Gemeinde, dann ist es Sache der ganzen Gemeinde, den Sünder zu ermahnen, zur Umkehr zu rufen (Matth. 18,17; cf. 2. Thess. 3,14). Ist der Sünder Träger eines Amtes der Gemeinde, so soll er nur auf zweier oder dreier Zeugen Anklage hin verklagt werden.64 \"Die da sündigen, die strafe vor allen, auf daß sich auch die anderen fürchten\" (1. Tim. 5,20). Nun ist die Ge­ meinde aufgerufen, mit dem Amtsträger zusammen das Schlüs­ selamt zu verwalten. Der öffentliche Spruch bedarf der öffentli­ chen Vertretung der Gemeinde und des Amtes.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p71",
+    "de": "\"Ich beschwöre 63 So auch 1937 DBW 14, 838; Mt 18,15: \"deinen Bruder\". -Mit seiner Über­ setzung von II Tim 2,26 weicht Bonhoeffer vom \"Nestle\"-Text ab. 0 64 Vgl. I Tim 5,19. 290 Teil H. 268 dich vor Gott und dem Herrn Jesus Christus und den auser­ wählten Engeln, daß du solches haltest ohne eigenes Vorurteil und nichts tust nach Gunst\" (1. Tim. 5,21); denn nun soll Got­ tes eigenes Urteil über den Sünder ergehen. Tut dieser aufrich­ tige Buße, bekennt er öffentlich seine Sünde, so empfängt er die Vergebung aller seiner Sünden im Namen Gottes (cf. 2. Kor. 2,6 ff. 65), beharrt er bei seiner Sünde, so muß ihm die Gemeinde im Namen Gottes seine Sünde behalten.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p72",
+    "de": "Das aber bedeutet den Ausschluß aus jeder Gemeinschaft der Gemeinde. \"Halte ihn für einen Heiden und Zöllner\" (Matth. 18,17), \"Wahrlich, ich sage euch: was ihr auf Erden binden werdet, soll auch im Him­ mel geb.unden sein, und was ihr auf Erden lösen werdet, soll auch im Himmel los sein\" ... \"Denn wo zwei oder drei versam­ melt sind in meinem Namen, da bin ich mitten unter I ihnen\" (18,18 ff.66). Im Ausschluß aus der Gemeinde aber wird nur bestätigt, was schon Tatsache ist, nämlich, daß der unbußfertige Sünder ein solcher ist, der \"sich selbst verurteilt hat\" (Tit. 3,11). Nicht die Gemeinde verurteilt ihn, er selbst hat sich das Urteil gesprochen.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p73",
+    "de": "Diesen vollkommenen Ausschluß bezeichnet Pau­ lus mit \"dem Satan übergeben\" (1. Kor. 5,5; 1. Tim. 1,20). Der Schuldige wird der Welt zurückgegeben, in der der Satan herrscht und den Tod wirkt. (Daß hier nicht an einen Akt der Todesstrafe wie Act. 5 gedacht ist, beweist ein Vergleich von 1. Tim. 1,20 und 2. Tim. 2,17; 2. Tim. 4,15). Der Schuldige ist aus der Gemeinschaft des Leibes Christi ausgestoßen, weil er sich selbst getrennt hat. Kein Anrecht an die Gemeinde steht ihm mehr zu. Dennoch bleibt auch dieses letzte Handeln noch ganz im Dienste des Heilszieles mit dem Betroffenen, \"daß der Geist selig werde am Tage des Herrn Jesu\" (1. Kor. 5,5), \"daß er gezüchtigt werde67, nicht mehr zu lästern\" (1. Tim. 1,20).",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p74",
+    "de": "Die Rückkehr zur Gemeinde oder die Erlangung des Heils bleibt das Ziel der Gemeindezucht. Sie bleibt pädagogisches Handeln. So gewiß der Spruch der Gemeinde in Ewigkeit besteht, wo der andere nicht Buße tut, so ist dieser Spruch, in dem dem Sünder und 20. D 67 I Tim 1,20: \"daß ie gezüchtigt werden\", nämlich Hymenäus und Alexander. 269 Die Heiligen 291 das Heil genommen werden muß, nur das letztmögliche Ange­ bot der Gemeinschaft6� der Gemeinde und des Heilsl9) 20). I So bewährt sich die Heiligung der Gemeinde in ihrem Wan­ del, der des Evangeliums würdig ist. Sie bringt die Frucht des Geistes und steht in der Zucht des Wortes.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p75",
+    "de": "In alledem bleibt ie Gemeinde derer, deren Heiligung allein Christus ist (1. Kor. 1,30) und die dem Tag der Wiederkunft entgegengeht. 19) Jenseits aller Gemeindezuchtübung, die immer im Dienst der Barmher­ zigkeit steht, selbst über die Auslieferung des hartnäckigen Sünders an den Satan hinaus, kennt das Neue Testament als furchtbarste Strafe die Verflu­ chung, das Anathema. Sie ist nicht mehr verbunden mit dem Heilszweck. Sie tritt als Vorwegnahme des göttlichen Urteils auf. Im Alten Testament ent­ spricht ihr der \"Cherem\"\", der an Gottlosen vollstreckt wird . .Er bedeutet definitive Absonderung von der Gemeinde, der Gebannte wird getötet.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p76",
+    "de": "Damit ist ein Doppeltes gesagt: Die Gemeinde vermag den Gebannten unter keinen Umständen mehr zu tragen und zu absolvieren. Darum wird er Gott allein hingegeben. Damit aber ist der Gebannte zugleich verflucht und doch heilig, weil er GOlt ausgeliefert ist. Weil er aber GOll allein gehört als Verfluchter, darum kann die Gemeinde hier nicht mehr Heilsabsichten verfolgen. Daß Ana­ thema Trennung vom Heil bedeutet, beweist Röm. 9,3; daß Anathema eschato­ logisch bezogen ist, legt 1. Kor. 16,22 nahe. Daß vom Anathema der getroffen wird, der das Evangelium selbst durch seine Predigt willentlich zerstört, sagt Gal. 1,8 f.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p77",
+    "de": "Es ist gewiß kein Zufall, daß die einzige Stelle, die über bestimmte Menschen das Anathema spricht, sich auf dic irrlehrer bezieht. Doctrina est coelum, vita terra (Luther).70 20) Die Lehrzucht ist von der Gemeindezucht insofern verschieden, als letz­ tere aus rechter Lehre, d.h. aus rechtem Gebrauch der Schlüssel folgt, erstere sich aber gegen den Mißbrauch der Lehre selbst richtet. Durch falsche Lehre wird die Quelle des Lebens der Gemeinde und der Gemeindezucht verdorben. Darum wiegt die Versündigung gegen die Lehre schwerer als die Versündigung im Wandel. Wer der Gemeinde das Evangelium raubt, verdient uneinge­ schränkte Verurteilung, wer aber in seinem Wandel sündigt, für den ist das Evangelium da.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p78",
+    "de": "Lehrzucht erstreckt sich in erster Linie auf die Träger des Lehramtes in der Kirche. Voraussetzung von allem ist, daß bei der Übertragung des Amtes Gewähr dafür besteht, daß der Amtsträger \"didaktikos\", zur Lehre befähigt ist (1. Tim. 3,2; 2. Tim. 2,24; Tit. 1,9), \"tüchtig auch andere zu lehren\" 68 Wie Mt 18,17 und I Kor 5,11 verstand Bonhoeffer, vgl. 1936 DBW 14, 676, unter Gemeindezucht eine \"Aufhebung der Gemeinschaft\", die \"das letzte Angebot der Gemeinschaft\" ist. D 69 Dt.: \"Bann\". Vgl. ThWNT I, 356, zu dvcdtq.!u (\"Verfluchung\"). D 70 Dt.: \"Lehre ist Himmel, Leben Erde.\" Zitat aus Luthers Galaterbrief-Vorlesung 1531/1535 (WA 57, 13 Druckfassung; vgl.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p79",
+    "de": "WA 40 II, 51, 8 f Handschrift). -Die folgende Anmerkung entspricht dem \"Satz\" 9 über \"Schlüsselgewalt und Gemeindezucht\" 1937 DBW 14, 841-843. 292 Teil 11. 270 Damit stehen wir bei der dritten Bestimmung74 echter Heili­ gung. Alle Heiligung ist auf das Bestehen am Tage J esu Christi gerichtet. \"Jaget nach der Heiligung, ohne welche I wird nie­ mand den Herrn sehen\" (Hebr. 12,14).75 Heiligung ist immer auf das Ende bezogen. Sie hat ihr Ziel nicht darin, vor dem Urteil der Welt oder vor dem eigenen Urteil, sondern vor dem Herrn bestehen zu können. Vor sich selbst und vor der Welt mag ihre Heiligkeit Sünde, ihr Glaube Unglaube, ihre Liebe (2. Tim. 2,2), daß keinem die Hände voreilig aufgelegt werden, weil sonst des­ sen Schuld auf den zurückfällt, der ihn einsetzte (1. Tim. 5,22).",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p80",
+    "de": "Die Lehrzucht setzt also bereits vor der Berufung ins Lehramt ein. An der äußersten Gewis­ senhaftigkeit hängt hier Leben und Tod von Gemeinden. Die Lehrzucht aber hat mit der Berufung ins Lehramt kein Ende, vielmehr erst ihren Anfang. In unaufhörlicher Ermahnung muß selbst der bewährte Amtsträger - Timo­ theus\" -zur Bewahrung der rechten, heilsamen Lehre angehalten werden. Das Lesen der Schrift wird ihm dafür besonders nahe gelegt. Zu groß ist die Gefahr des Abirrens (2. Tim. 3,10; 3,14; 4,2; 2,15; 1. Tim. 4,13.16; Tit. 1,9; 3,8). Dazu muß aber noch die Ermahnung zum vorb-ildlichen Lebenswandel kommen: \"Habe acht auf dich selbst und auf die Lehre\" (1. Tim. 4,13 U' ; Act. 20,28).",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p81",
+    "de": "Zur Keuschheit, Demut, Unparteilichkeit, zum Fleiß ermahnt zu werden, ist für Timotheus keine Beschämung. So steht vor aller Gemeindezuchtübung die Übung der Zucht an den Amtsträgern. Es ist die Aufgabe des Amtsträgers, in seiner Gemeinde die rechte Lehre zu verbreiten und jeder Verkehrung entge­ genzutreten. \"TO offenbare Irrlehre einzieht, dort soll der Amtsträger gebieten, \"daß ie nicht anders lehrten\" (1. Tim. 1,3); denn erträgt das Lehramt und kann gebieten. Weiter soll er warnen und erinnern, das Wortgezänk zu meiden (2. Tim. 2,14). Ist einer als Irrlehrer offenbar, so soll er \"einmal und abermals ermahnt\" werden.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p82",
+    "de": "Hört er nicht, so soll mit einem ketzerischen Menschen die Gemeinschaft abgebrochen werden (Tit. 3,10; 1. Tim. 6,4f.); denn er verführt die Gemeinde (2. Tim. 3,6 f.). \"Wer nicht in der Lehre Christi bleibt, der hat keinen Gott,,'3. Einem solchen falschen Lehrer soll auch die häusliche Gemein­ schaft und der fromme Grußwunsch versagt werden (2. Joh. 10). Im Irrlehrer kommt der Widerchrist. Nicht der Sünder in seinem Lebenswandel, sondern allein der Irrlehrer wird Antichrist genannt. Ihm allein gilt das Anathema von Ga!. 1,9. Über das Verhältnis von Lehrzucht und Gemeindezucht gilt: Es gibt keine Gemeindezucht ohne Lehrzucht.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p83",
+    "de": "Es gibt aber auch keine Lehrzucht, die nicht zur Gemeindezucht führen müßte. Paulus wirft den Korinthern vor, daß ie in ihrer Aufgeblasenheit Schismata anrichten wollen ohne doch Gemeinde­ zucht zu üben (1. Kor. 5,2). Diese Trennung der Lehrfrage von der Frage des Wandels in der Gemeinde ist unmöglich. 71 Zu den Timotheus-Stellen vg!. bes. 1936 DBW 14, 963-969. D 72 Genauer: Verse 13-16. Das Zitat: I Tim 4,16 a. D 73 II Joh 9. D 74 Angekündigt S. 277. D 75 1936/37 DBW 14, 728 ist hier auf \"Mt 5\" (Vers 8) verwiesen. 2711272 Die Heiligen 293 Härte, ihre Zucht Schwäche sein. Ihre wahre Heiligkeit bleibt verborgen.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p84",
+    "de": "Aber Christus selbst bereitet sich seine Gemeinde, so daß ie vor ihm bestehen kann. \"Ihr Männer, liebet eure Weiber, gleichwie Christus auch I geliebt hat die Gemeinde und hat sich selbst für ie gegeben, auf daß er ie heiligte, und hat ie gereinigt durch das Wasserbad im Wort, auf daß er ie sich selbst darstellte als eine Gemeinde, die herrlich sei, die nicht habe einen Flecken oder Runzel oder des etwas, sondern daß ie heilig sei.und unsträflich\" (Eph. 5,25-27; Kol. 1,22; Eph. 1,4). Vor Jeslls Christus kann nur die geheiligte Gemeinde bestehen; der die Feinde Gottes versöhnte und sein Leben für die Gottlo­ sen gab, der tat es, damit seine Gemeinde heilig sei bis zu seiner Wiederkunft.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p85",
+    "de": "Das geschieht durch die Veriegelung mit dem Heiligen Geist, wodurch die Heiligen im Heiligtum der Ge­ meinde verschlossen und bewahrt werden bis auf den Tag J esu Christi. An jenem Tage sollen ie nicht mit Befleckung und Schande, sondern an Geist, Seele und Leib heilig und unsträf­ lich vor ihm erfunden werden (1. Thess. 5,23). \"Wisset ihr nicht, daß die Ungerechten werden das Reich Gottes nicht erer­ ben? Lasset euch nicht verführen! Weder die Hurer noch die Abgöttischen noch die Ehebrecher noch die Weichlinge noch die Knabenschänder noch die Diebe noch die Geizigen noch die Trunkenbolde noch die Lästerer noch die Räuber werden das Reich Gottes ererben.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p86",
+    "de": "Und solche sind euer etliche gewesen; aber ihr seid abgewaschen, ihr seid geheiligt, ihr seid gerecht geworden durch den Namen des Herrn J esu und durch den Geist unseres Gottes\" (1. Kor. 6,9-11). Darum trotze keiner auf Gottes Gnade, der in der Sünde verharren will! Nur die gehei­ ligte Gemeinde wird am Tage J esu Christi errettet werden vor dem Zorn; denn der Herr wird nach den Werken richten76 und die Person nicht ansehen77. Es wird eines jeglichen Werk offen­ bar werden, und er wird einem jeglichen geben \"danach er gehandelt hat bei leiblichem Leben, es sei gut oder böse\" (2. Kor. 5,10; Röm. 2,6ff.; Matth. 16,27).",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p87",
+    "de": "Was hier auf Erden sein Urteil nicht empfangen hat, das wird am Gerichtstage nicht verborgen bleiben, es muß alles ans Licht. Wer wird dann be­ stehen? Der in guten I Werken erfunden wIrd. Nicht die Hörer, 294 Teil H. 272 sondern die Täter des Gesetzes werden gerechtfertigt werden (Röm. 2,13). Es ist des Herrn eigenes Wort, daß in sein Him­ melreich nur die kommen können, die den Willen seines Vaters im Himmel tun.78 Weil wir nach unseren Werken gerichtet werden, darum ist uns das \"gute Werk\" geboten.79 Die Furcht vor dem guten Werk, mit der wir unsere bösen Werke rechtfertigen wollen80, ist der Bibel allerdings fremd.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p88",
+    "de": "Nirgends setzt die Schrift den Glauben so gegen das gute Werk, daß ie in dem guten Werk die Zerstörung des Glaubens ieht, vielmehr ist es das böse Werk, das den Glauben hindert und vernichtet. Gnade und Tun gehören zusammen. Es gibt keinen Glauben ohne das gute Werk, wie es kein gutes Werk ohne Glauben gibt21l• Um seines Heils willen sind dem Christen gute Werke vonnöten; denn wer in bösen Werken erfunden wird, der wird das Reich Gottes nicht sehen. Darum ist das gute Werk das Ziel des Christseins. 82 Weil in diesem Leben nur eins wichtig ist, nämlich wie der Mensch im letzten Gericht bestehen kann, und weil jeder nach seinen Werken gerichtet werden wird, darum geht es in allem um die Bereitung des Christen zum guten Werk.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p89",
+    "de": "So hat auch 21) Der Unterschied zwischen Paulus und Jakobus besteht darin, daß durch Jakobus der Demut des Glaubens die Möglichkeit des Selbstruhms genommen wird, und daß durch Paulus der Demut des Werkes die Möglichkeit des Selbst­ ruhms entzogen wird. Jakobus will nicht die Gültigkeit des Satzes, daß der Mensch allein durch den Glauben gerechtfertigt werde, bestreiten, sondern er will den Glaubenden selbst von der Gefahr der Sicherheit in seinem Glauben auf das Werk des Gehorsams weisen und ihn damit wahrhaftig demütigen. Paulus wie Jakobus geht es darum, daß der Mensch wahrhaftig aus der Gnade und nicht aus sich selbst lebe.81 78 Mt 7,21. 0 79 1936/37 DBW 14, 618 Anm. 103: \"An der Stelle des guten ,Werkes' [beijakobus] steht bei Paulus dann x(lQJt6�\" (\"Frucht\"); vgl.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p90",
+    "de": "S. 282f. 0 [im Protestantismus] hörte es nicht ungern, daß ,gute Werke' unnötig, ja seelen­ gefährlich seien.\" 0 81 Als Stellen sind 1936 DBW 14, 613 genannt: \"Rm 3,28-31: Jak 2,17ff\". 1936/37 DBW 14, 613 Anm. 80: \"Widerspruch [zwischen Paulus und Jakobus] nur bei einem nicht rechten Verständnis der paulinischen Rechtfertigungslehre.\" 0 82 1936/37 DBW 14, 614 Anm. 88 ist �rklärt: tO.Ho�-Sein des Menschen heißt \"zielstrebig, auf ein Ziel, nicht auf zweie hin\", nicht öl\\j!uxo�, d.h. mit zwei Seelen -Jak 1,4.8 (im \"N estle\" Unterstreichungen). Vgl. Mt 5,48 (tEAELO� = \"vollkommen\"); 6,22 (\"einfältig\"). 273/274 Die Heiligen 295 die Neuschöpfung des Menschen in Christus die guten Werke zum Ziel.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p91",
+    "de": "\"Denn aus Gnade seid ihr selig geworden durch den Glauben, und das nicht aus euch, I Gottes Gabe ist es; nicht aus den Werken, auf daß sich nicht jemand rühme. Denn wir sind sein Werk, geschaffen in Christo Jesu zu guten Werken, zu welchen Gott uns zuvor bereitet hat, daß wir darin wandeln sollen\" (Eph. 2,8-10; vgl. 2. Tim. 2,21; 3,17; Tit. 1,16; 3, 1. 8.14). Hier ist alles ganz deutlich. Das Ziel ist die Herstellung des guten Werkes, das Gott fordert. Gottes Gesetz bleibt aufge­ richtet und muß erfüllt werden (Röm. 3,31). Das geschieht durch das gute Werk. Es gibt aber nur ein gutes Werk, das ist Gottes Werk in Christus Jesus.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p92",
+    "de": "Durch Gottes eigenes Werk in Christus sind wir selig geworden, nicht durch unsere eigenen Werke. So fällt uns niemals ein Ruhm aus eigenen Werken zu; denn wir sind sein Werk. Aber dazu sind wir neu geschaffen in Christus, daß wir in ihm zu guten Werken kämen. Alle unsere guten Werke aber sind allein Gottes eigene gute Werke, zu denen er uns zuvor bereitet hat. Also gute Werke sind zwar geboten um des Heils willen, und gute Werke sind doch immer nur die Werke, die Gott selbst an uns wirkt. Sie sind sein Geschenk. Wir selbst sind es, die in guten Werken wandeln sollen, die jeden Augenblick zu guten Werken gefor­ dert sind, und wir wissen doch, daß wir mit unseren Werken vor Gottes Gericht niemals bestehen könnten, sondern daß es Christus allein ist und sein Werk, an das wir uns im Glauben klammern.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p93",
+    "de": "So verheißt Gott denen, die in Christus Jesus sind, gute Werke, mit denen ie einst bestehen können, er verheißt ihnen die Bewahrung in der Heiligung bis zum Tage J esu. Wir aber können dieser Verheißung Gottes nur glauben auf sein Wort hin, und hingehen und in den guten Werken wandeln, zu denen er uns bereitet hat. So bleibt uns ern Augen unser gutes Werk gänzlich entzogen. Unsere Heiligung bleibt uns verborgen bis auf den Tag, da alles offenbar wird. Wer hier etwas sehen will, wer sich hier selbst offenbar werden will und nicht in Geduld warten, der hat sei­ nen Lohn dahin. Gerade in unserem vermeintlich sicht-I baren Fortschritt der Heiligung, an dem wir uns freuen wollen, sind wir erst recht in die Buße gerufen und erkennen wir unsere Werke als durch und durch sündig.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p94",
+    "de": "Wir sind aber zur immer größeren Freude an unserem Herrn gerufen. Gott allein kennt unsere guten Werke, wir kennen nur sein gutes Werk und hö­ ren sein Gebot und gehen unter seiner Gnade hin, wandeln in seinen Geboten und sündigen. Es muß dabei bleiben, daß die neue Gerechtigkeit, die Heiligung, das Licht, das leuchten soll, uns ganz verborgen bleibt. Die linke Hand weiß nicht, was die rechte tut.83 Aber wir glauben es, und sind desselbigen guter Zuversicht, daß \"der in uns angefangen hat das gute Werk, der wird es auch vollführen bis an den Tag Jesu Christi\" (Phil. 1,6). An jenem Tag wird uns Christus selbst die guten Werke offen­ baren, die wir nicht kannten.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p95",
+    "de": "Als wir es nicht wußten, haben wir ihn gespeist, getränkt, gekleidet und besucht, und als wir es nicht wußten, haben wir ihn von uns gestoßen. Dann wird ein großes Verwundern anheben, und wir werden erkennen, daß es nicht unsere Werke sind, die hier bestehen, sondern das Werk, das Gott zu seiner Zeit ohne unser Wollen und Mühen durch uns getan hat (Matth. 25,31 ff.). So bleibt uns abermals nichts als von uns wegzusehen auf den, der alles schon für uns voll­ bracht hat und ihm nachzufolgen. Der Glaubende wird gerechtfertigt, der Gerechtfertigte wird geheiligt, der Geheiligte wird im Gericht errettet84, nicht weil unser Glaube, unsere Gerechtigkeit, unsere Heiligung, soweit es an uns ist, etwas anderes wäre als Sünde, sondern weil Jesus Christus uns gemacht ist \"zur Gerechtigkeit und zur Heiligung und zur Erlösung, auf daß, wer sich rühmt, der rühme sich des Herrn\" (1. Kor. 1,3085). 83 Anklänge an Mt 5,16; 6,2 f.",
+    "zh": ""
+  },
+  {
+    "id": "ch14-p96",
+    "de": "D 84 Vgl. K. Barth, Römerbrief, 401: \"die unmögliche, die eschatologische Möglichkeit\" -der Mensch, \"gerettet als der Verlorene, gerechtfertigt als der nicht zu Rechtfertigende, allferweckt von den Toten\". D 85 Zitiert ist aus den Versen 30 und 31.",
+    "zh": ""
+  }
+]
