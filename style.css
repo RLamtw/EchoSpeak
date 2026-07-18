@@ -1386,23 +1386,160 @@ kbd {
   }
 }
 
-@media (max-width: 600px) {
-  .sample-grid {
-    grid-template-columns: 1fr;
+/* --- Mobile: Tablet (768px) --- */
+@media (max-width: 768px) {
+  .app-layout {
+    padding: 0 12px;
   }
-  .control-actions {
-    flex-direction: column-reverse;
+
+  .app-header {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 12px 0;
   }
-  .btn-action {
+
+  .header-actions {
     width: 100%;
+    gap: 8px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
   }
+
+  /* Hide "Web Speech Ready" status text on small screens, keep dot */
+  .api-status .status-text {
+    display: none;
+  }
+
+  .api-status {
+    padding: 6px 10px;
+  }
+
+  /* Shrink header buttons */
+  .header-actions .btn-primary.btn-sm,
+  .header-actions .btn-secondary.btn-sm {
+    font-size: 12px !important;
+    padding: 0 12px !important;
+    height: 36px !important;
+  }
+}
+
+/* --- Mobile: Phone (480px) --- */
+@media (max-width: 480px) {
+  .app-layout {
+    padding: 0 10px;
+  }
+
+  .app-header {
+    padding: 10px 0;
+  }
+
+  /* Stack logo and actions */
+  .header-logo h1 {
+    font-size: 1.2rem;
+  }
+
+  .logo-icon-wrapper {
+    width: 36px;
+    height: 36px;
+  }
+
+  .logo-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Full-width action row */
+  .header-actions {
+    gap: 6px;
+    justify-content: flex-start;
+  }
+
+  /* Hide "免費語音指南" button label, keep icon */
+  #btn-guide-modal .btn-icon-sm ~ * ,
+  #btn-guide-modal span {
+    display: none;
+  }
+
+  /* Compact playback buttons */
+  .control-actions {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .btn-action {
+    flex: 1 1 calc(50% - 8px);
+    min-width: 0;
+    font-size: 0.85rem;
+    padding: 10px 8px;
+  }
+
+  #btn-play-pause {
+    flex: 1 1 100%;
+  }
+
+  #btn-download {
+    max-width: 100% !important;
+    flex: 1 1 100%;
+  }
+
+  /* Card header stacked on mobile */
   .card-header {
     flex-direction: column;
     align-items: flex-start;
-    gap: 12px;
+    gap: 10px;
   }
+
   .input-actions {
     width: 100%;
-    justify-content: flex-end;
+    justify-content: space-between;
+  }
+
+  .input-actions .btn-secondary {
+    flex: 1;
+    justify-content: center;
+  }
+
+  /* Waveform canvas height */
+  .waveform-container {
+    height: 80px;
+  }
+
+  /* Tabs compact */
+  .tab-btn {
+    font-size: 0.8rem;
+    padding: 10px 12px;
+  }
+
+  /* Sample modal */
+  .sample-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Guide modal */
+  .guide-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .glass-modal .modal-content {
+    width: 95vw;
+    max-height: 85vh;
+    overflow-y: auto;
+  }
+
+  /* Slider labels */
+  .slider-label-group {
+    font-size: 0.85rem;
+  }
+
+  /* Form group spacing */
+  .card-body {
+    gap: 16px;
+  }
+
+  /* Footer */
+  .app-footer p {
+    font-size: 0.72rem;
+    text-align: center;
   }
 }
