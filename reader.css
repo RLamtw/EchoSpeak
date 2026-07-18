@@ -596,25 +596,117 @@ select:hover {
 @media (max-width: 768px) {
   .reader-layout {
     grid-template-columns: 1fr;
-    grid-template-rows: 70px 1fr 100px;
+    grid-template-rows: auto 1fr auto;
     grid-template-areas:
       "header"
       "main"
       "footer";
   }
+  
   .reader-sidebar {
     display: none; /* Hide sidebar on mobile */
   }
+
+  .reader-header {
+    padding: 10px 16px;
+    height: auto;
+    min-height: 60px;
+  }
+
+  .header-logo .logo-text span {
+    display: none; /* Hide subtitle */
+  }
+
+  .header-logo h1 {
+    font-size: 18px;
+  }
+
+  .logo-icon-wrapper {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+  }
+
+  .logo-icon-wrapper i {
+    width: 18px;
+    height: 18px;
+  }
+
   .reader-footer {
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-    padding: 12px;
+    grid-template-rows: auto;
+    padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
     gap: 12px;
+    height: auto;
   }
+
   .footer-now-playing, .footer-audio-settings {
     display: none; /* Hide side controls on very narrow screens */
   }
+
   .reader-main {
-    padding: 20px 24px;
+    padding: 16px 20px;
+    overflow-y: auto;
+  }
+  
+  .view-mode-toggle {
+    margin-bottom: 12px;
   }
 }
+
+@media (max-width: 520px) {
+  .header-controls {
+    gap: 8px;
+  }
+
+  .slider-group {
+    margin-right: 4px !important;
+    gap: 4px;
+  }
+
+  /* Prevent labels from wrapping into vertical lines */
+  .slider-group label {
+    font-size: 10px !important;
+    white-space: nowrap;
+  }
+
+  select {
+    min-width: 110px;
+    max-width: 135px;
+    padding: 6px 24px 6px 10px;
+    font-size: 12px;
+    border-radius: 15px;
+  }
+
+  .select-wrapper::after {
+    right: 8px;
+    font-size: 7px;
+  }
+
+  .btn-icon {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .btn-icon i {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  /* On very small screens, hide text labels to make dropdowns fit in one line */
+  .slider-group label {
+    display: none !important;
+  }
+
+  .header-logo .logo-text h1 {
+    font-size: 16px;
+  }
+  
+  select {
+    min-width: 100px;
+    max-width: 125px;
+  }
+}
+
