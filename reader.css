@@ -1,22 +1,22 @@
-/* Custom CSS for EchoSpeak E-Reader */
 :root {
   --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   
   /* Dark Theme Palette (Default) */
-  --bg-app: #0b0f19;
-  --bg-panel: rgba(20, 26, 46, 0.45);
-  --bg-panel-solid: #141a2e;
-  --bg-card: rgba(30, 41, 73, 0.35);
-  --bg-card-hover: rgba(40, 55, 99, 0.5);
-  --bg-card-active: rgba(99, 102, 241, 0.15);
+  --bg-app: #09090b;
+  --bg-gradient: radial-gradient(circle at 50% 0%, #1c1917 0%, #09090b 100%);
+  --bg-panel: rgba(15, 23, 42, 0.55);
+  --bg-panel-solid: #09090b;
+  --bg-card: rgba(15, 23, 42, 0.55);
+  --bg-card-hover: rgba(30, 41, 59, 0.65);
+  --bg-card-active: rgba(139, 92, 246, 0.1);
   --border-color: rgba(255, 255, 255, 0.08);
-  --border-color-active: rgba(99, 102, 241, 0.5);
-  --text-primary: #f3f4f6;
-  --text-secondary: #9ca3af;
-  --text-muted: #6b7280;
-  --accent-color: #6366f1; /* Indigo */
-  --accent-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+  --border-color-active: rgba(139, 92, 246, 0.5);
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --accent-color: #8b5cf6; /* Purple */
+  --accent-gradient: linear-gradient(135deg, #6366f1, #8b5cf6, #ec4899);
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
   --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.25);
   --glass-blur: blur(12px);
@@ -25,19 +25,20 @@
 
 /* Light Theme overrides */
 [data-theme="light"] {
-  --bg-app: #f4f6fa;
-  --bg-panel: rgba(255, 255, 255, 0.65);
+  --bg-app: #f8fafc;
+  --bg-gradient: radial-gradient(circle at 50% 0%, #e2e8f0 0%, #f8fafc 100%);
+  --bg-panel: rgba(255, 255, 255, 0.7);
   --bg-panel-solid: #ffffff;
   --bg-card: rgba(255, 255, 255, 0.7);
-  --bg-card-hover: rgba(255, 255, 255, 1);
+  --bg-card-hover: rgba(255, 255, 255, 0.85);
   --bg-card-active: rgba(99, 102, 241, 0.08);
-  --border-color: rgba(0, 0, 0, 0.06);
+  --border-color: rgba(15, 23, 42, 0.08);
   --border-color-active: rgba(99, 102, 241, 0.4);
-  --text-primary: #1f2937;
-  --text-secondary: #4b5563;
-  --text-muted: #9ca3af;
-  --accent-color: #4f46e5;
-  --accent-gradient: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --accent-color: #6366f1;
+  --accent-gradient: linear-gradient(135deg, #4f46e5, #6366f1, #d946ef);
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
   --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.08);
 }
@@ -52,6 +53,7 @@
 body {
   font-family: var(--font-body);
   background-color: var(--bg-app);
+  background-image: var(--bg-gradient);
   color: var(--text-primary);
   overflow: hidden;
   height: 100vh;
