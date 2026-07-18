@@ -143,6 +143,8 @@ document.addEventListener('DOMContentLoaded', () => {
           // Save chapter switch
           localStorage.setItem('bonhoeffer-reader-chapter', ch.id);
         }
+        // Close sidebar on mobile
+        document.body.classList.remove('sidebar-open');
       });
       
       chapterListEl.appendChild(item);
@@ -543,6 +545,23 @@ document.addEventListener('DOMContentLoaded', () => {
       localStorage.setItem('bonhoeffer-reader-theme', newTheme);
       updateThemeIcon(newTheme);
     });
+
+    // Mobile Sidebar Drawer Toggle
+    const btnSidebarToggle = document.getElementById('btn-sidebar-toggle');
+    if (btnSidebarToggle) {
+      btnSidebarToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        document.body.classList.toggle('sidebar-open');
+      });
+    }
+
+    // Close sidebar when clicking main content area
+    const readerMain = document.querySelector('.reader-main');
+    if (readerMain) {
+      readerMain.addEventListener('click', () => {
+        document.body.classList.remove('sidebar-open');
+      });
+    }
     
     // Bind Version Toggle Events
     if (btnVerEssential && btnVerComplete) {

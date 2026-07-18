@@ -187,6 +187,10 @@ select:hover {
   transform: scale(1.05);
 }
 
+#btn-sidebar-toggle {
+  display: none !important;
+}
+
 /* Sidebar Styling */
 .reader-sidebar {
   grid-area: sidebar;
@@ -604,30 +608,85 @@ select:hover {
       "header"
       "main"
       "footer";
+    position: relative;
   }
   
-  .reader-sidebar {
-    display: none !important; /* Hide sidebar on mobile */
+  /* Dim/blur screen overlay when sidebar is open */
+  .reader-layout::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  /* Redesigned Native Header for Mobile */
+  .sidebar-open .reader-layout::after {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* Slide-over navigation drawer for mobile */
+  .reader-sidebar {
+    display: flex !important;
+    flex-direction: column !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: -280px !important;
+    width: 280px !important;
+    height: 100vh !important;
+    z-index: 1000 !important;
+    background: var(--bg-panel-solid) !important;
+    border-right: 1px solid var(--border-color) !important;
+    box-shadow: none !important;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    padding: 20px !important;
+    gap: 20px !important;
+  }
+
+  .sidebar-open .reader-sidebar {
+    transform: translateX(280px) !important;
+    box-shadow: 8px 0 24px rgba(0, 0, 0, 0.4) !important;
+  }
+
+  /* Redesigned Native Header for Mobile with Hamburg Menu */
   .reader-header {
     display: grid !important;
-    grid-template-columns: 1fr auto !important;
+    grid-template-columns: auto 1fr auto !important;
     grid-template-rows: auto auto !important;
     grid-template-areas:
-      "logo theme"
-      "controls controls" !important;
-    padding: 14px 16px !important;
-    gap: 12px !important;
+      "toggle logo theme"
+      "controls controls controls" !important;
+    padding: 12px 16px !important;
+    gap: 12px 8px !important;
     height: auto !important;
+    align-items: center;
     background: var(--bg-panel-solid);
     border-bottom: 1px solid var(--border-color);
   }
 
+  #btn-sidebar-toggle {
+    display: flex !important;
+    grid-area: toggle;
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    margin-right: 4px;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+  }
+
   .header-logo {
     grid-area: logo;
-    gap: 10px;
+    gap: 8px;
   }
 
   .logo-icon-wrapper {
@@ -652,8 +711,8 @@ select:hover {
 
   #theme-toggle {
     grid-area: theme;
-    width: 34px;
-    height: 34px;
+    width: 36px;
+    height: 36px;
     justify-self: end;
     align-self: center;
     border-radius: 10px;

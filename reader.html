@@ -2,8 +2,14 @@
 <html lang="zh-TW" data-theme="dark">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>跟隨基督雙語朗讀閱讀器 - EchoSpeak</title>
+  
+  <!-- Apple Web App / PWA Meta Tags -->
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="EchoReader">
   <meta name="description" content="潘霍華《跟隨基督》德中雙語對照電子閱讀器，支援按段朗讀、語速調整與閱讀進度紀錄。">
   
   <!-- Google Fonts -->
@@ -22,6 +28,9 @@
     
     <!-- Top Header -->
     <header class="reader-header">
+      <button id="btn-sidebar-toggle" class="btn-icon" aria-label="打開目錄" title="打開目錄">
+        <i data-lucide="menu"></i>
+      </button>
       <div class="header-logo">
         <div class="logo-icon-wrapper">
           <i data-lucide="book-open" class="logo-icon"></i>
