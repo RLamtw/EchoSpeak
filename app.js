@@ -104,6 +104,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- App State ---
   const synth = window.speechSynthesis;
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+    (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
   let voices = [];
   let currentLanguageFilter = 'all';
   let currentEngine = 'local'; // 'local', 'openai', 'elevenlabs'
@@ -115,8 +117,14 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentChunkIndex = 0;
   let currentUtterance = null;
   let autoReadTimeout = null;
+  let ttsWatchdogTimer = null;
 
-  // HTML5 Audio API objects
+  // HTML5 Audio API objects (single persistent element for iOS autoplay compatibility)
+  const SILENT_WAV_URI = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA';
+  const sharedApiAudio = new Audio();
+  sharedApiAudio.playsInline = true;
+  sharedApiAudio.setAttribute('playsinline', '');
+  let isApiAudioUnlocked = false;
   let apiAudio = null;
   let apiAudioUrl = null;
   let audioBlob = null; // unified blob for download
@@ -179,10 +187,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // 3. Load Settings from LocalStorage
     loadSettings();
 
-    // 4. Load Voices (and attach events because Chrome loads voices asynchronously)
+    // 4. Load Voices (and attach events because Chrome/iOS loads voices asynchronously)
     loadVoices();
     if (synth.onvoiceschanged !== undefined) {
       synth.onvoiceschanged = loadVoices;
+    }
+    if (synth.getVoices().length === 0) {
+      setTimeout(loadVoices, 300);
+      setTimeout(loadVoices, 1200);
     }
 
     // 5. Setup Canvas dimensions
@@ -273,15 +285,17 @@ document.addEventListener('DOMContentLoaded', () => {
       return true;
     });
 
+    const autoOpt = document.createElement('option');
+    autoOpt.value = '__auto__';
+    autoOpt.textContent = isIOS ? '系統自動語音 (iPhone 推薦)' : '系統自動語音 (預設)';
+    voiceSelect.appendChild(autoOpt);
+
     if (filteredVoices.length === 0) {
-      const option = document.createElement('option');
-      option.value = '';
-      option.textContent = '此類別無可用語音角色';
-      option.disabled = true;
-      voiceSelect.appendChild(option);
+      voiceSelect.value = '__auto__';
       return;
     }
 
+    let matchedSaved = false;
     filteredVoices.forEach(voice => {
       const option = document.createElement('option');
       option.value = voice.name;
@@ -304,17 +318,22 @@ document.addEventListener('DOMContentLoaded', () => {
       
       if (voice.name === selectedVoiceName) {
         option.selected = true;
+        matchedSaved = true;
       }
       voiceSelect.appendChild(option);
     });
 
     // If no matching voice is selected, auto-select the best default
-    if (!voiceSelect.value && filteredVoices.length > 0) {
-      const defaultZh = filteredVoices.find(v => v.lang.includes('TW') || v.lang.includes('HK') || v.lang.includes('CN'));
-      if (defaultZh) {
-        voiceSelect.value = defaultZh.name;
+    if (!matchedSaved && filteredVoices.length > 0) {
+      if (selectedVoiceName === '__auto__' || isIOS) {
+        voiceSelect.value = '__auto__';
       } else {
-        voiceSelect.value = filteredVoices[0].name;
+        const defaultZh = filteredVoices.find(v => v.lang.includes('TW') || v.lang.includes('HK') || v.lang.includes('CN'));
+        if (defaultZh) {
+          voiceSelect.value = defaultZh.name;
+        } else {
+          voiceSelect.value = filteredVoices[0].name;
+        }
       }
     }
   }
@@ -833,6 +852,32 @@ document.addEventListener('DOMContentLoaded', () => {
       .filter(Boolean);
   }
 
+  function unlockIOSMediaElement() {
+    if (isApiAudioUnlocked) return;
+    try {
+      sharedApiAudio.src = SILENT_WAV_URI;
+      sharedApiAudio.volume = 0.01;
+      const p = sharedApiAudio.play();
+      if (p && typeof p.then === 'function') {
+        p.then(() => {
+          sharedApiAudio.pause();
+          sharedApiAudio.currentTime = 0;
+          isApiAudioUnlocked = true;
+        }).catch(() => {});
+      }
+    } catch (e) {}
+  }
+
+  function detectFallbackLang(text) {
+    if (/[\u3040-\u30ff]/.test(text)) return 'ja-JP';
+    if (/[\u4e00-\u9fff]/.test(text)) return 'zh-TW';
+    if (/[äöüßÄÖÜ]/.test(text)) return 'de-DE';
+    if (currentLanguageFilter === 'zh') return 'zh-TW';
+    if (currentLanguageFilter === 'ja') return 'ja-JP';
+    if (currentLanguageFilter === 'en') return 'en-US';
+    return 'en-US';
+  }
+
   async function startPlayback() {
     const text = textInput.value.trim();
     if (!text) {
@@ -840,8 +885,13 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
+    if (currentEngine !== 'local') {
+      unlockIOSMediaElement();
+    }
+
     // Cancel anything currently playing
-    if (synth && synth.speaking) {
+    const wasSynthActive = !!(synth && (synth.speaking || synth.pending));
+    if (wasSynthActive && synth) {
       synth.cancel();
     }
     if (apiAudio) {
@@ -864,7 +914,11 @@ document.addEventListener('DOMContentLoaded', () => {
       btnNext.disabled = false;
       waveformOverlay.classList.add('hidden');
 
-      playNextChunk();
+      if (wasSynthActive && isIOS) {
+        setTimeout(() => playNextChunk(), 80);
+      } else {
+        playNextChunk();
+      }
     } else {
       // API speech engine
       const voiceVal = voiceSelect.value;
@@ -1087,13 +1141,20 @@ document.addEventListener('DOMContentLoaded', () => {
   function startPlayingAudioElement(index, startProgress = 0) {
     if (!isPlaying) return;
     
-    // Cleanup active audio if any (pause it)
+    // Reuse persistent Audio element for iOS autoplay compatibility
     if (apiAudio) {
-      try { apiAudio.pause(); } catch(e){}
+      try {
+        apiAudio.ontimeupdate = null;
+        apiAudio.onended = null;
+        apiAudio.onerror = null;
+        apiAudio.pause();
+      } catch(e){}
     }
 
     const url = apiAudioUrls[index];
-    apiAudio = new Audio(url);
+    apiAudio = sharedApiAudio;
+    apiAudio.src = url;
+    apiAudio.load();
     
     apiAudio.volume = parseFloat(sliderVolume.value);
     apiAudio.playbackRate = parseFloat(sliderRate.value);
@@ -1274,8 +1335,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  function playNextChunk() {
+  function playNextChunk(allowCustomVoice = true) {
     if (!isPlaying) return;
+
+    if (ttsWatchdogTimer) {
+      clearTimeout(ttsWatchdogTimer);
+      ttsWatchdogTimer = null;
+    }
 
     if (currentChunkIndex >= currentChunks.length) {
       stopPlayback();
@@ -1289,18 +1355,58 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Apply Settings
     const selectedVoiceName = voiceSelect.value;
-    if (selectedVoiceName) {
-      const v = voices.find(voice => voice.name === selectedVoiceName);
-      if (v) currentUtterance.voice = v;
+    let appliedVoice = null;
+    if (allowCustomVoice && selectedVoiceName && selectedVoiceName !== '__auto__') {
+      const liveVoices = synth.getVoices();
+      const v = liveVoices.find(voice => voice.name === selectedVoiceName) || voices.find(voice => voice.name === selectedVoiceName);
+      if (v) {
+        currentUtterance.voice = v;
+        currentUtterance.lang = v.lang || detectFallbackLang(chunkText);
+        appliedVoice = v;
+      }
+    }
+    if (!appliedVoice) {
+      currentUtterance.lang = detectFallbackLang(chunkText);
     }
     
     currentUtterance.rate = parseFloat(sliderRate.value);
     currentUtterance.pitch = parseFloat(sliderPitch.value);
     currentUtterance.volume = parseFloat(sliderVolume.value);
 
+    // Immediately show active state for iOS responsiveness
+    speechIndicator.classList.add('playing');
+    indicatorText.textContent = `正在播放第 ${currentChunkIndex + 1}/${currentChunks.length} 句`;
+    renderSubtitleProgress();
+    waveTargetActivity = 1.0;
+    setPlayPauseButtonState('playing');
+
+    let hasStarted = false;
+    let handledFailure = false;
+    const speakDispatchedAt = Date.now();
+
+    const retryWithoutCustomVoice = () => {
+      if (handledFailure || !isPlaying) return;
+      handledFailure = true;
+      if (ttsWatchdogTimer) {
+        clearTimeout(ttsWatchdogTimer);
+        ttsWatchdogTimer = null;
+      }
+      if (synth.speaking || synth.pending) {
+        synth.cancel();
+      }
+      setTimeout(() => {
+        if (isPlaying) playNextChunk(false);
+      }, 60);
+    };
+
     // Event listeners
     currentUtterance.onstart = () => {
-      if (!isPlaying) return;
+      if (!isPlaying || handledFailure) return;
+      hasStarted = true;
+      if (ttsWatchdogTimer) {
+        clearTimeout(ttsWatchdogTimer);
+        ttsWatchdogTimer = null;
+      }
       
       // Update speech indicators
       speechIndicator.classList.add('playing');
@@ -1317,29 +1423,68 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     currentUtterance.onend = () => {
-      if (!isPlaying) return;
+      if (!isPlaying || handledFailure) return;
+      if (ttsWatchdogTimer) {
+        clearTimeout(ttsWatchdogTimer);
+        ttsWatchdogTimer = null;
+      }
+      const elapsed = Date.now() - speakDispatchedAt;
+      if (allowCustomVoice && appliedVoice && !hasStarted && elapsed < 80 && chunkText.length > 4) {
+        retryWithoutCustomVoice();
+        return;
+      }
       
       currentChunkIndex++;
-      playNextChunk();
+      playNextChunk(allowCustomVoice);
     };
 
     currentUtterance.onerror = (e) => {
-      // Note: 'interrupted' error is thrown when synth.cancel() or new speech starts, which is normal
-      if (e.error !== 'interrupted') {
+      if (ttsWatchdogTimer) {
+        clearTimeout(ttsWatchdogTimer);
+        ttsWatchdogTimer = null;
+      }
+      // Note: 'interrupted' or 'canceled' error is thrown when synth.cancel() or new speech starts
+      if (e.error !== 'interrupted' && e.error !== 'canceled') {
         console.error('TTS Utterance Error:', e);
+        if (allowCustomVoice && appliedVoice) {
+          retryWithoutCustomVoice();
+          return;
+        }
         stopPlayback();
       }
     };
 
+    ttsWatchdogTimer = setTimeout(() => {
+      ttsWatchdogTimer = null;
+      if (!isPlaying || hasStarted || handledFailure) return;
+      if (allowCustomVoice && appliedVoice) {
+        retryWithoutCustomVoice();
+      } else if (isIOS && !synth.speaking && !synth.pending) {
+        showStatusFeedback('若 iPhone 無聲，請確認側邊靜音開關未開啟');
+      }
+    }, 1500);
+
+    if (synth.paused) {
+      synth.resume();
+    }
     // Speak!
     synth.speak(currentUtterance);
   }
 
   function pausePlayback() {
     if (!isPlaying || isPaused) return;
+
+    if (ttsWatchdogTimer) {
+      clearTimeout(ttsWatchdogTimer);
+      ttsWatchdogTimer = null;
+    }
     
     if (currentEngine === 'local') {
-      synth.pause();
+      if (isIOS) {
+        if (synth.speaking || synth.pending) synth.cancel();
+      } else {
+        synth.pause();
+      }
     } else if (apiAudio) {
       apiAudio.pause();
     }
@@ -1355,6 +1500,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!isPlaying || !isPaused) return;
     
     if (currentEngine === 'local') {
+      if (isIOS) {
+        isPaused = false;
+        playNextChunk();
+        return;
+      }
       synth.resume();
     } else if (apiAudio) {
       apiAudio.play().catch(err => console.error('API Audio Resume Failed:', err));
@@ -1371,9 +1521,16 @@ document.addEventListener('DOMContentLoaded', () => {
     isPlaying = false;
     isPaused = false;
     currentChunkIndex = 0;
+
+    if (ttsWatchdogTimer) {
+      clearTimeout(ttsWatchdogTimer);
+      ttsWatchdogTimer = null;
+    }
     
     if (currentEngine === 'local') {
-      synth.cancel();
+      if (synth.speaking || synth.pending) {
+        synth.cancel();
+      }
     } else if (apiAudio) {
       apiAudio.pause();
       apiAudio.currentTime = 0;
@@ -1396,10 +1553,21 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function restartPlaybackFromCurrent() {
-    synth.cancel();
+    if (ttsWatchdogTimer) {
+      clearTimeout(ttsWatchdogTimer);
+      ttsWatchdogTimer = null;
+    }
+    const wasSynthActive = !!(synth && (synth.speaking || synth.pending));
+    if (wasSynthActive) {
+      synth.cancel();
+    }
     if (isPlaying) {
       isPaused = false;
-      playNextChunk();
+      if (wasSynthActive && isIOS) {
+        setTimeout(() => playNextChunk(), 80);
+      } else {
+        playNextChunk();
+      }
     }
   }
 

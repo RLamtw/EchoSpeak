@@ -20,6 +20,31 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const synth = window.speechSynthesis;
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+    (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+
+  // Persistent HTML5 Audio element for iOS Safari autoplay compatibility
+  const SILENT_WAV_URI = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA';
+  const sharedApiAudio = new Audio();
+  sharedApiAudio.playsInline = true;
+  sharedApiAudio.setAttribute('playsinline', '');
+  let isApiAudioUnlocked = false;
+
+  function unlockIOSMediaElement() {
+    if (isApiAudioUnlocked) return;
+    try {
+      sharedApiAudio.src = SILENT_WAV_URI;
+      sharedApiAudio.volume = 0.01;
+      const playPromise = sharedApiAudio.play();
+      if (playPromise && typeof playPromise.then === 'function') {
+        playPromise.then(() => {
+          sharedApiAudio.pause();
+          sharedApiAudio.currentTime = 0;
+          isApiAudioUnlocked = true;
+        }).catch(() => {});
+      }
+    } catch (e) {}
+  }
 
   // --- IndexedDB Persistent Audio Cache (Zero-Cost Replay for OpenAI TTS) ---
   const DB_NAME = 'EchoReaderAudioCache';
@@ -192,6 +217,8 @@ document.addEventListener('DOMContentLoaded', () => {
   let playbackSessionId = 0; // Prevents async race conditions on cancel/switch
   let autoplayTimer = null;
   let keepAliveTimer = null;
+  let speakStartDelayTimer = null;
+  let ttsWatchdogTimer = null;
 
   let autoplayEnabled = true;
   let skipNotesEnabled = true;
@@ -285,8 +312,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     loadVoices();
-    if (synth && synth.onvoiceschanged !== undefined) {
-      synth.onvoiceschanged = loadVoices;
+    if (synth) {
+      if (synth.onvoiceschanged !== undefined) {
+        synth.onvoiceschanged = loadVoices;
+      }
+      // iOS Safari / PWA often populates getVoices() asynchronously without firing onvoiceschanged
+      if (synth.getVoices().length === 0) {
+        setTimeout(loadVoices, 300);
+        setTimeout(loadVoices, 1200);
+      }
     }
 
     bindEvents();
@@ -571,6 +605,14 @@ document.addEventListener('DOMContentLoaded', () => {
       clearTimeout(autoplayTimer);
       autoplayTimer = null;
     }
+    if (speakStartDelayTimer) {
+      clearTimeout(speakStartDelayTimer);
+      speakStartDelayTimer = null;
+    }
+    if (ttsWatchdogTimer) {
+      clearTimeout(ttsWatchdogTimer);
+      ttsWatchdogTimer = null;
+    }
     if (keepAliveTimer) {
       clearInterval(keepAliveTimer);
       keepAliveTimer = null;
@@ -734,10 +776,17 @@ document.addEventListener('DOMContentLoaded', () => {
     currentPlayingLang = resolvedLang;
     updateLangBadgeUI();
 
+    if (currentEngine === 'openai') {
+      unlockIOSMediaElement();
+    }
+
     playbackSessionId++;
     const sessionId = playbackSessionId;
+    const wasSynthActive = !!(synth && (synth.speaking || synth.pending));
     clearSpeechTimersAndEvents();
-    if (synth) synth.cancel();
+    if (wasSynthActive && synth) {
+      synth.cancel();
+    }
 
     const card = document.getElementById(id);
     if (!card) return;
@@ -788,7 +837,15 @@ document.addEventListener('DOMContentLoaded', () => {
       playParagraphWithOpenAI(sessionId, card, id, resolvedLang, queuePos);
     } else {
       if (btnDownloadMp3) btnDownloadMp3.style.display = 'none';
-      speakSentenceInQueue(sessionId, card, id, resolvedLang, queuePos);
+      // On iOS Safari, calling synth.speak() synchronously right after synth.cancel() can swallow the new utterance
+      if (wasSynthActive && isIOS) {
+        speakStartDelayTimer = setTimeout(() => {
+          speakStartDelayTimer = null;
+          speakSentenceInQueue(sessionId, card, id, resolvedLang, queuePos);
+        }, 80);
+      } else {
+        speakSentenceInQueue(sessionId, card, id, resolvedLang, queuePos);
+      }
     }
   }
 
@@ -824,8 +881,16 @@ document.addEventListener('DOMContentLoaded', () => {
           : '☁️ OpenAI 已合成並存入永久快取';
       }
 
+      if (currentApiAudioUrl) {
+        URL.revokeObjectURL(currentApiAudioUrl);
+      }
       currentApiAudioUrl = URL.createObjectURL(blob);
-      const audio = new Audio(currentApiAudioUrl);
+      const audio = sharedApiAudio;
+      audio.onloadedmetadata = null;
+      audio.ontimeupdate = null;
+      audio.onended = null;
+      audio.onerror = null;
+      audio.src = currentApiAudioUrl;
       currentApiAudio = audio;
       audio.playbackRate = speedRate;
       audio.volume = volumeLevel;
@@ -876,6 +941,7 @@ document.addEventListener('DOMContentLoaded', () => {
       isPlaying = true;
       isPaused = false;
       updatePlayerUI();
+      audio.load();
       await audio.play();
     } catch (err) {
       if (sessionId !== playbackSessionId) return;
@@ -890,7 +956,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  function speakSentenceInQueue(sessionId, card, paragraphId, lang, queuePos) {
+  function resolveLiveVoice(selectedVoice, lang) {
+    if (!selectedVoice || !synth) return null;
+    const allVoices = synth.getVoices();
+    return allVoices.find(v => v.name === selectedVoice.name && v.lang === selectedVoice.lang)
+      || allVoices.find(v => v.name === selectedVoice.name)
+      || null;
+  }
+
+  function speakSentenceInQueue(sessionId, card, paragraphId, lang, queuePos, allowCustomVoice = true) {
     if (!synth || sessionId !== playbackSessionId) return;
 
     if (queuePos >= activeSentenceQueue.length) {
@@ -898,71 +972,148 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
+    if (ttsWatchdogTimer) {
+      clearTimeout(ttsWatchdogTimer);
+      ttsWatchdogTimer = null;
+    }
+
     const sentenceItem = activeSentenceQueue[queuePos];
     currentSentenceIndex = sentenceItem.index;
+
+    // Immediately show sentence highlight & title so iOS UI stays responsive
+    isPlaying = true;
+    isPaused = false;
+    updatePlayerUI();
+    highlightActiveSentence(card, lang, sentenceItem.index);
+    const snippet = sentenceItem.origText;
+    footerTitle.textContent = snippet.substring(0, 34) + (snippet.length > 34 ? '...' : '');
 
     const utter = new SpeechSynthesisUtterance(sentenceItem.cleanText);
     currentUtterance = utter;
     utter.rate = speedRate;
+    utter.pitch = 1.0;
     utter.volume = volumeLevel;
 
-    if (lang === 'zh') {
-      if (selectedZhVoice) {
-        utter.voice = selectedZhVoice;
-        utter.lang = selectedZhVoice.lang || 'zh-TW';
-      } else {
-        utter.lang = 'zh-TW';
-      }
-    } else {
-      if (selectedDeVoice) {
-        utter.voice = selectedDeVoice;
-        utter.lang = selectedDeVoice.lang || 'de-DE';
-      } else {
-        utter.lang = 'de-DE';
-      }
+    let appliedVoice = null;
+    if (allowCustomVoice) {
+      const targetVoice = lang === 'zh' ? selectedZhVoice : selectedDeVoice;
+      appliedVoice = resolveLiveVoice(targetVoice, lang);
     }
 
-    utter.onstart = () => {
-      if (sessionId !== playbackSessionId) return;
-      isPlaying = true;
-      isPaused = false;
-      updatePlayerUI();
-      highlightActiveSentence(card, lang, sentenceItem.index);
+    if (appliedVoice) {
+      utter.voice = appliedVoice;
+      utter.lang = appliedVoice.lang || (lang === 'de' ? 'de-DE' : 'zh-TW');
+    } else {
+      utter.lang = lang === 'de' ? 'de-DE' : 'zh-TW';
+    }
 
-      const snippet = sentenceItem.origText;
-      footerTitle.textContent = snippet.substring(0, 34) + (snippet.length > 34 ? '...' : '');
+    let hasStarted = false;
+    let handledFailure = false;
+    const speakDispatchedAt = Date.now();
 
-      if (keepAliveTimer) clearInterval(keepAliveTimer);
-      keepAliveTimer = setInterval(() => {
-        if (synth.speaking && !synth.paused) {
-          synth.pause();
-          synth.resume();
-        }
-      }, 10000);
-    };
-
-    utter.onend = () => {
-      if (sessionId !== playbackSessionId) return;
+    const retryWithoutCustomVoice = () => {
+      if (handledFailure || sessionId !== playbackSessionId) return;
+      handledFailure = true;
+      if (ttsWatchdogTimer) {
+        clearTimeout(ttsWatchdogTimer);
+        ttsWatchdogTimer = null;
+      }
       if (keepAliveTimer) {
         clearInterval(keepAliveTimer);
         keepAliveTimer = null;
       }
-      speakSentenceInQueue(sessionId, card, paragraphId, lang, queuePos + 1);
+      if (synth.speaking || synth.pending) {
+        synth.cancel();
+      }
+      setTimeout(() => {
+        if (sessionId === playbackSessionId) {
+          speakSentenceInQueue(sessionId, card, paragraphId, lang, queuePos, false);
+        }
+      }, 60);
+    };
+
+    utter.onstart = () => {
+      if (sessionId !== playbackSessionId || handledFailure) return;
+      hasStarted = true;
+      if (ttsWatchdogTimer) {
+        clearTimeout(ttsWatchdogTimer);
+        ttsWatchdogTimer = null;
+      }
+      isPlaying = true;
+      isPaused = false;
+      updatePlayerUI();
+      highlightActiveSentence(card, lang, sentenceItem.index);
+      footerTitle.textContent = snippet.substring(0, 34) + (snippet.length > 34 ? '...' : '');
+
+      // Desktop Chrome 15s pause/resume workaround (breaks iOS Safari speech if called on iOS)
+      if (!isIOS) {
+        if (keepAliveTimer) clearInterval(keepAliveTimer);
+        keepAliveTimer = setInterval(() => {
+          if (synth.speaking && !synth.paused) {
+            synth.pause();
+            synth.resume();
+          }
+        }, 10000);
+      }
+    };
+
+    utter.onend = () => {
+      if (sessionId !== playbackSessionId || handledFailure) return;
+      if (ttsWatchdogTimer) {
+        clearTimeout(ttsWatchdogTimer);
+        ttsWatchdogTimer = null;
+      }
+      if (keepAliveTimer) {
+        clearInterval(keepAliveTimer);
+        keepAliveTimer = null;
+      }
+      const elapsed = Date.now() - speakDispatchedAt;
+      // Detect iOS silent-skip when an unavailable Siri/Enhanced voice finishes in < 80ms
+      if (allowCustomVoice && appliedVoice && !hasStarted && elapsed < 80 && sentenceItem.cleanText.length > 4) {
+        retryWithoutCustomVoice();
+        return;
+      }
+      speakSentenceInQueue(sessionId, card, paragraphId, lang, queuePos + 1, allowCustomVoice);
     };
 
     utter.onerror = (e) => {
-      if (sessionId !== playbackSessionId) return;
+      if (sessionId !== playbackSessionId || handledFailure) return;
+      if (ttsWatchdogTimer) {
+        clearTimeout(ttsWatchdogTimer);
+        ttsWatchdogTimer = null;
+      }
       if (keepAliveTimer) {
         clearInterval(keepAliveTimer);
         keepAliveTimer = null;
       }
       if (e.error !== 'interrupted' && e.error !== 'canceled') {
         console.warn('TTS Utterance error:', e.error);
+        if (allowCustomVoice && appliedVoice) {
+          retryWithoutCustomVoice();
+          return;
+        }
         isPlaying = false;
         updatePlayerUI();
+        if (isIOS && footerStatusHint) {
+          footerStatusHint.textContent = '⚠️ iPhone 無法播放，請檢查側邊靜音開關或改用 OpenAI';
+        }
       }
     };
 
+    // Watchdog: if iOS selected voice hangs silently without firing onstart, fall back to pure lang
+    ttsWatchdogTimer = setTimeout(() => {
+      ttsWatchdogTimer = null;
+      if (sessionId !== playbackSessionId || hasStarted || handledFailure) return;
+      if (allowCustomVoice && appliedVoice) {
+        retryWithoutCustomVoice();
+      } else if (isIOS && !synth.speaking && !synth.pending && footerStatusHint) {
+        footerStatusHint.textContent = '⚠️ 若 iPhone 無聲：請關閉側邊靜音鍵、選「系統自動語音」或用 OpenAI';
+      }
+    }, 1500);
+
+    if (synth.paused) {
+      synth.resume();
+    }
     synth.speak(utter);
   }
 
@@ -1051,14 +1202,26 @@ document.addEventListener('DOMContentLoaded', () => {
       if (isPaused) {
         if (currentEngine === 'openai' && currentApiAudio) {
           currentApiAudio.play().catch(() => {});
+          isPaused = false;
+          isPlaying = true;
+        } else if (isIOS) {
+          // iOS WebKit synth.resume() is unreliable after pause; re-speak from current sentence
+          playParagraph(activeParagraphId, currentPlayingLang, currentSentenceIndex);
+          return;
         } else if (synth) {
           synth.resume();
+          isPaused = false;
+          isPlaying = true;
         }
-        isPaused = false;
-        isPlaying = true;
       } else {
         if (currentEngine === 'openai' && currentApiAudio) {
           currentApiAudio.pause();
+        } else if (isIOS) {
+          playbackSessionId++;
+          clearSpeechTimersAndEvents();
+          if (synth && (synth.speaking || synth.pending)) {
+            synth.cancel();
+          }
         } else if (synth) {
           synth.pause();
         }
@@ -1293,10 +1456,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!synth) return;
     const allVoices = synth.getVoices();
-    if (!allVoices || allVoices.length === 0) return;
 
     const savedZhName = safeStorage.getItem('bonhoeffer-reader-voice-zh');
     const savedDeName = safeStorage.getItem('bonhoeffer-reader-voice-de');
+
+    // Add a reliable "System Auto" option first (essential on iOS Safari where explicit Siri/Enhanced voices often stay silent)
+    const autoZhOpt = document.createElement('option');
+    autoZhOpt.value = '__auto__';
+    autoZhOpt.textContent = isIOS ? '系統自動中文 (iPhone 推薦)' : '系統自動中文 (預設)';
+    voiceSelectZh.appendChild(autoZhOpt);
+
+    const autoDeOpt = document.createElement('option');
+    autoDeOpt.value = '__auto__';
+    autoDeOpt.textContent = isIOS ? '系統自動德文 (iPhone 推薦)' : '系統自動德文 (預設)';
+    voiceSelectDe.appendChild(autoDeOpt);
+
+    if (!allVoices || allVoices.length === 0) {
+      selectedZhVoice = null;
+      selectedDeVoice = null;
+      voiceSelectZh.value = '__auto__';
+      voiceSelectDe.value = '__auto__';
+      return;
+    }
 
     const zhVoices = allVoices
       .filter(v => {
@@ -1312,38 +1493,36 @@ document.addEventListener('DOMContentLoaded', () => {
       })
       .sort((a, b) => scoreVoice(b, 'de') - scoreVoice(a, 'de'));
 
-    if (zhVoices.length === 0) {
+    zhVoices.forEach(v => {
       const opt = document.createElement('option');
-      opt.textContent = '系統預設中文';
-      opt.value = '';
+      opt.value = v.name;
+      opt.textContent = formatVoiceLabel(v, 'zh');
       voiceSelectZh.appendChild(opt);
+    });
+
+    if (savedZhName === '__auto__' || (!savedZhName && isIOS)) {
+      selectedZhVoice = null;
+      voiceSelectZh.value = '__auto__';
     } else {
-      zhVoices.forEach(v => {
-        const opt = document.createElement('option');
-        opt.value = v.name;
-        opt.textContent = formatVoiceLabel(v, 'zh');
-        voiceSelectZh.appendChild(opt);
-      });
       const matchedSavedZh = savedZhName && zhVoices.find(v => v.name === savedZhName);
-      selectedZhVoice = matchedSavedZh || zhVoices[0];
-      voiceSelectZh.value = selectedZhVoice.name;
+      selectedZhVoice = matchedSavedZh || zhVoices[0] || null;
+      voiceSelectZh.value = selectedZhVoice ? selectedZhVoice.name : '__auto__';
     }
 
-    if (deVoices.length === 0) {
+    deVoices.forEach(v => {
       const opt = document.createElement('option');
-      opt.textContent = '系統預設德文';
-      opt.value = '';
+      opt.value = v.name;
+      opt.textContent = formatVoiceLabel(v, 'de');
       voiceSelectDe.appendChild(opt);
+    });
+
+    if (savedDeName === '__auto__' || (!savedDeName && isIOS)) {
+      selectedDeVoice = null;
+      voiceSelectDe.value = '__auto__';
     } else {
-      deVoices.forEach(v => {
-        const opt = document.createElement('option');
-        opt.value = v.name;
-        opt.textContent = formatVoiceLabel(v, 'de');
-        voiceSelectDe.appendChild(opt);
-      });
       const matchedSavedDe = savedDeName && deVoices.find(v => v.name === savedDeName);
-      selectedDeVoice = matchedSavedDe || deVoices[0];
-      voiceSelectDe.value = selectedDeVoice.name;
+      selectedDeVoice = matchedSavedDe || deVoices[0] || null;
+      voiceSelectDe.value = selectedDeVoice ? selectedDeVoice.name : '__auto__';
     }
   }
 
@@ -1410,6 +1589,9 @@ document.addEventListener('DOMContentLoaded', () => {
       if (currentEngine === 'openai') {
         selectedOpenaiZhVoice = voiceSelectZh.value;
         safeStorage.setItem('bonhoeffer-reader-openai-voice-zh', selectedOpenaiZhVoice);
+      } else if (voiceSelectZh.value === '__auto__' || !voiceSelectZh.value) {
+        selectedZhVoice = null;
+        safeStorage.setItem('bonhoeffer-reader-voice-zh', '__auto__');
       } else {
         const allVoices = synth.getVoices();
         selectedZhVoice = allVoices.find(v => v.name === voiceSelectZh.value) || null;
@@ -1426,6 +1608,9 @@ document.addEventListener('DOMContentLoaded', () => {
       if (currentEngine === 'openai') {
         selectedOpenaiDeVoice = voiceSelectDe.value;
         safeStorage.setItem('bonhoeffer-reader-openai-voice-de', selectedOpenaiDeVoice);
+      } else if (voiceSelectDe.value === '__auto__' || !voiceSelectDe.value) {
+        selectedDeVoice = null;
+        safeStorage.setItem('bonhoeffer-reader-voice-de', '__auto__');
       } else {
         const allVoices = synth.getVoices();
         selectedDeVoice = allVoices.find(v => v.name === voiceSelectDe.value) || null;
@@ -1464,7 +1649,11 @@ document.addEventListener('DOMContentLoaded', () => {
       // In OpenAI mode, adjust HTML5 Audio playbackRate directly without re-fetching!
       if (currentEngine === 'openai' && currentApiAudio) {
         currentApiAudio.playbackRate = speedRate;
-      } else if (activeParagraphId && isPlaying) {
+      }
+    });
+
+    sliderRate.addEventListener('change', () => {
+      if (currentEngine !== 'openai' && activeParagraphId && isPlaying && !isPaused) {
         playParagraph(activeParagraphId, currentPlayingLang, currentSentenceIndex);
       }
     });
@@ -1477,7 +1666,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (currentEngine === 'openai' && currentApiAudio) {
           currentApiAudio.volume = volumeLevel;
-        } else if (activeParagraphId && isPlaying) {
+        }
+      });
+
+      sliderVolume.addEventListener('change', () => {
+        if (currentEngine !== 'openai' && activeParagraphId && isPlaying && !isPaused) {
           playParagraph(activeParagraphId, currentPlayingLang, currentSentenceIndex);
         }
       });
