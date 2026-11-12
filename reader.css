@@ -387,7 +387,7 @@ select:hover {
 .card-hover-actions {
   position: absolute;
   right: 16px;
-  bottom: 16px;
+  bottom: 14px;
   display: flex;
   gap: 8px;
   opacity: 0;
@@ -395,30 +395,74 @@ select:hover {
   transition: all 0.2s ease;
 }
 
-.paragraph-card:hover .card-hover-actions {
+.paragraph-card:hover .card-hover-actions,
+.paragraph-card.active .card-hover-actions {
   opacity: 1;
   transform: translateY(0);
 }
 
 .action-btn-sm {
-  width: 28px;
   height: 28px;
-  border-radius: 50%;
-  border: none;
+  padding: 0 10px;
+  border-radius: 14px;
+  border: 1px solid var(--border-color);
   background: var(--bg-panel-solid);
-  color: var(--text-primary);
-  display: flex;
+  color: var(--text-secondary);
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 600;
   cursor: pointer;
   box-shadow: var(--shadow-sm);
   transition: all 0.2s ease;
 }
 
-.action-btn-sm:hover {
+.action-btn-sm:hover,
+.action-btn-sm.active-lang {
   background: var(--accent-color);
+  border-color: var(--accent-color);
   color: white;
-  transform: scale(1.1);
+  transform: scale(1.05);
+}
+
+/* Sentence-level live tracking inside paragraph cards */
+.sentence-span {
+  border-radius: 4px;
+  padding: 1px 2px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.sentence-span:hover {
+  background-color: rgba(139, 92, 246, 0.12);
+}
+
+.sentence-span.active-sentence {
+  background: linear-gradient(120deg, rgba(139, 92, 246, 0.28) 0%, rgba(236, 72, 153, 0.22) 100%);
+  color: var(--text-primary);
+  border-bottom: 2px solid var(--accent-color);
+  font-weight: 500;
+}
+
+/* Language switcher badge in footer player */
+.btn-lang-badge {
+  height: 28px;
+  padding: 0 10px;
+  border-radius: 14px;
+  border: 1px solid var(--border-color-active);
+  background: var(--bg-card-active);
+  color: var(--accent-color);
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.btn-lang-badge:hover {
+  background: var(--accent-color);
+  color: #fff;
 }
 
 /* Footer Player Styling */
@@ -876,6 +920,15 @@ select:hover {
   .text-zh {
     font-size: 16px !important;
     line-height: 1.65 !important;
+  }
+
+  /* Keep language play buttons accessible on touch screens */
+  .card-hover-actions {
+    position: static !important;
+    opacity: 0.9 !important;
+    transform: none !important;
+    justify-content: flex-end;
+    margin-top: 4px;
   }
 
   /* Redesigned Native Player Footer for Mobile */

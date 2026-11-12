@@ -1555,9 +1555,9 @@ kbd {
     justify-content: flex-start;
   }
 
-  /* Hide "免費語音指南" button label, keep icon */
-  #btn-guide-modal .btn-icon-sm ~ * ,
-  #btn-guide-modal span {
+  /* Hide "免費語音指南" and "手機與外網" button labels on narrow screens, keep icons */
+  #btn-guide-modal span,
+  #btn-mobile-connect span {
     display: none;
   }
 
@@ -1643,4 +1643,77 @@ kbd {
     font-size: 0.72rem;
     text-align: center;
   }
+}
+
+/* --- Mobile & Remote Access Modal Styles --- */
+#remote-dialog {
+  max-width: 680px;
+}
+
+#remote-dialog .modal-body {
+  max-height: 75vh;
+}
+
+.remote-access-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.remote-link-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  margin-top: 10px;
+  background: rgba(15, 23, 42, 0.35);
+  border: 1px solid var(--border-glass);
+  border-radius: 10px;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+:root[data-theme="light"] .remote-link-box {
+  background: rgba(15, 23, 42, 0.04);
+}
+
+.remote-link-box:hover {
+  border-color: var(--accent-primary);
+}
+
+.remote-link-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+  flex: 1;
+}
+
+.remote-link-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.remote-url-text {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--accent-primary);
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.remote-url-text:hover {
+  text-decoration: underline;
+}
+
+.remote-access-grid code {
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-size: 0.78rem;
+  background: rgba(139, 92, 246, 0.14);
+  color: var(--text-primary);
+  word-break: break-all;
 }

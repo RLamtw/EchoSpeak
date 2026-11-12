@@ -47,9 +47,13 @@
           title="開啟《跟隨基督》雙語閱讀器">
           <i data-lucide="book-open" class="btn-icon-sm"></i> 《跟隨基督》閱讀器
         </a>
+        <button id="btn-mobile-connect" class="btn-secondary btn-sm"
+          style="height: 40px; border-radius: 20px; padding: 0 16px;" title="在手機或外部網路開啟 EchoSpeak">
+          <i data-lucide="smartphone" class="btn-icon-sm"></i> <span>手機與外網</span>
+        </button>
         <button id="btn-guide-modal" class="btn-secondary btn-sm"
           style="height: 40px; border-radius: 20px; padding: 0 16px;" title="免費高品質語音指南">
-          <i data-lucide="help-circle" class="btn-icon-sm"></i> 免費語音指南
+          <i data-lucide="help-circle" class="btn-icon-sm"></i> <span>免費語音指南</span>
         </button>
         <button id="theme-toggle" class="btn-icon" aria-label="切換深淺模式" title="切換深淺模式">
           <i data-lucide="sun" class="icon-sun"></i>
@@ -513,6 +517,68 @@
                 <li><b>標點優化</b>：將 <code>--</code> 或長分隔線替換為短暫停頓符號，將多個驚嘆號 <code>!!!</code> 簡化為單個，使朗讀語調更自然。</li>
               </ul>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Dialog / Modal for mobile and external network access -->
+  <dialog id="remote-dialog" class="glass-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3><i data-lucide="smartphone" class="modal-icon"></i> 手機與外網連線指南</h3>
+        <button id="btn-close-remote" class="btn-icon-sm" aria-label="關閉手機與外網連線對話框" style="background:transparent; cursor:pointer;">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="remote-access-grid">
+          <div class="guide-card accent-purple">
+            <h4>
+              <i data-lucide="globe"></i> 雲端安全網址（出門在外 / 4G・5G / 關電腦也能用）
+            </h4>
+            <p>已同步部署至 GitHub Pages 全球 HTTPS 安全節點，無需開啟家中電腦即可在任何地方以手機或平板使用：</p>
+
+            <div class="remote-link-box">
+              <div class="remote-link-meta">
+                <span class="remote-link-label">EchoSpeak 主控台</span>
+                <a id="link-cloud-home" href="https://rlamtw.github.io/EchoSpeak/" target="_blank" rel="noopener noreferrer" class="remote-url-text">https://rlamtw.github.io/EchoSpeak/</a>
+              </div>
+              <button type="button" id="btn-copy-cloud-home" class="btn-secondary btn-sm" data-copy-url="https://rlamtw.github.io/EchoSpeak/" title="複製主控台網址">
+                <i data-lucide="copy" class="btn-icon-sm"></i> <span>複製</span>
+              </button>
+            </div>
+
+            <div class="remote-link-box">
+              <div class="remote-link-meta">
+                <span class="remote-link-label">《跟隨基督》雙語閱讀器</span>
+                <a id="link-cloud-reader" href="https://rlamtw.github.io/EchoSpeak/reader.html" target="_blank" rel="noopener noreferrer" class="remote-url-text">https://rlamtw.github.io/EchoSpeak/reader.html</a>
+              </div>
+              <button type="button" id="btn-copy-cloud-reader" class="btn-secondary btn-sm" data-copy-url="https://rlamtw.github.io/EchoSpeak/reader.html" title="複製雙語閱讀器網址">
+                <i data-lucide="copy" class="btn-icon-sm"></i> <span>複製</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="guide-card accent-pink">
+            <h4>
+              <i data-lucide="download"></i> 加到手機主畫面（變身獨立全螢幕 App）
+            </h4>
+            <ol>
+              <li>用 iPhone <b>Safari</b>（或 Android Chrome）開啟上方雲端網址。</li>
+              <li>點擊底部的<b>「分享」</b>按鈕（方框加向上箭頭圖示）。</li>
+              <li>往下滑選擇<b>「加入主畫面」</b>並點擊右上角<b>「新增」</b>。</li>
+              <li>之後點擊手機桌面圖示即可全螢幕啟動，並支援儲存個人 API 金鑰與離線語音快取。</li>
+            </ol>
+          </div>
+
+          <div class="guide-card accent-blue">
+            <h4>
+              <i data-lucide="wifi"></i> 目前連線狀態與家中區網測試
+            </h4>
+            <p>目前瀏覽網址：<code id="current-origin-display">-</code></p>
+            <p>若您在家中修改程式尚未發布到雲端，手機與 Mac 連上同一台 Wi-Fi 時，也可直接於手機瀏覽器輸入 Mac 的區網位址（例如 <code>http://Mac區網IP:8000/index.html</code>）進行即時測試；若要讓外網也能看到最新修改，請在資料夾雙擊執行 <code>發布到手機與外網.command</code>。</p>
           </div>
         </div>
       </div>

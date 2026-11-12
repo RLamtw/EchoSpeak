@@ -89,11 +89,63 @@
       <!-- Reading Settings card -->
       <div class="sidebar-section" style="margin-top: auto;">
         <h3>朗讀設置</h3>
-        <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 16px; border-radius: 12px; display: flex; flex-direction: column; gap: 16px;">
+        <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 16px; border-radius: 12px; display: flex; flex-direction: column; gap: 14px;">
+          <!-- Speech Engine Select -->
+          <div style="display: flex; flex-direction: column; gap: 6px;">
+            <span style="font-size: 13px; font-weight: 500; color: var(--text-secondary);">語音合成引擎</span>
+            <div class="select-wrapper" style="width: 100%;">
+              <select id="select-engine" style="width: 100%; border-radius: 10px;" title="選擇免費系統語音或 OpenAI 擬真語音">
+                <option value="local">瀏覽器內建 (免費系統語音)</option>
+                <option value="openai">OpenAI Neural (永久快取省錢)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- OpenAI API Key & Cache Box (Shown when engine === 'openai') -->
+          <div id="openai-settings-group" style="display: none; flex-direction: column; gap: 10px; padding: 12px; border-radius: 10px; background: rgba(139, 92, 246, 0.08); border: 1px solid var(--border-color-active);">
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+              <label for="reader-openai-key" style="font-size: 12px; font-weight: 600; color: var(--accent-color);">OpenAI API 金鑰</label>
+              <a href="https://platform.openai.com/api-keys" target="_blank" style="font-size: 11px; color: var(--text-secondary); text-decoration: underline;">取得金鑰</a>
+            </div>
+            <div style="position: relative; display: flex; align-items: center;">
+              <input type="password" id="reader-openai-key" placeholder="sk-proj-..." style="width: 100%; padding: 8px 32px 8px 10px; border-radius: 8px; border: 1px solid var(--border-color); background: var(--bg-panel-solid); color: var(--text-primary); font-size: 12px; outline: none;">
+              <button type="button" id="btn-toggle-openai-key" title="顯示/隱藏金鑰" style="position: absolute; right: 8px; background: transparent; border: none; color: var(--text-secondary); cursor: pointer; display: flex; align-items: center;">
+                <i data-lucide="eye" style="width: 14px; height: 14px;"></i>
+              </button>
+            </div>
+            <div style="display: flex; align-items: center; justify-content: space-between; gap: 8px;">
+              <span style="font-size: 11px; color: var(--text-secondary);">語音模型</span>
+              <select id="select-openai-model" style="padding: 4px 22px 4px 8px; border-radius: 8px; font-size: 11px; min-width: 0; flex: 1;">
+                <option value="tts-1">tts-1 標準 ($15/百萬字)</option>
+                <option value="tts-1-hd">tts-1-hd 高清 ($30/百萬字)</option>
+              </select>
+            </div>
+            <div style="display: flex; align-items: center; justify-content: space-between; padding-top: 6px; border-top: 1px dashed var(--border-color); font-size: 11px; color: var(--text-secondary);">
+              <span id="cache-stats-text" title="已合成過的段落會永久儲存在瀏覽器 IndexedDB，重聽或調語速完全 0 元">⚡ 已快取 0 段 (重播 $0)</span>
+              <button type="button" id="btn-clear-cache" style="background: transparent; border: none; color: var(--text-muted); font-size: 11px; text-decoration: underline; cursor: pointer;" title="清除本地儲存的 OpenAI 語音快取">清除快取</button>
+            </div>
+          </div>
+
+          <!-- Read Sequence Mode -->
+          <div style="display: flex; flex-direction: column; gap: 6px;">
+            <span style="font-size: 13px; font-weight: 500; color: var(--text-secondary);">朗讀模式</span>
+            <div class="select-wrapper" style="width: 100%;">
+              <select id="select-read-mode" style="width: 100%; border-radius: 10px;" title="選擇單語或雙語交替連播模式">
+                <option value="single">單語朗讀（依點擊或視圖）</option>
+                <option value="de-zh">雙語交替：先德後中 (DE ➔ ZH)</option>
+                <option value="zh-de">雙語交替：先中後德 (ZH ➔ DE)</option>
+              </select>
+            </div>
+          </div>
           <!-- Autoplay Switch -->
           <div style="display: flex; align-items: center; justify-content: space-between;">
             <span style="font-size: 13px; font-weight: 500; color: var(--text-secondary);">自動連續朗讀</span>
             <input type="checkbox" id="toggle-autoplay" checked style="width: 36px; height: 18px; accent-color: var(--accent-color); cursor: pointer;" title="開啟自動連續朗讀">
+          </div>
+          <!-- Skip Footnotes / Parenthetical Notes Switch -->
+          <div style="display: flex; align-items: center; justify-content: space-between;">
+            <span style="font-size: 13px; font-weight: 500; color: var(--text-secondary);" title="朗讀時自動略過括號內的編者註解、經文出處與文獻腳註">略過括號與註腳</span>
+            <input type="checkbox" id="toggle-skip-notes" checked style="width: 36px; height: 18px; accent-color: var(--accent-color); cursor: pointer;" title="朗讀時自動略過括號註解與文獻腳註">
           </div>
           <!-- Speed control -->
           <div style="display: flex; flex-direction: column; gap: 6px;">
@@ -102,6 +154,14 @@
               <span id="val-rate" style="font-size: 12px; font-weight: 600; color: var(--accent-color);">1.0x</span>
             </div>
             <input type="range" id="slider-rate" min="0.5" max="2.0" step="0.1" value="1.0" style="width: 100%; accent-color: var(--accent-color); cursor: pointer;" title="調整播放速度">
+          </div>
+          <!-- Volume control -->
+          <div style="display: flex; flex-direction: column; gap: 6px;">
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+              <span style="font-size: 13px; font-weight: 500; color: var(--text-secondary);">朗讀音量</span>
+              <span id="val-volume" style="font-size: 12px; font-weight: 600; color: var(--accent-color);">100%</span>
+            </div>
+            <input type="range" id="slider-volume" min="0" max="1.0" step="0.05" value="1.0" style="width: 100%; accent-color: var(--accent-color); cursor: pointer;" title="調整朗讀音量">
           </div>
         </div>
       </div>
@@ -136,7 +196,7 @@
     <footer class="reader-footer">
       <!-- Now Playing text -->
       <div class="footer-now-playing">
-        <div class="playing-icon-box">
+        <div class="playing-icon-box" id="playing-icon-box">
           <i data-lucide="music" style="width: 18px; height: 18px;"></i>
         </div>
         <div class="playing-info">
@@ -148,25 +208,26 @@
       <!-- Player buttons and progress -->
       <div class="footer-player-controls">
         <div class="player-buttons">
-          <button id="btn-prev" class="btn-player" title="上一段"><i data-lucide="skip-back"></i></button>
-          <button id="btn-play-pause" class="btn-player-main" title="播放/暫停"><i data-lucide="play" id="play-icon"></i></button>
+          <button id="btn-playing-lang" class="btn-lang-badge" title="點擊切換目前朗讀語言 (快速鍵: L)">中文</button>
+          <button id="btn-prev" class="btn-player" title="上一段 (快速鍵: ←)"><i data-lucide="skip-back"></i></button>
+          <button id="btn-play-pause" class="btn-player-main" title="播放/暫停 (快速鍵: Space)"><i data-lucide="play" id="play-icon"></i></button>
           <button id="btn-stop" class="btn-player" title="停止"><i data-lucide="square"></i></button>
-          <button id="btn-next" class="btn-player" title="下一段"><i data-lucide="skip-forward"></i></button>
+          <button id="btn-next" class="btn-player" title="下一段 (快速鍵: →)"><i data-lucide="skip-forward"></i></button>
+          <button id="btn-download-mp3" class="btn-player" style="display: none;" title="下載目前段落的 OpenAI MP3 音訊"><i data-lucide="download"></i></button>
         </div>
         
         <div class="player-progress-bar-wrapper">
           <span class="progress-time" id="progress-time-current">0</span>
-          <div class="player-progress-track">
+          <div class="player-progress-track" id="progress-track" title="點擊跳轉至此章節對應段落">
             <div class="player-progress-fill" id="progress-fill"></div>
           </div>
           <span class="progress-time progress-time-end" id="progress-time-total">0</span>
         </div>
       </div>
       
-      <!-- Empty placeholder column to balance grid spacing -->
+      <!-- Audio status & quick controls -->
       <div class="footer-audio-settings">
-        <!-- Volume / Speed settings display -->
-        <span style="font-size: 12px; color: var(--text-muted);">雙語按段播放系統 Ready</span>
+        <span id="footer-status-hint" style="font-size: 12px; color: var(--text-muted);" title="鍵盤支援：Space 播放/暫停、←/→ 上下段、L 切換中/德">雙語按句追蹤系統 Ready</span>
       </div>
     </footer>
     

@@ -77,6 +77,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const btnGuideModal = document.getElementById('btn-guide-modal');
   const guideDialog = document.getElementById('guide-dialog');
   const btnCloseGuide = document.getElementById('btn-close-guide');
+  const btnMobileConnect = document.getElementById('btn-mobile-connect');
+  const remoteDialog = document.getElementById('remote-dialog');
+  const btnCloseRemote = document.getElementById('btn-close-remote');
+  const currentOriginDisplay = document.getElementById('current-origin-display');
   
   // Dialog / Samples
   const sampleDialog = document.getElementById('sample-dialog');
@@ -691,6 +695,69 @@ document.addEventListener('DOMContentLoaded', () => {
       playClickSound(500, 0.05);
       guideDialog.close();
     });
+
+    // Mobile & Remote Access Modal triggers
+    if (btnMobileConnect && remoteDialog) {
+      btnMobileConnect.addEventListener('click', () => {
+        playClickSound(800, 0.05);
+        if (currentOriginDisplay) {
+          currentOriginDisplay.textContent = window.location.protocol === 'file:'
+            ? '本機檔案模式 (file://)'
+            : window.location.href;
+        }
+        remoteDialog.showModal();
+      });
+
+      if (btnCloseRemote) {
+        btnCloseRemote.addEventListener('click', () => {
+          playClickSound(500, 0.05);
+          remoteDialog.close();
+        });
+      }
+
+      remoteDialog.addEventListener('click', (e) => {
+        if (e.target === remoteDialog) {
+          remoteDialog.close();
+        }
+      });
+
+      remoteDialog.querySelectorAll('[data-copy-url]').forEach((copyBtn) => {
+        copyBtn.addEventListener('click', async () => {
+          const url = copyBtn.getAttribute('data-copy-url');
+          if (!url) return;
+          playClickSound(900, 0.05);
+          const labelSpan = copyBtn.querySelector('span');
+          const originalText = labelSpan ? labelSpan.textContent : '複製';
+          let copied = false;
+          try {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+              await navigator.clipboard.writeText(url);
+              copied = true;
+            }
+          } catch (err) {
+            copied = false;
+          }
+          if (!copied) {
+            const tempInput = document.createElement('input');
+            tempInput.value = url;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            try {
+              copied = document.execCommand('copy');
+            } catch (err) {
+              copied = false;
+            }
+            document.body.removeChild(tempInput);
+          }
+          if (labelSpan) {
+            labelSpan.textContent = copied ? '已複製' : '請手動複製';
+            setTimeout(() => {
+              labelSpan.textContent = originalText;
+            }, 1800);
+          }
+        });
+      });
+    }
 
     // Download Button handler
     btnDownload.addEventListener('click', () => {
