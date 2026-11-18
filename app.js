@@ -914,11 +914,7 @@ document.addEventListener('DOMContentLoaded', () => {
       btnNext.disabled = false;
       waveformOverlay.classList.add('hidden');
 
-      if (wasSynthActive && isIOS) {
-        setTimeout(() => playNextChunk(), 80);
-      } else {
-        playNextChunk();
-      }
+      playNextChunk();
     } else {
       // API speech engine
       const voiceVal = voiceSelect.value;
@@ -1401,12 +1397,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Event listeners
     currentUtterance.onstart = () => {
-      if (!isPlaying || handledFailure) return;
+      if (!isPlaying) return;
       hasStarted = true;
-      if (ttsWatchdogTimer) {
-        clearTimeout(ttsWatchdogTimer);
-        ttsWatchdogTimer = null;
-      }
       
       // Update speech indicators
       speechIndicator.classList.add('playing');
@@ -1423,46 +1415,18 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     currentUtterance.onend = () => {
-      if (!isPlaying || handledFailure) return;
-      if (ttsWatchdogTimer) {
-        clearTimeout(ttsWatchdogTimer);
-        ttsWatchdogTimer = null;
-      }
-      const elapsed = Date.now() - speakDispatchedAt;
-      if (allowCustomVoice && appliedVoice && !hasStarted && elapsed < 80 && chunkText.length > 4) {
-        retryWithoutCustomVoice();
-        return;
-      }
-      
+      if (!isPlaying) return;
       currentChunkIndex++;
       playNextChunk(allowCustomVoice);
     };
 
     currentUtterance.onerror = (e) => {
-      if (ttsWatchdogTimer) {
-        clearTimeout(ttsWatchdogTimer);
-        ttsWatchdogTimer = null;
-      }
       // Note: 'interrupted' or 'canceled' error is thrown when synth.cancel() or new speech starts
       if (e.error !== 'interrupted' && e.error !== 'canceled') {
         console.error('TTS Utterance Error:', e);
-        if (allowCustomVoice && appliedVoice) {
-          retryWithoutCustomVoice();
-          return;
-        }
         stopPlayback();
       }
     };
-
-    ttsWatchdogTimer = setTimeout(() => {
-      ttsWatchdogTimer = null;
-      if (!isPlaying || hasStarted || handledFailure) return;
-      if (allowCustomVoice && appliedVoice) {
-        retryWithoutCustomVoice();
-      } else if (isIOS && !synth.speaking && !synth.pending) {
-        showStatusFeedback('若 iPhone 無聲，請確認側邊靜音開關未開啟');
-      }
-    }, 1500);
 
     if (synth.paused) {
       synth.resume();

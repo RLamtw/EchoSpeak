@@ -217,8 +217,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let playbackSessionId = 0; // Prevents async race conditions on cancel/switch
   let autoplayTimer = null;
   let keepAliveTimer = null;
-  let speakStartDelayTimer = null;
-  let ttsWatchdogTimer = null;
+  let iosSentenceProgressTimer = null;
 
   let autoplayEnabled = true;
   let skipNotesEnabled = true;
@@ -605,20 +604,17 @@ document.addEventListener('DOMContentLoaded', () => {
       clearTimeout(autoplayTimer);
       autoplayTimer = null;
     }
-    if (speakStartDelayTimer) {
-      clearTimeout(speakStartDelayTimer);
-      speakStartDelayTimer = null;
-    }
-    if (ttsWatchdogTimer) {
-      clearTimeout(ttsWatchdogTimer);
-      ttsWatchdogTimer = null;
-    }
     if (keepAliveTimer) {
       clearInterval(keepAliveTimer);
       keepAliveTimer = null;
     }
+    if (iosSentenceProgressTimer) {
+      clearInterval(iosSentenceProgressTimer);
+      iosSentenceProgressTimer = null;
+    }
     if (currentUtterance) {
       currentUtterance.onstart = null;
+      currentUtterance.onboundary = null;
       currentUtterance.onend = null;
       currentUtterance.onerror = null;
       currentUtterance = null;
@@ -782,9 +778,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     playbackSessionId++;
     const sessionId = playbackSessionId;
-    const wasSynthActive = !!(synth && (synth.speaking || synth.pending));
     clearSpeechTimersAndEvents();
-    if (wasSynthActive && synth) {
+    if (synth) {
       synth.cancel();
     }
 
@@ -837,12 +832,10 @@ document.addEventListener('DOMContentLoaded', () => {
       playParagraphWithOpenAI(sessionId, card, id, resolvedLang, queuePos);
     } else {
       if (btnDownloadMp3) btnDownloadMp3.style.display = 'none';
-      // On iOS Safari, calling synth.speak() synchronously right after synth.cancel() can swallow the new utterance
-      if (wasSynthActive && isIOS) {
-        speakStartDelayTimer = setTimeout(() => {
-          speakStartDelayTimer = null;
-          speakSentenceInQueue(sessionId, card, id, resolvedLang, queuePos);
-        }, 80);
+      if (isIOS) {
+        // On iOS Safari, speak the paragraph in a single synchronous SpeechSynthesisUtterance
+        // within the user's tap gesture (matching the working v3.1 behavior) while tracking sentences via onboundary/timer
+        speakParagraphUnifiedOnIOS(sessionId, card, id, resolvedLang, queuePos);
       } else {
         speakSentenceInQueue(sessionId, card, id, resolvedLang, queuePos);
       }
@@ -964,7 +957,123 @@ document.addEventListener('DOMContentLoaded', () => {
       || null;
   }
 
-  function speakSentenceInQueue(sessionId, card, paragraphId, lang, queuePos, allowCustomVoice = true) {
+  // Unified single-utterance paragraph speech for iOS Safari (guarantees synchronous user-gesture execution & full paragraph continuity)
+  function speakParagraphUnifiedOnIOS(sessionId, card, paragraphId, lang, startQueuePos) {
+    if (!synth || sessionId !== playbackSessionId) return;
+
+    const remaining = activeSentenceQueue.slice(startQueuePos);
+    if (remaining.length === 0) {
+      handleParagraphFinished(sessionId, card, paragraphId, lang);
+      return;
+    }
+
+    const sep = lang === 'de' ? ' ' : '';
+    let runningChar = 0;
+    const sentenceOffsets = remaining.map(item => {
+      const startChar = runningChar;
+      const endChar = startChar + item.cleanText.length;
+      runningChar = endChar + sep.length;
+      return {
+        ...item,
+        startChar,
+        endChar
+      };
+    });
+    const totalChars = Math.max(1, runningChar);
+    const combinedText = remaining.map(item => item.cleanText).join(sep);
+
+    const firstItem = remaining[0];
+    currentSentenceIndex = firstItem.index;
+    isPlaying = true;
+    isPaused = false;
+    updatePlayerUI();
+    highlightActiveSentence(card, lang, firstItem.index);
+    footerTitle.textContent = firstItem.origText.substring(0, 34) + (firstItem.origText.length > 34 ? '...' : '');
+
+    const utter = new SpeechSynthesisUtterance(combinedText);
+    currentUtterance = utter;
+    utter.rate = speedRate;
+    if (volumeLevel < 1.0) {
+      utter.volume = volumeLevel;
+    }
+
+    const targetVoice = lang === 'zh' ? selectedZhVoice : selectedDeVoice;
+    const appliedVoice = resolveLiveVoice(targetVoice, lang);
+    if (appliedVoice) {
+      utter.voice = appliedVoice;
+      utter.lang = appliedVoice.lang || (lang === 'de' ? 'de-DE' : 'zh-TW');
+    } else {
+      utter.lang = lang === 'de' ? 'de-DE' : 'zh-TW';
+    }
+
+    let boundaryFired = false;
+    let startedAt = Date.now();
+    const charsPerSec = (lang === 'de' ? 14 : 4.2) * (speedRate || 1.0);
+    const estimatedDurationMs = Math.max(1200, (totalChars / charsPerSec) * 1000);
+
+    const startFallbackHighlightTimer = () => {
+      if (iosSentenceProgressTimer) clearInterval(iosSentenceProgressTimer);
+      startedAt = Date.now();
+      iosSentenceProgressTimer = setInterval(() => {
+        if (sessionId !== playbackSessionId || !isPlaying || isPaused || boundaryFired) return;
+        const elapsed = Date.now() - startedAt;
+        const approxChar = Math.min(totalChars - 1, Math.floor((elapsed / estimatedDurationMs) * totalChars));
+        const matched = sentenceOffsets.find(s => approxChar < s.endChar) || sentenceOffsets[sentenceOffsets.length - 1];
+        if (matched && matched.index !== currentSentenceIndex) {
+          currentSentenceIndex = matched.index;
+          highlightActiveSentence(card, lang, currentSentenceIndex);
+          footerTitle.textContent = matched.origText.substring(0, 34) + (matched.origText.length > 34 ? '...' : '');
+        }
+      }, 250);
+    };
+
+    utter.onstart = () => {
+      if (sessionId !== playbackSessionId) return;
+      isPlaying = true;
+      isPaused = false;
+      updatePlayerUI();
+      startFallbackHighlightTimer();
+    };
+
+    utter.onboundary = (e) => {
+      if (sessionId !== playbackSessionId || typeof e.charIndex !== 'number') return;
+      boundaryFired = true;
+      const cIdx = e.charIndex;
+      const matched = sentenceOffsets.find(s => cIdx < s.endChar) || sentenceOffsets[sentenceOffsets.length - 1];
+      if (matched && matched.index !== currentSentenceIndex) {
+        currentSentenceIndex = matched.index;
+        highlightActiveSentence(card, lang, currentSentenceIndex);
+        footerTitle.textContent = matched.origText.substring(0, 34) + (matched.origText.length > 34 ? '...' : '');
+      }
+    };
+
+    utter.onend = () => {
+      if (sessionId !== playbackSessionId) return;
+      if (iosSentenceProgressTimer) {
+        clearInterval(iosSentenceProgressTimer);
+        iosSentenceProgressTimer = null;
+      }
+      handleParagraphFinished(sessionId, card, paragraphId, lang);
+    };
+
+    utter.onerror = (e) => {
+      if (sessionId !== playbackSessionId) return;
+      if (iosSentenceProgressTimer) {
+        clearInterval(iosSentenceProgressTimer);
+        iosSentenceProgressTimer = null;
+      }
+      if (e.error !== 'interrupted' && e.error !== 'canceled') {
+        console.warn('iOS TTS Utterance error:', e.error);
+        isPlaying = false;
+        updatePlayerUI();
+      }
+    };
+
+    startFallbackHighlightTimer();
+    synth.speak(utter);
+  }
+
+  function speakSentenceInQueue(sessionId, card, paragraphId, lang, queuePos) {
     if (!synth || sessionId !== playbackSessionId) return;
 
     if (queuePos >= activeSentenceQueue.length) {
@@ -972,15 +1081,9 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    if (ttsWatchdogTimer) {
-      clearTimeout(ttsWatchdogTimer);
-      ttsWatchdogTimer = null;
-    }
-
     const sentenceItem = activeSentenceQueue[queuePos];
     currentSentenceIndex = sentenceItem.index;
 
-    // Immediately show sentence highlight & title so iOS UI stays responsive
     isPlaying = true;
     isPaused = false;
     updatePlayerUI();
@@ -994,11 +1097,8 @@ document.addEventListener('DOMContentLoaded', () => {
     utter.pitch = 1.0;
     utter.volume = volumeLevel;
 
-    let appliedVoice = null;
-    if (allowCustomVoice) {
-      const targetVoice = lang === 'zh' ? selectedZhVoice : selectedDeVoice;
-      appliedVoice = resolveLiveVoice(targetVoice, lang);
-    }
+    const targetVoice = lang === 'zh' ? selectedZhVoice : selectedDeVoice;
+    const appliedVoice = resolveLiveVoice(targetVoice, lang);
 
     if (appliedVoice) {
       utter.voice = appliedVoice;
@@ -1007,45 +1107,14 @@ document.addEventListener('DOMContentLoaded', () => {
       utter.lang = lang === 'de' ? 'de-DE' : 'zh-TW';
     }
 
-    let hasStarted = false;
-    let handledFailure = false;
-    const speakDispatchedAt = Date.now();
-
-    const retryWithoutCustomVoice = () => {
-      if (handledFailure || sessionId !== playbackSessionId) return;
-      handledFailure = true;
-      if (ttsWatchdogTimer) {
-        clearTimeout(ttsWatchdogTimer);
-        ttsWatchdogTimer = null;
-      }
-      if (keepAliveTimer) {
-        clearInterval(keepAliveTimer);
-        keepAliveTimer = null;
-      }
-      if (synth.speaking || synth.pending) {
-        synth.cancel();
-      }
-      setTimeout(() => {
-        if (sessionId === playbackSessionId) {
-          speakSentenceInQueue(sessionId, card, paragraphId, lang, queuePos, false);
-        }
-      }, 60);
-    };
-
     utter.onstart = () => {
-      if (sessionId !== playbackSessionId || handledFailure) return;
-      hasStarted = true;
-      if (ttsWatchdogTimer) {
-        clearTimeout(ttsWatchdogTimer);
-        ttsWatchdogTimer = null;
-      }
+      if (sessionId !== playbackSessionId) return;
       isPlaying = true;
       isPaused = false;
       updatePlayerUI();
       highlightActiveSentence(card, lang, sentenceItem.index);
       footerTitle.textContent = snippet.substring(0, 34) + (snippet.length > 34 ? '...' : '');
 
-      // Desktop Chrome 15s pause/resume workaround (breaks iOS Safari speech if called on iOS)
       if (!isIOS) {
         if (keepAliveTimer) clearInterval(keepAliveTimer);
         keepAliveTimer = setInterval(() => {
@@ -1058,58 +1127,26 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     utter.onend = () => {
-      if (sessionId !== playbackSessionId || handledFailure) return;
-      if (ttsWatchdogTimer) {
-        clearTimeout(ttsWatchdogTimer);
-        ttsWatchdogTimer = null;
-      }
+      if (sessionId !== playbackSessionId) return;
       if (keepAliveTimer) {
         clearInterval(keepAliveTimer);
         keepAliveTimer = null;
       }
-      const elapsed = Date.now() - speakDispatchedAt;
-      // Detect iOS silent-skip when an unavailable Siri/Enhanced voice finishes in < 80ms
-      if (allowCustomVoice && appliedVoice && !hasStarted && elapsed < 80 && sentenceItem.cleanText.length > 4) {
-        retryWithoutCustomVoice();
-        return;
-      }
-      speakSentenceInQueue(sessionId, card, paragraphId, lang, queuePos + 1, allowCustomVoice);
+      speakSentenceInQueue(sessionId, card, paragraphId, lang, queuePos + 1);
     };
 
     utter.onerror = (e) => {
-      if (sessionId !== playbackSessionId || handledFailure) return;
-      if (ttsWatchdogTimer) {
-        clearTimeout(ttsWatchdogTimer);
-        ttsWatchdogTimer = null;
-      }
+      if (sessionId !== playbackSessionId) return;
       if (keepAliveTimer) {
         clearInterval(keepAliveTimer);
         keepAliveTimer = null;
       }
       if (e.error !== 'interrupted' && e.error !== 'canceled') {
         console.warn('TTS Utterance error:', e.error);
-        if (allowCustomVoice && appliedVoice) {
-          retryWithoutCustomVoice();
-          return;
-        }
         isPlaying = false;
         updatePlayerUI();
-        if (isIOS && footerStatusHint) {
-          footerStatusHint.textContent = '⚠️ iPhone 無法播放，請檢查側邊靜音開關或改用 OpenAI';
-        }
       }
     };
-
-    // Watchdog: if iOS selected voice hangs silently without firing onstart, fall back to pure lang
-    ttsWatchdogTimer = setTimeout(() => {
-      ttsWatchdogTimer = null;
-      if (sessionId !== playbackSessionId || hasStarted || handledFailure) return;
-      if (allowCustomVoice && appliedVoice) {
-        retryWithoutCustomVoice();
-      } else if (isIOS && !synth.speaking && !synth.pending && footerStatusHint) {
-        footerStatusHint.textContent = '⚠️ 若 iPhone 無聲：請關閉側邊靜音鍵、選「系統自動語音」或用 OpenAI';
-      }
-    }, 1500);
 
     if (synth.paused) {
       synth.resume();
@@ -1387,6 +1424,24 @@ document.addEventListener('DOMContentLoaded', () => {
       return -100;
     }
 
+    if (isIOS) {
+      // On iOS Safari, Siri / un-downloaded Enhanced voices frequently stay silent in WebKit;
+      // prioritize standard built-in local voices (Mei-Jia, Tingting, Anna, Helena, Martin) just like v3.1
+      if (name.includes('siri')) score -= 60;
+      if (voice.localService) score += 20;
+      if (targetLang === 'zh') {
+        if (name.includes('mei-jia') || name.includes('meijia') || name.includes('美佳')) score += 60;
+        if (lang.includes('tw') || lang.includes('hant')) score += 35;
+        else if (lang.includes('cn') || lang.includes('hans')) score += 20;
+        if (name.includes('tingting') || name.includes('婷婷') || name.includes('yating') || name.includes('雅婷')) score += 25;
+      } else if (targetLang === 'de') {
+        if (name.includes('anna')) score += 60;
+        if (lang === 'de-de' || lang === 'de_de') score += 35;
+        if (name.includes('helena') || name.includes('martin') || name.includes('markus') || name.includes('petra') || name.includes('yannick')) score += 25;
+      }
+      return score;
+    }
+
     if (name.includes('natural') || name.includes('online')) score += 50;
     if (name.includes('premium') || name.includes('enhanced') || name.includes('siri')) score += 45;
     if (name.includes('google')) score += 30;
@@ -1457,18 +1512,17 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!synth) return;
     const allVoices = synth.getVoices();
 
-    const savedZhName = safeStorage.getItem('bonhoeffer-reader-voice-zh');
-    const savedDeName = safeStorage.getItem('bonhoeffer-reader-voice-de');
+    const savedZhName = safeStorage.getItem('bonhoeffer-reader-voice-zh-v3');
+    const savedDeName = safeStorage.getItem('bonhoeffer-reader-voice-de-v3');
 
-    // Add a reliable "System Auto" option first (essential on iOS Safari where explicit Siri/Enhanced voices often stay silent)
     const autoZhOpt = document.createElement('option');
     autoZhOpt.value = '__auto__';
-    autoZhOpt.textContent = isIOS ? '系統自動中文 (iPhone 推薦)' : '系統自動中文 (預設)';
+    autoZhOpt.textContent = '系統預設中文 (Auto)';
     voiceSelectZh.appendChild(autoZhOpt);
 
     const autoDeOpt = document.createElement('option');
     autoDeOpt.value = '__auto__';
-    autoDeOpt.textContent = isIOS ? '系統自動德文 (iPhone 推薦)' : '系統自動德文 (預設)';
+    autoDeOpt.textContent = '系統預設德文 (Auto)';
     voiceSelectDe.appendChild(autoDeOpt);
 
     if (!allVoices || allVoices.length === 0) {
@@ -1500,7 +1554,7 @@ document.addEventListener('DOMContentLoaded', () => {
       voiceSelectZh.appendChild(opt);
     });
 
-    if (savedZhName === '__auto__' || (!savedZhName && isIOS)) {
+    if (savedZhName === '__auto__') {
       selectedZhVoice = null;
       voiceSelectZh.value = '__auto__';
     } else {
@@ -1516,7 +1570,7 @@ document.addEventListener('DOMContentLoaded', () => {
       voiceSelectDe.appendChild(opt);
     });
 
-    if (savedDeName === '__auto__' || (!savedDeName && isIOS)) {
+    if (savedDeName === '__auto__') {
       selectedDeVoice = null;
       voiceSelectDe.value = '__auto__';
     } else {
@@ -1591,12 +1645,12 @@ document.addEventListener('DOMContentLoaded', () => {
         safeStorage.setItem('bonhoeffer-reader-openai-voice-zh', selectedOpenaiZhVoice);
       } else if (voiceSelectZh.value === '__auto__' || !voiceSelectZh.value) {
         selectedZhVoice = null;
-        safeStorage.setItem('bonhoeffer-reader-voice-zh', '__auto__');
+        safeStorage.setItem('bonhoeffer-reader-voice-zh-v3', '__auto__');
       } else {
         const allVoices = synth.getVoices();
         selectedZhVoice = allVoices.find(v => v.name === voiceSelectZh.value) || null;
         if (selectedZhVoice) {
-          safeStorage.setItem('bonhoeffer-reader-voice-zh', selectedZhVoice.name);
+          safeStorage.setItem('bonhoeffer-reader-voice-zh-v3', selectedZhVoice.name);
         }
       }
       if (activeParagraphId && isPlaying && currentPlayingLang === 'zh') {
@@ -1610,12 +1664,12 @@ document.addEventListener('DOMContentLoaded', () => {
         safeStorage.setItem('bonhoeffer-reader-openai-voice-de', selectedOpenaiDeVoice);
       } else if (voiceSelectDe.value === '__auto__' || !voiceSelectDe.value) {
         selectedDeVoice = null;
-        safeStorage.setItem('bonhoeffer-reader-voice-de', '__auto__');
+        safeStorage.setItem('bonhoeffer-reader-voice-de-v3', '__auto__');
       } else {
         const allVoices = synth.getVoices();
         selectedDeVoice = allVoices.find(v => v.name === voiceSelectDe.value) || null;
         if (selectedDeVoice) {
-          safeStorage.setItem('bonhoeffer-reader-voice-de', selectedDeVoice.name);
+          safeStorage.setItem('bonhoeffer-reader-voice-de-v3', selectedDeVoice.name);
         }
       }
       if (activeParagraphId && isPlaying && currentPlayingLang === 'de') {
