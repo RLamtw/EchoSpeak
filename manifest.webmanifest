@@ -1,0 +1,17 @@
+{
+  "name": "跟隨基督雙語有聲閱讀器 - EchoReader",
+  "short_name": "EchoReader",
+  "start_url": "./reader.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0f1117",
+  "theme_color": "#0f1117",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

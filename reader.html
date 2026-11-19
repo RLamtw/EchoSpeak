@@ -6,7 +6,9 @@
   <title>跟隨基督雙語朗讀閱讀器 - EchoSpeak</title>
   
   <!-- Apple Web App / PWA Meta Tags -->
+  <link rel="manifest" href="manifest.webmanifest?v=20261119">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="EchoReader">
@@ -21,7 +23,7 @@
   <script src="https://unpkg.com/lucide@latest"></script>
   
   <!-- CSS Stylesheet -->
-  <link rel="stylesheet" href="reader.css?v=20261118">
+  <link rel="stylesheet" href="reader.css?v=20261119">
 </head>
 <body class="view-mode-bilingual">
   <div class="reader-layout">
@@ -94,11 +96,18 @@
           <div style="display: flex; flex-direction: column; gap: 6px;">
             <span style="font-size: 13px; font-weight: 500; color: var(--text-secondary);">語音合成引擎</span>
             <div class="select-wrapper" style="width: 100%;">
-              <select id="select-engine" style="width: 100%; border-radius: 10px;" title="選擇免費系統語音或 OpenAI 擬真語音">
-                <option value="local">瀏覽器內建 (免費系統語音)</option>
-                <option value="openai">OpenAI Neural (永久快取省錢)</option>
+              <select id="select-engine" style="width: 100%; border-radius: 10px;" title="選擇免費有聲書 MP3、OpenAI 擬真語音或系統內建語音">
+                <option value="audiobook">免費有聲書 MP3 (鎖屏背景連播 • 精華版)</option>
+                <option value="openai">OpenAI Neural (鎖屏背景連播 • 永久快取)</option>
+                <option value="local">瀏覽器內建 (免費系統語音 • 僅前景)</option>
               </select>
             </div>
+          </div>
+
+          <!-- Audiobook Info Box (Shown when engine === 'audiobook') -->
+          <div id="audiobook-info-group" style="display: none; flex-direction: column; gap: 6px; padding: 10px 12px; border-radius: 10px; background: rgba(16, 185, 129, 0.08); border: 1px solid rgba(16, 185, 129, 0.35); font-size: 11px; color: var(--text-secondary); line-height: 1.5;">
+            <div style="font-weight: 600; color: #10b981;">🎧 免費鎖屏背景有聲書（精華版 15 章）</div>
+            <div id="audiobook-info-desc">免 API 金鑰，支援 iPhone 關閉螢幕、切換其他 App 繼續連播與鎖定畫面控制。（切至「完整版」時會自動改用系統語音）</div>
           </div>
 
           <!-- OpenAI API Key & Cache Box (Shown when engine === 'openai') -->
@@ -213,7 +222,7 @@
           <button id="btn-play-pause" class="btn-player-main" title="播放/暫停 (快速鍵: Space)"><i data-lucide="play" id="play-icon"></i></button>
           <button id="btn-stop" class="btn-player" title="停止"><i data-lucide="square"></i></button>
           <button id="btn-next" class="btn-player" title="下一段 (快速鍵: →)"><i data-lucide="skip-forward"></i></button>
-          <button id="btn-download-mp3" class="btn-player" style="display: none;" title="下載目前段落的 OpenAI MP3 音訊"><i data-lucide="download"></i></button>
+          <button id="btn-download-mp3" class="btn-player" style="display: none;" title="下載目前音訊 (MP3)"><i data-lucide="download"></i></button>
         </div>
         
         <div class="player-progress-bar-wrapper">
@@ -234,8 +243,9 @@
   </div>
 
   <!-- Load script files -->
-  <script src="book_data_v3.js?v=20261118"></script>
-  <script src="book_data_complete.js?v=20261118"></script>
-  <script src="reader_v3.js?v=20261118"></script>
+  <script src="book_data_v3.js?v=20261119"></script>
+  <script src="book_data_complete.js?v=20261119"></script>
+  <script src="audio/essential/manifest.js?v=20261119"></script>
+  <script src="reader_v3.js?v=20261119"></script>
 </body>
 </html>

@@ -691,7 +691,8 @@ select:hover {
     border-right: 1px solid var(--border-color) !important;
     box-shadow: none !important;
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
-    padding: 20px !important;
+    padding: calc(20px + env(safe-area-inset-top)) 20px calc(24px + env(safe-area-inset-bottom)) !important;
+    -webkit-overflow-scrolling: touch;
     gap: 20px !important;
   }
 

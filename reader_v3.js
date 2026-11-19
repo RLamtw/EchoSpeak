@@ -23,23 +23,37 @@ document.addEventListener('DOMContentLoaded', () => {
   const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
     (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
 
-  // Persistent HTML5 Audio element for iOS Safari autoplay compatibility
+  // Persistent HTML5 Audio element for iOS Safari & Lock-Screen background playback compatibility
   const SILENT_WAV_URI = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA';
   const sharedApiAudio = new Audio();
   sharedApiAudio.playsInline = true;
+  sharedApiAudio.preload = 'auto';
   sharedApiAudio.setAttribute('playsinline', '');
   let isApiAudioUnlocked = false;
 
+  // 宣告為 iOS 媒體播放會話（支援 iOS 16.4+ 鎖屏與背景播放，並忽略側邊靜音開關）
+  function ensurePlaybackAudioSession() {
+    try {
+      if (navigator.audioSession && navigator.audioSession.type !== 'playback') {
+        navigator.audioSession.type = 'playback';
+      }
+    } catch (e) {}
+  }
+
   function unlockIOSMediaElement() {
     if (isApiAudioUnlocked) return;
+    ensurePlaybackAudioSession();
     try {
       sharedApiAudio.src = SILENT_WAV_URI;
       sharedApiAudio.volume = 0.01;
       const playPromise = sharedApiAudio.play();
       if (playPromise && typeof playPromise.then === 'function') {
         playPromise.then(() => {
-          sharedApiAudio.pause();
-          sharedApiAudio.currentTime = 0;
+          // 僅當仍為靜音佔位音訊時才暫停歸零，避免誤停正在播放的真實音訊
+          if (sharedApiAudio.src === SILENT_WAV_URI) {
+            sharedApiAudio.pause();
+            sharedApiAudio.currentTime = 0;
+          }
           isApiAudioUnlocked = true;
         }).catch(() => {});
       }
@@ -197,7 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ];
 
   // State
-  let currentEngine = 'local'; // 'local' or 'openai'
+  let currentEngine = 'audiobook'; // 'audiobook', 'openai', or 'local'
   let openaiModel = 'tts-1';
   let selectedOpenaiZhVoice = 'nova';
   let selectedOpenaiDeVoice = 'onyx';
@@ -214,6 +228,8 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentApiAudio = null;
   let currentApiAudioUrl = null;
   let currentApiBlob = null;
+  let loadedAudiobookKey = null;
+  let currentAudiobookChapterTrack = null;
   let playbackSessionId = 0; // Prevents async race conditions on cancel/switch
   let autoplayTimer = null;
   let keepAliveTimer = null;
@@ -247,6 +263,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const readingContainer = document.getElementById('reading-container');
 
   const selectEngine = document.getElementById('select-engine');
+  const audiobookInfoGroup = document.getElementById('audiobook-info-group');
+  const audiobookInfoDesc = document.getElementById('audiobook-info-desc');
   const openaiSettingsGroup = document.getElementById('openai-settings-group');
   const readerOpenaiKey = document.getElementById('reader-openai-key');
   const btnToggleOpenaiKey = document.getElementById('btn-toggle-openai-key');
@@ -296,6 +314,8 @@ document.addEventListener('DOMContentLoaded', () => {
       window.lucide.createIcons();
     }
 
+    ensurePlaybackAudioSession();
+    initMediaSessionHandlers();
     loadSettings();
     updateEngineUI();
     updateCacheStatsUI();
@@ -325,19 +345,144 @@ document.addEventListener('DOMContentLoaded', () => {
     bindEvents();
     restoreProgress();
     updateLangBadgeUI();
+    updateEngineUI();
+  }
+
+  function getAudiobookTrack(version, lang, chapterId) {
+    if (!window.audiobookManifest) return null;
+    const verMap = window.audiobookManifest[version];
+    if (!verMap || !verMap[lang]) return null;
+    return verMap[lang][chapterId] || null;
+  }
+
+  function isAudioElementEngine() {
+    return currentEngine === 'openai' ||
+      (currentEngine === 'audiobook' && !!getAudiobookTrack(currentVersion, currentPlayingLang, currentChapterId));
+  }
+
+  // 設定 iPhone 鎖定畫面與控制中心媒體控制 (Media Session API)
+  function initMediaSessionHandlers() {
+    if (!('mediaSession' in navigator)) return;
+    const safeBind = (action, handler) => {
+      try {
+        navigator.mediaSession.setActionHandler(action, handler);
+      } catch (e) {}
+    };
+
+    safeBind('play', () => {
+      if (!isPlaying || isPaused) {
+        togglePlayPause();
+      }
+    });
+    safeBind('pause', () => {
+      if (isPlaying && !isPaused) {
+        togglePlayPause();
+      }
+    });
+    safeBind('previoustrack', () => {
+      playPrevious();
+    });
+    safeBind('nexttrack', () => {
+      playNext();
+    });
+    safeBind('stop', () => {
+      stopSpeech();
+    });
+    safeBind('seekbackward', (details) => {
+      if (currentApiAudio && !isNaN(currentApiAudio.duration)) {
+        const offset = (details && details.seekOffset) || 10;
+        currentApiAudio.currentTime = Math.max(0, currentApiAudio.currentTime - offset);
+        updateMediaSessionPosition(currentApiAudio);
+      }
+    });
+    safeBind('seekforward', (details) => {
+      if (currentApiAudio && !isNaN(currentApiAudio.duration)) {
+        const offset = (details && details.seekOffset) || 10;
+        currentApiAudio.currentTime = Math.min(currentApiAudio.duration, currentApiAudio.currentTime + offset);
+        updateMediaSessionPosition(currentApiAudio);
+      }
+    });
+    safeBind('seekto', (details) => {
+      if (currentApiAudio && details && typeof details.seekTime === 'number' && !isNaN(currentApiAudio.duration)) {
+        currentApiAudio.currentTime = Math.max(0, Math.min(currentApiAudio.duration, details.seekTime));
+        updateMediaSessionPosition(currentApiAudio);
+      }
+    });
+  }
+
+  function updateMediaSessionMetadata(chapter, paraIndex, totalParas, lang) {
+    if (!('mediaSession' in navigator) || typeof MediaMetadata === 'undefined') return;
+    try {
+      const chTitle = chapter ? chapter.title.split(' (')[0] : '跟隨基督';
+      const langLabel = lang === 'de' ? '德文原文' : '中文朗讀';
+      const artworkUrl = new URL('apple-touch-icon.png', window.location.href).href;
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: `${chTitle} • 第 ${paraIndex + 1}/${totalParas} 段`,
+        artist: `潘霍華《跟隨基督》(${langLabel})`,
+        album: activeBookData ? activeBookData.title : '跟隨基督 (Nachfolge)',
+        artwork: [
+          { src: artworkUrl, sizes: '1024x1024', type: 'image/png' }
+        ]
+      });
+    } catch (e) {}
+  }
+
+  function updateMediaSessionPlaybackState() {
+    if (!('mediaSession' in navigator)) return;
+    try {
+      navigator.mediaSession.playbackState = isPlaying ? (isPaused ? 'paused' : 'playing') : 'none';
+    } catch (e) {}
+  }
+
+  function updateMediaSessionPosition(audioEl) {
+    if (!('mediaSession' in navigator) || typeof navigator.mediaSession.setPositionState !== 'function') return;
+    if (!audioEl || !isFinite(audioEl.duration) || audioEl.duration <= 0) return;
+    try {
+      navigator.mediaSession.setPositionState({
+        duration: audioEl.duration,
+        playbackRate: audioEl.playbackRate || 1.0,
+        position: Math.max(0, Math.min(audioEl.currentTime || 0, audioEl.duration))
+      });
+    } catch (e) {}
   }
 
   function updateEngineUI() {
+    if (audiobookInfoGroup) {
+      audiobookInfoGroup.style.display = currentEngine === 'audiobook' ? 'flex' : 'none';
+    }
     if (openaiSettingsGroup) {
       openaiSettingsGroup.style.display = currentEngine === 'openai' ? 'flex' : 'none';
     }
-    if (btnDownloadMp3) {
-      btnDownloadMp3.style.display = (currentEngine === 'openai' && currentApiBlob) ? 'inline-flex' : 'none';
+
+    const activeAudiobookTrack = currentEngine === 'audiobook'
+      ? getAudiobookTrack(currentVersion, currentPlayingLang, currentChapterId)
+      : null;
+
+    if (audiobookInfoDesc) {
+      if (currentVersion === 'complete') {
+        audiobookInfoDesc.textContent = '目前為「完整版」：預製 MP3 僅涵蓋精華版，完整版將自動改用系統語音（僅支援前景朗讀），切回精華版或使用 OpenAI 即可鎖屏連播。';
+      } else {
+        audiobookInfoDesc.textContent = '免 API 金鑰，支援 iPhone 關閉螢幕、切換其他 App 繼續連播與鎖定畫面控制。（切至「完整版」時會自動改用系統語音）';
+      }
     }
+
+    if (btnDownloadMp3) {
+      const canDownload = (currentEngine === 'openai' && currentApiBlob) || !!activeAudiobookTrack;
+      btnDownloadMp3.style.display = canDownload ? 'inline-flex' : 'none';
+    }
+
     if (footerStatusHint) {
-      footerStatusHint.textContent = currentEngine === 'openai'
-        ? '☁️ OpenAI 智慧快取模式 Ready'
-        : '雙語按句追蹤系統 Ready';
+      if (currentEngine === 'audiobook') {
+        footerStatusHint.textContent = currentVersion === 'complete'
+          ? '⚠️ 完整版無預製 MP3，將以系統語音播放（不支援鎖屏）'
+          : '🎧 免費有聲書 Ready（支援關螢幕／鎖屏連播）';
+      } else if (currentEngine === 'openai') {
+        footerStatusHint.textContent = '☁️ OpenAI 智慧快取 Ready（支援關螢幕／鎖屏連播）';
+      } else {
+        footerStatusHint.textContent = isIOS
+          ? '🔊 系統內建語音（僅支援畫面開啟時朗讀）'
+          : '雙語按句追蹤系統 Ready';
+      }
     }
     loadVoices();
   }
@@ -362,6 +507,7 @@ document.addEventListener('DOMContentLoaded', () => {
         currentChapterId = activeBookData.chapters[0].id;
       }
       loadChapter(currentChapterId);
+      updateEngineUI();
     }
   }
 
@@ -599,7 +745,8 @@ document.addEventListener('DOMContentLoaded', () => {
     updateFooterProgressDisplay();
   }
 
-  function clearSpeechTimersAndEvents() {
+  function clearSpeechTimersAndEvents(opts = {}) {
+    const keepAudioPlaying = Boolean(opts && opts.keepAudioPlaying);
     if (autoplayTimer) {
       clearTimeout(autoplayTimer);
       autoplayTimer = null;
@@ -619,8 +766,10 @@ document.addEventListener('DOMContentLoaded', () => {
       currentUtterance.onerror = null;
       currentUtterance = null;
     }
-    if (currentApiAudio) {
+    if (currentApiAudio && !keepAudioPlaying) {
       try {
+        currentApiAudio.onloadedmetadata = null;
+        currentApiAudio.oncanplay = null;
         currentApiAudio.ontimeupdate = null;
         currentApiAudio.onended = null;
         currentApiAudio.onerror = null;
@@ -628,9 +777,13 @@ document.addEventListener('DOMContentLoaded', () => {
       } catch (e) {}
       currentApiAudio = null;
     }
-    if (currentApiAudioUrl) {
+    if (currentApiAudioUrl && !keepAudioPlaying) {
       URL.revokeObjectURL(currentApiAudioUrl);
       currentApiAudioUrl = null;
+    }
+    if (!keepAudioPlaying) {
+      loadedAudiobookKey = null;
+      currentAudiobookChapterTrack = null;
     }
   }
 
@@ -728,58 +881,110 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Background prefetch next segment in OpenAI mode when autoplay is enabled
-  function prefetchNextOpenAISegment(card, paragraphId, currentLang) {
-    if (currentEngine !== 'openai' || !autoplayEnabled) return;
+  function buildSentenceQueueForParagraph(rawParagraphText, lang) {
+    const rawSentences = splitIntoSentences(rawParagraphText, lang);
+    const queue = rawSentences
+      .map((origText, idx) => ({
+        index: idx,
+        origText,
+        cleanText: cleanTextForSpeech(origText, lang)
+      }))
+      .filter(item => item.cleanText.length > 0);
 
-    let nextParaId = null;
-    let nextLang = currentLang;
-
-    if (readMode === 'de-zh' && currentLang === 'de') {
-      nextParaId = paragraphId;
-      nextLang = 'zh';
-    } else if (readMode === 'zh-de' && currentLang === 'zh') {
-      nextParaId = paragraphId;
-      nextLang = 'de';
-    } else {
-      const nextCard = card ? card.nextElementSibling : null;
-      if (nextCard && nextCard.classList.contains('paragraph-card')) {
-        nextParaId = nextCard.id;
-        nextLang = readMode === 'de-zh' ? 'de' : (readMode === 'zh-de' ? 'zh' : currentLang);
-      }
+    if (queue.length === 0) {
+      return [{
+        index: 0,
+        origText: rawParagraphText,
+        cleanText: rawParagraphText
+      }];
     }
+    return queue;
+  }
 
-    if (!nextParaId) return;
+  function computeSentenceBounds(queue) {
+    const totalChars = queue.reduce((acc, item) => acc + item.cleanText.length, 0) || 1;
+    let runningChars = 0;
+    return queue.map(item => {
+      const startRatio = runningChars / totalChars;
+      runningChars += item.cleanText.length;
+      const endRatio = runningChars / totalChars;
+      return { ...item, startRatio, endRatio };
+    });
+  }
+
+  function buildCleanParagraphForOpenAI(pData, lang) {
+    if (!pData) return '';
+    const rawText = lang === 'de' ? pData.de : pData.zh;
+    const rawSentences = splitIntoSentences(rawText, lang);
+    return rawSentences
+      .map(s => cleanTextForSpeech(s, lang))
+      .filter(Boolean)
+      .join(lang === 'de' ? ' ' : '');
+  }
+
+  // 提早預抓後續 2 段 OpenAI 音訊（確保鎖屏與背景播放時無斷層接續）
+  function prefetchUpcomingOpenAISegments(card, paragraphId, currentLang, count = 2) {
+    if (currentEngine !== 'openai' || !autoplayEnabled) return;
     const chapter = activeBookData.chapters.find(ch => ch.id === currentChapterId);
     if (!chapter) return;
-    const pData = chapter.paragraphs.find(p => p.id === nextParaId);
-    if (!pData) return;
 
-    const rawText = nextLang === 'de' ? pData.de : pData.zh;
-    const rawSentences = splitIntoSentences(rawText, nextLang);
-    const cleanedParagraph = rawSentences
-      .map(s => cleanTextForSpeech(s, nextLang))
-      .filter(Boolean)
-      .join(nextLang === 'de' ? ' ' : '');
+    let simParaId = paragraphId;
+    let simLang = currentLang;
+    let simCard = card;
 
-    if (cleanedParagraph) {
-      getOrSynthesizeOpenAIAudio(cleanedParagraph, nextLang).catch(() => {});
+    for (let step = 0; step < count; step++) {
+      let nextParaId = null;
+      let nextLang = simLang;
+
+      if (readMode === 'de-zh' && simLang === 'de') {
+        nextParaId = simParaId;
+        nextLang = 'zh';
+      } else if (readMode === 'zh-de' && simLang === 'zh') {
+        nextParaId = simParaId;
+        nextLang = 'de';
+      } else {
+        const nextCard = simCard ? simCard.nextElementSibling : null;
+        if (nextCard && nextCard.classList.contains('paragraph-card')) {
+          nextParaId = nextCard.id;
+          nextLang = readMode === 'de-zh' ? 'de' : (readMode === 'zh-de' ? 'zh' : simLang);
+          simCard = nextCard;
+        }
+      }
+
+      if (!nextParaId) break;
+      simParaId = nextParaId;
+      simLang = nextLang;
+
+      const pData = chapter.paragraphs.find(p => p.id === nextParaId);
+      const cleaned = buildCleanParagraphForOpenAI(pData, nextLang);
+      if (cleaned) {
+        getOrSynthesizeOpenAIAudio(cleaned, nextLang).catch(() => {});
+      }
     }
   }
 
   function playParagraph(id, lang = null, startSentenceIdx = 0) {
+    ensurePlaybackAudioSession();
     const resolvedLang = lang || (currentViewMode === 'de' ? 'de' : (currentViewMode === 'zh' ? 'zh' : currentPlayingLang));
     currentPlayingLang = resolvedLang;
     updateLangBadgeUI();
 
-    if (currentEngine === 'openai') {
-      unlockIOSMediaElement();
-    }
+    const audiobookTrack = currentEngine === 'audiobook'
+      ? getAudiobookTrack(currentVersion, resolvedLang, currentChapterId)
+      : null;
+    const useAudiobook = Boolean(audiobookTrack && audiobookTrack.paragraphs && audiobookTrack.paragraphs[id]);
+    const targetTrackKey = useAudiobook ? `${currentVersion}:${resolvedLang}:${currentChapterId}` : null;
+    const reuseLoadedChapterAudio = Boolean(
+      targetTrackKey &&
+      loadedAudiobookKey === targetTrackKey &&
+      currentApiAudio === sharedApiAudio &&
+      sharedApiAudio.readyState >= 1
+    );
 
     playbackSessionId++;
     const sessionId = playbackSessionId;
-    clearSpeechTimersAndEvents();
-    if (synth) {
+    clearSpeechTimersAndEvents({ keepAudioPlaying: reuseLoadedChapterAudio });
+    if (synth && (synth.speaking || synth.pending)) {
       synth.cancel();
     }
 
@@ -796,23 +1001,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!pData) return;
 
     const rawParagraphText = resolvedLang === 'de' ? pData.de : pData.zh;
-    const rawSentences = splitIntoSentences(rawParagraphText, resolvedLang);
-
-    activeSentenceQueue = rawSentences
-      .map((origText, idx) => ({
-        index: idx,
-        origText,
-        cleanText: cleanTextForSpeech(origText, resolvedLang)
-      }))
-      .filter(item => item.cleanText.length > 0);
-
-    if (activeSentenceQueue.length === 0) {
-      activeSentenceQueue = [{
-        index: 0,
-        origText: rawParagraphText,
-        cleanText: rawParagraphText
-      }];
-    }
+    activeSentenceQueue = buildSentenceQueueForParagraph(rawParagraphText, resolvedLang);
 
     let queuePos = activeSentenceQueue.findIndex(item => item.index >= startSentenceIdx);
     if (queuePos === -1) queuePos = 0;
@@ -825,13 +1014,32 @@ document.addEventListener('DOMContentLoaded', () => {
     progressTimeTotal.textContent = `${total}`;
     footerChapter.textContent = `${chapter.title.split(' (')[0]} - 第 ${index + 1} / ${total} 段 (${resolvedLang === 'de' ? '德文' : '中文'})`;
 
-    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    if (!document.hidden) {
+      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
     saveProgress(currentChapterId, id);
+    updateMediaSessionMetadata(chapter, index, total, resolvedLang);
 
     if (currentEngine === 'openai') {
       playParagraphWithOpenAI(sessionId, card, id, resolvedLang, queuePos);
+    } else if (useAudiobook) {
+      playParagraphWithAudiobook(
+        sessionId,
+        card,
+        id,
+        resolvedLang,
+        queuePos,
+        audiobookTrack,
+        targetTrackKey,
+        reuseLoadedChapterAudio
+      );
     } else {
       if (btnDownloadMp3) btnDownloadMp3.style.display = 'none';
+      if (currentEngine === 'audiobook' && footerStatusHint) {
+        footerStatusHint.textContent = currentVersion === 'complete'
+          ? '⚠️ 完整版無預製 MP3，暫以系統語音朗讀（不支援鎖屏）'
+          : '🔊 改用系統語音朗讀';
+      }
       if (isIOS) {
         // On iOS Safari, speak the paragraph in a single synchronous SpeechSynthesisUtterance
         // within the user's tap gesture (matching the working v3.1 behavior) while tracking sentences via onboundary/timer
@@ -842,20 +1050,321 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  function playParagraphWithAudiobook(
+    sessionId,
+    card,
+    paragraphId,
+    lang,
+    startQueuePos,
+    audiobookTrack,
+    targetTrackKey,
+    reuseLoadedChapterAudio
+  ) {
+    const chapter = activeBookData.chapters.find(ch => ch.id === currentChapterId);
+    if (!chapter) return;
+
+    // 整理本章依序排列的段落與時間區間
+    const orderedParas = chapter.paragraphs
+      .map((p, idx) => {
+        const timing = audiobookTrack.paragraphs[p.id];
+        if (!timing) return null;
+        return {
+          id: p.id,
+          index: idx,
+          start: timing.start,
+          end: timing.end,
+          data: p
+        };
+      })
+      .filter(Boolean);
+
+    let activeParaMeta = orderedParas.find(p => p.id === paragraphId);
+    if (!activeParaMeta) return;
+
+    let sentenceBounds = computeSentenceBounds(activeSentenceQueue);
+    const initialBound = sentenceBounds[startQueuePos] || sentenceBounds[0];
+    currentSentenceIndex = initialBound.index;
+    highlightActiveSentence(card, lang, currentSentenceIndex);
+    footerTitle.textContent = initialBound.origText.substring(0, 34) + (initialBound.origText.length > 34 ? '...' : '');
+
+    const paraDuration = Math.max(0.1, activeParaMeta.end - activeParaMeta.start);
+    const seekTime = startQueuePos > 0 && initialBound.startRatio > 0
+      ? Math.min(activeParaMeta.end - 0.05, activeParaMeta.start + initialBound.startRatio * paraDuration)
+      : activeParaMeta.start;
+
+    currentApiBlob = null;
+    currentAudiobookChapterTrack = audiobookTrack;
+    loadedAudiobookKey = targetTrackKey;
+    if (btnDownloadMp3) btnDownloadMp3.style.display = 'inline-flex';
+    if (footerStatusHint) {
+      footerStatusHint.textContent = '🎧 免費有聲書播放中（支援關螢幕／鎖屏連播）';
+    }
+
+    const audio = sharedApiAudio;
+    currentApiAudio = audio;
+    audio.onloadedmetadata = null;
+    audio.oncanplay = null;
+    audio.ontimeupdate = null;
+    audio.onended = null;
+    audio.onerror = null;
+
+    const applyInitialSeek = () => {
+      if (sessionId !== playbackSessionId) return;
+      audio.playbackRate = speedRate;
+      if (seekTime > 0.05 && Math.abs(audio.currentTime - seekTime) > 0.25) {
+        try {
+          audio.currentTime = seekTime;
+        } catch (e) {}
+      }
+      updateMediaSessionPosition(audio);
+    };
+
+    const syncParagraphAndSentenceUI = (t) => {
+      // 跨段邊界判斷：僅在單語連續朗讀時自動跟隨整章節時間軸往下推進
+      let matchedPara = activeParaMeta;
+      for (let i = orderedParas.length - 1; i >= 0; i--) {
+        if (t >= orderedParas[i].start - 0.08) {
+          matchedPara = orderedParas[i];
+          break;
+        }
+      }
+
+      if (matchedPara && matchedPara.id !== activeParagraphId) {
+        activeParaMeta = matchedPara;
+        activeParagraphId = matchedPara.id;
+        const newCard = document.getElementById(matchedPara.id);
+        if (newCard) {
+          document.querySelectorAll('.paragraph-card').forEach(c => c.classList.remove('active'));
+          newCard.classList.add('active');
+          if (!document.hidden) {
+            newCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }
+        }
+
+        const total = chapter.paragraphs.length;
+        const progressPercent = ((matchedPara.index + 1) / total) * 100;
+        progressBarFill.style.width = `${progressPercent}%`;
+        progressTimeCurrent.textContent = `${matchedPara.index + 1}`;
+        progressTimeTotal.textContent = `${total}`;
+        footerChapter.textContent = `${chapter.title.split(' (')[0]} - 第 ${matchedPara.index + 1} / ${total} 段 (${lang === 'de' ? '德文' : '中文'})`;
+
+        saveProgress(currentChapterId, matchedPara.id);
+        updateMediaSessionMetadata(chapter, matchedPara.index, total, lang);
+
+        const rawParaText = lang === 'de' ? matchedPara.data.de : matchedPara.data.zh;
+        activeSentenceQueue = buildSentenceQueueForParagraph(rawParaText, lang);
+        sentenceBounds = computeSentenceBounds(activeSentenceQueue);
+      }
+
+      const activeCard = document.getElementById(activeParagraphId);
+      const dur = Math.max(0.1, activeParaMeta.end - activeParaMeta.start);
+      const localRatio = Math.max(0, Math.min(1, (t - activeParaMeta.start) / dur));
+      const matchedSent = sentenceBounds.find(b => localRatio <= b.endRatio) || sentenceBounds[sentenceBounds.length - 1];
+
+      if (matchedSent && (matchedSent.index !== currentSentenceIndex || !activeCard?.querySelector('.sentence-span.active-sentence'))) {
+        currentSentenceIndex = matchedSent.index;
+        highlightActiveSentence(activeCard, lang, currentSentenceIndex);
+        footerTitle.textContent = matchedSent.origText.substring(0, 34) + (matchedSent.origText.length > 34 ? '...' : '');
+      }
+    };
+
+    audio.ontimeupdate = () => {
+      if (sessionId !== playbackSessionId || audio.paused) return;
+      const t = audio.currentTime;
+
+      // 若為雙語交替模式或關閉自動連播，於本段結束時間點切換或停止
+      if (readMode !== 'single' || !autoplayEnabled) {
+        if (t >= activeParaMeta.end - 0.05) {
+          if (readMode === 'single' && !autoplayEnabled) {
+            audio.ontimeupdate = null;
+            audio.pause();
+            isPlaying = false;
+            isPaused = false;
+            clearSentenceHighlights();
+            updatePlayerUI();
+            updateMediaSessionPosition(audio);
+            return;
+          }
+          audio.ontimeupdate = null;
+          const activeCard = document.getElementById(activeParagraphId) || card;
+          handleParagraphFinished(sessionId, activeCard, activeParagraphId, lang);
+          return;
+        }
+      }
+
+      syncParagraphAndSentenceUI(t);
+      updateMediaSessionPosition(audio);
+    };
+
+    audio.onended = () => {
+      if (sessionId !== playbackSessionId) return;
+      const lastCard = document.getElementById(activeParagraphId) || card;
+      handleParagraphFinished(sessionId, lastCard, activeParagraphId, lang);
+    };
+
+    audio.onerror = () => {
+      if (sessionId !== playbackSessionId) return;
+      isPlaying = false;
+      isPaused = false;
+      updatePlayerUI();
+      if (footerStatusHint) {
+        footerStatusHint.textContent = '⚠️ 有聲書音訊載入失敗，請檢查網路連線';
+      }
+    };
+
+    isPlaying = true;
+    isPaused = false;
+    updatePlayerUI();
+
+    if (reuseLoadedChapterAudio) {
+      audio.playbackRate = speedRate;
+      audio.volume = volumeLevel;
+      try {
+        audio.currentTime = seekTime;
+      } catch (e) {}
+      updateMediaSessionPosition(audio);
+      if (audio.paused) {
+        audio.play().catch((err) => {
+          if (sessionId !== playbackSessionId) return;
+          console.warn('Audiobook resume error:', err);
+          isPlaying = false;
+          updatePlayerUI();
+        });
+      }
+    } else {
+      if (currentApiAudioUrl) {
+        URL.revokeObjectURL(currentApiAudioUrl);
+        currentApiAudioUrl = null;
+      }
+      const ver = (window.audiobookManifest && window.audiobookManifest.version) || '1';
+      audio.src = new URL(`${audiobookTrack.src}?v=${ver}`, window.location.href).href;
+      audio.playbackRate = speedRate;
+      audio.volume = volumeLevel;
+
+      audio.addEventListener('loadedmetadata', applyInitialSeek, { once: true });
+      audio.addEventListener('canplay', applyInitialSeek, { once: true });
+
+      const playPromise = audio.play();
+      if (playPromise && typeof playPromise.then === 'function') {
+        playPromise.then(() => {
+          if (sessionId !== playbackSessionId) return;
+          audio.playbackRate = speedRate;
+          updateMediaSessionPosition(audio);
+        }).catch((err) => {
+          if (sessionId !== playbackSessionId) return;
+          console.warn('Audiobook play error:', err);
+          isPlaying = false;
+          updatePlayerUI();
+        });
+      }
+    }
+  }
+
+  function setupOpenAIAudioPlayback(sessionId, card, paragraphId, lang, startQueuePos, blob, fromCache, sentenceBounds) {
+    if (sessionId !== playbackSessionId) return;
+
+    currentApiBlob = blob;
+    currentAudiobookChapterTrack = null;
+    loadedAudiobookKey = null;
+    if (btnDownloadMp3) btnDownloadMp3.style.display = 'inline-flex';
+    if (footerStatusHint) {
+      footerStatusHint.textContent = fromCache
+        ? '⚡ OpenAI 快取播放（支援關螢幕／鎖屏連播）'
+        : '☁️ OpenAI 已合成並快取（支援關螢幕／鎖屏連播）';
+    }
+
+    if (currentApiAudioUrl) {
+      URL.revokeObjectURL(currentApiAudioUrl);
+    }
+    currentApiAudioUrl = URL.createObjectURL(blob);
+    const audio = sharedApiAudio;
+    audio.onloadedmetadata = null;
+    audio.oncanplay = null;
+    audio.ontimeupdate = null;
+    audio.onended = null;
+    audio.onerror = null;
+    audio.src = currentApiAudioUrl;
+    currentApiAudio = audio;
+    audio.playbackRate = speedRate;
+    audio.volume = volumeLevel;
+
+    const initialBound = sentenceBounds[startQueuePos] || sentenceBounds[0];
+    currentSentenceIndex = initialBound.index;
+    highlightActiveSentence(card, lang, currentSentenceIndex);
+    footerTitle.textContent = initialBound.origText.substring(0, 34) + (initialBound.origText.length > 34 ? '...' : '');
+
+    // 播放一開始即預抓後續 2 段，避免鎖屏切段時因網路延遲斷線
+    prefetchUpcomingOpenAISegments(card, paragraphId, lang, 2);
+
+    const applySeekAndRate = () => {
+      if (sessionId !== playbackSessionId) return;
+      audio.playbackRate = speedRate;
+      if (startQueuePos > 0 && initialBound.startRatio > 0 && audio.duration && !isNaN(audio.duration)) {
+        audio.currentTime = initialBound.startRatio * audio.duration;
+      }
+      updateMediaSessionPosition(audio);
+    };
+    audio.addEventListener('loadedmetadata', applySeekAndRate, { once: true });
+
+    audio.ontimeupdate = () => {
+      if (sessionId !== playbackSessionId || !audio.duration || isNaN(audio.duration)) return;
+      const ratio = audio.currentTime / audio.duration;
+      const matched = sentenceBounds.find(b => ratio <= b.endRatio) || sentenceBounds[sentenceBounds.length - 1];
+      if (matched && matched.index !== currentSentenceIndex) {
+        currentSentenceIndex = matched.index;
+        highlightActiveSentence(card, lang, currentSentenceIndex);
+        footerTitle.textContent = matched.origText.substring(0, 34) + (matched.origText.length > 34 ? '...' : '');
+      }
+      updateMediaSessionPosition(audio);
+    };
+
+    audio.onended = () => {
+      if (sessionId !== playbackSessionId) return;
+      handleParagraphFinished(sessionId, card, paragraphId, lang);
+    };
+
+    audio.onerror = () => {
+      if (sessionId !== playbackSessionId) return;
+      isPlaying = false;
+      updatePlayerUI();
+    };
+
+    isPlaying = true;
+    isPaused = false;
+    updatePlayerUI();
+
+    const playPromise = audio.play();
+    if (playPromise && typeof playPromise.then === 'function') {
+      playPromise.then(() => {
+        if (sessionId !== playbackSessionId) return;
+        audio.playbackRate = speedRate;
+        updateMediaSessionPosition(audio);
+      }).catch((err) => {
+        if (sessionId !== playbackSessionId) return;
+        console.warn('OpenAI audio play error:', err);
+        isPlaying = false;
+        updatePlayerUI();
+      });
+    }
+  }
+
   async function playParagraphWithOpenAI(sessionId, card, paragraphId, lang, startQueuePos) {
     const fullCleanText = activeSentenceQueue
       .map(item => item.cleanText)
       .join(lang === 'de' ? ' ' : '');
 
-    // Precompute cumulative character ratios for accurate sentence-level live highlighting
-    const totalChars = activeSentenceQueue.reduce((acc, item) => acc + item.cleanText.length, 0) || 1;
-    let runningChars = 0;
-    const sentenceBounds = activeSentenceQueue.map(item => {
-      const startRatio = runningChars / totalChars;
-      runningChars += item.cleanText.length;
-      const endRatio = runningChars / totalChars;
-      return { ...item, startRatio, endRatio };
-    });
+    const sentenceBounds = computeSentenceBounds(activeSentenceQueue);
+    const voice = lang === 'de' ? selectedOpenaiDeVoice : selectedOpenaiZhVoice;
+    const cacheKey = makeCacheKey(openaiModel, voice, fullCleanText);
+
+    // 記憶體快取命中時同步直播，不經過 await 以完整保留 iOS 背景／鎖屏播放權限
+    if (memoryBlobCache.has(cacheKey)) {
+      const memBlob = memoryBlobCache.get(cacheKey);
+      setupOpenAIAudioPlayback(sessionId, card, paragraphId, lang, startQueuePos, memBlob, true, sentenceBounds);
+      return;
+    }
+
+    unlockIOSMediaElement();
 
     footerTitle.textContent = '正在載入 OpenAI 語音...';
     if (footerStatusHint) {
@@ -864,78 +1373,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     try {
       const { blob, fromCache } = await getOrSynthesizeOpenAIAudio(fullCleanText, lang);
-      if (sessionId !== playbackSessionId) return;
-
-      currentApiBlob = blob;
-      if (btnDownloadMp3) btnDownloadMp3.style.display = 'inline-flex';
-      if (footerStatusHint) {
-        footerStatusHint.textContent = fromCache
-          ? '⚡ 本地快取播放 (本次 $0)'
-          : '☁️ OpenAI 已合成並存入永久快取';
-      }
-
-      if (currentApiAudioUrl) {
-        URL.revokeObjectURL(currentApiAudioUrl);
-      }
-      currentApiAudioUrl = URL.createObjectURL(blob);
-      const audio = sharedApiAudio;
-      audio.onloadedmetadata = null;
-      audio.ontimeupdate = null;
-      audio.onended = null;
-      audio.onerror = null;
-      audio.src = currentApiAudioUrl;
-      currentApiAudio = audio;
-      audio.playbackRate = speedRate;
-      audio.volume = volumeLevel;
-
-      let prefetchedNext = false;
-      const initialBound = sentenceBounds[startQueuePos] || sentenceBounds[0];
-      currentSentenceIndex = initialBound.index;
-      highlightActiveSentence(card, lang, currentSentenceIndex);
-      footerTitle.textContent = initialBound.origText.substring(0, 34) + (initialBound.origText.length > 34 ? '...' : '');
-
-      if (startQueuePos > 0 && initialBound.startRatio > 0) {
-        const applySeek = () => {
-          if (audio.duration && !isNaN(audio.duration)) {
-            audio.currentTime = initialBound.startRatio * audio.duration;
-          }
-        };
-        audio.addEventListener('loadedmetadata', applySeek, { once: true });
-      }
-
-      audio.ontimeupdate = () => {
-        if (sessionId !== playbackSessionId || !audio.duration || isNaN(audio.duration)) return;
-        const ratio = audio.currentTime / audio.duration;
-
-        if (!prefetchedNext && ratio > 0.45) {
-          prefetchedNext = true;
-          prefetchNextOpenAISegment(card, paragraphId, lang);
-        }
-
-        const matched = sentenceBounds.find(b => ratio <= b.endRatio) || sentenceBounds[sentenceBounds.length - 1];
-        if (matched && matched.index !== currentSentenceIndex) {
-          currentSentenceIndex = matched.index;
-          highlightActiveSentence(card, lang, currentSentenceIndex);
-          footerTitle.textContent = matched.origText.substring(0, 34) + (matched.origText.length > 34 ? '...' : '');
-        }
-      };
-
-      audio.onended = () => {
-        if (sessionId !== playbackSessionId) return;
-        handleParagraphFinished(sessionId, card, paragraphId, lang);
-      };
-
-      audio.onerror = () => {
-        if (sessionId !== playbackSessionId) return;
-        isPlaying = false;
-        updatePlayerUI();
-      };
-
-      isPlaying = true;
-      isPaused = false;
-      updatePlayerUI();
-      audio.load();
-      await audio.play();
+      setupOpenAIAudioPlayback(sessionId, card, paragraphId, lang, startQueuePos, blob, fromCache, sentenceBounds);
     } catch (err) {
       if (sessionId !== playbackSessionId) return;
       console.error('OpenAI TTS Error:', err);
@@ -1161,21 +1599,27 @@ document.addEventListener('DOMContentLoaded', () => {
     clearSentenceHighlights();
     updatePlayerUI();
 
+    const useImmediateTransition = currentEngine === 'openai' ||
+      currentEngine === 'audiobook' ||
+      document.hidden;
+
+    const scheduleStep = (delayMs, fn) => {
+      if (useImmediateTransition) {
+        if (sessionId === playbackSessionId) fn();
+      } else {
+        autoplayTimer = setTimeout(() => {
+          if (sessionId === playbackSessionId) fn();
+        }, delayMs);
+      }
+    };
+
     if (readMode === 'de-zh' && finishedLang === 'de') {
-      autoplayTimer = setTimeout(() => {
-        if (sessionId === playbackSessionId) {
-          playParagraph(paragraphId, 'zh', 0);
-        }
-      }, 450);
+      scheduleStep(450, () => playParagraph(paragraphId, 'zh', 0));
       return;
     }
 
     if (readMode === 'zh-de' && finishedLang === 'zh') {
-      autoplayTimer = setTimeout(() => {
-        if (sessionId === playbackSessionId) {
-          playParagraph(paragraphId, 'de', 0);
-        }
-      }, 450);
+      scheduleStep(450, () => playParagraph(paragraphId, 'de', 0));
       return;
     }
 
@@ -1183,13 +1627,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const nextParaLang = readMode === 'de-zh' ? 'de' : (readMode === 'zh-de' ? 'zh' : finishedLang);
 
-    const nextCard = card.nextElementSibling;
+    const nextCard = card ? card.nextElementSibling : null;
     if (nextCard && nextCard.classList.contains('paragraph-card')) {
-      autoplayTimer = setTimeout(() => {
-        if (sessionId === playbackSessionId) {
-          playParagraph(nextCard.id, nextParaLang, 0);
-        }
-      }, 550);
+      scheduleStep(550, () => playParagraph(nextCard.id, nextParaLang, 0));
     } else {
       const chapterIndex = activeBookData.chapters.findIndex(ch => ch.id === currentChapterId);
       if (chapterIndex < activeBookData.chapters.length - 1) {
@@ -1201,15 +1641,14 @@ document.addEventListener('DOMContentLoaded', () => {
           const nextItem = document.querySelector(`.chapter-item[data-id="${nextChapter.id}"]`);
           if (nextItem) nextItem.classList.add('active');
           loadChapter(nextChapter.id);
+          updateEngineUI();
 
-          autoplayTimer = setTimeout(() => {
-            if (sessionId === playbackSessionId) {
-              const firstCard = document.querySelector('.paragraph-card');
-              if (firstCard && firstCard.id) {
-                playParagraph(firstCard.id, nextParaLang, 0);
-              }
+          scheduleStep(750, () => {
+            const firstCard = document.querySelector('.paragraph-card');
+            if (firstCard && firstCard.id) {
+              playParagraph(firstCard.id, nextParaLang, 0);
             }
-          }, 750);
+          });
         }
       }
     }
@@ -1226,6 +1665,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function togglePlayPause() {
+    ensurePlaybackAudioSession();
+
     if (!activeParagraphId) {
       const firstCard = document.querySelector('.paragraph-card');
       if (firstCard && firstCard.id) {
@@ -1235,12 +1676,18 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
+    const usingHtmlAudio = isAudioElementEngine() && currentApiAudio;
+
     if (isPlaying) {
       if (isPaused) {
-        if (currentEngine === 'openai' && currentApiAudio) {
-          currentApiAudio.play().catch(() => {});
+        if (usingHtmlAudio) {
+          currentApiAudio.playbackRate = speedRate;
+          currentApiAudio.volume = volumeLevel;
+          const p = currentApiAudio.play();
+          if (p && typeof p.catch === 'function') p.catch(() => {});
           isPaused = false;
           isPlaying = true;
+          updateMediaSessionPosition(currentApiAudio);
         } else if (isIOS) {
           // iOS WebKit synth.resume() is unreliable after pause; re-speak from current sentence
           playParagraph(activeParagraphId, currentPlayingLang, currentSentenceIndex);
@@ -1251,8 +1698,9 @@ document.addEventListener('DOMContentLoaded', () => {
           isPlaying = true;
         }
       } else {
-        if (currentEngine === 'openai' && currentApiAudio) {
+        if (usingHtmlAudio) {
           currentApiAudio.pause();
+          updateMediaSessionPosition(currentApiAudio);
         } else if (isIOS) {
           playbackSessionId++;
           clearSpeechTimersAndEvents();
@@ -1274,9 +1722,31 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!activeParagraphId) return;
     const card = document.getElementById(activeParagraphId);
     const prev = card ? card.previousElementSibling : null;
+    const targetLang = readMode === 'de-zh' ? 'de' : (readMode === 'zh-de' ? 'zh' : currentPlayingLang);
     if (prev && prev.classList.contains('paragraph-card')) {
-      const targetLang = readMode === 'de-zh' ? 'de' : (readMode === 'zh-de' ? 'zh' : currentPlayingLang);
       playParagraph(prev.id, targetLang, 0);
+      return;
+    }
+
+    // 若已在該章第一段，嘗試跳至上一章最後一段
+    const chapterIndex = activeBookData.chapters.findIndex(ch => ch.id === currentChapterId);
+    if (chapterIndex > 0) {
+      const prevChapter = activeBookData.chapters[chapterIndex - 1];
+      if (prevChapter.paragraphs && prevChapter.paragraphs.length > 0) {
+        currentChapterId = prevChapter.id;
+        safeStorage.setItem('bonhoeffer-reader-chapter', prevChapter.id);
+        document.querySelectorAll('.chapter-item').forEach(i => i.classList.remove('active'));
+        const prevItem = document.querySelector(`.chapter-item[data-id="${prevChapter.id}"]`);
+        if (prevItem) prevItem.classList.add('active');
+        loadChapter(prevChapter.id);
+        updateEngineUI();
+
+        const cards = document.querySelectorAll('.paragraph-card');
+        const lastCard = cards[cards.length - 1];
+        if (lastCard && lastCard.id) {
+          playParagraph(lastCard.id, targetLang, 0);
+        }
+      }
     }
   }
 
@@ -1284,9 +1754,30 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!activeParagraphId) return;
     const card = document.getElementById(activeParagraphId);
     const next = card ? card.nextElementSibling : null;
+    const targetLang = readMode === 'de-zh' ? 'de' : (readMode === 'zh-de' ? 'zh' : currentPlayingLang);
     if (next && next.classList.contains('paragraph-card')) {
-      const targetLang = readMode === 'de-zh' ? 'de' : (readMode === 'zh-de' ? 'zh' : currentPlayingLang);
       playParagraph(next.id, targetLang, 0);
+      return;
+    }
+
+    // 若已在該章最後一段，嘗試跳至下一章第一段
+    const chapterIndex = activeBookData.chapters.findIndex(ch => ch.id === currentChapterId);
+    if (chapterIndex < activeBookData.chapters.length - 1) {
+      const nextChapter = activeBookData.chapters[chapterIndex + 1];
+      if (nextChapter.paragraphs && nextChapter.paragraphs.length > 0) {
+        currentChapterId = nextChapter.id;
+        safeStorage.setItem('bonhoeffer-reader-chapter', nextChapter.id);
+        document.querySelectorAll('.chapter-item').forEach(i => i.classList.remove('active'));
+        const nextItem = document.querySelector(`.chapter-item[data-id="${nextChapter.id}"]`);
+        if (nextItem) nextItem.classList.add('active');
+        loadChapter(nextChapter.id);
+        updateEngineUI();
+
+        const firstCard = document.querySelector('.paragraph-card');
+        if (firstCard && firstCard.id) {
+          playParagraph(firstCard.id, targetLang, 0);
+        }
+      }
     }
   }
 
@@ -1306,6 +1797,7 @@ document.addEventListener('DOMContentLoaded', () => {
       playIcon.setAttribute('data-lucide', 'play');
     }
     if (window.lucide) window.lucide.createIcons({ container: btnPlayPause });
+    updateMediaSessionPlaybackState();
   }
 
   function getProgressMap() {
@@ -1492,6 +1984,26 @@ document.addEventListener('DOMContentLoaded', () => {
     voiceSelectZh.innerHTML = '';
     voiceSelectDe.innerHTML = '';
 
+    if (currentEngine === 'audiobook') {
+      const zhLabel = (window.audiobookManifest && window.audiobookManifest.voices && window.audiobookManifest.voices.zh)
+        ? window.audiobookManifest.voices.zh.label
+        : '曉臻 (台灣自然女聲)';
+      const deLabel = (window.audiobookManifest && window.audiobookManifest.voices && window.audiobookManifest.voices.de)
+        ? window.audiobookManifest.voices.de.label
+        : 'Christoph (德國自然男聲)';
+
+      const optZh = document.createElement('option');
+      optZh.value = 'audiobook-zh';
+      optZh.textContent = `${zhLabel} • 有聲書`;
+      voiceSelectZh.appendChild(optZh);
+
+      const optDe = document.createElement('option');
+      optDe.value = 'audiobook-de';
+      optDe.textContent = `${deLabel} • 有聲書`;
+      voiceSelectDe.appendChild(optDe);
+      return;
+    }
+
     if (currentEngine === 'openai') {
       OPENAI_VOICES.forEach(v => {
         const optZh = document.createElement('option');
@@ -1627,6 +2139,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (btnDownloadMp3) {
       btnDownloadMp3.addEventListener('click', () => {
+        if (currentEngine === 'audiobook' && currentAudiobookChapterTrack) {
+          const a = document.createElement('a');
+          a.href = currentAudiobookChapterTrack.src;
+          a.download = `bonhoeffer-${currentChapterId}-${currentPlayingLang}.mp3`;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          return;
+        }
         if (!currentApiBlob || !activeParagraphId) return;
         const url = URL.createObjectURL(currentApiBlob);
         const a = document.createElement('a');
@@ -1640,6 +2161,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     voiceSelectZh.addEventListener('change', () => {
+      if (currentEngine === 'audiobook') {
+        return;
+      }
       if (currentEngine === 'openai') {
         selectedOpenaiZhVoice = voiceSelectZh.value;
         safeStorage.setItem('bonhoeffer-reader-openai-voice-zh', selectedOpenaiZhVoice);
@@ -1659,6 +2183,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     voiceSelectDe.addEventListener('change', () => {
+      if (currentEngine === 'audiobook') {
+        return;
+      }
       if (currentEngine === 'openai') {
         selectedOpenaiDeVoice = voiceSelectDe.value;
         safeStorage.setItem('bonhoeffer-reader-openai-voice-de', selectedOpenaiDeVoice);
@@ -1700,14 +2227,15 @@ document.addEventListener('DOMContentLoaded', () => {
       valRate.textContent = `${speedRate.toFixed(1)}x`;
       safeStorage.setItem('bonhoeffer-reader-speed', speedRate);
 
-      // In OpenAI mode, adjust HTML5 Audio playbackRate directly without re-fetching!
-      if (currentEngine === 'openai' && currentApiAudio) {
+      // HTML5 Audio 模式（免費有聲書 / OpenAI）可直接即時變速不斷音
+      if (isAudioElementEngine() && currentApiAudio) {
         currentApiAudio.playbackRate = speedRate;
+        updateMediaSessionPosition(currentApiAudio);
       }
     });
 
     sliderRate.addEventListener('change', () => {
-      if (currentEngine !== 'openai' && activeParagraphId && isPlaying && !isPaused) {
+      if (!isAudioElementEngine() && activeParagraphId && isPlaying && !isPaused) {
         playParagraph(activeParagraphId, currentPlayingLang, currentSentenceIndex);
       }
     });
@@ -1718,13 +2246,13 @@ document.addEventListener('DOMContentLoaded', () => {
         valVolume.textContent = `${Math.round(volumeLevel * 100)}%`;
         safeStorage.setItem('bonhoeffer-reader-volume', volumeLevel);
 
-        if (currentEngine === 'openai' && currentApiAudio) {
+        if (isAudioElementEngine() && currentApiAudio) {
           currentApiAudio.volume = volumeLevel;
         }
       });
 
       sliderVolume.addEventListener('change', () => {
-        if (currentEngine !== 'openai' && activeParagraphId && isPlaying && !isPaused) {
+        if (!isAudioElementEngine() && activeParagraphId && isPlaying && !isPaused) {
           playParagraph(activeParagraphId, currentPlayingLang, currentSentenceIndex);
         }
       });
@@ -1854,8 +2382,22 @@ document.addEventListener('DOMContentLoaded', () => {
     document.documentElement.setAttribute('data-theme', savedTheme);
     updateThemeIcon(savedTheme);
 
-    const savedEngine = safeStorage.getItem('bonhoeffer-reader-engine') || 'local';
-    currentEngine = savedEngine;
+    const savedEngine = safeStorage.getItem('bonhoeffer-reader-engine');
+    if (!savedEngine) {
+      currentEngine = window.audiobookManifest ? 'audiobook' : 'local';
+    } else if (
+      isIOS &&
+      savedEngine === 'local' &&
+      !safeStorage.getItem('bonhoeffer-reader-audiobook-v1-migrated') &&
+      window.audiobookManifest
+    ) {
+      // 為原先在 iOS 上使用系統語音的讀者一次性自動升級至支援鎖屏／背景播放的免費有聲書引擎
+      currentEngine = 'audiobook';
+      safeStorage.setItem('bonhoeffer-reader-audiobook-v1-migrated', 'true');
+      safeStorage.setItem('bonhoeffer-reader-engine', 'audiobook');
+    } else {
+      currentEngine = savedEngine;
+    }
     if (selectEngine) selectEngine.value = currentEngine;
 
     const savedOpenaiKey = safeStorage.getItem('tts-openai-key') || '';

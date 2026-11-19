@@ -33,22 +33,37 @@ TARGET_FILES = [
     "reader.html",
     "reader.css",
     "reader_v3.js",
+    "manifest.webmanifest",
     "book_data_v3.js",
     "book_data_complete.js",
+    "audio/essential/manifest.js",
     "apple-touch-icon.png",
     "發布到手機與外網.command",
 ]
 
-def gh_api(endpoint, method="GET", payload=None):
-    cmd = ["gh", "api", endpoint, "-X", method]
+for lang in ("zh", "de"):
+    mp3_dir = os.path.join("audio", "essential", lang)
+    if os.path.isdir(mp3_dir):
+        for fname in sorted(os.listdir(mp3_dir)):
+            if fname.endswith(".mp3"):
+                TARGET_FILES.append(f"audio/essential/{lang}/{fname}")
+
+def gh_api(endpoint, method="GET", payload=None, retries=3):
     stdin_data = None
     if payload is not None:
-        cmd.extend(["--input", "-"])
         stdin_data = json.dumps(payload).encode("utf-8")
-    res = subprocess.run(cmd, input=stdin_data, capture_output=True)
-    if res.returncode != 0:
-        raise RuntimeError(res.stderr.decode("utf-8", errors="replace"))
-    return json.loads(res.stdout.decode("utf-8"))
+    last_err = ""
+    for attempt in range(retries):
+        cmd = ["gh", "api", endpoint, "-X", method]
+        if payload is not None:
+            cmd.extend(["--input", "-"])
+        res = subprocess.run(cmd, input=stdin_data, capture_output=True)
+        if res.returncode == 0:
+            return json.loads(res.stdout.decode("utf-8"))
+        last_err = res.stderr.decode("utf-8", errors="replace")
+        if attempt < retries - 1:
+            time.sleep(2)
+    raise RuntimeError(last_err)
 
 def git_blob_sha(data):
     header = f"blob {len(data)}\0".encode("utf-8")
@@ -116,12 +131,19 @@ else:
         payload={"sha": new_commit["sha"], "force": False},
     )
     print(f"🚀 已提交至 GitHub ({new_commit['sha'][:7]})，正在等待 GitHub Pages 部署...")
-    for _ in range(18):
+    target_sha = new_commit["sha"]
+    for _ in range(40):
         time.sleep(3)
-        pages = gh_api(f"repos/{REPO}/pages")
-        if pages.get("status") == "built":
-            break
-    print("✅ 雲端部署完成！")
+        build_info = gh_api(f"repos/{REPO}/pages/builds/latest")
+        if build_info.get("commit") == target_sha:
+            status = build_info.get("status")
+            if status == "built":
+                print(f"✅ 雲端部署完成！（commit: {target_sha[:7]}）")
+                break
+            elif status == "errored":
+                raise RuntimeError(f"GitHub Pages 建置失敗: {build_info.get('error')}")
+    else:
+        print(f"⚠️ 等待超時，最新建置狀態：{build_info}")
 
 print("")
 print("📱 手機與外網永久網址：")
@@ -131,6 +153,6 @@ PYEOF
 
 echo ""
 echo "=================================================="
-if [ -t 0 ]; then
+if [ -t 0 ] && [ "${NO_PAUSE:-0}" != "1" ]; then
   read -p "完成！按 Enter 關閉視窗..."
 fi
