@@ -23,6 +23,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
     (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
 
+  // 直接使用內嵌 SVG 圖示切換播放／暫停與控制鈕（避免 Lucide 取代 <i> 標籤後無法更新的問題）
+  const ICON_PLAY_SVG = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="margin-left:2px;"><polygon points="6 4 20 12 6 20 6 4"/></svg>';
+  const ICON_PAUSE_SVG = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><rect x="6" y="4" width="4.2" height="16" rx="1.4"/><rect x="13.8" y="4" width="4.2" height="16" rx="1.4"/></svg>';
+  const ICON_SUN_SVG = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>';
+  const ICON_MOON_SVG = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>';
+  const ICON_EYE_SVG = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></svg>';
+  const ICON_EYE_OFF_SVG = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.733 5.076a10.744 10.744 0 0 1 11.205 6.575 1 1 0 0 1 0 .696 10.747 10.747 0 0 1-1.444 2.49"/><path d="M14.084 14.158a3 3 0 0 1-4.242-4.242"/><path d="M17.479 17.499a10.75 10.75 0 0 1-15.417-5.151 1 1 0 0 1 0-.696 10.75 10.75 0 0 1 4.446-5.143"/><path d="m2 2 20 20"/></svg>';
+
   // Persistent HTML5 Audio element for iOS Safari & Lock-Screen background playback compatibility
   const SILENT_WAV_URI = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA';
   const sharedApiAudio = new Audio();
@@ -346,13 +354,15 @@ document.addEventListener('DOMContentLoaded', () => {
     restoreProgress();
     updateLangBadgeUI();
     updateEngineUI();
+    updatePlayerUI();
   }
 
   function getAudiobookTrack(version, lang, chapterId) {
-    if (!window.audiobookManifest) return null;
+    // 僅中文使用預製免費 MP3 有聲書，德文一律交由裝置內建即時語音輸出
+    if (lang !== 'zh' || !window.audiobookManifest) return null;
     const verMap = window.audiobookManifest[version];
-    if (!verMap || !verMap[lang]) return null;
-    return verMap[lang][chapterId] || null;
+    if (!verMap || !verMap.zh) return null;
+    return verMap.zh[chapterId] || null;
   }
 
   function isAudioElementEngine() {
@@ -415,13 +425,15 @@ document.addEventListener('DOMContentLoaded', () => {
     try {
       const chTitle = chapter ? chapter.title.split(' (')[0] : '跟隨基督';
       const langLabel = lang === 'de' ? '德文原文' : '中文朗讀';
-      const artworkUrl = new URL('apple-touch-icon.png', window.location.href).href;
+      const artwork512 = new URL('app-icon-512.png?v=20261119c', window.location.href).href;
+      const artwork1024 = new URL('app-icon-1024.png?v=20261119c', window.location.href).href;
       navigator.mediaSession.metadata = new MediaMetadata({
         title: `${chTitle} • 第 ${paraIndex + 1}/${totalParas} 段`,
         artist: `潘霍華《跟隨基督》(${langLabel})`,
         album: activeBookData ? activeBookData.title : '跟隨基督 (Nachfolge)',
         artwork: [
-          { src: artworkUrl, sizes: '1024x1024', type: 'image/png' }
+          { src: artwork512, sizes: '512x512', type: 'image/png' },
+          { src: artwork1024, sizes: '1024x1024', type: 'image/png' }
         ]
       });
     } catch (e) {}
@@ -459,11 +471,7 @@ document.addEventListener('DOMContentLoaded', () => {
       : null;
 
     if (audiobookInfoDesc) {
-      if (currentVersion === 'complete') {
-        audiobookInfoDesc.textContent = '目前為「完整版」：預製 MP3 僅涵蓋精華版，完整版將自動改用系統語音（僅支援前景朗讀），切回精華版或使用 OpenAI 即可鎖屏連播。';
-      } else {
-        audiobookInfoDesc.textContent = '免 API 金鑰，支援 iPhone 關閉螢幕、切換其他 App 繼續連播與鎖定畫面控制。（切至「完整版」時會自動改用系統語音）';
-      }
+      audiobookInfoDesc.textContent = '中文（精華版＋完整版全 15 章）皆為免費預製高擬真 MP3，支援 iPhone 關螢幕／切 App 續播與鎖屏控制；德文則自動使用 iPhone 內建即時語音朗讀。';
     }
 
     if (btnDownloadMp3) {
@@ -473,9 +481,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (footerStatusHint) {
       if (currentEngine === 'audiobook') {
-        footerStatusHint.textContent = currentVersion === 'complete'
-          ? '⚠️ 完整版無預製 MP3，將以系統語音播放（不支援鎖屏）'
-          : '🎧 免費有聲書 Ready（支援關螢幕／鎖屏連播）';
+        footerStatusHint.textContent = '🎧 免費有聲書 Ready（中文支援鎖屏連播 • 德文即時朗讀）';
       } else if (currentEngine === 'openai') {
         footerStatusHint.textContent = '☁️ OpenAI 智慧快取 Ready（支援關螢幕／鎖屏連播）';
       } else {
@@ -729,7 +735,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     if (window.lucide) {
-      window.lucide.createIcons({ container: readingContainer });
+      window.lucide.createIcons();
     }
 
     const progressMap = getProgressMap();
@@ -1036,8 +1042,8 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       if (btnDownloadMp3) btnDownloadMp3.style.display = 'none';
       if (currentEngine === 'audiobook' && footerStatusHint) {
-        footerStatusHint.textContent = currentVersion === 'complete'
-          ? '⚠️ 完整版無預製 MP3，暫以系統語音朗讀（不支援鎖屏）'
+        footerStatusHint.textContent = resolvedLang === 'de'
+          ? '🔊 德文使用裝置內建即時語音朗讀'
           : '🔊 改用系統語音朗讀';
       }
       if (isIOS) {
@@ -1791,12 +1797,17 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function updatePlayerUI() {
-    if (isPlaying && !isPaused) {
-      playIcon.setAttribute('data-lucide', 'pause');
-    } else {
-      playIcon.setAttribute('data-lucide', 'play');
+    if (btnPlayPause) {
+      if (isPlaying && !isPaused) {
+        btnPlayPause.innerHTML = ICON_PAUSE_SVG;
+        btnPlayPause.setAttribute('aria-label', '暫停');
+        btnPlayPause.title = '暫停 (快速鍵: Space)';
+      } else {
+        btnPlayPause.innerHTML = ICON_PLAY_SVG;
+        btnPlayPause.setAttribute('aria-label', '播放');
+        btnPlayPause.title = '播放 (快速鍵: Space)';
+      }
     }
-    if (window.lucide) window.lucide.createIcons({ container: btnPlayPause });
     updateMediaSessionPlaybackState();
   }
 
@@ -1984,26 +1995,6 @@ document.addEventListener('DOMContentLoaded', () => {
     voiceSelectZh.innerHTML = '';
     voiceSelectDe.innerHTML = '';
 
-    if (currentEngine === 'audiobook') {
-      const zhLabel = (window.audiobookManifest && window.audiobookManifest.voices && window.audiobookManifest.voices.zh)
-        ? window.audiobookManifest.voices.zh.label
-        : '曉臻 (台灣自然女聲)';
-      const deLabel = (window.audiobookManifest && window.audiobookManifest.voices && window.audiobookManifest.voices.de)
-        ? window.audiobookManifest.voices.de.label
-        : 'Christoph (德國自然男聲)';
-
-      const optZh = document.createElement('option');
-      optZh.value = 'audiobook-zh';
-      optZh.textContent = `${zhLabel} • 有聲書`;
-      voiceSelectZh.appendChild(optZh);
-
-      const optDe = document.createElement('option');
-      optDe.value = 'audiobook-de';
-      optDe.textContent = `${deLabel} • 有聲書`;
-      voiceSelectDe.appendChild(optDe);
-      return;
-    }
-
     if (currentEngine === 'openai') {
       OPENAI_VOICES.forEach(v => {
         const optZh = document.createElement('option');
@@ -2021,16 +2012,29 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
+    const isAudiobookMode = currentEngine === 'audiobook';
+    if (isAudiobookMode) {
+      const zhLabel = (window.audiobookManifest && window.audiobookManifest.voices && window.audiobookManifest.voices.zh)
+        ? window.audiobookManifest.voices.zh.label
+        : '曉臻 (台灣自然女聲)';
+      const optZh = document.createElement('option');
+      optZh.value = 'audiobook-zh';
+      optZh.textContent = `${zhLabel} • 免費有聲書 MP3`;
+      voiceSelectZh.appendChild(optZh);
+    }
+
     if (!synth) return;
     const allVoices = synth.getVoices();
 
     const savedZhName = safeStorage.getItem('bonhoeffer-reader-voice-zh-v3');
     const savedDeName = safeStorage.getItem('bonhoeffer-reader-voice-de-v3');
 
-    const autoZhOpt = document.createElement('option');
-    autoZhOpt.value = '__auto__';
-    autoZhOpt.textContent = '系統預設中文 (Auto)';
-    voiceSelectZh.appendChild(autoZhOpt);
+    if (!isAudiobookMode) {
+      const autoZhOpt = document.createElement('option');
+      autoZhOpt.value = '__auto__';
+      autoZhOpt.textContent = '系統預設中文 (Auto)';
+      voiceSelectZh.appendChild(autoZhOpt);
+    }
 
     const autoDeOpt = document.createElement('option');
     autoDeOpt.value = '__auto__';
@@ -2038,19 +2042,39 @@ document.addEventListener('DOMContentLoaded', () => {
     voiceSelectDe.appendChild(autoDeOpt);
 
     if (!allVoices || allVoices.length === 0) {
-      selectedZhVoice = null;
+      if (!isAudiobookMode) {
+        selectedZhVoice = null;
+        voiceSelectZh.value = '__auto__';
+      }
       selectedDeVoice = null;
-      voiceSelectZh.value = '__auto__';
       voiceSelectDe.value = '__auto__';
       return;
     }
 
-    const zhVoices = allVoices
-      .filter(v => {
-        const l = (v.lang || '').toLowerCase();
-        return l.includes('zh') || l.includes('cmn') || l.includes('yue');
-      })
-      .sort((a, b) => scoreVoice(b, 'zh') - scoreVoice(a, 'zh'));
+    if (!isAudiobookMode) {
+      const zhVoices = allVoices
+        .filter(v => {
+          const l = (v.lang || '').toLowerCase();
+          return l.includes('zh') || l.includes('cmn') || l.includes('yue');
+        })
+        .sort((a, b) => scoreVoice(b, 'zh') - scoreVoice(a, 'zh'));
+
+      zhVoices.forEach(v => {
+        const opt = document.createElement('option');
+        opt.value = v.name;
+        opt.textContent = formatVoiceLabel(v, 'zh');
+        voiceSelectZh.appendChild(opt);
+      });
+
+      if (savedZhName === '__auto__') {
+        selectedZhVoice = null;
+        voiceSelectZh.value = '__auto__';
+      } else {
+        const matchedSavedZh = savedZhName && zhVoices.find(v => v.name === savedZhName);
+        selectedZhVoice = matchedSavedZh || zhVoices[0] || null;
+        voiceSelectZh.value = selectedZhVoice ? selectedZhVoice.name : '__auto__';
+      }
+    }
 
     const deVoices = allVoices
       .filter(v => {
@@ -2058,22 +2082,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return l.startsWith('de');
       })
       .sort((a, b) => scoreVoice(b, 'de') - scoreVoice(a, 'de'));
-
-    zhVoices.forEach(v => {
-      const opt = document.createElement('option');
-      opt.value = v.name;
-      opt.textContent = formatVoiceLabel(v, 'zh');
-      voiceSelectZh.appendChild(opt);
-    });
-
-    if (savedZhName === '__auto__') {
-      selectedZhVoice = null;
-      voiceSelectZh.value = '__auto__';
-    } else {
-      const matchedSavedZh = savedZhName && zhVoices.find(v => v.name === savedZhName);
-      selectedZhVoice = matchedSavedZh || zhVoices[0] || null;
-      voiceSelectZh.value = selectedZhVoice ? selectedZhVoice.name : '__auto__';
-    }
 
     deVoices.forEach(v => {
       const opt = document.createElement('option');
@@ -2110,15 +2118,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (btnToggleOpenaiKey && readerOpenaiKey) {
       btnToggleOpenaiKey.addEventListener('click', () => {
-        const icon = btnToggleOpenaiKey.querySelector('i');
         if (readerOpenaiKey.type === 'password') {
           readerOpenaiKey.type = 'text';
-          if (icon) icon.setAttribute('data-lucide', 'eye-off');
+          btnToggleOpenaiKey.innerHTML = ICON_EYE_OFF_SVG;
         } else {
           readerOpenaiKey.type = 'password';
-          if (icon) icon.setAttribute('data-lucide', 'eye');
+          btnToggleOpenaiKey.innerHTML = ICON_EYE_SVG;
         }
-        if (window.lucide) window.lucide.createIcons({ container: btnToggleOpenaiKey });
       });
     }
 
@@ -2183,9 +2189,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     voiceSelectDe.addEventListener('change', () => {
-      if (currentEngine === 'audiobook') {
-        return;
-      }
       if (currentEngine === 'openai') {
         selectedOpenaiDeVoice = voiceSelectDe.value;
         safeStorage.setItem('bonhoeffer-reader-openai-voice-de', selectedOpenaiDeVoice);
@@ -2370,11 +2373,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function updateThemeIcon(theme) {
     if (theme === 'dark') {
-      themeToggle.innerHTML = '<i data-lucide="sun"></i>';
+      themeToggle.innerHTML = ICON_SUN_SVG;
     } else {
-      themeToggle.innerHTML = '<i data-lucide="moon"></i>';
+      themeToggle.innerHTML = ICON_MOON_SVG;
     }
-    if (window.lucide) window.lucide.createIcons({ container: themeToggle });
   }
 
   function loadSettings() {

@@ -551,6 +551,13 @@ select:hover {
   justify-content: center;
   box-shadow: var(--shadow-sm);
   border: none;
+  cursor: pointer;
+}
+
+.btn-player-main svg {
+  width: 24px;
+  height: 24px;
+  display: block;
 }
 
 .btn-player-main:hover {
@@ -983,9 +990,11 @@ select:hover {
     box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3) !important;
   }
 
-  .btn-player-main i {
+  .btn-player-main i,
+  .btn-player-main svg {
     width: 24px;
     height: 24px;
+    display: block;
   }
 
   .player-progress-bar-wrapper {

@@ -22,6 +22,7 @@ import json
 import os
 import subprocess
 import sys
+import tempfile
 import time
 
 REPO = "RLamtw/EchoSpeak"
@@ -36,34 +37,57 @@ TARGET_FILES = [
     "manifest.webmanifest",
     "book_data_v3.js",
     "book_data_complete.js",
-    "audio/essential/manifest.js",
+    "audio/audiobook_manifest.js",
+    "app-icon-180.png",
+    "app-icon-512.png",
+    "app-icon-1024.png",
     "apple-touch-icon.png",
     "發布到手機與外網.command",
 ]
 
-for lang in ("zh", "de"):
-    mp3_dir = os.path.join("audio", "essential", lang)
+for edition in ("essential", "complete"):
+    mp3_dir = os.path.join("audio", edition, "zh")
     if os.path.isdir(mp3_dir):
         for fname in sorted(os.listdir(mp3_dir)):
             if fname.endswith(".mp3"):
-                TARGET_FILES.append(f"audio/essential/{lang}/{fname}")
+                TARGET_FILES.append(f"audio/{edition}/zh/{fname}")
 
-def gh_api(endpoint, method="GET", payload=None, retries=3):
-    stdin_data = None
-    if payload is not None:
-        stdin_data = json.dumps(payload).encode("utf-8")
+def gh_api(endpoint, method="GET", payload=None, retries=4):
+    backoffs = [2, 5, 10]
     last_err = ""
-    for attempt in range(retries):
-        cmd = ["gh", "api", endpoint, "-X", method]
+    tmp_path = None
+    try:
         if payload is not None:
-            cmd.extend(["--input", "-"])
-        res = subprocess.run(cmd, input=stdin_data, capture_output=True)
-        if res.returncode == 0:
-            return json.loads(res.stdout.decode("utf-8"))
-        last_err = res.stderr.decode("utf-8", errors="replace")
-        if attempt < retries - 1:
-            time.sleep(2)
-    raise RuntimeError(last_err)
+            payload_bytes = json.dumps(payload).encode("utf-8")
+            if len(payload_bytes) > 1024 * 1024:
+                fd, tmp_path = tempfile.mkstemp(prefix="gh_api_", suffix=".json")
+                with os.fdopen(fd, "wb") as f:
+                    f.write(payload_bytes)
+            else:
+                stdin_data = payload_bytes
+        else:
+            stdin_data = None
+
+        for attempt in range(retries):
+            cmd = ["gh", "api", endpoint, "-X", method]
+            if tmp_path is not None:
+                cmd.extend(["--input", tmp_path])
+                res = subprocess.run(cmd, capture_output=True)
+            elif payload is not None:
+                cmd.extend(["--input", "-"])
+                res = subprocess.run(cmd, input=stdin_data, capture_output=True)
+            else:
+                res = subprocess.run(cmd, capture_output=True)
+
+            if res.returncode == 0:
+                return json.loads(res.stdout.decode("utf-8"))
+            last_err = res.stderr.decode("utf-8", errors="replace")
+            if attempt < retries - 1:
+                time.sleep(backoffs[min(attempt, len(backoffs) - 1)])
+        raise RuntimeError(last_err)
+    finally:
+        if tmp_path and os.path.exists(tmp_path):
+            os.remove(tmp_path)
 
 def git_blob_sha(data):
     header = f"blob {len(data)}\0".encode("utf-8")
@@ -81,7 +105,7 @@ remote_blobs = {
     if item.get("type") == "blob"
 }
 
-tree_updates = []
+pending_uploads = []
 for path in TARGET_FILES:
     if not os.path.exists(path):
         continue
@@ -90,7 +114,17 @@ for path in TARGET_FILES:
     local_sha = git_blob_sha(data)
     if remote_blobs.get(path) == local_sha:
         continue
-    print(f"⬆️  上傳更新: {path} ({len(data)} bytes)...")
+    pending_uploads.append((path, data))
+
+obsolete_paths = [
+    p for p in sorted(remote_blobs.keys())
+    if p.startswith("audio/essential/de/") or p == "audio/essential/manifest.js"
+]
+
+tree_updates = []
+total_uploads = len(pending_uploads)
+for idx, (path, data) in enumerate(pending_uploads, 1):
+    print(f"[{idx}/{total_uploads}] ⬆️  上傳更新: {path} ({len(data)} bytes)...", flush=True)
     blob_res = gh_api(
         f"repos/{REPO}/git/blobs",
         method="POST",
@@ -105,6 +139,15 @@ for path in TARGET_FILES:
         "mode": mode,
         "type": "blob",
         "sha": blob_res["sha"],
+    })
+
+for old_path in obsolete_paths:
+    print(f"🗑️  移除已停用的遠端音檔: {old_path}", flush=True)
+    tree_updates.append({
+        "path": old_path,
+        "mode": "100644",
+        "type": "blob",
+        "sha": None,
     })
 
 if not tree_updates:
