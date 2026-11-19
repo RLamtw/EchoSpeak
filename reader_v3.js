@@ -31,12 +31,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const ICON_EYE_SVG = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></svg>';
   const ICON_EYE_OFF_SVG = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.733 5.076a10.744 10.744 0 0 1 11.205 6.575 1 1 0 0 1 0 .696 10.747 10.747 0 0 1-1.444 2.49"/><path d="M14.084 14.158a3 3 0 0 1-4.242-4.242"/><path d="M17.479 17.499a10.75 10.75 0 0 1-15.417-5.151 1 1 0 0 1 0-.696 10.75 10.75 0 0 1 4.446-5.143"/><path d="m2 2 20 20"/></svg>';
 
-  // Persistent HTML5 Audio element for iOS Safari & Lock-Screen background playback compatibility
+  // Persistent DOM-attached HTML5 Audio element for iOS Safari & Lock-Screen background playback compatibility
   const SILENT_WAV_URI = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA';
-  const sharedApiAudio = new Audio();
+  const sharedApiAudio = document.getElementById('reader-audio') || new Audio();
   sharedApiAudio.playsInline = true;
   sharedApiAudio.preload = 'auto';
   sharedApiAudio.setAttribute('playsinline', '');
+  sharedApiAudio.setAttribute('webkit-playsinline', '');
   let isApiAudioUnlocked = false;
 
   // 宣告為 iOS 媒體播放會話（支援 iOS 16.4+ 鎖屏與背景播放，並忽略側邊靜音開關）
@@ -74,6 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const STORE_NAME = 'tts_blobs';
   let dbPromise = null;
   const memoryBlobCache = new Map();
+  const chapterAudioBlobCache = new Map();
   const inFlightRequests = new Map();
 
   function openAudioCacheDB() {
@@ -774,6 +776,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     if (currentApiAudio && !keepAudioPlaying) {
       try {
+        currentApiAudio.onplaying = null;
+        currentApiAudio.onwaiting = null;
+        currentApiAudio.onpause = null;
         currentApiAudio.onloadedmetadata = null;
         currentApiAudio.oncanplay = null;
         currentApiAudio.ontimeupdate = null;
@@ -1108,11 +1113,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const audio = sharedApiAudio;
     currentApiAudio = audio;
+    audio.onplaying = null;
+    audio.onwaiting = null;
+    audio.onpause = null;
     audio.onloadedmetadata = null;
     audio.oncanplay = null;
     audio.ontimeupdate = null;
     audio.onended = null;
     audio.onerror = null;
+
+    let usedBlobFallback = false;
+    const ver = (window.audiobookManifest && window.audiobookManifest.version) || '1';
+    const targetUrl = new URL(`${audiobookTrack.src}?v=${ver}`, window.location.href).href;
 
     const applyInitialSeek = () => {
       if (sessionId !== playbackSessionId) return;
@@ -1174,6 +1186,34 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     };
 
+    audio.onplaying = () => {
+      if (sessionId !== playbackSessionId) return;
+      isPlaying = true;
+      isPaused = false;
+      audio.playbackRate = speedRate;
+      updatePlayerUI();
+      updateMediaSessionPosition(audio);
+      if (footerStatusHint) {
+        footerStatusHint.textContent = '🎧 免費有聲書播放中（支援鎖屏連播）';
+      }
+    };
+
+    audio.onwaiting = () => {
+      if (sessionId !== playbackSessionId) return;
+      if (footerStatusHint) {
+        footerStatusHint.textContent = '⏳ 緩衝載入音訊中...';
+      }
+    };
+
+    audio.onpause = () => {
+      if (sessionId !== playbackSessionId || audio.ended) return;
+      if (isPlaying) {
+        isPaused = true;
+        updatePlayerUI();
+        updateMediaSessionPosition(audio);
+      }
+    };
+
     audio.ontimeupdate = () => {
       if (sessionId !== playbackSessionId || audio.paused) return;
       const t = audio.currentTime;
@@ -1208,13 +1248,62 @@ document.addEventListener('DOMContentLoaded', () => {
       handleParagraphFinished(sessionId, lastCard, activeParagraphId, lang);
     };
 
-    audio.onerror = () => {
+    const showPlaybackFailure = (err) => {
       if (sessionId !== playbackSessionId) return;
       isPlaying = false;
       isPaused = false;
       updatePlayerUI();
       if (footerStatusHint) {
-        footerStatusHint.textContent = '⚠️ 有聲書音訊載入失敗，請檢查網路連線';
+        const label = (err && (err.name || err.message)) || '請再點一次播放';
+        footerStatusHint.textContent = `⚠️ 播放失敗：${label}`;
+      }
+    };
+
+    // 若 iOS Safari 因伺服器 MIME (audio/mp3) 拒播，改以標準 audio/mpeg Blob 載入重試
+    const fallbackToMpegBlob = async (reason) => {
+      if (usedBlobFallback || sessionId !== playbackSessionId) {
+        showPlaybackFailure(reason);
+        return;
+      }
+      usedBlobFallback = true;
+      if (footerStatusHint) {
+        footerStatusHint.textContent = '⏳ 正在切換相容音訊模式載入...';
+      }
+      try {
+        let blob = chapterAudioBlobCache.get(targetTrackKey);
+        if (!blob) {
+          const res = await fetch(targetUrl);
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const buf = await res.arrayBuffer();
+          if (sessionId !== playbackSessionId) return;
+          blob = new Blob([buf], { type: 'audio/mpeg' });
+          chapterAudioBlobCache.set(targetTrackKey, blob);
+        }
+        if (currentApiAudioUrl) {
+          URL.revokeObjectURL(currentApiAudioUrl);
+        }
+        currentApiAudioUrl = URL.createObjectURL(blob);
+        audio.src = currentApiAudioUrl;
+        audio.playbackRate = speedRate;
+        audio.volume = volumeLevel;
+        audio.addEventListener('loadedmetadata', applyInitialSeek, { once: true });
+        audio.addEventListener('canplay', applyInitialSeek, { once: true });
+        audio.load();
+        await audio.play();
+      } catch (err) {
+        if (sessionId !== playbackSessionId) return;
+        console.warn('Audiobook Blob fallback error:', err);
+        showPlaybackFailure(err);
+      }
+    };
+
+    audio.onerror = () => {
+      if (sessionId !== playbackSessionId) return;
+      const errCode = audio.error ? audio.error.code : 0;
+      if (!usedBlobFallback && (errCode === 3 || errCode === 4 || errCode === 0)) {
+        fallbackToMpegBlob(new Error(`媒體錯誤(${errCode})`));
+      } else {
+        showPlaybackFailure(new Error(`媒體錯誤(${errCode})`));
       }
     };
 
@@ -1231,24 +1320,34 @@ document.addEventListener('DOMContentLoaded', () => {
       updateMediaSessionPosition(audio);
       if (audio.paused) {
         audio.play().catch((err) => {
-          if (sessionId !== playbackSessionId) return;
+          if (sessionId !== playbackSessionId || (err && err.name === 'AbortError')) return;
           console.warn('Audiobook resume error:', err);
-          isPlaying = false;
-          updatePlayerUI();
+          showPlaybackFailure(err);
         });
+      } else if (footerStatusHint) {
+        footerStatusHint.textContent = '🎧 免費有聲書播放中（支援鎖屏連播）';
       }
     } else {
+      if (footerStatusHint) {
+        footerStatusHint.textContent = '⏳ 載入有聲書音訊中...';
+      }
       if (currentApiAudioUrl) {
         URL.revokeObjectURL(currentApiAudioUrl);
         currentApiAudioUrl = null;
       }
-      const ver = (window.audiobookManifest && window.audiobookManifest.version) || '1';
-      audio.src = new URL(`${audiobookTrack.src}?v=${ver}`, window.location.href).href;
+      if (chapterAudioBlobCache.has(targetTrackKey)) {
+        usedBlobFallback = true;
+        currentApiAudioUrl = URL.createObjectURL(chapterAudioBlobCache.get(targetTrackKey));
+        audio.src = currentApiAudioUrl;
+      } else {
+        audio.src = targetUrl;
+      }
       audio.playbackRate = speedRate;
       audio.volume = volumeLevel;
 
       audio.addEventListener('loadedmetadata', applyInitialSeek, { once: true });
       audio.addEventListener('canplay', applyInitialSeek, { once: true });
+      audio.load();
 
       const playPromise = audio.play();
       if (playPromise && typeof playPromise.then === 'function') {
@@ -1257,10 +1356,15 @@ document.addEventListener('DOMContentLoaded', () => {
           audio.playbackRate = speedRate;
           updateMediaSessionPosition(audio);
         }).catch((err) => {
-          if (sessionId !== playbackSessionId) return;
+          if (sessionId !== playbackSessionId || (err && err.name === 'AbortError')) return;
           console.warn('Audiobook play error:', err);
-          isPlaying = false;
-          updatePlayerUI();
+          if (!usedBlobFallback && err && (err.name === 'NotSupportedError' || err.name === 'NotAllowedError')) {
+            if (err.name === 'NotSupportedError') {
+              fallbackToMpegBlob(err);
+              return;
+            }
+          }
+          showPlaybackFailure(err);
         });
       }
     }
@@ -1284,6 +1388,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     currentApiAudioUrl = URL.createObjectURL(blob);
     const audio = sharedApiAudio;
+    audio.onplaying = null;
+    audio.onwaiting = null;
+    audio.onpause = null;
     audio.onloadedmetadata = null;
     audio.oncanplay = null;
     audio.ontimeupdate = null;
@@ -1312,6 +1419,24 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     audio.addEventListener('loadedmetadata', applySeekAndRate, { once: true });
 
+    audio.onplaying = () => {
+      if (sessionId !== playbackSessionId) return;
+      isPlaying = true;
+      isPaused = false;
+      audio.playbackRate = speedRate;
+      updatePlayerUI();
+      updateMediaSessionPosition(audio);
+    };
+
+    audio.onpause = () => {
+      if (sessionId !== playbackSessionId || audio.ended) return;
+      if (isPlaying) {
+        isPaused = true;
+        updatePlayerUI();
+        updateMediaSessionPosition(audio);
+      }
+    };
+
     audio.ontimeupdate = () => {
       if (sessionId !== playbackSessionId || !audio.duration || isNaN(audio.duration)) return;
       const ratio = audio.currentTime / audio.duration;
@@ -1332,6 +1457,7 @@ document.addEventListener('DOMContentLoaded', () => {
     audio.onerror = () => {
       if (sessionId !== playbackSessionId) return;
       isPlaying = false;
+      isPaused = false;
       updatePlayerUI();
     };
 
@@ -1339,6 +1465,7 @@ document.addEventListener('DOMContentLoaded', () => {
     isPaused = false;
     updatePlayerUI();
 
+    audio.load();
     const playPromise = audio.play();
     if (playPromise && typeof playPromise.then === 'function') {
       playPromise.then(() => {
@@ -1346,9 +1473,10 @@ document.addEventListener('DOMContentLoaded', () => {
         audio.playbackRate = speedRate;
         updateMediaSessionPosition(audio);
       }).catch((err) => {
-        if (sessionId !== playbackSessionId) return;
+        if (sessionId !== playbackSessionId || (err && err.name === 'AbortError')) return;
         console.warn('OpenAI audio play error:', err);
         isPlaying = false;
+        isPaused = false;
         updatePlayerUI();
       });
     }
@@ -2017,9 +2145,10 @@ document.addEventListener('DOMContentLoaded', () => {
       const zhLabel = (window.audiobookManifest && window.audiobookManifest.voices && window.audiobookManifest.voices.zh)
         ? window.audiobookManifest.voices.zh.label
         : '曉臻 (台灣自然女聲)';
+      const shortZhLabel = zhLabel.split(' ')[0];
       const optZh = document.createElement('option');
       optZh.value = 'audiobook-zh';
-      optZh.textContent = `${zhLabel} • 免費有聲書 MP3`;
+      optZh.textContent = `${shortZhLabel} • 免費有聲書`;
       voiceSelectZh.appendChild(optZh);
     }
 
