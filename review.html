@@ -1,320 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>《跟隨基督》導讀審稿區</title>
-  <style>
-    :root {
-      --bg: #f6f4ef;
-      --card: #ffffff;
-      --ink: #1e1d1a;
-      --muted: #6b665c;
-      --accent: #8b3a2b;
-      --accent-soft: #f7ece9;
-      --border: #e3ded4;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", sans-serif;
-      background: var(--bg);
-      color: var(--ink);
-      line-height: 1.7;
-    }
-    header {
-      position: sticky;
-      top: 0;
-      z-index: 20;
-      background: rgba(246, 244, 239, 0.95);
-      backdrop-filter: blur(8px);
-      border-bottom: 1px solid var(--border);
-      padding: 12px 16px;
-    }
-    .wrap {
-      max-width: 860px;
-      margin: 0 auto;
-    }
-    .top-row {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      gap: 10px;
-      margin-bottom: 10px;
-    }
-    h1 {
-      font-size: 1.15rem;
-      margin: 0;
-      font-weight: 700;
-    }
-    .tabs {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-    button {
-      border: 1px solid var(--border);
-      background: var(--card);
-      color: var(--ink);
-      padding: 6px 12px;
-      border-radius: 8px;
-      font-size: 0.9rem;
-      cursor: pointer;
-    }
-    button.active {
-      background: var(--accent);
-      color: #fff;
-      border-color: var(--accent);
-    }
-    .player-row {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-    audio {
-      flex: 1;
-      min-width: 220px;
-      height: 36px;
-    }
-    .speed-group {
-      display: flex;
-      gap: 4px;
-    }
-    .speed-group button {
-      padding: 4px 8px;
-      font-size: 0.8rem;
-    }
-    main {
-      padding: 18px 16px 80px;
-    }
-    .ep-title {
-      font-size: 1.05rem;
-      font-weight: 600;
-      color: var(--accent);
-      margin: 0 0 14px;
-    }
-    .scene {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 14px 16px;
-      margin-bottom: 12px;
-      transition: border-color 0.15s, background 0.15s;
-    }
-    .scene.playing {
-      border-color: var(--accent);
-      background: var(--accent-soft);
-    }
-    .scene-head {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      gap: 8px;
-      margin-bottom: 6px;
-    }
-    .scene-meta {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-    .sid {
-      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-      font-size: 0.8rem;
-      font-weight: 700;
-      background: #efece4;
-      padding: 2px 7px;
-      border-radius: 6px;
-    }
-    .chapter {
-      font-size: 0.82rem;
-      color: var(--muted);
-    }
-    .time-btn {
-      font-size: 0.8rem;
-      padding: 3px 9px;
-      color: var(--accent);
-      border-color: var(--accent);
-      background: transparent;
-    }
-    .scene-title {
-      font-weight: 700;
-      font-size: 1rem;
-      margin: 2px 0 4px;
-    }
-    .citation {
-      font-size: 0.78rem;
-      color: var(--muted);
-      margin-bottom: 8px;
-    }
-    .narration {
-      font-size: 0.98rem;
-      margin: 0 0 10px;
-    }
-    .review-bar {
-      display: flex;
-      gap: 8px;
-      align-items: center;
-      flex-wrap: wrap;
-      border-top: 1px dashed var(--border);
-      padding-top: 8px;
-    }
-    .review-bar label {
-      font-size: 0.82rem;
-      color: var(--muted);
-      display: flex;
-      align-items: center;
-      gap: 4px;
-      cursor: pointer;
-    }
-    .review-bar input[type="text"] {
-      flex: 1;
-      min-width: 180px;
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 4px 8px;
-      font-size: 0.85rem;
-      font-family: inherit;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="依原著校訂的《跟隨基督》全八集導讀旁白與逐場試聽。">
+  <title>《跟隨基督》導讀審稿</title>
+  <link rel="stylesheet" href="review.css?v=20261120">
+  <script defer src="guide_review_data.js?v=20261120"></script>
+  <script defer src="review.js?v=20261120"></script>
 </head>
 <body>
-  <header>
+  <header class="masthead">
     <div class="wrap">
-      <div class="top-row">
-        <h1>《跟隨基督》導讀審稿區</h1>
-        <div class="tabs">
-          <button id="tab-ep01" class="active" onclick="selectEp('ep01')">EP01（39 場）</button>
-          <button id="tab-ep08" onclick="selectEp('ep08')">EP08（19 場）</button>
-          <button onclick="exportNotes()">匯出審稿備註</button>
-        </div>
-      </div>
-      <div class="player-row">
-        <audio id="player" controls preload="metadata"></audio>
-        <div class="speed-group">
-          <button onclick="setRate(1, this)" class="active">1.0x</button>
-          <button onclick="setRate(1.25, this)">1.25x</button>
-          <button onclick="setRate(1.5, this)">1.5x</button>
-        </div>
-      </div>
+      <a class="reader-link" href="reader.html">雙語閱讀器</a>
+      <h1>《跟隨基督》導讀審稿</h1>
+      <p>原著修訂版 <span aria-hidden="true">·</span> 台灣華語「曉臻」試聽</p>
     </div>
   </header>
-
+  <div class="controls">
+    <div class="wrap">
+      <nav id="episodes" aria-label="選擇集數"></nav>
+      <div class="player-row">
+        <audio id="player" controls preload="metadata" aria-label="本集旁白試聽"></audio>
+        <label class="speed" for="speed">速度
+          <select id="speed">
+            <option value="0.9">0.9 倍</option>
+            <option value="1" selected>1 倍</option>
+            <option value="1.25">1.25 倍</option>
+            <option value="1.5">1.5 倍</option>
+          </select>
+        </label>
+      </div>
+      <p id="audio-status" class="status" role="status"></p>
+    </div>
+  </div>
   <main class="wrap">
-    <p id="ep-title" class="ep-title"></p>
+    <div class="episode-heading">
+      <div>
+        <h2 id="episode-title"></h2>
+        <p id="episode-meta" class="muted"></p>
+      </div>
+      <button id="export-notes" type="button">匯出審稿備註</button>
+    </div>
+    <p class="note-help">勾選與備註儲存在這個瀏覽器。</p>
+    <p id="note-status" class="status" role="status"></p>
     <div id="scene-list"></div>
+    <details class="references">
+      <summary>查閱原著與史料的方式</summary>
+      <p>「PDF」頁碼指德文原著 <i>Nachfolge</i>（Dietrich Bonhoeffer Werke 第 4 卷）。ch…-p… 是雙語資料的段落編號，查引句時以德文原著正文為準。H01–H09 是下列作品、檔案和歷史資料。</p>
+      <ul id="history-sources"></ul>
+    </details>
+    <noscript>請啟用 JavaScript 以載入劇本和試聽音檔。</noscript>
   </main>
-
-  <script src="guide_review_data.js"></script>
-  <script>
-    let currentEp = 'ep01';
-    const player = document.getElementById('player');
-    const storageKey = 'nachfolge_guide_review_v1';
-    let notes = JSON.parse(localStorage.getItem(storageKey) || '{}');
-
-    function fmtTime(sec) {
-      const m = Math.floor(sec / 60);
-      const s = Math.floor(sec % 60);
-      return `${m}:${String(s).padStart(2, '0')}`;
-    }
-
-    function saveNotes() {
-      localStorage.setItem(storageKey, JSON.stringify(notes));
-    }
-
-    function setRate(rate, btn) {
-      player.playbackRate = rate;
-      document.querySelectorAll('.speed-group button').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-    }
-
-    function jumpTo(sec) {
-      player.currentTime = sec;
-      player.play();
-    }
-
-    function selectEp(ep) {
-      currentEp = ep;
-      document.getElementById('tab-ep01').classList.toggle('active', ep === 'ep01');
-      document.getElementById('tab-ep08').classList.toggle('active', ep === 'ep08');
-      const d = window.guideReviewData[ep];
-      player.src = d.audio;
-      document.getElementById('ep-title').textContent = `${ep.toUpperCase()}｜${d.title}（總長 ${fmtTime(d.duration)}）`;
-
-      const list = document.getElementById('scene-list');
-      list.innerHTML = '';
-      d.scenes.forEach(s => {
-        const key = `${ep}_${s.id}`;
-        const st = notes[key] || { ok: false, text: '' };
-        const el = document.createElement('div');
-        el.className = 'scene';
-        el.id = `card-${s.id}`;
-        el.innerHTML = `
-          <div class="scene-head">
-            <div class="scene-meta">
-              <span class="sid">${s.id}</span>
-              <span class="chapter">${s.chapter}</span>
-            </div>
-            <button class="time-btn" onclick="jumpTo(${s.start})">▶ ${fmtTime(s.start)} – ${fmtTime(s.end)}</button>
-          </div>
-          <div class="scene-title">${s.title}</div>
-          ${s.citation ? `<div class="citation">依據：${s.citation}</div>` : ''}
-          <p class="narration">${s.narration}</p>
-          <div class="review-bar">
-            <label><input type="checkbox" ${st.ok ? 'checked' : ''} onchange="toggleOk('${key}', this.checked)"> 已審核</label>
-            <input type="text" placeholder="寫下這場的修改意見..." value="${(st.text || '').replace(/"/g, '&quot;')}" oninput="updateText('${key}', this.value)">
-          </div>
-        `;
-        list.appendChild(el);
-      });
-    }
-
-    function toggleOk(key, val) {
-      notes[key] = notes[key] || {};
-      notes[key].ok = val;
-      saveNotes();
-    }
-
-    function updateText(key, val) {
-      notes[key] = notes[key] || {};
-      notes[key].text = val;
-      saveNotes();
-    }
-
-    function exportNotes() {
-      const lines = ['# 《跟隨基督》導讀審稿備註\n'];
-      ['ep01', 'ep08'].forEach(ep => {
-        lines.push(`## ${ep.toUpperCase()}`);
-        window.guideReviewData[ep].scenes.forEach(s => {
-          const st = notes[`${ep}_${s.id}`];
-          if (st && (st.ok || st.text)) {
-            lines.push(`- [${st.ok ? 'x' : ' '}] **${s.id} ${s.title}**：${st.text || '（已審核）'}`);
-          }
-        });
-        lines.push('');
-      });
-      const blob = new Blob([lines.join('\n')], { type: 'text/markdown;charset=utf-8' });
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = '導讀審稿備註.md';
-      a.click();
-    }
-
-    player.addEventListener('timeupdate', () => {
-      const t = player.currentTime;
-      const scenes = window.guideReviewData[currentEp].scenes;
-      scenes.forEach(s => {
-        const card = document.getElementById(`card-${s.id}`);
-        if (!card) return;
-        const active = t >= s.start && t < s.end;
-        card.classList.toggle('playing', active);
-      });
-    });
-
-    selectEp('ep01');
-  </script>
+  <template id="scene-template">
+    <article class="scene">
+      <div class="scene-head">
+        <div class="scene-meta">
+          <a class="scene-id"></a>
+          <span class="chapter"></span>
+        </div>
+        <button class="play-scene" type="button"></button>
+      </div>
+      <h3 class="scene-title"></h3>
+      <p class="narration"></p>
+      <details class="scene-detail">
+        <summary>修訂依據與畫面文字</summary>
+        <p class="citation"></p>
+        <p class="reason"></p>
+        <ul class="screen"></ul>
+      </details>
+      <div class="review-bar">
+        <label class="approval"><input type="checkbox"> 已審閱</label>
+        <label class="note">
+          <span>備註</span>
+          <textarea rows="2" placeholder="記下這一場的修改意見"></textarea>
+        </label>
+      </div>
+    </article>
+  </template>
 </body>
 </html>
