@@ -5,6 +5,15 @@ const episodeButtons = document.getElementById("episodes");
 const list = document.getElementById("scene-list");
 const player = document.getElementById("player");
 const speed = document.getElementById("speed");
+const controls = document.querySelector(".controls");
+const playToggle = document.getElementById("play-toggle");
+const seek = document.getElementById("seek");
+const elapsed = document.getElementById("elapsed");
+const totalTime = document.getElementById("total-time");
+const nowPlaying = document.getElementById("now-playing");
+const followToggle = document.getElementById("follow-toggle");
+const themeToggle = document.getElementById("theme-toggle");
+const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)");
 const status = document.getElementById("audio-status");
 const noteStatus = document.getElementById("note-status");
 const template = document.getElementById("scene-template");
@@ -22,8 +31,12 @@ const sourceLinks = {
 };
 
 let currentEpisode;
-let activeCard;
+let sceneViews = [];
+let activeScene;
+let activeCue;
 let pendingSeek;
+let scrubbing = false;
+let following = true;
 let notes = loadNotes();
 
 function loadNotes() {
@@ -85,7 +98,14 @@ function makeScene(episode, scene) {
   anchor.href = "#" + card.id;
   card.querySelector(".chapter").textContent = scene.chapter;
   card.querySelector(".scene-title").textContent = scene.title;
-  card.querySelector(".narration").textContent = scene.narration;
+  const narration = card.querySelector(".narration");
+  const cues = (scene.cues || [[scene.start, scene.narration]]).map(([start, phrase]) => {
+    const element = document.createElement("span");
+    element.className = "cue";
+    element.textContent = phrase;
+    narration.append(element);
+    return { start, element };
+  });
   card.querySelector(".reason").textContent = scene.reason;
   addCitation(card.querySelector(".citation"), scene.citation);
 
@@ -97,9 +117,17 @@ function makeScene(episode, scene) {
   }
 
   const play = card.querySelector(".play-scene");
-  play.textContent = "播放 " + timeLabel(scene.start);
-  play.setAttribute("aria-label", "從 " + scene.id + " " + scene.title + " 開始播放");
-  play.addEventListener("click", () => playFrom(scene.start));
+  play.querySelector("span").textContent = timeLabel(scene.start);
+  const view = { start: scene.start, scene, card, play, cues };
+  updateSceneButton(view, false);
+  play.addEventListener("click", () => {
+    if (view === activeScene && !player.paused) {
+      player.pause();
+      return;
+    }
+    if (view !== activeScene || player.ended) seekTo(scene.start);
+    playAudio();
+  });
 
   const key = episode + "_" + scene.id;
   const approval = card.querySelector("input");
@@ -109,7 +137,7 @@ function makeScene(episode, scene) {
   const update = () => saveNote(key, { ok: approval.checked, text: note.value });
   approval.addEventListener("change", update);
   note.addEventListener("input", update);
-  return card;
+  return view;
 }
 
 function selectEpisode(id) {
@@ -118,7 +146,9 @@ function selectEpisode(id) {
   if (!episode) return;
   player.pause();
   pendingSeek = undefined;
-  activeCard = undefined;
+  scrubbing = false;
+  activeScene = undefined;
+  activeCue = undefined;
   currentEpisode = id;
   player.src = episode.audio;
   player.playbackRate = Number(speed.value);
@@ -128,7 +158,12 @@ function selectEpisode(id) {
   }
   document.getElementById("episode-title").textContent = episode.title;
   document.getElementById("episode-meta").textContent = id.toUpperCase() + "　" + episode.scenes.length + " 場　" + timeLabel(episode.duration);
-  list.replaceChildren(...episode.scenes.map(scene => makeScene(id, scene)));
+  sceneViews = episode.scenes.map(scene => makeScene(id, scene));
+  list.replaceChildren(...sceneViews.map(view => view.card));
+  seek.max = episode.duration;
+  totalTime.textContent = timeLabel(episode.duration);
+  syncPosition(0);
+  updatePlayControls();
   if ("mediaSession" in navigator && typeof MediaMetadata === "function") {
     navigator.mediaSession.metadata = new MediaMetadata({
       title: episode.title,
@@ -138,28 +173,177 @@ function selectEpisode(id) {
   }
 }
 
-async function playFrom(seconds) {
+async function playAudio() {
   status.textContent = "";
-  if (player.readyState > HTMLMediaElement.HAVE_NOTHING) {
-    player.currentTime = seconds;
-  } else {
-    pendingSeek = seconds;
-  }
+  const episode = currentEpisode;
   try {
     await player.play();
   } catch (error) {
-    if (error.name !== "AbortError") status.textContent = "無法播放，請確認連線後再試。";
+    if (episode === currentEpisode && error.name !== "AbortError") {
+      status.textContent = "無法播放，請確認連線後再試。";
+    }
   }
 }
 
-function followTime() {
-  const time = player.currentTime;
-  const scene = episodes[currentEpisode]?.scenes.find(item => time >= item.start && time < item.end);
-  const card = scene ? document.getElementById(sceneAnchor(currentEpisode, scene.id)) : undefined;
-  if (card !== activeCard) {
-    activeCard?.classList.remove("playing");
-    card?.classList.add("playing");
-    activeCard = card;
+function updateSceneButton(view, playing) {
+  view.play.classList.toggle("is-playing", playing);
+  const action = playing ? "暫停" : "播放";
+  view.play.setAttribute("aria-label", action + " " + view.scene.id + " " + view.scene.title);
+  view.play.title = action + " " + view.scene.id;
+}
+
+function updatePlayControls() {
+  const playing = !player.paused && !player.ended;
+  const action = playing ? "暫停" : "播放";
+  playToggle.classList.toggle("is-playing", playing);
+  playToggle.setAttribute("aria-label", action);
+  playToggle.title = action;
+  if (activeScene) updateSceneButton(activeScene, playing);
+}
+
+function itemAtTime(items, time) {
+  for (let index = items.length - 1; index >= 0; index -= 1) {
+    if (items[index].start <= time) return items[index];
+  }
+  return items[0];
+}
+
+function showProgress(time) {
+  const duration = Number(seek.max);
+  elapsed.textContent = timeLabel(time);
+  seek.style.setProperty("--progress", duration ? (time / duration * 100) + "%" : "0%");
+  seek.setAttribute("aria-valuetext", timeLabel(time) + "，全長 " + timeLabel(duration));
+}
+
+function revealActiveCue() {
+  if (!following || !activeCue || document.activeElement?.matches(".review-bar textarea")) return;
+  if (window.getSelection()?.isCollapsed === false) return;
+  const top = Math.max(0, controls.getBoundingClientRect().bottom) + 14;
+  const bottom = window.innerHeight - 26;
+  if (bottom <= top) return;
+  const bounds = activeCue.element.getBoundingClientRect();
+  if (bounds.top >= top && bounds.bottom <= bottom) return;
+  window.scrollBy({
+    top: bounds.top - (top + (bottom - top) * 0.2),
+    behavior: reduceMotion.matches ? "auto" : "smooth",
+  });
+}
+
+function syncPosition(time, scroll = false) {
+  if (!scrubbing) {
+    seek.value = time;
+    showProgress(time);
+  }
+  const view = itemAtTime(sceneViews, time);
+  if (!view) return;
+  if (view !== activeScene) {
+    if (activeScene) {
+      activeScene.card.classList.remove("playing");
+      updateSceneButton(activeScene, false);
+    }
+    activeScene = view;
+    view.card.classList.add("playing");
+    updateSceneButton(view, !player.paused && !player.ended);
+    nowPlaying.textContent = view.scene.id + " · " + view.scene.title;
+  }
+  const cue = itemAtTime(view.cues, time);
+  if (cue !== activeCue) {
+    activeCue?.element.removeAttribute("aria-current");
+    activeCue = cue;
+    cue.element.setAttribute("aria-current", "true");
+    if (scroll) revealActiveCue();
+  }
+}
+
+function seekTo(seconds) {
+  const time = Math.min(Number(seek.max), Math.max(0, seconds));
+  if (player.readyState === HTMLMediaElement.HAVE_NOTHING) {
+    pendingSeek = time;
+  } else {
+    player.currentTime = time;
+  }
+  syncPosition(time);
+  revealActiveCue();
+}
+
+function setTheme(choice) {
+  const isDark = (choice || (systemDark.matches ? "dark" : "light")) === "dark";
+  document.documentElement.dataset.theme = isDark ? "dark" : "light";
+  themeToggle.setAttribute("aria-pressed", String(isDark));
+  themeToggle.title = isDark ? "切換日間模式" : "切換夜間模式";
+}
+
+setTheme(document.documentElement.dataset.themeChoice);
+themeToggle.addEventListener("click", () => {
+  const root = document.documentElement;
+  const choice = root.dataset.theme === "dark" ? "light" : "dark";
+  root.dataset.themeChoice = choice;
+  try { localStorage.setItem("nachfolge_review_theme", choice); } catch {}
+  setTheme(choice);
+});
+systemDark.addEventListener("change", () => setTheme(document.documentElement.dataset.themeChoice));
+
+if ("ResizeObserver" in window) {
+  const layoutObserver = new ResizeObserver(() => {
+    document.documentElement.style.setProperty("--controls-height", controls.offsetHeight + 12 + "px");
+  });
+  layoutObserver.observe(controls);
+}
+
+function activatePlaybackControls() {
+  playToggle.addEventListener("click", () => {
+    if (!player.paused) {
+      player.pause();
+      return;
+    }
+    if (player.ended) seekTo(0);
+    playAudio();
+  });
+  document.getElementById("rewind").addEventListener("click", () => seekTo((pendingSeek ?? player.currentTime) - 10));
+  document.getElementById("forward").addEventListener("click", () => seekTo((pendingSeek ?? player.currentTime) + 10));
+  seek.addEventListener("input", () => {
+    scrubbing = true;
+    showProgress(Number(seek.value));
+  });
+  seek.addEventListener("change", () => {
+    scrubbing = false;
+    seekTo(Number(seek.value));
+  });
+  seek.addEventListener("pointercancel", () => {
+    scrubbing = false;
+    syncPosition(pendingSeek ?? player.currentTime);
+  });
+  seek.addEventListener("keydown", event => {
+    const offsets = { ArrowLeft: -5, ArrowDown: -5, ArrowRight: 5, ArrowUp: 5 };
+    if (!Object.hasOwn(offsets, event.key)) return;
+    event.preventDefault();
+    seekTo((pendingSeek ?? player.currentTime) + offsets[event.key]);
+  });
+  followToggle.addEventListener("click", () => {
+    following = !following;
+    followToggle.setAttribute("aria-pressed", String(following));
+    if (following) revealActiveCue();
+  });
+  list.addEventListener("focusout", event => {
+    if (event.target.matches("textarea") && !player.paused) requestAnimationFrame(revealActiveCue);
+  });
+  player.addEventListener("loadedmetadata", () => {
+    player.playbackRate = Number(speed.value);
+    if (pendingSeek !== undefined) {
+      player.currentTime = pendingSeek;
+      pendingSeek = undefined;
+    }
+    syncPosition(player.currentTime);
+  });
+  player.addEventListener("timeupdate", () => {
+    syncPosition(pendingSeek ?? player.currentTime, !player.paused && !scrubbing);
+  });
+  player.addEventListener("play", () => {
+    updatePlayControls();
+    revealActiveCue();
+  });
+  for (const event of ["pause", "ended"]) {
+    player.addEventListener(event, updatePlayControls);
   }
 }
 
@@ -225,14 +409,7 @@ if (episodes) {
     item.append(link);
     sourceList.append(item);
   }
-  player.addEventListener("loadedmetadata", () => {
-    player.playbackRate = Number(speed.value);
-    if (pendingSeek !== undefined) {
-      player.currentTime = pendingSeek;
-      pendingSeek = undefined;
-    }
-  });
-  player.addEventListener("timeupdate", followTime);
+  activatePlaybackControls();
   player.addEventListener("error", () => {
     status.textContent = "本集音檔載入失敗。請重新整理再試。";
   });
