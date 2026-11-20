@@ -28,6 +28,8 @@ const sourceLinks = {
   H07: ["德國福音教會的〈一切善美力量〉資料", "https://www.ekd.de/eg-65-von-guten-machten-wunderbar-geborgen-11493.htm"],
   H08: ["1944 年 7 月 21 日致貝特格書信", "https://gemeinsamleben.net/wp-content/uploads/2021/03/Bonhoeffer_Brief-21.7.44_komplett.pdf"],
   H09: ["弗羅森堡紀念館的營地歷史", "https://www.gedenkstaette-flossenbuerg.de/de/geschichte/flossenbuerg"],
+  H10: ["美國外交檔案中的舊普魯士聯合教會條款", "https://history.state.gov/historicaldocuments/frus1933v02/d201"],
+  H11: ["美國外交檔案中的德國公職法", "https://history.state.gov/historicaldocuments/frus1934v02/d237"],
 };
 
 let currentEpisode;
@@ -74,7 +76,7 @@ function sceneAnchor(episode, id) {
 
 function addCitation(element, citation) {
   element.append("對照依據　");
-  for (const part of citation.split(/(H0[1-9])/)) {
+  for (const part of citation.split(/(H\d{2})/)) {
     const source = sourceLinks[part];
     if (source) {
       const link = document.createElement("a");
@@ -88,6 +90,12 @@ function addCitation(element, citation) {
       element.append(part);
     }
   }
+}
+
+function sceneNotes(episode, scene) {
+  return [scene.id, ...(scene.mergedFrom || [])]
+    .map(id => ({ id, note: notes[episode + "_" + id] }))
+    .filter(({note}) => note?.ok || note?.text?.trim());
 }
 
 function makeScene(episode, scene) {
@@ -115,6 +123,14 @@ function makeScene(episode, scene) {
     line.textContent = text;
     visual.append(line);
   }
+  const archivedNotes = document.createDocumentFragment();
+  for (const {id, note} of sceneNotes(episode, scene)) {
+    if (id === scene.id) continue;
+    const line = document.createElement("p");
+    line.textContent = "舊場次 " + id + (note.ok ? "（已審閱）" : "") + "　" + (note.text || "");
+    archivedNotes.append(line);
+  }
+  visual.after(archivedNotes);
 
   const play = card.querySelector(".play-scene");
   play.querySelector("span").textContent = timeLabel(scene.start);
@@ -352,22 +368,23 @@ function route() {
   const episode = match?.[1].toLowerCase() || "ep01";
   selectEpisode(episode);
   if (match?.[2]) {
-    document.getElementById(sceneAnchor(episode, match[2]))?.scrollIntoView();
+    const id = match[2].toUpperCase();
+    const view = sceneViews.find(({scene}) => scene.id === id || scene.mergedFrom?.includes(id));
+    view?.card.scrollIntoView();
   }
 }
 
 function exportNotes() {
   const lines = ["# 《跟隨基督》原著修訂版審稿備註", ""];
   for (const [id, episode] of Object.entries(episodes)) {
-    const edited = episode.scenes.filter(scene => {
-      const note = notes[id + "_" + scene.id];
-      return note?.ok || note?.text?.trim();
-    });
+    const edited = episode.scenes.flatMap(scene => sceneNotes(id, scene).map(({id: noteId, note}) => ({
+      label: noteId === scene.id ? scene.id + " " + scene.title : "舊場次 " + noteId + "（併入 " + scene.id + "）",
+      note,
+    })));
     if (!edited.length) continue;
     lines.push("## " + id.toUpperCase() + " " + episode.title, "");
-    for (const scene of edited) {
-      const note = notes[id + "_" + scene.id];
-      lines.push("- [" + (note.ok ? "x" : " ") + "] " + scene.id + " " + scene.title);
+    for (const {label, note} of edited) {
+      lines.push("- [" + (note.ok ? "x" : " ") + "] " + label);
       if (note.text?.trim()) {
         lines.push(...note.text.trim().split("\n").map(line => "  " + line));
       }
