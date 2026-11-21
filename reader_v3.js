@@ -473,7 +473,7 @@ document.addEventListener('DOMContentLoaded', () => {
       : null;
 
     if (audiobookInfoDesc) {
-      audiobookInfoDesc.textContent = '中文（精華版＋完整版全 15 章）皆為免費預製高擬真 MP3，支援 iPhone 關螢幕／切 App 續播與鎖屏控制；德文則自動使用 iPhone 內建即時語音朗讀。';
+      audiobookInfoDesc.textContent = '精華版與完整版（含作者前言）都提供免費中文有聲書，支援 iPhone 關螢幕／切 App 續播與鎖屏控制；德文則自動使用 iPhone 內建即時語音朗讀。';
     }
 
     if (btnDownloadMp3) {
